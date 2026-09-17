@@ -156,6 +156,16 @@ padding:3px 8px;font-size:12px;cursor:pointer;display:flex;align-items:center;ga
 footer{color:#7d7368;font-size:11px;padding:5px 22px;border-top:1px solid var(--line);
 background:var(--panel);flex:0 0 auto}
 /* ---- 介绍区可折叠 ---- */
+.htop{display:flex;align-items:center;gap:8px}
+.usr{margin-left:auto;display:flex;align-items:center;gap:9px;flex-wrap:nowrap}
+.avatar{width:34px;height:34px;border-radius:50%;object-fit:cover;border:2px solid var(--gold);
+box-shadow:0 0 6px rgba(0,0,0,.45)}
+.uname{color:var(--gold);font-size:15px;font-weight:700;text-decoration:none;white-space:nowrap}
+.uname:hover{text-decoration:underline}
+.dlbtn{background:var(--gold);color:#1a1410;border:0;border-radius:8px;padding:6px 13px;
+font-size:13px;font-weight:700;cursor:pointer;text-decoration:none;white-space:nowrap;
+display:inline-flex;align-items:center;gap:5px}
+.dlbtn:hover{filter:brightness(1.12)}
 .htgl{background:var(--panel2);border:1px solid var(--line);color:var(--gold);border-radius:6px;
 width:28px;height:26px;font-size:13px;cursor:pointer;vertical-align:6px;margin-left:8px}
 body.intro-off header .sub,body.intro-off header .stats{display:none}
@@ -181,6 +191,11 @@ body:not(.panel-open) .side{display:none}          /* 桌面：直接收起，�
 @media (max-width:1100px){.side{width:340px;flex:0 0 340px}}
 @media (max-width:900px){
   header{padding:10px 14px}
+  .avatar{width:28px;height:28px}
+  .uname{font-size:13px}
+  .dlbtn{padding:5px 9px;font-size:12px}
+  /* 名字太挤时只保留头像与下载按钮 */
+  @media (max-width:560px){.uname{display:none}}
   header .sub,header .stats{display:none}                       /* 手机默认只留标题 */
   body.intro-open header .sub,body.intro-open header .stats{display:block}
   .toolbar{gap:6px;padding:7px 10px;position:relative;flex-wrap:wrap}
@@ -218,8 +233,15 @@ body:not(.panel-open) .side{display:none}          /* 桌面：直接收起，�
 }
 </style></head><body>
 <header>
+<div class="htop">
 <h1>全面战争：战锤3 · 互动城镇地图册</h1>
 <button class="htgl" id="introtgl" title="收起 / 展开说明">▾</button>
+<div class="usr">
+<img class="avatar" src="assets/avatar.jpg" alt="pototo">
+<a class="uname" href="https://steamcommunity.com/id/YOUR_STEAM_ID" target="_blank" rel="noopener">pototo</a>
+<a class="dlbtn" href="https://github.com/pototo033/wh3-town-atlas" target="_blank" rel="noopener" title="在 GitHub 上查看 / 下载本页源码">⬇ 下载源码</a>
+</div>
+</div>
 <div class="sub">地图标记为城镇的<b>开局所属派系旗帜</b>；点击大洲按钮自动放大定位并切出该地区城镇表。
 缩放到 <b>1.2×</b> 以上显示全部城镇，预览状态下显示大洲分区底色与地区名。</div>
 <div class="stats"><div><b>811</b>城镇总数</div><div data-camp="wh3_main_combi"><b>569</b>超凡帝国城镇</div><div data-camp="wh3_main_chaos"><b>242</b>混沌之域城镇</div></div>
