@@ -1,0 +1,4 @@
+# 这两个文件由 build_atlas.py 以 LF 写出。本机 core.autocrlf=true 会在检出时转成 CRLF，
+# 导致每次重新构建都产生一份"整文件重写"的假 diff，所以固定成 LF。
+data/城镇地图册.tsv text eol=lf
+data/atlas_api.json text eol=lf
