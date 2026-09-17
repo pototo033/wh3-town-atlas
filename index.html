@@ -43,7 +43,8 @@ width:32px;height:32px;font-size:16px;cursor:pointer}
 .zb:hover{border-color:var(--gold)}
 .hint{color:var(--dim);font-size:12.5px;margin-left:auto}
 main{flex:1;display:flex;min-height:0}
-.mapview{flex:1;position:relative;overflow:hidden;background:#0b0906;cursor:grab;display:none}
+.mapview{flex:1;position:relative;overflow:hidden;background:#0b0906;cursor:grab;display:none;
+touch-action:none;-webkit-user-select:none;user-select:none;-webkit-tap-highlight-color:transparent}
 .mapview.show{display:block}
 .mapview.grabbing{cursor:grabbing}
 .stage{position:absolute;inset:0;overflow:hidden;contain:strict}
@@ -521,36 +522,79 @@ Object.entries(views).forEach(([camp,o])=>{
     const step = Math.min(3, Math.abs(e.deltaY)/100 + 0.6);   // 滚得快就放大步长
     zoomAt(camp, e.deltaY<0? 1+0.12*step : 1/(1+0.12*step), e.clientX-r.left, e.clientY-r.top, false);
   },{passive:false});
-  let drag=null;
-  o.v.addEventListener('mousedown',e=>{
+  // Push指针交互：单指/鼠标拖拽平移，双指捏合缩放，轻点选旗帜、双击放大
+  const tp = { ids: {}, pans: null, d: 0, lastTap: 0, lx: 0, ly: 0 };
+  const pdist = (a, b) => Math.hypot(a.x - b.x, a.y - b.y);
+  o.v.addEventListener('pointerdown', e => {
+    e.preventDefault();
     stopTween(camp);
-    const pinEl = e.target.closest('.pin');
-    drag={x:e.clientX,y:e.clientY,sx:state[camp].x,sy:state[camp].y,moved:0,
-          camp:camp, pinIdx: pinEl ? +pinEl.dataset.i : null};
-    o.v.classList.add('grabbing'); o.w.classList.add('dragging'); e.preventDefault();
+    tp.ids[e.pointerId] = { x: e.clientX, y: e.clientY };
+    const n = Object.keys(tp.ids).length;
+    if (n === 1) {
+      tp.pans = { x: e.clientX, y: e.clientY, sx: state[camp].x, sy: state[camp].y,
+                  pin: e.target.closest('.pin') ? +e.target.closest('.pin').dataset.i : null };
+      tp.moved = 0;
+      o.v.classList.add('grabbing'); o.w.classList.add('dragging');
+    } else if (n === 2) {
+      const k = Object.keys(tp.ids);
+      tp.d = pdist(tp.ids[k[0]], tp.ids[k[1]]);
+    }
+    try { o.v.setPointerCapture(e.pointerId); } catch (_) {}
   });
-  window.addEventListener('mousemove',e=>{
-    if(!drag) return;
-    drag.moved += Math.abs(e.clientX-drag.x)+Math.abs(e.clientY-drag.y);
-    const s2=state[camp];
-    s2.x=drag.sx+(e.clientX-drag.x); s2.y=drag.sy+(e.clientY-drag.y);
-    s2.tx=s2.x; s2.ty=s2.y; s2.tz=s2.z;      // 同步目标，避免松手后回弹
-    apply(camp,false);
-  });
-  window.addEventListener('mouseup',()=>{
-    if(!drag) return;
-    const d2=drag; drag=null;
-    o.v.classList.remove('grabbing'); o.w.classList.remove('dragging');
-    if(d2.pinIdx !== null && d2.moved < 6){          // 几乎没移动 = 点击旗帜
-      jumpToTown(d2.camp, DATA[d2.camp].pins[d2.pinIdx][6]);
-    } else {
-      scheduleSync();
+  o.v.addEventListener('pointermove', e => {
+    if (!(e.pointerId in tp.ids)) return;
+    e.preventDefault();
+    const k = Object.keys(tp.ids);
+    tp.moved += Math.abs(e.clientX - tp.ids[e.pointerId].x) + Math.abs(e.clientY - tp.ids[e.pointerId].y);
+    tp.ids[e.pointerId] = { x: e.clientX, y: e.clientY };
+    if (k.length === 2 && tp.d) {                     // 双指捏合缩放
+      const [a, b] = k.map(i => tp.ids[i]);
+      const d = pdist(a, b), r = o.v.getBoundingClientRect();
+      zoomAt(camp, d / tp.d, (a.x + b.x) / 2 - r.left, (a.y + b.y) / 2 - r.top, false);
+      tp.d = d;
+    } else if (tp.pans) {                              // 单指/鼠标拖拽平移
+      state[camp].x = tp.pans.sx + (e.clientX - tp.pans.x);
+      state[camp].y = tp.pans.sy + (e.clientY - tp.pans.y);
+      state[camp].tx = state[camp].x; state[camp].ty = state[camp].y; state[camp].tz = state[camp].z;
+      apply(camp, false);
+    }
+    if (o.w.classList.contains('grid-on') && k.length === 1) {
+      const s2 = state[camp], r = o.v.getBoundingClientRect();
+      const wx = ((e.clientX - r.left - s2.x) / s2.z) / (o.W / DATA[camp].ext[0]);
+      const wy = DATA[camp].ext[1] - ((e.clientY - r.top - s2.y) / s2.z) / (o.H / DATA[camp].ext[1]);
+      const g = document.getElementById('gpos');
+      if (g) g.textContent = '指针位置：X ' + wx.toFixed(1) + '  Y ' + wy.toFixed(1);
     }
   });
-  o.v.addEventListener('dblclick',e=>{
-    const r=o.v.getBoundingClientRect();
-    zoomAt(camp,1.9,e.clientX-r.left,e.clientY-r.top,false);
-  });
+  const endTouch = e => {
+    if (!(e.pointerId in tp.ids)) return;
+    const single = Object.keys(tp.ids).length === 1;
+    delete tp.ids[e.pointerId];
+    if (Object.keys(tp.ids).length === 0) {
+      o.v.classList.remove('grabbing'); o.w.classList.remove('dragging');
+      if (single && tp.moved < 8) {
+        if (tp.pans && tp.pans.pin !== null) {          // 轻点旗帜 → 右侧跳转
+          jumpToTown(camp, DATA[camp].pins[tp.pans.pin][6]);
+        } else {                                        // 双击 → 放大
+          const now = performance.now();
+          if (now - tp.lastTap < 350 && Math.hypot(e.clientX - tp.lx, e.clientY - tp.ly) < 40) {
+            const r = o.v.getBoundingClientRect();
+            zoomAt(camp, 1.9, e.clientX - r.left, e.clientY - r.top, false);
+            tp.lastTap = 0;
+          } else { tp.lastTap = now; tp.lx = e.clientX; tp.ly = e.clientY; }
+        }
+      }
+      tp.pans = null; tp.d = 0;
+      o.tip.style.display = 'none';
+      scheduleSync();
+    } else if (Object.keys(tp.ids).length === 1) {      // 双指收走一指：继续平移
+      const k = Object.keys(tp.ids)[0];
+      tp.pans = { x: tp.ids[k].x, y: tp.ids[k].y, sx: state[camp].x, sy: state[camp].y, pin: null };
+      o.v.classList.add('grabbing'); o.w.classList.add('dragging');
+    }
+  };
+  o.v.addEventListener('pointerup', endTouch);
+  o.v.addEventListener('pointercancel', endTouch);
   o.v.addEventListener('mousemove',e=>{
     if(o.w.classList.contains('grid-on')){
       const s2=state[camp], r=o.v.getBoundingClientRect();
@@ -625,18 +669,21 @@ function jumpToTown(camp, regionKey){
     markAreaLabel(camp, '');
     renderTable();
   }
-  tr.scrollIntoView({block:'center', behavior:'smooth'});
-  tr.classList.remove('flash');
-  void tr.offsetWidth;                       // 重置动画
-  tr.classList.add('flash');
-  setTimeout(()=>tr.classList.remove('flash'), 2600);
-  const o = views[camp];
-  const i = o.pins.findIndex(p => p[6] === regionKey);
-  if(i >= 0 && o.attached.has(i)){
-    const el = o.pool.get(i);
-    el.classList.add('hl');
-    setTimeout(()=>el.classList.remove('hl'), 2600);
-  }
+  // 手机端若刚弹出底部抽屉，等滑入动画结束再滚动，否则滚不到位
+  const needWait = isMobile() && !document.body.classList.contains('panel-open');
+  if (needWait) setPanel(true);
+  const go = () => {
+    tr.scrollIntoView({block:'center', behavior:'smooth'});
+    tr.classList.remove('flash'); void tr.offsetWidth; tr.classList.add('flash');
+    setTimeout(()=>tr.classList.remove('flash'), 2600);
+    const o = views[camp];
+    const i = o.pins.findIndex(p => p[6] === regionKey);
+    if (i >= 0 && o.attached.has(i)) {
+      const el = o.pool.get(i); el.classList.add('hl');
+      setTimeout(()=>el.classList.remove('hl'), 2600);
+    }
+  };
+  if (needWait) setTimeout(go, 180); else go();
   return true;
 }
 
