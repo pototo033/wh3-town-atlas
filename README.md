@@ -4,6 +4,8 @@
 点击大洲按钮会切出该地区的城镇表并自动放大定位；点击旗帜会跳到右侧表格对应行。
 数据全部解析自游戏本体文件（`map_data.esf`、DB 表、本地化、`ui/flags` 旗帜贴图），无手工录入。
 
+在线访问：<https://pototo033.github.io/wh3-town-atlas/>
+
 ## 这是什么
 
 - **811 座城镇**：超凡帝国 569 座 / 混沌之域 242 座，覆盖 241 个行省、309 座首府
@@ -33,28 +35,6 @@ AtlasAPI.worldToPx('wh3_main_combi', 352, 500)
 AtlasAPI.focus('wh3_main_combi', 'wh3_main_combi_region_lothern')
 window.ATLAS      // 全量数据
 ```
-
-## 部署到 GitHub Pages
-
-1. 建仓库并把本目录推上去：
-
-   ```bash
-   cd web
-   git init
-   git add -A
-   git commit -m "战锤3 互动城镇地图册"
-   git branch -M main
-   git remote add origin https://github.com/<你的用户名>/<仓库名>.git
-   git push -u origin main
-   ```
-
-2. 打开仓库 **Settings → Pages**，Source 选 `Deploy from a branch`，
-   Branch 选 `main` + `/ (root)`，保存。
-
-3. 等 1~2 分钟，访问 `https://<你的用户名>.github.io/<仓库名>/`。
-
-仓库里已经放了 `.nojekyll`，GitHub Pages 会跳过 Jekyll 处理、直接发布静态文件。
-如果想用自定义域名，在 Pages 设置里填域名后，到域名服务商加一条 CNAME 解析即可。
 
 ## 数据来源与坐标
 
