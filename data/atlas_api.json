@@ -31,6 +31,7 @@
    "areas": [
     "奥苏安",
     "纳迦罗斯",
+    "露丝契亚",
     "南地",
     "南方荒原",
     "帝国（旧世界）",
@@ -3548,6 +3549,2071 @@
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
+   "region": "wh3_main_combi_region_xlanhuapec",
+   "name": "斯兰雾佩克",
+   "name_en": "Xlanhuapec",
+   "province": "wh3_main_combi_province_mosquito_swamps",
+   "province_name": "吸血蚊沼泽",
+   "province_name_en": "Mosquito Swamps",
+   "area": "露丝契亚",
+   "area_en": "Lustria",
+   "area_key": "cai_region_hint_area_lustria",
+   "faction": "wh2_main_lzd_xlanhuapec",
+   "faction_name": "斯兰雾佩克",
+   "faction_name_en": "Xlanhuapec",
+   "is_capital": true,
+   "world": [
+    143.63,
+    204.03
+   ],
+   "hex": [
+    215,
+    264
+   ],
+   "px": [
+    597.2,
+    2262.9
+   ],
+   "flag_cell": [
+    672,
+    192
+   ]
+  },
+  {
+   "id": 101,
+   "campaign": "wh3_main_combi",
+   "campaign_name": "超凡帝国",
+   "campaign_name_en": "Immortal Empires",
+   "region": "wh3_main_combi_region_axlotl",
+   "name": "阿斯罗托",
+   "name_en": "Axlotl",
+   "province": "wh3_main_combi_province_mosquito_swamps",
+   "province_name": "吸血蚊沼泽",
+   "province_name_en": "Mosquito Swamps",
+   "area": "露丝契亚",
+   "area_en": "Lustria",
+   "area_key": "cai_region_hint_area_lustria",
+   "faction": "wh2_main_lzd_xlanhuapec",
+   "faction_name": "斯兰雾佩克",
+   "faction_name_en": "Xlanhuapec",
+   "is_capital": false,
+   "world": [
+    138.28,
+    178.57
+   ],
+   "hex": [
+    207,
+    231
+   ],
+   "px": [
+    575.0,
+    2368.7
+   ],
+   "flag_cell": [
+    672,
+    192
+   ]
+  },
+  {
+   "id": 102,
+   "campaign": "wh3_main_combi",
+   "campaign_name": "超凡帝国",
+   "campaign_name_en": "Immortal Empires",
+   "region": "wh3_main_combi_region_the_blood_swamps",
+   "name": "鲜血沼泽",
+   "name_en": "The Blood Swamps",
+   "province": "wh3_main_combi_province_mosquito_swamps",
+   "province_name": "吸血蚊沼泽",
+   "province_name_en": "Mosquito Swamps",
+   "area": "露丝契亚",
+   "area_en": "Lustria",
+   "area_key": "cai_region_hint_area_lustria",
+   "faction": "",
+   "faction_name": null,
+   "faction_name_en": null,
+   "is_capital": false,
+   "world": [
+    159.66,
+    181.66
+   ],
+   "hex": [
+    239,
+    235
+   ],
+   "px": [
+    663.9,
+    2355.9
+   ],
+   "flag_cell": [
+    672,
+    816
+   ]
+  },
+  {
+   "id": 103,
+   "campaign": "wh3_main_combi",
+   "campaign_name": "超凡帝国",
+   "campaign_name_en": "Immortal Empires",
+   "region": "wh3_main_combi_region_port_reaver",
+   "name": "掠夺者港",
+   "name_en": "Port Reaver",
+   "province": "wh3_main_combi_province_the_isthmus_coast",
+   "province_name": "地峡海岸",
+   "province_name_en": "The Isthmus Coast",
+   "area": "露丝契亚",
+   "area_en": "Lustria",
+   "area_key": "cai_region_hint_area_lustria",
+   "faction": "wh2_main_emp_new_world_colonies",
+   "faction_name": "新世界殖民者",
+   "faction_name_en": "New World Colonies",
+   "is_capital": false,
+   "world": [
+    65.47,
+    371.03
+   ],
+   "hex": [
+    98,
+    481
+   ],
+   "px": [
+    272.2,
+    1568.7
+   ],
+   "flag_cell": [
+    384,
+    144
+   ]
+  },
+  {
+   "id": 104,
+   "campaign": "wh3_main_combi",
+   "campaign_name": "超凡帝国",
+   "campaign_name_en": "Immortal Empires",
+   "region": "wh3_main_combi_region_skeggi",
+   "name": "斯科吉",
+   "name_en": "Skeggi",
+   "province": "wh3_main_combi_province_the_isthmus_coast",
+   "province_name": "地峡海岸",
+   "province_name_en": "The Isthmus Coast",
+   "area": "露丝契亚",
+   "area_en": "Lustria",
+   "area_key": "cai_region_hint_area_lustria",
+   "faction": "wh2_main_nor_skeggi",
+   "faction_name": "斯科吉",
+   "faction_name_en": "Skeggi",
+   "is_capital": true,
+   "world": [
+    84.17,
+    395.72
+   ],
+   "hex": [
+    126,
+    513
+   ],
+   "px": [
+    350.0,
+    1466.1
+   ],
+   "flag_cell": [
+    96,
+    240
+   ]
+  },
+  {
+   "id": 105,
+   "campaign": "wh3_main_combi",
+   "campaign_name": "超凡帝国",
+   "campaign_name_en": "Immortal Empires",
+   "region": "wh3_main_combi_region_ziggurat_of_dawn",
+   "name": "黎明金字塔",
+   "name_en": "Ziggurat of Dawn",
+   "province": "wh3_main_combi_province_the_isthmus_coast",
+   "province_name": "地峡海岸",
+   "province_name_en": "The Isthmus Coast",
+   "area": "露丝契亚",
+   "area_en": "Lustria",
+   "area_key": "cai_region_hint_area_lustria",
+   "faction": "wh2_main_nor_skeggi",
+   "faction_name": "斯科吉",
+   "faction_name_en": "Skeggi",
+   "is_capital": false,
+   "world": [
+    61.46,
+    398.8
+   ],
+   "hex": [
+    92,
+    517
+   ],
+   "px": [
+    255.6,
+    1453.3
+   ],
+   "flag_cell": [
+    96,
+    240
+   ]
+  },
+  {
+   "id": 106,
+   "campaign": "wh3_main_combi",
+   "campaign_name": "超凡帝国",
+   "campaign_name_en": "Immortal Empires",
+   "region": "wh3_main_combi_region_kaiax",
+   "name": "凯阿克斯",
+   "name_en": "Kaiax",
+   "province": "wh3_main_combi_province_the_night_forest_road",
+   "province_name": "夜森林路",
+   "province_name_en": "The Night Forest Road",
+   "area": "露丝契亚",
+   "area_en": "Lustria",
+   "area_key": "cai_region_hint_area_lustria",
+   "faction": "wh3_main_skv_clan_skrat",
+   "faction_name": "斯克拉特氏族",
+   "faction_name_en": "Clan Skrat",
+   "is_capital": true,
+   "world": [
+    127.59,
+    91.41
+   ],
+   "hex": [
+    191,
+    118
+   ],
+   "px": [
+    530.6,
+    2731.0
+   ],
+   "flag_cell": [
+    96,
+    576
+   ]
+  },
+  {
+   "id": 107,
+   "campaign": "wh3_main_combi",
+   "campaign_name": "超凡帝国",
+   "campaign_name_en": "Immortal Empires",
+   "region": "wh3_main_combi_region_xlanzec",
+   "name": "斯兰泽克",
+   "name_en": "Xlanzec",
+   "province": "wh3_main_combi_province_the_night_forest_road",
+   "province_name": "夜森林路",
+   "province_name_en": "The Night Forest Road",
+   "area": "露丝契亚",
+   "area_en": "Lustria",
+   "area_key": "cai_region_hint_area_lustria",
+   "faction": "wh2_dlc12_lzd_cult_of_sotek",
+   "faction_name": "索提戈教派",
+   "faction_name_en": "Cult of Sotek",
+   "is_capital": false,
+   "world": [
+    161.0,
+    84.47
+   ],
+   "hex": [
+    241,
+    109
+   ],
+   "px": [
+    669.5,
+    2759.9
+   ],
+   "flag_cell": [
+    48,
+    48
+   ]
+  },
+  {
+   "id": 108,
+   "campaign": "wh3_main_combi",
+   "campaign_name": "超凡帝国",
+   "campaign_name_en": "Immortal Empires",
+   "region": "wh3_main_combi_region_oyxl",
+   "name": "奥克斯欧",
+   "name_en": "Oyxl",
+   "province": "wh3_main_combi_province_the_lost_valley",
+   "province_name": "失落溪谷",
+   "province_name_en": "The Lost Valley",
+   "area": "露丝契亚",
+   "area_en": "Lustria",
+   "area_key": "cai_region_hint_area_lustria",
+   "faction": "wh2_main_skv_clan_pestilens",
+   "faction_name": "疫病氏族",
+   "faction_name_en": "Clan Pestilens",
+   "is_capital": true,
+   "world": [
+    122.25,
+    144.63
+   ],
+   "hex": [
+    183,
+    187
+   ],
+   "px": [
+    508.3,
+    2509.8
+   ],
+   "flag_cell": [
+    384,
+    240
+   ]
+  },
+  {
+   "id": 109,
+   "campaign": "wh3_main_combi",
+   "campaign_name": "超凡帝国",
+   "campaign_name_en": "Immortal Empires",
+   "region": "wh3_main_combi_region_the_sentinel_of_time",
+   "name": "时光哨塔",
+   "name_en": "The Sentinel of Time",
+   "province": "wh3_main_combi_province_the_lost_valley",
+   "province_name": "失落溪谷",
+   "province_name_en": "The Lost Valley",
+   "area": "露丝契亚",
+   "area_en": "Lustria",
+   "area_key": "cai_region_hint_area_lustria",
+   "faction": "wh2_main_lzd_southern_sentinels",
+   "faction_name": "南方哨站",
+   "faction_name_en": "Southern Sentinels",
+   "is_capital": false,
+   "world": [
+    126.93,
+    117.25
+   ],
+   "hex": [
+    190,
+    152
+   ],
+   "px": [
+    527.8,
+    2623.6
+   ],
+   "flag_cell": [
+    528,
+    192
+   ]
+  },
+  {
+   "id": 110,
+   "campaign": "wh3_main_combi",
+   "campaign_name": "超凡帝国",
+   "campaign_name_en": "Immortal Empires",
+   "region": "wh3_main_combi_region_subatuun",
+   "name": "萨巴图纳",
+   "name_en": "Subatuun",
+   "province": "wh3_main_combi_province_the_lost_valley",
+   "province_name": "失落溪谷",
+   "province_name_en": "The Lost Valley",
+   "area": "露丝契亚",
+   "area_en": "Lustria",
+   "area_key": "cai_region_hint_area_lustria",
+   "faction": "wh2_main_skv_clan_pestilens",
+   "faction_name": "疫病氏族",
+   "faction_name_en": "Clan Pestilens",
+   "is_capital": false,
+   "world": [
+    97.53,
+    155.05
+   ],
+   "hex": [
+    146,
+    201
+   ],
+   "px": [
+    405.6,
+    2466.5
+   ],
+   "flag_cell": [
+    384,
+    240
+   ]
+  },
+  {
+   "id": 111,
+   "campaign": "wh3_main_combi",
+   "campaign_name": "超凡帝国",
+   "campaign_name_en": "Immortal Empires",
+   "region": "wh3_main_combi_region_pahuax",
+   "name": "帕花科斯",
+   "name_en": "Pahuax",
+   "province": "wh3_main_combi_province_jungles_of_pahualaxa",
+   "province_name": "帕花拉夏雨林",
+   "province_name_en": "Jungles of Pahualaxa",
+   "area": "露丝契亚",
+   "area_en": "Lustria",
+   "area_key": "cai_region_hint_area_lustria",
+   "faction": "wh2_main_grn_blue_vipers",
+   "faction_name": "蓝蝰蛇",
+   "faction_name_en": "Blue Vipers",
+   "is_capital": true,
+   "world": [
+    61.46,
+    331.69
+   ],
+   "hex": [
+    92,
+    430
+   ],
+   "px": [
+    255.6,
+    1732.2
+   ],
+   "flag_cell": [
+    480,
+    144
+   ]
+  },
+  {
+   "id": 112,
+   "campaign": "wh3_main_combi",
+   "campaign_name": "超凡帝国",
+   "campaign_name_en": "Immortal Empires",
+   "region": "wh3_main_combi_region_monument_of_the_moon",
+   "name": "月之碑",
+   "name_en": "Monument of the Moon",
+   "province": "wh3_main_combi_province_jungles_of_pahualaxa",
+   "province_name": "帕花拉夏雨林",
+   "province_name_en": "Jungles of Pahualaxa",
+   "area": "露丝契亚",
+   "area_en": "Lustria",
+   "area_key": "cai_region_hint_area_lustria",
+   "faction": "wh2_main_emp_new_world_colonies",
+   "faction_name": "新世界殖民者",
+   "faction_name_en": "New World Colonies",
+   "is_capital": false,
+   "world": [
+    96.86,
+    351.36
+   ],
+   "hex": [
+    145,
+    455
+   ],
+   "px": [
+    402.8,
+    1650.5
+   ],
+   "flag_cell": [
+    384,
+    144
+   ]
+  },
+  {
+   "id": 113,
+   "campaign": "wh3_main_combi",
+   "campaign_name": "超凡帝国",
+   "campaign_name_en": "Immortal Empires",
+   "region": "wh3_main_combi_region_swamp_town",
+   "name": "沼泽镇",
+   "name_en": "Swamp Town",
+   "province": "wh3_main_combi_province_jungles_of_pahualaxa",
+   "province_name": "帕花拉夏雨林",
+   "province_name_en": "Jungles of Pahualaxa",
+   "area": "露丝契亚",
+   "area_en": "Lustria",
+   "area_key": "cai_region_hint_area_lustria",
+   "faction": "wh2_main_emp_new_world_colonies",
+   "faction_name": "新世界殖民者",
+   "faction_name_en": "New World Colonies",
+   "is_capital": false,
+   "world": [
+    60.79,
+    354.45
+   ],
+   "hex": [
+    91,
+    459
+   ],
+   "px": [
+    252.8,
+    1637.6
+   ],
+   "flag_cell": [
+    384,
+    144
+   ]
+  },
+  {
+   "id": 114,
+   "campaign": "wh3_main_combi",
+   "campaign_name": "超凡帝国",
+   "campaign_name_en": "Immortal Empires",
+   "region": "wh3_main_combi_region_shrine_of_sotek",
+   "name": "索提戈圣殿",
+   "name_en": "Shrine of Sotek",
+   "province": "wh3_main_combi_province_jungles_of_pahualaxa",
+   "province_name": "帕花拉夏雨林",
+   "province_name_en": "Jungles of Pahualaxa",
+   "area": "露丝契亚",
+   "area_en": "Lustria",
+   "area_key": "cai_region_hint_area_lustria",
+   "faction": "wh2_main_grn_blue_vipers",
+   "faction_name": "蓝蝰蛇",
+   "faction_name_en": "Blue Vipers",
+   "is_capital": false,
+   "world": [
+    31.4,
+    329.76
+   ],
+   "hex": [
+    47,
+    427
+   ],
+   "px": [
+    130.6,
+    1740.3
+   ],
+   "flag_cell": [
+    480,
+    144
+   ]
+  },
+  {
+   "id": 115,
+   "campaign": "wh3_main_combi",
+   "campaign_name": "超凡帝国",
+   "campaign_name_en": "Immortal Empires",
+   "region": "wh3_main_combi_region_great_turtle_isle",
+   "name": "巨龟岛",
+   "name_en": "Great Turtle Isle",
+   "province": "wh3_main_combi_province_the_turtle_isles",
+   "province_name": "海龟群岛",
+   "province_name_en": "The Turtle Isles",
+   "area": "露丝契亚",
+   "area_en": "Lustria",
+   "area_key": "cai_region_hint_area_lustria",
+   "faction": "wh2_twa03_def_rakarth",
+   "faction_name": "千噬",
+   "faction_name_en": "The Thousand Maws",
+   "is_capital": true,
+   "world": [
+    20.71,
+    193.23
+   ],
+   "hex": [
+    31,
+    250
+   ],
+   "px": [
+    86.1,
+    2307.8
+   ],
+   "flag_cell": [
+    0,
+    288
+   ]
+  },
+  {
+   "id": 116,
+   "campaign": "wh3_main_combi",
+   "campaign_name": "超凡帝国",
+   "campaign_name_en": "Immortal Empires",
+   "region": "wh3_main_combi_region_chamber_of_visions",
+   "name": "幻象之所",
+   "name_en": "Chamber of Visions",
+   "province": "wh3_main_combi_province_the_turtle_isles",
+   "province_name": "海龟群岛",
+   "province_name_en": "The Turtle Isles",
+   "area": "露丝契亚",
+   "area_en": "Lustria",
+   "area_key": "cai_region_hint_area_lustria",
+   "faction": "wh2_main_lzd_sentinels_of_xeti",
+   "faction_name": "瑟提哨站",
+   "faction_name_en": "Sentinels of Xeti",
+   "is_capital": false,
+   "world": [
+    47.43,
+    210.97
+   ],
+   "hex": [
+    71,
+    273
+   ],
+   "px": [
+    197.2,
+    2234.0
+   ],
+   "flag_cell": [
+    480,
+    192
+   ]
+  },
+  {
+   "id": 117,
+   "campaign": "wh3_main_combi",
+   "campaign_name": "超凡帝国",
+   "campaign_name_en": "Immortal Empires",
+   "region": "wh3_main_combi_region_sentinels_of_xeti",
+   "name": "瑟提哨站",
+   "name_en": "Sentinels of Xeti",
+   "province": "wh3_main_combi_province_the_turtle_isles",
+   "province_name": "海龟群岛",
+   "province_name_en": "The Turtle Isles",
+   "area": "露丝契亚",
+   "area_en": "Lustria",
+   "area_key": "cai_region_hint_area_lustria",
+   "faction": "wh2_main_lzd_sentinels_of_xeti",
+   "faction_name": "瑟提哨站",
+   "faction_name_en": "Sentinels of Xeti",
+   "is_capital": false,
+   "world": [
+    51.44,
+    187.83
+   ],
+   "hex": [
+    77,
+    243
+   ],
+   "px": [
+    213.9,
+    2330.2
+   ],
+   "flag_cell": [
+    480,
+    192
+   ]
+  },
+  {
+   "id": 118,
+   "campaign": "wh3_main_combi",
+   "campaign_name": "超凡帝国",
+   "campaign_name_en": "Immortal Empires",
+   "region": "wh3_main_combi_region_golden_ziggurat",
+   "name": "金色金字塔",
+   "name_en": "Golden Ziggurat",
+   "province": "wh3_main_combi_province_the_turtle_isles",
+   "province_name": "海龟群岛",
+   "province_name_en": "The Turtle Isles",
+   "area": "露丝契亚",
+   "area_en": "Lustria",
+   "area_key": "cai_region_hint_area_lustria",
+   "faction": "wh2_main_lzd_sentinels_of_xeti",
+   "faction_name": "瑟提哨站",
+   "faction_name_en": "Sentinels of Xeti",
+   "is_capital": false,
+   "world": [
+    24.72,
+    217.91
+   ],
+   "hex": [
+    37,
+    282
+   ],
+   "px": [
+    102.8,
+    2205.2
+   ],
+   "flag_cell": [
+    480,
+    192
+   ]
+  },
+  {
+   "id": 119,
+   "campaign": "wh3_main_combi",
+   "campaign_name": "超凡帝国",
+   "campaign_name_en": "Immortal Empires",
+   "region": "wh3_main_combi_region_fuming_serpent",
+   "name": "巨蛇烟岛",
+   "name_en": "Fuming Serpent",
+   "province": "wh3_main_combi_province_volcanic_islands",
+   "province_name": "火山群岛",
+   "province_name_en": "Volcanic Islands",
+   "area": "露丝契亚",
+   "area_en": "Lustria",
+   "area_key": "cai_region_hint_area_lustria",
+   "faction": "",
+   "faction_name": null,
+   "faction_name_en": null,
+   "is_capital": false,
+   "world": [
+    191.06,
+    178.96
+   ],
+   "hex": [
+    286,
+    232
+   ],
+   "px": [
+    794.5,
+    2367.1
+   ],
+   "flag_cell": [
+    672,
+    816
+   ]
+  },
+  {
+   "id": 120,
+   "campaign": "wh3_main_combi",
+   "campaign_name": "超凡帝国",
+   "campaign_name_en": "Immortal Empires",
+   "region": "wh3_main_combi_region_the_star_tower",
+   "name": "星辰塔",
+   "name_en": "The Star Tower",
+   "province": "wh3_main_combi_province_volcanic_islands",
+   "province_name": "火山群岛",
+   "province_name_en": "Volcanic Islands",
+   "area": "露丝契亚",
+   "area_en": "Lustria",
+   "area_key": "cai_region_hint_area_lustria",
+   "faction": "wh2_main_skv_clan_spittel",
+   "faction_name": "恶唾氏族",
+   "faction_name_en": "Clan Spittel",
+   "is_capital": true,
+   "world": [
+    187.05,
+    165.07
+   ],
+   "hex": [
+    280,
+    214
+   ],
+   "px": [
+    777.8,
+    2424.8
+   ],
+   "flag_cell": [
+    528,
+    240
+   ]
+  },
+  {
+   "id": 121,
+   "campaign": "wh3_main_combi",
+   "campaign_name": "超凡帝国",
+   "campaign_name_en": "Immortal Empires",
+   "region": "wh3_main_combi_region_marks_of_the_old_ones",
+   "name": "古圣印迹",
+   "name_en": "Marks of the Old Ones",
+   "province": "wh3_main_combi_province_headhunters_jungle",
+   "province_name": "猎头者丛林",
+   "province_name_en": "Headhunter's Jungle",
+   "area": "露丝契亚",
+   "area_en": "Lustria",
+   "area_key": "cai_region_hint_area_lustria",
+   "faction": "wh2_main_skv_clan_spittel",
+   "faction_name": "恶唾氏族",
+   "faction_name_en": "Clan Spittel",
+   "is_capital": false,
+   "world": [
+    150.31,
+    142.32
+   ],
+   "hex": [
+    225,
+    184
+   ],
+   "px": [
+    625.0,
+    2519.4
+   ],
+   "flag_cell": [
+    528,
+    240
+   ]
+  },
+  {
+   "id": 122,
+   "campaign": "wh3_main_combi",
+   "campaign_name": "超凡帝国",
+   "campaign_name_en": "Immortal Empires",
+   "region": "wh3_main_combi_region_altar_of_the_horned_rat",
+   "name": "大角鼠祭坛",
+   "name_en": "Altar of the Horned Rat",
+   "province": "wh3_main_combi_province_headhunters_jungle",
+   "province_name": "猎头者丛林",
+   "province_name_en": "Headhunter's Jungle",
+   "area": "露丝契亚",
+   "area_en": "Lustria",
+   "area_key": "cai_region_hint_area_lustria",
+   "faction": "wh2_main_skv_clan_spittel",
+   "faction_name": "恶唾氏族",
+   "faction_name_en": "Clan Spittel",
+   "is_capital": true,
+   "world": [
+    163.67,
+    159.29
+   ],
+   "hex": [
+    245,
+    206
+   ],
+   "px": [
+    680.6,
+    2448.9
+   ],
+   "flag_cell": [
+    528,
+    240
+   ]
+  },
+  {
+   "id": 123,
+   "campaign": "wh3_main_combi",
+   "campaign_name": "超凡帝国",
+   "campaign_name_en": "Immortal Empires",
+   "region": "wh3_main_combi_region_citadel_of_dusk",
+   "name": "暮光要塞",
+   "name_en": "Citadel of Dusk",
+   "province": "wh3_main_combi_province_the_capes",
+   "province_name": "破碎岬",
+   "province_name_en": "The Capes",
+   "area": "露丝契亚",
+   "area_en": "Lustria",
+   "area_key": "cai_region_hint_area_lustria",
+   "faction": "wh2_main_hef_citadel_of_dusk",
+   "faction_name": "暮光要塞",
+   "faction_name_en": "Citadel of Dusk",
+   "is_capital": true,
+   "world": [
+    201.75,
+    68.65
+   ],
+   "hex": [
+    302,
+    89
+   ],
+   "px": [
+    838.9,
+    2825.6
+   ],
+   "flag_cell": [
+    672,
+    144
+   ]
+  },
+  {
+   "id": 124,
+   "campaign": "wh3_main_combi",
+   "campaign_name": "超凡帝国",
+   "campaign_name_en": "Immortal Empires",
+   "region": "wh3_main_combi_region_dusk_peaks",
+   "name": "暮色群峰",
+   "name_en": "Dusk Peaks",
+   "province": "wh3_main_combi_province_the_capes",
+   "province_name": "破碎岬",
+   "province_name_en": "The Capes",
+   "area": "露丝契亚",
+   "area_en": "Lustria",
+   "area_key": "cai_region_hint_area_lustria",
+   "faction": "wh2_main_hef_citadel_of_dusk",
+   "faction_name": "暮光要塞",
+   "faction_name_en": "Citadel of Dusk",
+   "is_capital": false,
+   "world": [
+    187.72,
+    81.38
+   ],
+   "hex": [
+    281,
+    105
+   ],
+   "px": [
+    780.6,
+    2772.7
+   ],
+   "flag_cell": [
+    672,
+    144
+   ]
+  },
+  {
+   "id": 125,
+   "campaign": "wh3_main_combi",
+   "campaign_name": "超凡帝国",
+   "campaign_name_en": "Immortal Empires",
+   "region": "wh3_main_combi_region_the_sacred_pools",
+   "name": "神圣水池",
+   "name_en": "The Sacred Pools",
+   "province": "wh3_main_combi_province_the_sacred_pools",
+   "province_name": "神圣水池",
+   "province_name_en": "The Sacred Pools",
+   "area": "露丝契亚",
+   "area_en": "Lustria",
+   "area_key": "cai_region_hint_area_lustria",
+   "faction": "wh2_dlc16_lzd_wardens_of_the_living_pools",
+   "faction_name": "维生池守望者",
+   "faction_name_en": "Wardens of the Living Pools",
+   "is_capital": true,
+   "world": [
+    102.21,
+    201.72
+   ],
+   "hex": [
+    153,
+    261
+   ],
+   "px": [
+    425.0,
+    2272.5
+   ],
+   "flag_cell": [
+    672,
+    48
+   ]
+  },
+  {
+   "id": 126,
+   "campaign": "wh3_main_combi",
+   "campaign_name": "超凡帝国",
+   "campaign_name_en": "Immortal Empires",
+   "region": "wh3_main_combi_region_thrice_cursed_peak",
+   "name": "厉咒峰",
+   "name_en": "Thrice-cursed Peak",
+   "province": "wh3_main_combi_province_spine_of_sotek",
+   "province_name": "索提戈之脊",
+   "province_name_en": "Spine of Sotek",
+   "area": "露丝契亚",
+   "area_en": "Lustria",
+   "area_key": "cai_region_hint_area_lustria",
+   "faction": "wh2_main_dwf_spine_of_sotek_dwarfs",
+   "faction_name": "索提戈之脊矮人",
+   "faction_name_en": "Spine of Sotek Dwarfs",
+   "is_capital": false,
+   "world": [
+    100.87,
+    133.06
+   ],
+   "hex": [
+    151,
+    172
+   ],
+   "px": [
+    419.4,
+    2557.9
+   ],
+   "flag_cell": [
+    336,
+    144
+   ]
+  },
+  {
+   "id": 127,
+   "campaign": "wh3_main_combi",
+   "campaign_name": "超凡帝国",
+   "campaign_name_en": "Immortal Empires",
+   "region": "wh3_main_combi_region_mine_of_the_bearded_skulls",
+   "name": "死胡子矿井",
+   "name_en": "Mine of the Bearded Skulls",
+   "province": "wh3_main_combi_province_spine_of_sotek",
+   "province_name": "索提戈之脊",
+   "province_name_en": "Spine of Sotek",
+   "area": "露丝契亚",
+   "area_en": "Lustria",
+   "area_key": "cai_region_hint_area_lustria",
+   "faction": "wh2_main_dwf_spine_of_sotek_dwarfs",
+   "faction_name": "索提戈之脊矮人",
+   "faction_name_en": "Spine of Sotek Dwarfs",
+   "is_capital": true,
+   "world": [
+    80.16,
+    167.39
+   ],
+   "hex": [
+    120,
+    217
+   ],
+   "px": [
+    333.3,
+    2415.2
+   ],
+   "flag_cell": [
+    336,
+    144
+   ]
+  },
+  {
+   "id": 128,
+   "campaign": "wh3_main_combi",
+   "campaign_name": "超凡帝国",
+   "campaign_name_en": "Immortal Empires",
+   "region": "wh3_main_combi_region_pillars_of_unseen_constellations",
+   "name": "未视石厅",
+   "name_en": "Pillars of Unseen Constellations",
+   "province": "wh3_main_combi_province_jungles_of_green_mist",
+   "province_name": "绿雾雨林",
+   "province_name_en": "Jungles of Green Mist",
+   "area": "露丝契亚",
+   "area_en": "Lustria",
+   "area_key": "cai_region_hint_area_lustria",
+   "faction": "wh2_main_def_blood_hall_coven",
+   "faction_name": "血厅女巫团",
+   "faction_name_en": "Blood Hall Coven",
+   "is_capital": false,
+   "world": [
+    39.41,
+    256.48
+   ],
+   "hex": [
+    59,
+    332
+   ],
+   "px": [
+    163.9,
+    2044.9
+   ],
+   "flag_cell": [
+    384,
+    96
+   ]
+  },
+  {
+   "id": 129,
+   "campaign": "wh3_main_combi",
+   "campaign_name": "超凡帝国",
+   "campaign_name_en": "Immortal Empires",
+   "region": "wh3_main_combi_region_wellsprings_of_eternity",
+   "name": "永恒之源",
+   "name_en": "Wellsprings of Eternity",
+   "province": "wh3_main_combi_province_jungles_of_green_mist",
+   "province_name": "绿雾雨林",
+   "province_name_en": "Jungles of Green Mist",
+   "area": "露丝契亚",
+   "area_en": "Lustria",
+   "area_key": "cai_region_hint_area_lustria",
+   "faction": "wh2_main_def_blood_hall_coven",
+   "faction_name": "血厅女巫团",
+   "faction_name_en": "Blood Hall Coven",
+   "is_capital": false,
+   "world": [
+    47.43,
+    275.77
+   ],
+   "hex": [
+    71,
+    357
+   ],
+   "px": [
+    197.2,
+    1964.7
+   ],
+   "flag_cell": [
+    384,
+    96
+   ]
+  },
+  {
+   "id": 130,
+   "campaign": "wh3_main_combi",
+   "campaign_name": "超凡帝国",
+   "campaign_name_en": "Immortal Empires",
+   "region": "wh3_main_combi_region_the_blood_hall",
+   "name": "鲜血之厅",
+   "name_en": "The Blood Hall",
+   "province": "wh3_main_combi_province_jungles_of_green_mist",
+   "province_name": "绿雾雨林",
+   "province_name_en": "Jungles of Green Mist",
+   "area": "露丝契亚",
+   "area_en": "Lustria",
+   "area_key": "cai_region_hint_area_lustria",
+   "faction": "wh3_dlc27_sla_masque_of_slaanesh",
+   "faction_name": "诅咒剧团",
+   "faction_name_en": "The Accursed Troupe",
+   "is_capital": true,
+   "world": [
+    17.37,
+    256.1
+   ],
+   "hex": [
+    26,
+    332
+   ],
+   "px": [
+    72.2,
+    2046.5
+   ],
+   "flag_cell": [
+    48,
+    384
+   ]
+  },
+  {
+   "id": 131,
+   "campaign": "wh3_main_combi",
+   "campaign_name": "超凡帝国",
+   "campaign_name_en": "Immortal Empires",
+   "region": "wh3_main_combi_region_tlax",
+   "name": "塔拉克斯",
+   "name_en": "Tlax",
+   "province": "wh3_main_combi_province_vampire_coast",
+   "province_name": "网道雨林",
+   "province_name_en": "Jungle of Webs",
+   "area": "露丝契亚",
+   "area_en": "Lustria",
+   "area_key": "cai_region_hint_area_lustria",
+   "faction": "wh2_dlc11_cst_vampire_coast_rebels",
+   "faction_name": "吸血鬼海岸哗变者",
+   "faction_name_en": "Vampire Coast Mutineers",
+   "is_capital": false,
+   "world": [
+    173.02,
+    223.31
+   ],
+   "hex": [
+    259,
+    289
+   ],
+   "px": [
+    719.5,
+    2182.7
+   ],
+   "flag_cell": [
+    624,
+    0
+   ]
+  },
+  {
+   "id": 132,
+   "campaign": "wh3_main_combi",
+   "campaign_name": "超凡帝国",
+   "campaign_name_en": "Immortal Empires",
+   "region": "wh3_main_combi_region_pox_marsh",
+   "name": "疱疹沼泽",
+   "name_en": "Pox Marsh",
+   "province": "wh3_main_combi_province_vampire_coast",
+   "province_name": "网道雨林",
+   "province_name_en": "Jungle of Webs",
+   "area": "露丝契亚",
+   "area_en": "Lustria",
+   "area_key": "cai_region_hint_area_lustria",
+   "faction": "wh2_dlc11_cst_vampire_coast_rebels",
+   "faction_name": "吸血鬼海岸哗变者",
+   "faction_name_en": "Vampire Coast Mutineers",
+   "is_capital": false,
+   "world": [
+    199.07,
+    218.3
+   ],
+   "hex": [
+    298,
+    283
+   ],
+   "px": [
+    827.8,
+    2203.6
+   ],
+   "flag_cell": [
+    624,
+    0
+   ]
+  },
+  {
+   "id": 133,
+   "campaign": "wh3_main_combi",
+   "campaign_name": "超凡帝国",
+   "campaign_name_en": "Immortal Empires",
+   "region": "wh3_main_combi_region_the_awakening",
+   "name": "觉醒地",
+   "name_en": "The Awakening",
+   "province": "wh3_main_combi_province_vampire_coast",
+   "province_name": "网道雨林",
+   "province_name_en": "Jungle of Webs",
+   "area": "露丝契亚",
+   "area_en": "Lustria",
+   "area_key": "cai_region_hint_area_lustria",
+   "faction": "wh2_dlc11_cst_vampire_coast",
+   "faction_name": "觉醒者",
+   "faction_name_en": "The Awakened",
+   "is_capital": true,
+   "world": [
+    184.38,
+    202.1
+   ],
+   "hex": [
+    276,
+    262
+   ],
+   "px": [
+    766.7,
+    2270.9
+   ],
+   "flag_cell": [
+    576,
+    0
+   ]
+  },
+  {
+   "id": 134,
+   "campaign": "wh3_main_combi",
+   "campaign_name": "超凡帝国",
+   "campaign_name_en": "Immortal Empires",
+   "region": "wh3_main_combi_region_the_southern_sentinels",
+   "name": "南方哨站",
+   "name_en": "The Southern Sentinels",
+   "province": "wh3_main_combi_province_culchan_plains",
+   "province_name": "考琛平原",
+   "province_name_en": "Culchan Plains",
+   "area": "露丝契亚",
+   "area_en": "Lustria",
+   "area_key": "cai_region_hint_area_lustria",
+   "faction": "wh2_main_lzd_southern_sentinels",
+   "faction_name": "南方哨站",
+   "faction_name_en": "Southern Sentinels",
+   "is_capital": true,
+   "world": [
+    149.64,
+    102.59
+   ],
+   "hex": [
+    224,
+    133
+   ],
+   "px": [
+    622.2,
+    2684.5
+   ],
+   "flag_cell": [
+    528,
+    192
+   ]
+  },
+  {
+   "id": 135,
+   "campaign": "wh3_main_combi",
+   "campaign_name": "超凡帝国",
+   "campaign_name_en": "Immortal Empires",
+   "region": "wh3_main_combi_region_chupayotl",
+   "name": "查佩尤托",
+   "name_en": "Chupayotl",
+   "province": "wh3_main_combi_province_culchan_plains",
+   "province_name": "考琛平原",
+   "province_name_en": "Culchan Plains",
+   "area": "露丝契亚",
+   "area_en": "Lustria",
+   "area_key": "cai_region_hint_area_lustria",
+   "faction": "wh2_main_lzd_southern_sentinels",
+   "faction_name": "南方哨站",
+   "faction_name_en": "Southern Sentinels",
+   "is_capital": false,
+   "world": [
+    167.68,
+    126.12
+   ],
+   "hex": [
+    251,
+    163
+   ],
+   "px": [
+    697.2,
+    2586.7
+   ],
+   "flag_cell": [
+    528,
+    192
+   ]
+  },
+  {
+   "id": 136,
+   "campaign": "wh3_main_combi",
+   "campaign_name": "超凡帝国",
+   "campaign_name_en": "Immortal Empires",
+   "region": "wh3_main_combi_region_mangrove_coast",
+   "name": "红树林海岸",
+   "name_en": "Mangrove Coast",
+   "province": "wh3_main_combi_province_culchan_plains",
+   "province_name": "考琛平原",
+   "province_name_en": "Culchan Plains",
+   "area": "露丝契亚",
+   "area_en": "Lustria",
+   "area_key": "cai_region_hint_area_lustria",
+   "faction": "wh2_main_lzd_southern_sentinels",
+   "faction_name": "南方哨站",
+   "faction_name_en": "Southern Sentinels",
+   "is_capital": false,
+   "world": [
+    175.69,
+    106.06
+   ],
+   "hex": [
+    263,
+    137
+   ],
+   "px": [
+    730.6,
+    2670.1
+   ],
+   "flag_cell": [
+    528,
+    192
+   ]
+  },
+  {
+   "id": 137,
+   "campaign": "wh3_main_combi",
+   "campaign_name": "超凡帝国",
+   "campaign_name_en": "Immortal Empires",
+   "region": "wh3_main_combi_region_the_high_sentinel",
+   "name": "入云哨塔",
+   "name_en": "The High Sentinel",
+   "province": "wh3_main_combi_province_aymara_swamps",
+   "province_name": "艾玛拉沼泽",
+   "province_name_en": "Aymara Swamps",
+   "area": "露丝契亚",
+   "area_en": "Lustria",
+   "area_key": "cai_region_hint_area_lustria",
+   "faction": "wh2_main_grn_blue_vipers",
+   "faction_name": "蓝蝰蛇",
+   "faction_name_en": "Blue Vipers",
+   "is_capital": false,
+   "world": [
+    80.16,
+    311.64
+   ],
+   "hex": [
+    120,
+    404
+   ],
+   "px": [
+    333.3,
+    1815.6
+   ],
+   "flag_cell": [
+    480,
+    144
+   ]
+  },
+  {
+   "id": 138,
+   "campaign": "wh3_main_combi",
+   "campaign_name": "超凡帝国",
+   "campaign_name_en": "Immortal Empires",
+   "region": "wh3_main_combi_region_floating_pyramid",
+   "name": "悬浮金字塔",
+   "name_en": "Floating Pyramid",
+   "province": "wh3_main_combi_province_aymara_swamps",
+   "province_name": "艾玛拉沼泽",
+   "province_name_en": "Aymara Swamps",
+   "area": "露丝契亚",
+   "area_en": "Lustria",
+   "area_key": "cai_region_hint_area_lustria",
+   "faction": "wh3_dlc24_cth_the_celestial_court",
+   "faction_name": "玉廷",
+   "faction_name_en": "The Jade Court",
+   "is_capital": false,
+   "world": [
+    69.48,
+    303.92
+   ],
+   "hex": [
+    104,
+    394
+   ],
+   "px": [
+    288.9,
+    1847.7
+   ],
+   "flag_cell": [
+    240,
+    336
+   ]
+  },
+  {
+   "id": 139,
+   "campaign": "wh3_main_combi",
+   "campaign_name": "超凡帝国",
+   "campaign_name_en": "Immortal Empires",
+   "region": "wh3_main_combi_region_isle_of_the_crimson_skull",
+   "name": "绯红骷髅岛",
+   "name_en": "Isle of the Crimson Skull",
+   "province": "wh3_main_combi_province_aymara_swamps",
+   "province_name": "艾玛拉沼泽",
+   "province_name_en": "Aymara Swamps",
+   "area": "露丝契亚",
+   "area_en": "Lustria",
+   "area_key": "cai_region_hint_area_lustria",
+   "faction": "wh3_dlc24_cth_the_celestial_court",
+   "faction_name": "玉廷",
+   "faction_name_en": "The Jade Court",
+   "is_capital": true,
+   "world": [
+    41.42,
+    313.95
+   ],
+   "hex": [
+    62,
+    407
+   ],
+   "px": [
+    172.2,
+    1806.0
+   ],
+   "flag_cell": [
+    240,
+    336
+   ]
+  },
+  {
+   "id": 140,
+   "campaign": "wh3_main_combi",
+   "campaign_name": "超凡帝国",
+   "campaign_name_en": "Immortal Empires",
+   "region": "wh3_main_combi_region_chaqua",
+   "name": "查库阿",
+   "name_en": "Chaqua",
+   "province": "wh3_main_combi_province_the_gwangee_valley",
+   "province_name": "蒄棘山谷",
+   "province_name_en": "The Gwangee Valley",
+   "area": "露丝契亚",
+   "area_en": "Lustria",
+   "area_key": "cai_region_hint_area_lustria",
+   "faction": "wh3_dlc20_tze_apostles_of_change",
+   "faction_name": "万变使徒",
+   "faction_name_en": "Apostles of Change",
+   "is_capital": false,
+   "world": [
+    116.24,
+    210.59
+   ],
+   "hex": [
+    174,
+    273
+   ],
+   "px": [
+    483.3,
+    2235.6
+   ],
+   "flag_cell": [
+    480,
+    288
+   ]
+  },
+  {
+   "id": 141,
+   "campaign": "wh3_main_combi",
+   "campaign_name": "超凡帝国",
+   "campaign_name_en": "Immortal Empires",
+   "region": "wh3_main_combi_region_quittax",
+   "name": "茱伊泰克斯",
+   "name_en": "Qu'ittax",
+   "province": "wh3_main_combi_province_the_gwangee_valley",
+   "province_name": "蒄棘山谷",
+   "province_name_en": "The Gwangee Valley",
+   "area": "露丝契亚",
+   "area_en": "Lustria",
+   "area_key": "cai_region_hint_area_lustria",
+   "faction": "wh3_dlc20_tze_apostles_of_change",
+   "faction_name": "万变使徒",
+   "faction_name_en": "Apostles of Change",
+   "is_capital": false,
+   "world": [
+    94.86,
+    232.18
+   ],
+   "hex": [
+    142,
+    301
+   ],
+   "px": [
+    394.4,
+    2145.9
+   ],
+   "flag_cell": [
+    480,
+    288
+   ]
+  },
+  {
+   "id": 142,
+   "campaign": "wh3_main_combi",
+   "campaign_name": "超凡帝国",
+   "campaign_name_en": "Immortal Empires",
+   "region": "wh3_main_combi_region_hualotal",
+   "name": "霍罗妥",
+   "name_en": "Hualotal",
+   "province": "wh3_main_combi_province_the_gwangee_valley",
+   "province_name": "蒄棘山谷",
+   "province_name_en": "The Gwangee Valley",
+   "area": "露丝契亚",
+   "area_en": "Lustria",
+   "area_key": "cai_region_hint_area_lustria",
+   "faction": "wh3_dlc26_kho_skulltaker",
+   "faction_name": "血腥流浪者",
+   "faction_name_en": "Blooded Wanderers",
+   "is_capital": true,
+   "world": [
+    66.14,
+    238.74
+   ],
+   "hex": [
+    99,
+    309
+   ],
+   "px": [
+    275.0,
+    2118.6
+   ],
+   "flag_cell": [
+    672,
+    336
+   ]
+  },
+  {
+   "id": 143,
+   "campaign": "wh3_main_combi",
+   "campaign_name": "超凡帝国",
+   "campaign_name_en": "Immortal Empires",
+   "region": "wh3_main_combi_region_monument_of_izzatal",
+   "name": "伊扎塔之碑",
+   "name_en": "Monument of Izzatal",
+   "province": "wh3_main_combi_province_the_creeping_jungle",
+   "province_name": "蠕行丛林",
+   "province_name_en": "The Creeping Jungle",
+   "area": "露丝契亚",
+   "area_en": "Lustria",
+   "area_key": "cai_region_hint_area_lustria",
+   "faction": "wh2_dlc12_skv_clan_mange",
+   "faction_name": "螨疮氏族",
+   "faction_name_en": "Clan Mange",
+   "is_capital": false,
+   "world": [
+    70.14,
+    271.91
+   ],
+   "hex": [
+    105,
+    352
+   ],
+   "px": [
+    291.7,
+    1980.7
+   ],
+   "flag_cell": [
+    96,
+    48
+   ]
+  },
+  {
+   "id": 144,
+   "campaign": "wh3_main_combi",
+   "campaign_name": "超凡帝国",
+   "campaign_name_en": "Immortal Empires",
+   "region": "wh3_main_combi_region_temple_of_kara",
+   "name": "卡拉神殿",
+   "name_en": "Temple of Kara",
+   "province": "wh3_main_combi_province_the_creeping_jungle",
+   "province_name": "蠕行丛林",
+   "province_name_en": "The Creeping Jungle",
+   "area": "露丝契亚",
+   "area_en": "Lustria",
+   "area_key": "cai_region_hint_area_lustria",
+   "faction": "wh2_dlc13_emp_the_huntmarshals_expedition",
+   "faction_name": "猎人元帅远征军",
+   "faction_name_en": "The Huntsmarshal's Expedition",
+   "is_capital": false,
+   "world": [
+    101.54,
+    282.32
+   ],
+   "hex": [
+    152,
+    366
+   ],
+   "px": [
+    422.2,
+    1937.4
+   ],
+   "flag_cell": [
+    144,
+    48
+   ]
+  },
+  {
+   "id": 145,
+   "campaign": "wh3_main_combi",
+   "campaign_name": "超凡帝国",
+   "campaign_name_en": "Immortal Empires",
+   "region": "wh3_main_combi_region_spektazuma",
+   "name": "斯皮卡祖玛",
+   "name_en": "Spektazuma",
+   "province": "wh3_main_combi_province_the_creeping_jungle",
+   "province_name": "蠕行丛林",
+   "province_name_en": "The Creeping Jungle",
+   "area": "露丝契亚",
+   "area_en": "Lustria",
+   "area_key": "cai_region_hint_area_lustria",
+   "faction": "wh2_dlc12_skv_clan_mange",
+   "faction_name": "螨疮氏族",
+   "faction_name_en": "Clan Mange",
+   "is_capital": true,
+   "world": [
+    58.12,
+    291.97
+   ],
+   "hex": [
+    87,
+    378
+   ],
+   "px": [
+    241.7,
+    1897.4
+   ],
+   "flag_cell": [
+    96,
+    48
+   ]
+  },
+  {
+   "id": 146,
+   "campaign": "wh3_main_combi",
+   "campaign_name": "超凡帝国",
+   "campaign_name_en": "Immortal Empires",
+   "region": "wh3_main_combi_region_fallen_gates",
+   "name": "失陷之门",
+   "name_en": "Fallen Gates",
+   "province": "wh3_main_combi_province_isthmus_of_lustria",
+   "province_name": "露丝契亚地峡",
+   "province_name_en": "Isthmus of Lustria",
+   "area": "露丝契亚",
+   "area_en": "Lustria",
+   "area_key": "cai_region_hint_area_lustria",
+   "faction": "wh3_dlc20_sla_keepers_of_bliss",
+   "faction_name": "极乐守卫",
+   "faction_name_en": "Keepers of Bliss",
+   "is_capital": false,
+   "world": [
+    29.39,
+    393.4
+   ],
+   "hex": [
+    44,
+    510
+   ],
+   "px": [
+    122.2,
+    1475.7
+   ],
+   "flag_cell": [
+    432,
+    288
+   ]
+  },
+  {
+   "id": 147,
+   "campaign": "wh3_main_combi",
+   "campaign_name": "超凡帝国",
+   "campaign_name_en": "Immortal Empires",
+   "region": "wh3_main_combi_region_hexoatl",
+   "name": "赫斯欧塔",
+   "name_en": "Hexoatl",
+   "province": "wh3_main_combi_province_isthmus_of_lustria",
+   "province_name": "露丝契亚地峡",
+   "province_name_en": "Isthmus of Lustria",
+   "area": "露丝契亚",
+   "area_en": "Lustria",
+   "area_key": "cai_region_hint_area_lustria",
+   "faction": "wh2_main_lzd_hexoatl",
+   "faction_name": "赫斯欧塔",
+   "faction_name_en": "Hexoatl",
+   "is_capital": true,
+   "world": [
+    46.09,
+    377.59
+   ],
+   "hex": [
+    69,
+    489
+   ],
+   "px": [
+    191.7,
+    1541.5
+   ],
+   "flag_cell": [
+    336,
+    192
+   ]
+  },
+  {
+   "id": 148,
+   "campaign": "wh3_main_combi",
+   "campaign_name": "超凡帝国",
+   "campaign_name_en": "Immortal Empires",
+   "region": "wh3_main_combi_region_macu_peaks",
+   "name": "马库群峰",
+   "name_en": "Macu Peaks",
+   "province": "wh3_main_combi_province_isthmus_of_lustria",
+   "province_name": "露丝契亚地峡",
+   "province_name_en": "Isthmus of Lustria",
+   "area": "露丝契亚",
+   "area_en": "Lustria",
+   "area_key": "cai_region_hint_area_lustria",
+   "faction": "wh3_dlc20_sla_keepers_of_bliss",
+   "faction_name": "极乐守卫",
+   "faction_name_en": "Keepers of Bliss",
+   "is_capital": false,
+   "world": [
+    35.41,
+    352.91
+   ],
+   "hex": [
+    53,
+    457
+   ],
+   "px": [
+    147.2,
+    1644.1
+   ],
+   "flag_cell": [
+    432,
+    288
+   ]
+  },
+  {
+   "id": 149,
+   "campaign": "wh3_main_combi",
+   "campaign_name": "超凡帝国",
+   "campaign_name_en": "Immortal Empires",
+   "region": "wh3_main_combi_region_tlanxla",
+   "name": "塔兰克斯拉",
+   "name_en": "Tlanxla",
+   "province": "wh3_main_combi_province_scorpion_coast",
+   "province_name": "食人鱼沼泽",
+   "province_name_en": "Piranha Swamps",
+   "area": "露丝契亚",
+   "area_en": "Lustria",
+   "area_key": "cai_region_hint_area_lustria",
+   "faction": "wh2_main_lzd_tlaxtlan",
+   "faction_name": "塔拉克斯兰",
+   "faction_name_en": "Tlaxtlan",
+   "is_capital": false,
+   "world": [
+    83.5,
+    255.71
+   ],
+   "hex": [
+    125,
+    331
+   ],
+   "px": [
+    347.2,
+    2048.1
+   ],
+   "flag_cell": [
+    624,
+    192
+   ]
+  },
+  {
+   "id": 150,
+   "campaign": "wh3_main_combi",
+   "campaign_name": "超凡帝国",
+   "campaign_name_en": "Immortal Empires",
+   "region": "wh3_main_combi_region_tlaxtlan",
+   "name": "塔拉克斯兰",
+   "name_en": "Tlaxtlan",
+   "province": "wh3_main_combi_province_scorpion_coast",
+   "province_name": "食人鱼沼泽",
+   "province_name_en": "Piranha Swamps",
+   "area": "露丝契亚",
+   "area_en": "Lustria",
+   "area_key": "cai_region_hint_area_lustria",
+   "faction": "wh2_main_lzd_tlaxtlan",
+   "faction_name": "塔拉克斯兰",
+   "faction_name_en": "Tlaxtlan",
+   "is_capital": true,
+   "world": [
+    109.56,
+    249.93
+   ],
+   "hex": [
+    164,
+    324
+   ],
+   "px": [
+    455.6,
+    2072.1
+   ],
+   "flag_cell": [
+    624,
+    192
+   ]
+  },
+  {
+   "id": 151,
+   "campaign": "wh3_main_combi",
+   "campaign_name": "超凡帝国",
+   "campaign_name_en": "Immortal Empires",
+   "region": "wh3_main_combi_region_temple_of_tlencan",
+   "name": "布雷贡",
+   "name_en": "Bregonne",
+   "province": "wh3_main_combi_province_scorpion_coast",
+   "province_name": "食人鱼沼泽",
+   "province_name_en": "Piranha Swamps",
+   "area": "露丝契亚",
+   "area_en": "Lustria",
+   "area_key": "cai_region_hint_area_lustria",
+   "faction": "wh_main_brt_bordeleaux",
+   "faction_name": "波尔德罗长征军",
+   "faction_name_en": "Bordeleaux Errant",
+   "is_capital": false,
+   "world": [
+    143.63,
+    258.8
+   ],
+   "hex": [
+    215,
+    335
+   ],
+   "px": [
+    597.2,
+    2035.2
+   ],
+   "flag_cell": [
+    384,
+    672
+   ]
+  },
+  {
+   "id": 152,
+   "campaign": "wh3_main_combi",
+   "campaign_name": "超凡帝国",
+   "campaign_name_en": "Immortal Empires",
+   "region": "wh3_main_combi_region_xahutec",
+   "name": "扎慧塔克",
+   "name_en": "Xahutec",
+   "province": "wh3_main_combi_province_scorpion_coast",
+   "province_name": "食人鱼沼泽",
+   "province_name_en": "Piranha Swamps",
+   "area": "露丝契亚",
+   "area_en": "Lustria",
+   "area_key": "cai_region_hint_area_lustria",
+   "faction": "wh2_main_lzd_tlaxtlan",
+   "faction_name": "塔拉克斯兰",
+   "faction_name_en": "Tlaxtlan",
+   "is_capital": false,
+   "world": [
+    136.28,
+    236.81
+   ],
+   "hex": [
+    204,
+    307
+   ],
+   "px": [
+    566.7,
+    2126.6
+   ],
+   "flag_cell": [
+    624,
+    192
+   ]
+  },
+  {
+   "id": 153,
+   "campaign": "wh3_main_combi",
+   "campaign_name": "超凡帝国",
+   "campaign_name_en": "Immortal Empires",
+   "region": "wh3_main_combi_region_itza",
+   "name": "伊塔扎",
+   "name_en": "Itza",
+   "province": "wh3_main_combi_province_river_qurveza",
+   "province_name": "魁伟扎河",
+   "province_name_en": "River Qurveza",
+   "area": "露丝契亚",
+   "area_en": "Lustria",
+   "area_key": "cai_region_hint_area_lustria",
+   "faction": "wh2_main_lzd_itza",
+   "faction_name": "伊塔扎",
+   "faction_name_en": "Itza",
+   "is_capital": true,
+   "world": [
+    112.23,
+    184.36
+   ],
+   "hex": [
+    168,
+    239
+   ],
+   "px": [
+    466.7,
+    2344.7
+   ],
+   "flag_cell": [
+    384,
+    192
+   ]
+  },
+  {
+   "id": 154,
+   "campaign": "wh3_main_combi",
+   "campaign_name": "超凡帝国",
+   "campaign_name_en": "Immortal Empires",
+   "region": "wh3_main_combi_region_quetza",
+   "name": "奎扎",
+   "name_en": "Quetza",
+   "province": "wh3_main_combi_province_river_qurveza",
+   "province_name": "魁伟扎河",
+   "province_name_en": "River Qurveza",
+   "area": "露丝契亚",
+   "area_en": "Lustria",
+   "area_key": "cai_region_hint_area_lustria",
+   "faction": "wh3_dlc20_nur_pallid_nurslings",
+   "faction_name": "苍白乳婴",
+   "faction_name_en": "Pallid Nurslings",
+   "is_capital": false,
+   "world": [
+    124.25,
+    168.93
+   ],
+   "hex": [
+    186,
+    219
+   ],
+   "px": [
+    516.7,
+    2408.8
+   ],
+   "flag_cell": [
+    384,
+    288
+   ]
+  },
+  {
+   "id": 155,
+   "campaign": "wh3_main_combi",
+   "campaign_name": "超凡帝国",
+   "campaign_name_en": "Immortal Empires",
+   "region": "wh3_main_combi_region_xhotl",
+   "name": "阿斯霍托",
+   "name_en": "Xhotl",
+   "province": "wh3_main_combi_province_river_qurveza",
+   "province_name": "魁伟扎河",
+   "province_name_en": "River Qurveza",
+   "area": "露丝契亚",
+   "area_en": "Lustria",
+   "area_key": "cai_region_hint_area_lustria",
+   "faction": "wh3_dlc20_nur_pallid_nurslings",
+   "faction_name": "苍白乳婴",
+   "faction_name_en": "Pallid Nurslings",
+   "is_capital": false,
+   "world": [
+    88.85,
+    183.97
+   ],
+   "hex": [
+    133,
+    238
+   ],
+   "px": [
+    369.4,
+    2346.3
+   ],
+   "flag_cell": [
+    384,
+    288
+   ]
+  },
+  {
+   "id": 156,
+   "campaign": "wh3_main_combi",
+   "campaign_name": "超凡帝国",
+   "campaign_name_en": "Immortal Empires",
+   "region": "wh3_main_combi_region_the_dust_gate",
+   "name": "尘埃之门",
+   "name_en": "The Dust Gate",
+   "province": "wh3_main_combi_province_copper_desert",
+   "province_name": "黄铜沙漠",
+   "province_name_en": "Copper Desert",
+   "area": "露丝契亚",
+   "area_en": "Lustria",
+   "area_key": "cai_region_hint_area_lustria",
+   "faction": "wh3_main_tmb_deserters_of_khatep",
+   "faction_name": "卡特普离散者",
+   "faction_name_en": "Deserters of Khatep",
+   "is_capital": false,
+   "world": [
+    93.52,
+    120.34
+   ],
+   "hex": [
+    140,
+    156
+   ],
+   "px": [
+    388.9,
+    2610.8
+   ],
+   "flag_cell": [
+    432,
+    576
+   ]
+  },
+  {
+   "id": 157,
+   "campaign": "wh3_main_combi",
+   "campaign_name": "超凡帝国",
+   "campaign_name_en": "Immortal Empires",
+   "region": "wh3_main_combi_region_the_golden_colossus",
+   "name": "黄金巨像",
+   "name_en": "The Golden Colossus",
+   "province": "wh3_main_combi_province_copper_desert",
+   "province_name": "黄铜沙漠",
+   "province_name_en": "Copper Desert",
+   "area": "露丝契亚",
+   "area_en": "Lustria",
+   "area_key": "cai_region_hint_area_lustria",
+   "faction": "wh3_main_tmb_deserters_of_khatep",
+   "faction_name": "卡特普离散者",
+   "faction_name_en": "Deserters of Khatep",
+   "is_capital": true,
+   "world": [
+    57.45,
+    162.76
+   ],
+   "hex": [
+    86,
+    211
+   ],
+   "px": [
+    238.9,
+    2434.4
+   ],
+   "flag_cell": [
+    432,
+    576
+   ]
+  },
+  {
+   "id": 158,
+   "campaign": "wh3_main_combi",
+   "campaign_name": "超凡帝国",
+   "campaign_name_en": "Immortal Empires",
+   "region": "wh3_main_combi_region_the_copper_landing",
+   "name": "黄铜滩",
+   "name_en": "The Copper Landing",
+   "province": "wh3_main_combi_province_copper_desert",
+   "province_name": "黄铜沙漠",
+   "province_name_en": "Copper Desert",
+   "area": "露丝契亚",
+   "area_en": "Lustria",
+   "area_key": "cai_region_hint_area_lustria",
+   "faction": "wh3_main_tmb_deserters_of_khatep",
+   "faction_name": "卡特普离散者",
+   "faction_name_en": "Deserters of Khatep",
+   "is_capital": false,
+   "world": [
+    75.49,
+    133.06
+   ],
+   "hex": [
+    113,
+    172
+   ],
+   "px": [
+    313.9,
+    2557.9
+   ],
+   "flag_cell": [
+    432,
+    576
+   ]
+  },
+  {
+   "id": 159,
+   "campaign": "wh3_main_combi",
+   "campaign_name": "超凡帝国",
+   "campaign_name_en": "Immortal Empires",
    "region": "wh3_main_combi_region_oreons_camp",
    "name": "奥瑞恩营地",
    "name_en": "Oreon's Camp",
@@ -3579,7 +5645,7 @@
    ]
   },
   {
-   "id": 101,
+   "id": 160,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -3614,7 +5680,7 @@
    ]
   },
   {
-   "id": 102,
+   "id": 161,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -3649,7 +5715,7 @@
    ]
   },
   {
-   "id": 103,
+   "id": 162,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -3684,7 +5750,7 @@
    ]
   },
   {
-   "id": 104,
+   "id": 163,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -3719,7 +5785,7 @@
    ]
   },
   {
-   "id": 105,
+   "id": 164,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -3754,7 +5820,7 @@
    ]
   },
   {
-   "id": 106,
+   "id": 165,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -3789,7 +5855,7 @@
    ]
   },
   {
-   "id": 107,
+   "id": 166,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -3824,7 +5890,7 @@
    ]
   },
   {
-   "id": 108,
+   "id": 167,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -3859,7 +5925,7 @@
    ]
   },
   {
-   "id": 109,
+   "id": 168,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -3894,7 +5960,7 @@
    ]
   },
   {
-   "id": 110,
+   "id": 169,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -3929,7 +5995,7 @@
    ]
   },
   {
-   "id": 111,
+   "id": 170,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -3964,7 +6030,7 @@
    ]
   },
   {
-   "id": 112,
+   "id": 171,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -3999,7 +6065,7 @@
    ]
   },
   {
-   "id": 113,
+   "id": 172,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -4034,7 +6100,7 @@
    ]
   },
   {
-   "id": 114,
+   "id": 173,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -4069,7 +6135,7 @@
    ]
   },
   {
-   "id": 115,
+   "id": 174,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -4104,7 +6170,7 @@
    ]
   },
   {
-   "id": 116,
+   "id": 175,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -4139,7 +6205,7 @@
    ]
   },
   {
-   "id": 117,
+   "id": 176,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -4174,7 +6240,7 @@
    ]
   },
   {
-   "id": 118,
+   "id": 177,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -4209,7 +6275,7 @@
    ]
   },
   {
-   "id": 119,
+   "id": 178,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -4244,7 +6310,7 @@
    ]
   },
   {
-   "id": 120,
+   "id": 179,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -4279,7 +6345,7 @@
    ]
   },
   {
-   "id": 121,
+   "id": 180,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -4314,7 +6380,7 @@
    ]
   },
   {
-   "id": 122,
+   "id": 181,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -4349,7 +6415,7 @@
    ]
   },
   {
-   "id": 123,
+   "id": 182,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -4384,7 +6450,7 @@
    ]
   },
   {
-   "id": 124,
+   "id": 183,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -4419,7 +6485,7 @@
    ]
   },
   {
-   "id": 125,
+   "id": 184,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -4454,7 +6520,7 @@
    ]
   },
   {
-   "id": 126,
+   "id": 185,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -4489,7 +6555,7 @@
    ]
   },
   {
-   "id": 127,
+   "id": 186,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -4524,7 +6590,7 @@
    ]
   },
   {
-   "id": 128,
+   "id": 187,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -4559,7 +6625,7 @@
    ]
   },
   {
-   "id": 129,
+   "id": 188,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -4594,7 +6660,7 @@
    ]
   },
   {
-   "id": 130,
+   "id": 189,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -4629,7 +6695,7 @@
    ]
   },
   {
-   "id": 131,
+   "id": 190,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -4664,7 +6730,7 @@
    ]
   },
   {
-   "id": 132,
+   "id": 191,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -4699,7 +6765,7 @@
    ]
   },
   {
-   "id": 133,
+   "id": 192,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -4734,7 +6800,7 @@
    ]
   },
   {
-   "id": 134,
+   "id": 193,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -4769,7 +6835,7 @@
    ]
   },
   {
-   "id": 135,
+   "id": 194,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -4804,7 +6870,7 @@
    ]
   },
   {
-   "id": 136,
+   "id": 195,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -4839,7 +6905,7 @@
    ]
   },
   {
-   "id": 137,
+   "id": 196,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -4874,7 +6940,7 @@
    ]
   },
   {
-   "id": 138,
+   "id": 197,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -4909,7 +6975,7 @@
    ]
   },
   {
-   "id": 139,
+   "id": 198,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -4944,7 +7010,7 @@
    ]
   },
   {
-   "id": 140,
+   "id": 199,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -4979,7 +7045,7 @@
    ]
   },
   {
-   "id": 141,
+   "id": 200,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -5014,7 +7080,7 @@
    ]
   },
   {
-   "id": 142,
+   "id": 201,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -5049,7 +7115,7 @@
    ]
   },
   {
-   "id": 143,
+   "id": 202,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -5084,7 +7150,7 @@
    ]
   },
   {
-   "id": 144,
+   "id": 203,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -5119,7 +7185,7 @@
    ]
   },
   {
-   "id": 145,
+   "id": 204,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -5154,7 +7220,7 @@
    ]
   },
   {
-   "id": 146,
+   "id": 205,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -5189,7 +7255,7 @@
    ]
   },
   {
-   "id": 147,
+   "id": 206,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -5224,7 +7290,7 @@
    ]
   },
   {
-   "id": 148,
+   "id": 207,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -5259,7 +7325,7 @@
    ]
   },
   {
-   "id": 149,
+   "id": 208,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -5294,7 +7360,7 @@
    ]
   },
   {
-   "id": 150,
+   "id": 209,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -5329,7 +7395,7 @@
    ]
   },
   {
-   "id": 151,
+   "id": 210,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -5364,7 +7430,7 @@
    ]
   },
   {
-   "id": 152,
+   "id": 211,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -5399,7 +7465,7 @@
    ]
   },
   {
-   "id": 153,
+   "id": 212,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -5434,7 +7500,7 @@
    ]
   },
   {
-   "id": 154,
+   "id": 213,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -5469,7 +7535,7 @@
    ]
   },
   {
-   "id": 155,
+   "id": 214,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -5504,7 +7570,7 @@
    ]
   },
   {
-   "id": 156,
+   "id": 215,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -5539,7 +7605,7 @@
    ]
   },
   {
-   "id": 157,
+   "id": 216,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -5574,7 +7640,7 @@
    ]
   },
   {
-   "id": 158,
+   "id": 217,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -5609,7 +7675,7 @@
    ]
   },
   {
-   "id": 159,
+   "id": 218,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -5644,7 +7710,7 @@
    ]
   },
   {
-   "id": 160,
+   "id": 219,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -5679,7 +7745,7 @@
    ]
   },
   {
-   "id": 161,
+   "id": 220,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -5714,7 +7780,7 @@
    ]
   },
   {
-   "id": 162,
+   "id": 221,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -5749,7 +7815,7 @@
    ]
   },
   {
-   "id": 163,
+   "id": 222,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -5784,7 +7850,7 @@
    ]
   },
   {
-   "id": 164,
+   "id": 223,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -5819,7 +7885,7 @@
    ]
   },
   {
-   "id": 165,
+   "id": 224,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -5854,7 +7920,7 @@
    ]
   },
   {
-   "id": 166,
+   "id": 225,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -5889,7 +7955,7 @@
    ]
   },
   {
-   "id": 167,
+   "id": 226,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -5924,7 +7990,7 @@
    ]
   },
   {
-   "id": 168,
+   "id": 227,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -5959,7 +8025,7 @@
    ]
   },
   {
-   "id": 169,
+   "id": 228,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -5994,7 +8060,7 @@
    ]
   },
   {
-   "id": 170,
+   "id": 229,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -6029,7 +8095,7 @@
    ]
   },
   {
-   "id": 171,
+   "id": 230,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -6064,7 +8130,7 @@
    ]
   },
   {
-   "id": 172,
+   "id": 231,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -6099,7 +8165,7 @@
    ]
   },
   {
-   "id": 173,
+   "id": 232,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -6134,7 +8200,7 @@
    ]
   },
   {
-   "id": 174,
+   "id": 233,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -6169,7 +8235,7 @@
    ]
   },
   {
-   "id": 175,
+   "id": 234,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -6204,7 +8270,7 @@
    ]
   },
   {
-   "id": 176,
+   "id": 235,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -6239,7 +8305,7 @@
    ]
   },
   {
-   "id": 177,
+   "id": 236,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -6274,7 +8340,7 @@
    ]
   },
   {
-   "id": 178,
+   "id": 237,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -6309,7 +8375,7 @@
    ]
   },
   {
-   "id": 179,
+   "id": 238,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -6344,7 +8410,7 @@
    ]
   },
   {
-   "id": 180,
+   "id": 239,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -6379,7 +8445,7 @@
    ]
   },
   {
-   "id": 181,
+   "id": 240,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -6414,7 +8480,7 @@
    ]
   },
   {
-   "id": 182,
+   "id": 241,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -6449,7 +8515,7 @@
    ]
   },
   {
-   "id": 183,
+   "id": 242,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -6484,7 +8550,7 @@
    ]
   },
   {
-   "id": 184,
+   "id": 243,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -6519,7 +8585,7 @@
    ]
   },
   {
-   "id": 185,
+   "id": 244,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -6554,7 +8620,7 @@
    ]
   },
   {
-   "id": 186,
+   "id": 245,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -6589,7 +8655,7 @@
    ]
   },
   {
-   "id": 187,
+   "id": 246,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -6624,7 +8690,7 @@
    ]
   },
   {
-   "id": 188,
+   "id": 247,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -6659,7 +8725,7 @@
    ]
   },
   {
-   "id": 189,
+   "id": 248,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -6694,7 +8760,7 @@
    ]
   },
   {
-   "id": 190,
+   "id": 249,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -6729,7 +8795,7 @@
    ]
   },
   {
-   "id": 191,
+   "id": 250,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -6764,7 +8830,7 @@
    ]
   },
   {
-   "id": 192,
+   "id": 251,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -6799,7 +8865,7 @@
    ]
   },
   {
-   "id": 193,
+   "id": 252,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -6834,7 +8900,7 @@
    ]
   },
   {
-   "id": 194,
+   "id": 253,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -6869,7 +8935,7 @@
    ]
   },
   {
-   "id": 195,
+   "id": 254,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -6904,7 +8970,7 @@
    ]
   },
   {
-   "id": 196,
+   "id": 255,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -6939,7 +9005,7 @@
    ]
   },
   {
-   "id": 197,
+   "id": 256,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -6974,7 +9040,7 @@
    ]
   },
   {
-   "id": 198,
+   "id": 257,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -7009,7 +9075,7 @@
    ]
   },
   {
-   "id": 199,
+   "id": 258,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -7044,7 +9110,7 @@
    ]
   },
   {
-   "id": 200,
+   "id": 259,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -7079,7 +9145,7 @@
    ]
   },
   {
-   "id": 201,
+   "id": 260,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -7114,7 +9180,7 @@
    ]
   },
   {
-   "id": 202,
+   "id": 261,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -7149,7 +9215,7 @@
    ]
   },
   {
-   "id": 203,
+   "id": 262,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -7184,7 +9250,7 @@
    ]
   },
   {
-   "id": 204,
+   "id": 263,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -7219,7 +9285,7 @@
    ]
   },
   {
-   "id": 205,
+   "id": 264,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -7254,7 +9320,7 @@
    ]
   },
   {
-   "id": 206,
+   "id": 265,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -7289,7 +9355,7 @@
    ]
   },
   {
-   "id": 207,
+   "id": 266,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -7324,7 +9390,7 @@
    ]
   },
   {
-   "id": 208,
+   "id": 267,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -7359,7 +9425,7 @@
    ]
   },
   {
-   "id": 209,
+   "id": 268,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -7394,7 +9460,7 @@
    ]
   },
   {
-   "id": 210,
+   "id": 269,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -7429,7 +9495,7 @@
    ]
   },
   {
-   "id": 211,
+   "id": 270,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -7464,7 +9530,7 @@
    ]
   },
   {
-   "id": 212,
+   "id": 271,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -7499,7 +9565,7 @@
    ]
   },
   {
-   "id": 213,
+   "id": 272,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -7534,7 +9600,7 @@
    ]
   },
   {
-   "id": 214,
+   "id": 273,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -7569,7 +9635,7 @@
    ]
   },
   {
-   "id": 215,
+   "id": 274,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -7604,7 +9670,7 @@
    ]
   },
   {
-   "id": 216,
+   "id": 275,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -7639,7 +9705,7 @@
    ]
   },
   {
-   "id": 217,
+   "id": 276,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -7674,7 +9740,7 @@
    ]
   },
   {
-   "id": 218,
+   "id": 277,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -7709,7 +9775,7 @@
    ]
   },
   {
-   "id": 219,
+   "id": 278,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -7744,7 +9810,7 @@
    ]
   },
   {
-   "id": 220,
+   "id": 279,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -7779,7 +9845,7 @@
    ]
   },
   {
-   "id": 221,
+   "id": 280,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -7814,7 +9880,7 @@
    ]
   },
   {
-   "id": 222,
+   "id": 281,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -7849,7 +9915,7 @@
    ]
   },
   {
-   "id": 223,
+   "id": 282,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -7884,7 +9950,7 @@
    ]
   },
   {
-   "id": 224,
+   "id": 283,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -7919,7 +9985,7 @@
    ]
   },
   {
-   "id": 225,
+   "id": 284,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -7954,7 +10020,7 @@
    ]
   },
   {
-   "id": 226,
+   "id": 285,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -7989,7 +10055,7 @@
    ]
   },
   {
-   "id": 227,
+   "id": 286,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -8024,7 +10090,7 @@
    ]
   },
   {
-   "id": 228,
+   "id": 287,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -8059,7 +10125,7 @@
    ]
   },
   {
-   "id": 229,
+   "id": 288,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -8094,7 +10160,7 @@
    ]
   },
   {
-   "id": 230,
+   "id": 289,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -8129,7 +10195,7 @@
    ]
   },
   {
-   "id": 231,
+   "id": 290,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -8164,7 +10230,7 @@
    ]
   },
   {
-   "id": 232,
+   "id": 291,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -8199,7 +10265,7 @@
    ]
   },
   {
-   "id": 233,
+   "id": 292,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -8234,7 +10300,7 @@
    ]
   },
   {
-   "id": 234,
+   "id": 293,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -8269,7 +10335,7 @@
    ]
   },
   {
-   "id": 235,
+   "id": 294,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -8304,7 +10370,7 @@
    ]
   },
   {
-   "id": 236,
+   "id": 295,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -8339,7 +10405,7 @@
    ]
   },
   {
-   "id": 237,
+   "id": 296,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -8374,7 +10440,7 @@
    ]
   },
   {
-   "id": 238,
+   "id": 297,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -8409,7 +10475,7 @@
    ]
   },
   {
-   "id": 239,
+   "id": 298,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -8444,7 +10510,7 @@
    ]
   },
   {
-   "id": 240,
+   "id": 299,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -8479,7 +10545,7 @@
    ]
   },
   {
-   "id": 241,
+   "id": 300,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -8514,7 +10580,7 @@
    ]
   },
   {
-   "id": 242,
+   "id": 301,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -8549,7 +10615,7 @@
    ]
   },
   {
-   "id": 243,
+   "id": 302,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -8584,7 +10650,7 @@
    ]
   },
   {
-   "id": 244,
+   "id": 303,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -8619,7 +10685,7 @@
    ]
   },
   {
-   "id": 245,
+   "id": 304,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -8654,7 +10720,7 @@
    ]
   },
   {
-   "id": 246,
+   "id": 305,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -8689,7 +10755,7 @@
    ]
   },
   {
-   "id": 247,
+   "id": 306,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -8724,7 +10790,7 @@
    ]
   },
   {
-   "id": 248,
+   "id": 307,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -8759,7 +10825,7 @@
    ]
   },
   {
-   "id": 249,
+   "id": 308,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -8794,7 +10860,7 @@
    ]
   },
   {
-   "id": 250,
+   "id": 309,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -8829,7 +10895,7 @@
    ]
   },
   {
-   "id": 251,
+   "id": 310,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -8864,7 +10930,7 @@
    ]
   },
   {
-   "id": 252,
+   "id": 311,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -8899,7 +10965,7 @@
    ]
   },
   {
-   "id": 253,
+   "id": 312,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -8934,7 +11000,7 @@
    ]
   },
   {
-   "id": 254,
+   "id": 313,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -8969,7 +11035,7 @@
    ]
   },
   {
-   "id": 255,
+   "id": 314,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -9004,7 +11070,7 @@
    ]
   },
   {
-   "id": 256,
+   "id": 315,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -9039,7 +11105,7 @@
    ]
   },
   {
-   "id": 257,
+   "id": 316,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -9074,7 +11140,7 @@
    ]
   },
   {
-   "id": 258,
+   "id": 317,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -9109,7 +11175,7 @@
    ]
   },
   {
-   "id": 259,
+   "id": 318,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -9144,7 +11210,7 @@
    ]
   },
   {
-   "id": 260,
+   "id": 319,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -9179,7 +11245,7 @@
    ]
   },
   {
-   "id": 261,
+   "id": 320,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -9214,7 +11280,7 @@
    ]
   },
   {
-   "id": 262,
+   "id": 321,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -9249,7 +11315,7 @@
    ]
   },
   {
-   "id": 263,
+   "id": 322,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -9284,7 +11350,7 @@
    ]
   },
   {
-   "id": 264,
+   "id": 323,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -9319,7 +11385,7 @@
    ]
   },
   {
-   "id": 265,
+   "id": 324,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -9354,7 +11420,7 @@
    ]
   },
   {
-   "id": 266,
+   "id": 325,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -9389,7 +11455,7 @@
    ]
   },
   {
-   "id": 267,
+   "id": 326,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -9424,7 +11490,7 @@
    ]
   },
   {
-   "id": 268,
+   "id": 327,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -9459,7 +11525,7 @@
    ]
   },
   {
-   "id": 269,
+   "id": 328,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -9494,7 +11560,7 @@
    ]
   },
   {
-   "id": 270,
+   "id": 329,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -9529,7 +11595,7 @@
    ]
   },
   {
-   "id": 271,
+   "id": 330,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -9564,7 +11630,7 @@
    ]
   },
   {
-   "id": 272,
+   "id": 331,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -9599,7 +11665,7 @@
    ]
   },
   {
-   "id": 273,
+   "id": 332,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -9634,7 +11700,7 @@
    ]
   },
   {
-   "id": 274,
+   "id": 333,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -9669,7 +11735,7 @@
    ]
   },
   {
-   "id": 275,
+   "id": 334,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -9704,7 +11770,7 @@
    ]
   },
   {
-   "id": 276,
+   "id": 335,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -9739,7 +11805,7 @@
    ]
   },
   {
-   "id": 277,
+   "id": 336,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -9774,7 +11840,7 @@
    ]
   },
   {
-   "id": 278,
+   "id": 337,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -9809,7 +11875,7 @@
    ]
   },
   {
-   "id": 279,
+   "id": 338,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -9844,7 +11910,7 @@
    ]
   },
   {
-   "id": 280,
+   "id": 339,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -9879,7 +11945,7 @@
    ]
   },
   {
-   "id": 281,
+   "id": 340,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -9914,7 +11980,7 @@
    ]
   },
   {
-   "id": 282,
+   "id": 341,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -9949,7 +12015,7 @@
    ]
   },
   {
-   "id": 283,
+   "id": 342,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -9984,7 +12050,7 @@
    ]
   },
   {
-   "id": 284,
+   "id": 343,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -10019,7 +12085,7 @@
    ]
   },
   {
-   "id": 285,
+   "id": 344,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -10054,7 +12120,7 @@
    ]
   },
   {
-   "id": 286,
+   "id": 345,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -10089,7 +12155,7 @@
    ]
   },
   {
-   "id": 287,
+   "id": 346,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -10124,7 +12190,7 @@
    ]
   },
   {
-   "id": 288,
+   "id": 347,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -10159,7 +12225,7 @@
    ]
   },
   {
-   "id": 289,
+   "id": 348,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -10194,7 +12260,7 @@
    ]
   },
   {
-   "id": 290,
+   "id": 349,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -10229,7 +12295,7 @@
    ]
   },
   {
-   "id": 291,
+   "id": 350,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -10264,7 +12330,7 @@
    ]
   },
   {
-   "id": 292,
+   "id": 351,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -10299,7 +12365,7 @@
    ]
   },
   {
-   "id": 293,
+   "id": 352,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -10334,7 +12400,7 @@
    ]
   },
   {
-   "id": 294,
+   "id": 353,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -10369,7 +12435,7 @@
    ]
   },
   {
-   "id": 295,
+   "id": 354,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -10404,7 +12470,7 @@
    ]
   },
   {
-   "id": 296,
+   "id": 355,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -10439,7 +12505,7 @@
    ]
   },
   {
-   "id": 297,
+   "id": 356,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -10474,7 +12540,7 @@
    ]
   },
   {
-   "id": 298,
+   "id": 357,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -10509,7 +12575,7 @@
    ]
   },
   {
-   "id": 299,
+   "id": 358,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -10544,7 +12610,7 @@
    ]
   },
   {
-   "id": 300,
+   "id": 359,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -10579,7 +12645,7 @@
    ]
   },
   {
-   "id": 301,
+   "id": 360,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -10614,7 +12680,7 @@
    ]
   },
   {
-   "id": 302,
+   "id": 361,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -10649,7 +12715,7 @@
    ]
   },
   {
-   "id": 303,
+   "id": 362,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -10684,7 +12750,7 @@
    ]
   },
   {
-   "id": 304,
+   "id": 363,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -10719,7 +12785,7 @@
    ]
   },
   {
-   "id": 305,
+   "id": 364,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -10754,7 +12820,7 @@
    ]
   },
   {
-   "id": 306,
+   "id": 365,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -10789,7 +12855,7 @@
    ]
   },
   {
-   "id": 307,
+   "id": 366,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -10824,7 +12890,7 @@
    ]
   },
   {
-   "id": 308,
+   "id": 367,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -10859,7 +12925,7 @@
    ]
   },
   {
-   "id": 309,
+   "id": 368,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -10894,7 +12960,7 @@
    ]
   },
   {
-   "id": 310,
+   "id": 369,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -10929,7 +12995,7 @@
    ]
   },
   {
-   "id": 311,
+   "id": 370,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -10964,7 +13030,7 @@
    ]
   },
   {
-   "id": 312,
+   "id": 371,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -10999,7 +13065,7 @@
    ]
   },
   {
-   "id": 313,
+   "id": 372,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -11034,7 +13100,7 @@
    ]
   },
   {
-   "id": 314,
+   "id": 373,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -11069,7 +13135,7 @@
    ]
   },
   {
-   "id": 315,
+   "id": 374,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -11104,7 +13170,7 @@
    ]
   },
   {
-   "id": 316,
+   "id": 375,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -11139,7 +13205,7 @@
    ]
   },
   {
-   "id": 317,
+   "id": 376,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -11174,7 +13240,7 @@
    ]
   },
   {
-   "id": 318,
+   "id": 377,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -11209,7 +13275,7 @@
    ]
   },
   {
-   "id": 319,
+   "id": 378,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -11244,7 +13310,7 @@
    ]
   },
   {
-   "id": 320,
+   "id": 379,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -11279,7 +13345,7 @@
    ]
   },
   {
-   "id": 321,
+   "id": 380,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -11314,7 +13380,7 @@
    ]
   },
   {
-   "id": 322,
+   "id": 381,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -11349,7 +13415,7 @@
    ]
   },
   {
-   "id": 323,
+   "id": 382,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -11384,7 +13450,7 @@
    ]
   },
   {
-   "id": 324,
+   "id": 383,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -11419,7 +13485,7 @@
    ]
   },
   {
-   "id": 325,
+   "id": 384,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -11454,7 +13520,7 @@
    ]
   },
   {
-   "id": 326,
+   "id": 385,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -11489,7 +13555,7 @@
    ]
   },
   {
-   "id": 327,
+   "id": 386,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -11524,7 +13590,7 @@
    ]
   },
   {
-   "id": 328,
+   "id": 387,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -11559,7 +13625,7 @@
    ]
   },
   {
-   "id": 329,
+   "id": 388,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -11594,7 +13660,7 @@
    ]
   },
   {
-   "id": 330,
+   "id": 389,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -11629,7 +13695,7 @@
    ]
   },
   {
-   "id": 331,
+   "id": 390,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -11664,7 +13730,7 @@
    ]
   },
   {
-   "id": 332,
+   "id": 391,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -11699,7 +13765,7 @@
    ]
   },
   {
-   "id": 333,
+   "id": 392,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -11734,7 +13800,7 @@
    ]
   },
   {
-   "id": 334,
+   "id": 393,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -11769,7 +13835,7 @@
    ]
   },
   {
-   "id": 335,
+   "id": 394,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -11804,7 +13870,7 @@
    ]
   },
   {
-   "id": 336,
+   "id": 395,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -11839,7 +13905,7 @@
    ]
   },
   {
-   "id": 337,
+   "id": 396,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -11874,7 +13940,7 @@
    ]
   },
   {
-   "id": 338,
+   "id": 397,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -11909,7 +13975,7 @@
    ]
   },
   {
-   "id": 339,
+   "id": 398,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -11944,7 +14010,7 @@
    ]
   },
   {
-   "id": 340,
+   "id": 399,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -11979,7 +14045,7 @@
    ]
   },
   {
-   "id": 341,
+   "id": 400,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -12014,7 +14080,7 @@
    ]
   },
   {
-   "id": 342,
+   "id": 401,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -12049,7 +14115,7 @@
    ]
   },
   {
-   "id": 343,
+   "id": 402,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -12084,7 +14150,7 @@
    ]
   },
   {
-   "id": 344,
+   "id": 403,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -12119,7 +14185,7 @@
    ]
   },
   {
-   "id": 345,
+   "id": 404,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -12154,7 +14220,7 @@
    ]
   },
   {
-   "id": 346,
+   "id": 405,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -12189,7 +14255,7 @@
    ]
   },
   {
-   "id": 347,
+   "id": 406,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -12224,7 +14290,7 @@
    ]
   },
   {
-   "id": 348,
+   "id": 407,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -12259,7 +14325,7 @@
    ]
   },
   {
-   "id": 349,
+   "id": 408,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -12294,7 +14360,7 @@
    ]
   },
   {
-   "id": 350,
+   "id": 409,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -12329,7 +14395,7 @@
    ]
   },
   {
-   "id": 351,
+   "id": 410,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -12364,7 +14430,7 @@
    ]
   },
   {
-   "id": 352,
+   "id": 411,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -12399,7 +14465,7 @@
    ]
   },
   {
-   "id": 353,
+   "id": 412,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -12434,7 +14500,7 @@
    ]
   },
   {
-   "id": 354,
+   "id": 413,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -12469,7 +14535,7 @@
    ]
   },
   {
-   "id": 355,
+   "id": 414,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -12504,7 +14570,7 @@
    ]
   },
   {
-   "id": 356,
+   "id": 415,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -12539,7 +14605,7 @@
    ]
   },
   {
-   "id": 357,
+   "id": 416,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -12574,7 +14640,7 @@
    ]
   },
   {
-   "id": 358,
+   "id": 417,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -12609,7 +14675,7 @@
    ]
   },
   {
-   "id": 359,
+   "id": 418,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -12644,7 +14710,7 @@
    ]
   },
   {
-   "id": 360,
+   "id": 419,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -12679,7 +14745,7 @@
    ]
   },
   {
-   "id": 361,
+   "id": 420,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -12714,7 +14780,7 @@
    ]
   },
   {
-   "id": 362,
+   "id": 421,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -12749,7 +14815,7 @@
    ]
   },
   {
-   "id": 363,
+   "id": 422,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -12784,7 +14850,7 @@
    ]
   },
   {
-   "id": 364,
+   "id": 423,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -12819,7 +14885,7 @@
    ]
   },
   {
-   "id": 365,
+   "id": 424,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -12854,7 +14920,7 @@
    ]
   },
   {
-   "id": 366,
+   "id": 425,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -12889,7 +14955,7 @@
    ]
   },
   {
-   "id": 367,
+   "id": 426,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -12924,7 +14990,7 @@
    ]
   },
   {
-   "id": 368,
+   "id": 427,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -12959,7 +15025,7 @@
    ]
   },
   {
-   "id": 369,
+   "id": 428,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -12994,7 +15060,7 @@
    ]
   },
   {
-   "id": 370,
+   "id": 429,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -13029,7 +15095,7 @@
    ]
   },
   {
-   "id": 371,
+   "id": 430,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -13064,7 +15130,7 @@
    ]
   },
   {
-   "id": 372,
+   "id": 431,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -13099,7 +15165,7 @@
    ]
   },
   {
-   "id": 373,
+   "id": 432,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -13134,7 +15200,7 @@
    ]
   },
   {
-   "id": 374,
+   "id": 433,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -13169,7 +15235,7 @@
    ]
   },
   {
-   "id": 375,
+   "id": 434,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -13204,7 +15270,7 @@
    ]
   },
   {
-   "id": 376,
+   "id": 435,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -13239,7 +15305,7 @@
    ]
   },
   {
-   "id": 377,
+   "id": 436,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -13274,7 +15340,7 @@
    ]
   },
   {
-   "id": 378,
+   "id": 437,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -13309,7 +15375,7 @@
    ]
   },
   {
-   "id": 379,
+   "id": 438,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -13344,7 +15410,7 @@
    ]
   },
   {
-   "id": 380,
+   "id": 439,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -13379,7 +15445,7 @@
    ]
   },
   {
-   "id": 381,
+   "id": 440,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -13414,7 +15480,7 @@
    ]
   },
   {
-   "id": 382,
+   "id": 441,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -13449,7 +15515,7 @@
    ]
   },
   {
-   "id": 383,
+   "id": 442,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -13484,7 +15550,7 @@
    ]
   },
   {
-   "id": 384,
+   "id": 443,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -13519,7 +15585,7 @@
    ]
   },
   {
-   "id": 385,
+   "id": 444,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -13554,7 +15620,7 @@
    ]
   },
   {
-   "id": 386,
+   "id": 445,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -13589,7 +15655,7 @@
    ]
   },
   {
-   "id": 387,
+   "id": 446,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -13624,7 +15690,7 @@
    ]
   },
   {
-   "id": 388,
+   "id": 447,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -13659,7 +15725,7 @@
    ]
   },
   {
-   "id": 389,
+   "id": 448,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -13694,7 +15760,7 @@
    ]
   },
   {
-   "id": 390,
+   "id": 449,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -13729,7 +15795,7 @@
    ]
   },
   {
-   "id": 391,
+   "id": 450,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -13764,7 +15830,7 @@
    ]
   },
   {
-   "id": 392,
+   "id": 451,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -13799,7 +15865,7 @@
    ]
   },
   {
-   "id": 393,
+   "id": 452,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -13834,7 +15900,7 @@
    ]
   },
   {
-   "id": 394,
+   "id": 453,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -13869,7 +15935,7 @@
    ]
   },
   {
-   "id": 395,
+   "id": 454,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -13904,7 +15970,7 @@
    ]
   },
   {
-   "id": 396,
+   "id": 455,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -13939,7 +16005,7 @@
    ]
   },
   {
-   "id": 397,
+   "id": 456,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -13974,7 +16040,7 @@
    ]
   },
   {
-   "id": 398,
+   "id": 457,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -14009,7 +16075,7 @@
    ]
   },
   {
-   "id": 399,
+   "id": 458,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -14044,7 +16110,7 @@
    ]
   },
   {
-   "id": 400,
+   "id": 459,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -14079,7 +16145,7 @@
    ]
   },
   {
-   "id": 401,
+   "id": 460,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -14114,7 +16180,7 @@
    ]
   },
   {
-   "id": 402,
+   "id": 461,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -14149,7 +16215,7 @@
    ]
   },
   {
-   "id": 403,
+   "id": 462,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -14184,7 +16250,7 @@
    ]
   },
   {
-   "id": 404,
+   "id": 463,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -14219,7 +16285,7 @@
    ]
   },
   {
-   "id": 405,
+   "id": 464,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -14254,7 +16320,7 @@
    ]
   },
   {
-   "id": 406,
+   "id": 465,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -14289,7 +16355,7 @@
    ]
   },
   {
-   "id": 407,
+   "id": 466,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -14324,7 +16390,7 @@
    ]
   },
   {
-   "id": 408,
+   "id": 467,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -14359,7 +16425,7 @@
    ]
   },
   {
-   "id": 409,
+   "id": 468,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -14394,7 +16460,7 @@
    ]
   },
   {
-   "id": 410,
+   "id": 469,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -14429,7 +16495,7 @@
    ]
   },
   {
-   "id": 411,
+   "id": 470,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -14464,7 +16530,7 @@
    ]
   },
   {
-   "id": 412,
+   "id": 471,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -14499,7 +16565,7 @@
    ]
   },
   {
-   "id": 413,
+   "id": 472,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -14534,7 +16600,7 @@
    ]
   },
   {
-   "id": 414,
+   "id": 473,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -14569,7 +16635,7 @@
    ]
   },
   {
-   "id": 415,
+   "id": 474,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -14604,7 +16670,7 @@
    ]
   },
   {
-   "id": 416,
+   "id": 475,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -14639,7 +16705,7 @@
    ]
   },
   {
-   "id": 417,
+   "id": 476,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -14674,7 +16740,7 @@
    ]
   },
   {
-   "id": 418,
+   "id": 477,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -14709,7 +16775,7 @@
    ]
   },
   {
-   "id": 419,
+   "id": 478,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -14744,7 +16810,7 @@
    ]
   },
   {
-   "id": 420,
+   "id": 479,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -14779,7 +16845,7 @@
    ]
   },
   {
-   "id": 421,
+   "id": 480,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -14814,7 +16880,7 @@
    ]
   },
   {
-   "id": 422,
+   "id": 481,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -14849,7 +16915,7 @@
    ]
   },
   {
-   "id": 423,
+   "id": 482,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -14884,7 +16950,7 @@
    ]
   },
   {
-   "id": 424,
+   "id": 483,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -14919,7 +16985,7 @@
    ]
   },
   {
-   "id": 425,
+   "id": 484,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -14954,7 +17020,7 @@
    ]
   },
   {
-   "id": 426,
+   "id": 485,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -14989,7 +17055,7 @@
    ]
   },
   {
-   "id": 427,
+   "id": 486,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -15024,7 +17090,7 @@
    ]
   },
   {
-   "id": 428,
+   "id": 487,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -15059,7 +17125,7 @@
    ]
   },
   {
-   "id": 429,
+   "id": 488,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -15094,7 +17160,7 @@
    ]
   },
   {
-   "id": 430,
+   "id": 489,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -15129,7 +17195,7 @@
    ]
   },
   {
-   "id": 431,
+   "id": 490,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -15164,7 +17230,7 @@
    ]
   },
   {
-   "id": 432,
+   "id": 491,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -15199,7 +17265,7 @@
    ]
   },
   {
-   "id": 433,
+   "id": 492,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -15234,7 +17300,7 @@
    ]
   },
   {
-   "id": 434,
+   "id": 493,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -15269,7 +17335,7 @@
    ]
   },
   {
-   "id": 435,
+   "id": 494,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -15304,7 +17370,7 @@
    ]
   },
   {
-   "id": 436,
+   "id": 495,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -15339,7 +17405,7 @@
    ]
   },
   {
-   "id": 437,
+   "id": 496,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -15374,7 +17440,7 @@
    ]
   },
   {
-   "id": 438,
+   "id": 497,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -15409,7 +17475,7 @@
    ]
   },
   {
-   "id": 439,
+   "id": 498,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -15444,7 +17510,7 @@
    ]
   },
   {
-   "id": 440,
+   "id": 499,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -15479,7 +17545,7 @@
    ]
   },
   {
-   "id": 441,
+   "id": 500,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -15514,7 +17580,7 @@
    ]
   },
   {
-   "id": 442,
+   "id": 501,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -15549,7 +17615,7 @@
    ]
   },
   {
-   "id": 443,
+   "id": 502,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -15584,7 +17650,7 @@
    ]
   },
   {
-   "id": 444,
+   "id": 503,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -15619,7 +17685,7 @@
    ]
   },
   {
-   "id": 445,
+   "id": 504,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -15654,7 +17720,7 @@
    ]
   },
   {
-   "id": 446,
+   "id": 505,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -15689,7 +17755,7 @@
    ]
   },
   {
-   "id": 447,
+   "id": 506,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -15724,7 +17790,7 @@
    ]
   },
   {
-   "id": 448,
+   "id": 507,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -15759,7 +17825,7 @@
    ]
   },
   {
-   "id": 449,
+   "id": 508,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -15794,7 +17860,7 @@
    ]
   },
   {
-   "id": 450,
+   "id": 509,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -15829,7 +17895,7 @@
    ]
   },
   {
-   "id": 451,
+   "id": 510,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -15864,7 +17930,7 @@
    ]
   },
   {
-   "id": 452,
+   "id": 511,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -15899,7 +17965,7 @@
    ]
   },
   {
-   "id": 453,
+   "id": 512,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -15934,7 +18000,7 @@
    ]
   },
   {
-   "id": 454,
+   "id": 513,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -15969,7 +18035,7 @@
    ]
   },
   {
-   "id": 455,
+   "id": 514,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -16004,7 +18070,7 @@
    ]
   },
   {
-   "id": 456,
+   "id": 515,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -16039,7 +18105,7 @@
    ]
   },
   {
-   "id": 457,
+   "id": 516,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -16074,7 +18140,7 @@
    ]
   },
   {
-   "id": 458,
+   "id": 517,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -16109,7 +18175,7 @@
    ]
   },
   {
-   "id": 459,
+   "id": 518,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -16144,7 +18210,7 @@
    ]
   },
   {
-   "id": 460,
+   "id": 519,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -16179,7 +18245,7 @@
    ]
   },
   {
-   "id": 461,
+   "id": 520,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -16214,7 +18280,7 @@
    ]
   },
   {
-   "id": 462,
+   "id": 521,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -16249,7 +18315,7 @@
    ]
   },
   {
-   "id": 463,
+   "id": 522,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -16284,7 +18350,7 @@
    ]
   },
   {
-   "id": 464,
+   "id": 523,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -16319,7 +18385,7 @@
    ]
   },
   {
-   "id": 465,
+   "id": 524,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -16354,7 +18420,7 @@
    ]
   },
   {
-   "id": 466,
+   "id": 525,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -16389,7 +18455,7 @@
    ]
   },
   {
-   "id": 467,
+   "id": 526,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -16424,7 +18490,7 @@
    ]
   },
   {
-   "id": 468,
+   "id": 527,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -16459,7 +18525,7 @@
    ]
   },
   {
-   "id": 469,
+   "id": 528,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -16494,7 +18560,7 @@
    ]
   },
   {
-   "id": 470,
+   "id": 529,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -16529,7 +18595,7 @@
    ]
   },
   {
-   "id": 471,
+   "id": 530,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -16564,7 +18630,7 @@
    ]
   },
   {
-   "id": 472,
+   "id": 531,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -16599,7 +18665,7 @@
    ]
   },
   {
-   "id": 473,
+   "id": 532,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -16634,7 +18700,7 @@
    ]
   },
   {
-   "id": 474,
+   "id": 533,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -16669,7 +18735,7 @@
    ]
   },
   {
-   "id": 475,
+   "id": 534,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -16704,7 +18770,7 @@
    ]
   },
   {
-   "id": 476,
+   "id": 535,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -16739,7 +18805,7 @@
    ]
   },
   {
-   "id": 477,
+   "id": 536,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -16774,7 +18840,7 @@
    ]
   },
   {
-   "id": 478,
+   "id": 537,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -16809,7 +18875,7 @@
    ]
   },
   {
-   "id": 479,
+   "id": 538,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -16844,7 +18910,7 @@
    ]
   },
   {
-   "id": 480,
+   "id": 539,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -16879,7 +18945,7 @@
    ]
   },
   {
-   "id": 481,
+   "id": 540,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -16914,7 +18980,7 @@
    ]
   },
   {
-   "id": 482,
+   "id": 541,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -16949,7 +19015,7 @@
    ]
   },
   {
-   "id": 483,
+   "id": 542,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -16984,7 +19050,7 @@
    ]
   },
   {
-   "id": 484,
+   "id": 543,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -17019,7 +19085,7 @@
    ]
   },
   {
-   "id": 485,
+   "id": 544,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -17054,7 +19120,7 @@
    ]
   },
   {
-   "id": 486,
+   "id": 545,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -17089,7 +19155,7 @@
    ]
   },
   {
-   "id": 487,
+   "id": 546,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -17124,7 +19190,7 @@
    ]
   },
   {
-   "id": 488,
+   "id": 547,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -17159,7 +19225,7 @@
    ]
   },
   {
-   "id": 489,
+   "id": 548,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -17194,7 +19260,7 @@
    ]
   },
   {
-   "id": 490,
+   "id": 549,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -17229,7 +19295,7 @@
    ]
   },
   {
-   "id": 491,
+   "id": 550,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -17264,7 +19330,7 @@
    ]
   },
   {
-   "id": 492,
+   "id": 551,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -17299,7 +19365,7 @@
    ]
   },
   {
-   "id": 493,
+   "id": 552,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -17334,7 +19400,7 @@
    ]
   },
   {
-   "id": 494,
+   "id": 553,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -17369,7 +19435,7 @@
    ]
   },
   {
-   "id": 495,
+   "id": 554,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -17404,7 +19470,7 @@
    ]
   },
   {
-   "id": 496,
+   "id": 555,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -17439,7 +19505,7 @@
    ]
   },
   {
-   "id": 497,
+   "id": 556,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -17474,7 +19540,7 @@
    ]
   },
   {
-   "id": 498,
+   "id": 557,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -17509,7 +19575,7 @@
    ]
   },
   {
-   "id": 499,
+   "id": 558,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -17544,7 +19610,7 @@
    ]
   },
   {
-   "id": 500,
+   "id": 559,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -17579,7 +19645,7 @@
    ]
   },
   {
-   "id": 501,
+   "id": 560,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -17614,7 +19680,7 @@
    ]
   },
   {
-   "id": 502,
+   "id": 561,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -17649,7 +19715,7 @@
    ]
   },
   {
-   "id": 503,
+   "id": 562,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -17684,7 +19750,7 @@
    ]
   },
   {
-   "id": 504,
+   "id": 563,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -17719,7 +19785,7 @@
    ]
   },
   {
-   "id": 505,
+   "id": 564,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -17754,7 +19820,7 @@
    ]
   },
   {
-   "id": 506,
+   "id": 565,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -17789,7 +19855,7 @@
    ]
   },
   {
-   "id": 507,
+   "id": 566,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -17824,7 +19890,7 @@
    ]
   },
   {
-   "id": 508,
+   "id": 567,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -17859,7 +19925,7 @@
    ]
   },
   {
-   "id": 509,
+   "id": 568,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -17894,7 +19960,7 @@
    ]
   },
   {
-   "id": 510,
+   "id": 569,
    "campaign": "wh3_main_combi",
    "campaign_name": "超凡帝国",
    "campaign_name_en": "Immortal Empires",
@@ -17926,2071 +19992,6 @@
    "flag_cell": [
     576,
     384
-   ]
-  },
-  {
-   "id": 511,
-   "campaign": "wh3_main_combi",
-   "campaign_name": "超凡帝国",
-   "campaign_name_en": "Immortal Empires",
-   "region": "wh3_main_combi_region_xlanhuapec",
-   "name": "斯兰雾佩克",
-   "name_en": "Xlanhuapec",
-   "province": "wh3_main_combi_province_mosquito_swamps",
-   "province_name": "吸血蚊沼泽",
-   "province_name_en": "Mosquito Swamps",
-   "area": "露丝契亚",
-   "area_en": "露丝契亚",
-   "area_key": "cai_region_hint_area_lustria",
-   "faction": "wh2_main_lzd_xlanhuapec",
-   "faction_name": "斯兰雾佩克",
-   "faction_name_en": "Xlanhuapec",
-   "is_capital": true,
-   "world": [
-    143.63,
-    204.03
-   ],
-   "hex": [
-    215,
-    264
-   ],
-   "px": [
-    597.2,
-    2262.9
-   ],
-   "flag_cell": [
-    672,
-    192
-   ]
-  },
-  {
-   "id": 512,
-   "campaign": "wh3_main_combi",
-   "campaign_name": "超凡帝国",
-   "campaign_name_en": "Immortal Empires",
-   "region": "wh3_main_combi_region_axlotl",
-   "name": "阿斯罗托",
-   "name_en": "Axlotl",
-   "province": "wh3_main_combi_province_mosquito_swamps",
-   "province_name": "吸血蚊沼泽",
-   "province_name_en": "Mosquito Swamps",
-   "area": "露丝契亚",
-   "area_en": "露丝契亚",
-   "area_key": "cai_region_hint_area_lustria",
-   "faction": "wh2_main_lzd_xlanhuapec",
-   "faction_name": "斯兰雾佩克",
-   "faction_name_en": "Xlanhuapec",
-   "is_capital": false,
-   "world": [
-    138.28,
-    178.57
-   ],
-   "hex": [
-    207,
-    231
-   ],
-   "px": [
-    575.0,
-    2368.7
-   ],
-   "flag_cell": [
-    672,
-    192
-   ]
-  },
-  {
-   "id": 513,
-   "campaign": "wh3_main_combi",
-   "campaign_name": "超凡帝国",
-   "campaign_name_en": "Immortal Empires",
-   "region": "wh3_main_combi_region_the_blood_swamps",
-   "name": "鲜血沼泽",
-   "name_en": "The Blood Swamps",
-   "province": "wh3_main_combi_province_mosquito_swamps",
-   "province_name": "吸血蚊沼泽",
-   "province_name_en": "Mosquito Swamps",
-   "area": "露丝契亚",
-   "area_en": "露丝契亚",
-   "area_key": "cai_region_hint_area_lustria",
-   "faction": "",
-   "faction_name": null,
-   "faction_name_en": null,
-   "is_capital": false,
-   "world": [
-    159.66,
-    181.66
-   ],
-   "hex": [
-    239,
-    235
-   ],
-   "px": [
-    663.9,
-    2355.9
-   ],
-   "flag_cell": [
-    672,
-    816
-   ]
-  },
-  {
-   "id": 514,
-   "campaign": "wh3_main_combi",
-   "campaign_name": "超凡帝国",
-   "campaign_name_en": "Immortal Empires",
-   "region": "wh3_main_combi_region_port_reaver",
-   "name": "掠夺者港",
-   "name_en": "Port Reaver",
-   "province": "wh3_main_combi_province_the_isthmus_coast",
-   "province_name": "地峡海岸",
-   "province_name_en": "The Isthmus Coast",
-   "area": "露丝契亚",
-   "area_en": "露丝契亚",
-   "area_key": "cai_region_hint_area_lustria",
-   "faction": "wh2_main_emp_new_world_colonies",
-   "faction_name": "新世界殖民者",
-   "faction_name_en": "New World Colonies",
-   "is_capital": false,
-   "world": [
-    65.47,
-    371.03
-   ],
-   "hex": [
-    98,
-    481
-   ],
-   "px": [
-    272.2,
-    1568.7
-   ],
-   "flag_cell": [
-    384,
-    144
-   ]
-  },
-  {
-   "id": 515,
-   "campaign": "wh3_main_combi",
-   "campaign_name": "超凡帝国",
-   "campaign_name_en": "Immortal Empires",
-   "region": "wh3_main_combi_region_skeggi",
-   "name": "斯科吉",
-   "name_en": "Skeggi",
-   "province": "wh3_main_combi_province_the_isthmus_coast",
-   "province_name": "地峡海岸",
-   "province_name_en": "The Isthmus Coast",
-   "area": "露丝契亚",
-   "area_en": "露丝契亚",
-   "area_key": "cai_region_hint_area_lustria",
-   "faction": "wh2_main_nor_skeggi",
-   "faction_name": "斯科吉",
-   "faction_name_en": "Skeggi",
-   "is_capital": true,
-   "world": [
-    84.17,
-    395.72
-   ],
-   "hex": [
-    126,
-    513
-   ],
-   "px": [
-    350.0,
-    1466.1
-   ],
-   "flag_cell": [
-    96,
-    240
-   ]
-  },
-  {
-   "id": 516,
-   "campaign": "wh3_main_combi",
-   "campaign_name": "超凡帝国",
-   "campaign_name_en": "Immortal Empires",
-   "region": "wh3_main_combi_region_ziggurat_of_dawn",
-   "name": "黎明金字塔",
-   "name_en": "Ziggurat of Dawn",
-   "province": "wh3_main_combi_province_the_isthmus_coast",
-   "province_name": "地峡海岸",
-   "province_name_en": "The Isthmus Coast",
-   "area": "露丝契亚",
-   "area_en": "露丝契亚",
-   "area_key": "cai_region_hint_area_lustria",
-   "faction": "wh2_main_nor_skeggi",
-   "faction_name": "斯科吉",
-   "faction_name_en": "Skeggi",
-   "is_capital": false,
-   "world": [
-    61.46,
-    398.8
-   ],
-   "hex": [
-    92,
-    517
-   ],
-   "px": [
-    255.6,
-    1453.3
-   ],
-   "flag_cell": [
-    96,
-    240
-   ]
-  },
-  {
-   "id": 517,
-   "campaign": "wh3_main_combi",
-   "campaign_name": "超凡帝国",
-   "campaign_name_en": "Immortal Empires",
-   "region": "wh3_main_combi_region_kaiax",
-   "name": "凯阿克斯",
-   "name_en": "Kaiax",
-   "province": "wh3_main_combi_province_the_night_forest_road",
-   "province_name": "夜森林路",
-   "province_name_en": "The Night Forest Road",
-   "area": "露丝契亚",
-   "area_en": "露丝契亚",
-   "area_key": "cai_region_hint_area_lustria",
-   "faction": "wh3_main_skv_clan_skrat",
-   "faction_name": "斯克拉特氏族",
-   "faction_name_en": "Clan Skrat",
-   "is_capital": true,
-   "world": [
-    127.59,
-    91.41
-   ],
-   "hex": [
-    191,
-    118
-   ],
-   "px": [
-    530.6,
-    2731.0
-   ],
-   "flag_cell": [
-    96,
-    576
-   ]
-  },
-  {
-   "id": 518,
-   "campaign": "wh3_main_combi",
-   "campaign_name": "超凡帝国",
-   "campaign_name_en": "Immortal Empires",
-   "region": "wh3_main_combi_region_xlanzec",
-   "name": "斯兰泽克",
-   "name_en": "Xlanzec",
-   "province": "wh3_main_combi_province_the_night_forest_road",
-   "province_name": "夜森林路",
-   "province_name_en": "The Night Forest Road",
-   "area": "露丝契亚",
-   "area_en": "露丝契亚",
-   "area_key": "cai_region_hint_area_lustria",
-   "faction": "wh2_dlc12_lzd_cult_of_sotek",
-   "faction_name": "索提戈教派",
-   "faction_name_en": "Cult of Sotek",
-   "is_capital": false,
-   "world": [
-    161.0,
-    84.47
-   ],
-   "hex": [
-    241,
-    109
-   ],
-   "px": [
-    669.5,
-    2759.9
-   ],
-   "flag_cell": [
-    48,
-    48
-   ]
-  },
-  {
-   "id": 519,
-   "campaign": "wh3_main_combi",
-   "campaign_name": "超凡帝国",
-   "campaign_name_en": "Immortal Empires",
-   "region": "wh3_main_combi_region_oyxl",
-   "name": "奥克斯欧",
-   "name_en": "Oyxl",
-   "province": "wh3_main_combi_province_the_lost_valley",
-   "province_name": "失落溪谷",
-   "province_name_en": "The Lost Valley",
-   "area": "露丝契亚",
-   "area_en": "露丝契亚",
-   "area_key": "cai_region_hint_area_lustria",
-   "faction": "wh2_main_skv_clan_pestilens",
-   "faction_name": "疫病氏族",
-   "faction_name_en": "Clan Pestilens",
-   "is_capital": true,
-   "world": [
-    122.25,
-    144.63
-   ],
-   "hex": [
-    183,
-    187
-   ],
-   "px": [
-    508.3,
-    2509.8
-   ],
-   "flag_cell": [
-    384,
-    240
-   ]
-  },
-  {
-   "id": 520,
-   "campaign": "wh3_main_combi",
-   "campaign_name": "超凡帝国",
-   "campaign_name_en": "Immortal Empires",
-   "region": "wh3_main_combi_region_the_sentinel_of_time",
-   "name": "时光哨塔",
-   "name_en": "The Sentinel of Time",
-   "province": "wh3_main_combi_province_the_lost_valley",
-   "province_name": "失落溪谷",
-   "province_name_en": "The Lost Valley",
-   "area": "露丝契亚",
-   "area_en": "露丝契亚",
-   "area_key": "cai_region_hint_area_lustria",
-   "faction": "wh2_main_lzd_southern_sentinels",
-   "faction_name": "南方哨站",
-   "faction_name_en": "Southern Sentinels",
-   "is_capital": false,
-   "world": [
-    126.93,
-    117.25
-   ],
-   "hex": [
-    190,
-    152
-   ],
-   "px": [
-    527.8,
-    2623.6
-   ],
-   "flag_cell": [
-    528,
-    192
-   ]
-  },
-  {
-   "id": 521,
-   "campaign": "wh3_main_combi",
-   "campaign_name": "超凡帝国",
-   "campaign_name_en": "Immortal Empires",
-   "region": "wh3_main_combi_region_subatuun",
-   "name": "萨巴图纳",
-   "name_en": "Subatuun",
-   "province": "wh3_main_combi_province_the_lost_valley",
-   "province_name": "失落溪谷",
-   "province_name_en": "The Lost Valley",
-   "area": "露丝契亚",
-   "area_en": "露丝契亚",
-   "area_key": "cai_region_hint_area_lustria",
-   "faction": "wh2_main_skv_clan_pestilens",
-   "faction_name": "疫病氏族",
-   "faction_name_en": "Clan Pestilens",
-   "is_capital": false,
-   "world": [
-    97.53,
-    155.05
-   ],
-   "hex": [
-    146,
-    201
-   ],
-   "px": [
-    405.6,
-    2466.5
-   ],
-   "flag_cell": [
-    384,
-    240
-   ]
-  },
-  {
-   "id": 522,
-   "campaign": "wh3_main_combi",
-   "campaign_name": "超凡帝国",
-   "campaign_name_en": "Immortal Empires",
-   "region": "wh3_main_combi_region_pahuax",
-   "name": "帕花科斯",
-   "name_en": "Pahuax",
-   "province": "wh3_main_combi_province_jungles_of_pahualaxa",
-   "province_name": "帕花拉夏雨林",
-   "province_name_en": "Jungles of Pahualaxa",
-   "area": "露丝契亚",
-   "area_en": "露丝契亚",
-   "area_key": "cai_region_hint_area_lustria",
-   "faction": "wh2_main_grn_blue_vipers",
-   "faction_name": "蓝蝰蛇",
-   "faction_name_en": "Blue Vipers",
-   "is_capital": true,
-   "world": [
-    61.46,
-    331.69
-   ],
-   "hex": [
-    92,
-    430
-   ],
-   "px": [
-    255.6,
-    1732.2
-   ],
-   "flag_cell": [
-    480,
-    144
-   ]
-  },
-  {
-   "id": 523,
-   "campaign": "wh3_main_combi",
-   "campaign_name": "超凡帝国",
-   "campaign_name_en": "Immortal Empires",
-   "region": "wh3_main_combi_region_monument_of_the_moon",
-   "name": "月之碑",
-   "name_en": "Monument of the Moon",
-   "province": "wh3_main_combi_province_jungles_of_pahualaxa",
-   "province_name": "帕花拉夏雨林",
-   "province_name_en": "Jungles of Pahualaxa",
-   "area": "露丝契亚",
-   "area_en": "露丝契亚",
-   "area_key": "cai_region_hint_area_lustria",
-   "faction": "wh2_main_emp_new_world_colonies",
-   "faction_name": "新世界殖民者",
-   "faction_name_en": "New World Colonies",
-   "is_capital": false,
-   "world": [
-    96.86,
-    351.36
-   ],
-   "hex": [
-    145,
-    455
-   ],
-   "px": [
-    402.8,
-    1650.5
-   ],
-   "flag_cell": [
-    384,
-    144
-   ]
-  },
-  {
-   "id": 524,
-   "campaign": "wh3_main_combi",
-   "campaign_name": "超凡帝国",
-   "campaign_name_en": "Immortal Empires",
-   "region": "wh3_main_combi_region_swamp_town",
-   "name": "沼泽镇",
-   "name_en": "Swamp Town",
-   "province": "wh3_main_combi_province_jungles_of_pahualaxa",
-   "province_name": "帕花拉夏雨林",
-   "province_name_en": "Jungles of Pahualaxa",
-   "area": "露丝契亚",
-   "area_en": "露丝契亚",
-   "area_key": "cai_region_hint_area_lustria",
-   "faction": "wh2_main_emp_new_world_colonies",
-   "faction_name": "新世界殖民者",
-   "faction_name_en": "New World Colonies",
-   "is_capital": false,
-   "world": [
-    60.79,
-    354.45
-   ],
-   "hex": [
-    91,
-    459
-   ],
-   "px": [
-    252.8,
-    1637.6
-   ],
-   "flag_cell": [
-    384,
-    144
-   ]
-  },
-  {
-   "id": 525,
-   "campaign": "wh3_main_combi",
-   "campaign_name": "超凡帝国",
-   "campaign_name_en": "Immortal Empires",
-   "region": "wh3_main_combi_region_shrine_of_sotek",
-   "name": "索提戈圣殿",
-   "name_en": "Shrine of Sotek",
-   "province": "wh3_main_combi_province_jungles_of_pahualaxa",
-   "province_name": "帕花拉夏雨林",
-   "province_name_en": "Jungles of Pahualaxa",
-   "area": "露丝契亚",
-   "area_en": "露丝契亚",
-   "area_key": "cai_region_hint_area_lustria",
-   "faction": "wh2_main_grn_blue_vipers",
-   "faction_name": "蓝蝰蛇",
-   "faction_name_en": "Blue Vipers",
-   "is_capital": false,
-   "world": [
-    31.4,
-    329.76
-   ],
-   "hex": [
-    47,
-    427
-   ],
-   "px": [
-    130.6,
-    1740.3
-   ],
-   "flag_cell": [
-    480,
-    144
-   ]
-  },
-  {
-   "id": 526,
-   "campaign": "wh3_main_combi",
-   "campaign_name": "超凡帝国",
-   "campaign_name_en": "Immortal Empires",
-   "region": "wh3_main_combi_region_great_turtle_isle",
-   "name": "巨龟岛",
-   "name_en": "Great Turtle Isle",
-   "province": "wh3_main_combi_province_the_turtle_isles",
-   "province_name": "海龟群岛",
-   "province_name_en": "The Turtle Isles",
-   "area": "露丝契亚",
-   "area_en": "露丝契亚",
-   "area_key": "cai_region_hint_area_lustria",
-   "faction": "wh2_twa03_def_rakarth",
-   "faction_name": "千噬",
-   "faction_name_en": "The Thousand Maws",
-   "is_capital": true,
-   "world": [
-    20.71,
-    193.23
-   ],
-   "hex": [
-    31,
-    250
-   ],
-   "px": [
-    86.1,
-    2307.8
-   ],
-   "flag_cell": [
-    0,
-    288
-   ]
-  },
-  {
-   "id": 527,
-   "campaign": "wh3_main_combi",
-   "campaign_name": "超凡帝国",
-   "campaign_name_en": "Immortal Empires",
-   "region": "wh3_main_combi_region_chamber_of_visions",
-   "name": "幻象之所",
-   "name_en": "Chamber of Visions",
-   "province": "wh3_main_combi_province_the_turtle_isles",
-   "province_name": "海龟群岛",
-   "province_name_en": "The Turtle Isles",
-   "area": "露丝契亚",
-   "area_en": "露丝契亚",
-   "area_key": "cai_region_hint_area_lustria",
-   "faction": "wh2_main_lzd_sentinels_of_xeti",
-   "faction_name": "瑟提哨站",
-   "faction_name_en": "Sentinels of Xeti",
-   "is_capital": false,
-   "world": [
-    47.43,
-    210.97
-   ],
-   "hex": [
-    71,
-    273
-   ],
-   "px": [
-    197.2,
-    2234.0
-   ],
-   "flag_cell": [
-    480,
-    192
-   ]
-  },
-  {
-   "id": 528,
-   "campaign": "wh3_main_combi",
-   "campaign_name": "超凡帝国",
-   "campaign_name_en": "Immortal Empires",
-   "region": "wh3_main_combi_region_sentinels_of_xeti",
-   "name": "瑟提哨站",
-   "name_en": "Sentinels of Xeti",
-   "province": "wh3_main_combi_province_the_turtle_isles",
-   "province_name": "海龟群岛",
-   "province_name_en": "The Turtle Isles",
-   "area": "露丝契亚",
-   "area_en": "露丝契亚",
-   "area_key": "cai_region_hint_area_lustria",
-   "faction": "wh2_main_lzd_sentinels_of_xeti",
-   "faction_name": "瑟提哨站",
-   "faction_name_en": "Sentinels of Xeti",
-   "is_capital": false,
-   "world": [
-    51.44,
-    187.83
-   ],
-   "hex": [
-    77,
-    243
-   ],
-   "px": [
-    213.9,
-    2330.2
-   ],
-   "flag_cell": [
-    480,
-    192
-   ]
-  },
-  {
-   "id": 529,
-   "campaign": "wh3_main_combi",
-   "campaign_name": "超凡帝国",
-   "campaign_name_en": "Immortal Empires",
-   "region": "wh3_main_combi_region_golden_ziggurat",
-   "name": "金色金字塔",
-   "name_en": "Golden Ziggurat",
-   "province": "wh3_main_combi_province_the_turtle_isles",
-   "province_name": "海龟群岛",
-   "province_name_en": "The Turtle Isles",
-   "area": "露丝契亚",
-   "area_en": "露丝契亚",
-   "area_key": "cai_region_hint_area_lustria",
-   "faction": "wh2_main_lzd_sentinels_of_xeti",
-   "faction_name": "瑟提哨站",
-   "faction_name_en": "Sentinels of Xeti",
-   "is_capital": false,
-   "world": [
-    24.72,
-    217.91
-   ],
-   "hex": [
-    37,
-    282
-   ],
-   "px": [
-    102.8,
-    2205.2
-   ],
-   "flag_cell": [
-    480,
-    192
-   ]
-  },
-  {
-   "id": 530,
-   "campaign": "wh3_main_combi",
-   "campaign_name": "超凡帝国",
-   "campaign_name_en": "Immortal Empires",
-   "region": "wh3_main_combi_region_fuming_serpent",
-   "name": "巨蛇烟岛",
-   "name_en": "Fuming Serpent",
-   "province": "wh3_main_combi_province_volcanic_islands",
-   "province_name": "火山群岛",
-   "province_name_en": "Volcanic Islands",
-   "area": "露丝契亚",
-   "area_en": "露丝契亚",
-   "area_key": "cai_region_hint_area_lustria",
-   "faction": "",
-   "faction_name": null,
-   "faction_name_en": null,
-   "is_capital": false,
-   "world": [
-    191.06,
-    178.96
-   ],
-   "hex": [
-    286,
-    232
-   ],
-   "px": [
-    794.5,
-    2367.1
-   ],
-   "flag_cell": [
-    672,
-    816
-   ]
-  },
-  {
-   "id": 531,
-   "campaign": "wh3_main_combi",
-   "campaign_name": "超凡帝国",
-   "campaign_name_en": "Immortal Empires",
-   "region": "wh3_main_combi_region_the_star_tower",
-   "name": "星辰塔",
-   "name_en": "The Star Tower",
-   "province": "wh3_main_combi_province_volcanic_islands",
-   "province_name": "火山群岛",
-   "province_name_en": "Volcanic Islands",
-   "area": "露丝契亚",
-   "area_en": "露丝契亚",
-   "area_key": "cai_region_hint_area_lustria",
-   "faction": "wh2_main_skv_clan_spittel",
-   "faction_name": "恶唾氏族",
-   "faction_name_en": "Clan Spittel",
-   "is_capital": true,
-   "world": [
-    187.05,
-    165.07
-   ],
-   "hex": [
-    280,
-    214
-   ],
-   "px": [
-    777.8,
-    2424.8
-   ],
-   "flag_cell": [
-    528,
-    240
-   ]
-  },
-  {
-   "id": 532,
-   "campaign": "wh3_main_combi",
-   "campaign_name": "超凡帝国",
-   "campaign_name_en": "Immortal Empires",
-   "region": "wh3_main_combi_region_marks_of_the_old_ones",
-   "name": "古圣印迹",
-   "name_en": "Marks of the Old Ones",
-   "province": "wh3_main_combi_province_headhunters_jungle",
-   "province_name": "猎头者丛林",
-   "province_name_en": "Headhunter's Jungle",
-   "area": "露丝契亚",
-   "area_en": "露丝契亚",
-   "area_key": "cai_region_hint_area_lustria",
-   "faction": "wh2_main_skv_clan_spittel",
-   "faction_name": "恶唾氏族",
-   "faction_name_en": "Clan Spittel",
-   "is_capital": false,
-   "world": [
-    150.31,
-    142.32
-   ],
-   "hex": [
-    225,
-    184
-   ],
-   "px": [
-    625.0,
-    2519.4
-   ],
-   "flag_cell": [
-    528,
-    240
-   ]
-  },
-  {
-   "id": 533,
-   "campaign": "wh3_main_combi",
-   "campaign_name": "超凡帝国",
-   "campaign_name_en": "Immortal Empires",
-   "region": "wh3_main_combi_region_altar_of_the_horned_rat",
-   "name": "大角鼠祭坛",
-   "name_en": "Altar of the Horned Rat",
-   "province": "wh3_main_combi_province_headhunters_jungle",
-   "province_name": "猎头者丛林",
-   "province_name_en": "Headhunter's Jungle",
-   "area": "露丝契亚",
-   "area_en": "露丝契亚",
-   "area_key": "cai_region_hint_area_lustria",
-   "faction": "wh2_main_skv_clan_spittel",
-   "faction_name": "恶唾氏族",
-   "faction_name_en": "Clan Spittel",
-   "is_capital": true,
-   "world": [
-    163.67,
-    159.29
-   ],
-   "hex": [
-    245,
-    206
-   ],
-   "px": [
-    680.6,
-    2448.9
-   ],
-   "flag_cell": [
-    528,
-    240
-   ]
-  },
-  {
-   "id": 534,
-   "campaign": "wh3_main_combi",
-   "campaign_name": "超凡帝国",
-   "campaign_name_en": "Immortal Empires",
-   "region": "wh3_main_combi_region_citadel_of_dusk",
-   "name": "暮光要塞",
-   "name_en": "Citadel of Dusk",
-   "province": "wh3_main_combi_province_the_capes",
-   "province_name": "破碎岬",
-   "province_name_en": "The Capes",
-   "area": "露丝契亚",
-   "area_en": "露丝契亚",
-   "area_key": "cai_region_hint_area_lustria",
-   "faction": "wh2_main_hef_citadel_of_dusk",
-   "faction_name": "暮光要塞",
-   "faction_name_en": "Citadel of Dusk",
-   "is_capital": true,
-   "world": [
-    201.75,
-    68.65
-   ],
-   "hex": [
-    302,
-    89
-   ],
-   "px": [
-    838.9,
-    2825.6
-   ],
-   "flag_cell": [
-    672,
-    144
-   ]
-  },
-  {
-   "id": 535,
-   "campaign": "wh3_main_combi",
-   "campaign_name": "超凡帝国",
-   "campaign_name_en": "Immortal Empires",
-   "region": "wh3_main_combi_region_dusk_peaks",
-   "name": "暮色群峰",
-   "name_en": "Dusk Peaks",
-   "province": "wh3_main_combi_province_the_capes",
-   "province_name": "破碎岬",
-   "province_name_en": "The Capes",
-   "area": "露丝契亚",
-   "area_en": "露丝契亚",
-   "area_key": "cai_region_hint_area_lustria",
-   "faction": "wh2_main_hef_citadel_of_dusk",
-   "faction_name": "暮光要塞",
-   "faction_name_en": "Citadel of Dusk",
-   "is_capital": false,
-   "world": [
-    187.72,
-    81.38
-   ],
-   "hex": [
-    281,
-    105
-   ],
-   "px": [
-    780.6,
-    2772.7
-   ],
-   "flag_cell": [
-    672,
-    144
-   ]
-  },
-  {
-   "id": 536,
-   "campaign": "wh3_main_combi",
-   "campaign_name": "超凡帝国",
-   "campaign_name_en": "Immortal Empires",
-   "region": "wh3_main_combi_region_the_sacred_pools",
-   "name": "神圣水池",
-   "name_en": "The Sacred Pools",
-   "province": "wh3_main_combi_province_the_sacred_pools",
-   "province_name": "神圣水池",
-   "province_name_en": "The Sacred Pools",
-   "area": "露丝契亚",
-   "area_en": "露丝契亚",
-   "area_key": "cai_region_hint_area_lustria",
-   "faction": "wh2_dlc16_lzd_wardens_of_the_living_pools",
-   "faction_name": "维生池守望者",
-   "faction_name_en": "Wardens of the Living Pools",
-   "is_capital": true,
-   "world": [
-    102.21,
-    201.72
-   ],
-   "hex": [
-    153,
-    261
-   ],
-   "px": [
-    425.0,
-    2272.5
-   ],
-   "flag_cell": [
-    672,
-    48
-   ]
-  },
-  {
-   "id": 537,
-   "campaign": "wh3_main_combi",
-   "campaign_name": "超凡帝国",
-   "campaign_name_en": "Immortal Empires",
-   "region": "wh3_main_combi_region_thrice_cursed_peak",
-   "name": "厉咒峰",
-   "name_en": "Thrice-cursed Peak",
-   "province": "wh3_main_combi_province_spine_of_sotek",
-   "province_name": "索提戈之脊",
-   "province_name_en": "Spine of Sotek",
-   "area": "露丝契亚",
-   "area_en": "露丝契亚",
-   "area_key": "cai_region_hint_area_lustria",
-   "faction": "wh2_main_dwf_spine_of_sotek_dwarfs",
-   "faction_name": "索提戈之脊矮人",
-   "faction_name_en": "Spine of Sotek Dwarfs",
-   "is_capital": false,
-   "world": [
-    100.87,
-    133.06
-   ],
-   "hex": [
-    151,
-    172
-   ],
-   "px": [
-    419.4,
-    2557.9
-   ],
-   "flag_cell": [
-    336,
-    144
-   ]
-  },
-  {
-   "id": 538,
-   "campaign": "wh3_main_combi",
-   "campaign_name": "超凡帝国",
-   "campaign_name_en": "Immortal Empires",
-   "region": "wh3_main_combi_region_mine_of_the_bearded_skulls",
-   "name": "死胡子矿井",
-   "name_en": "Mine of the Bearded Skulls",
-   "province": "wh3_main_combi_province_spine_of_sotek",
-   "province_name": "索提戈之脊",
-   "province_name_en": "Spine of Sotek",
-   "area": "露丝契亚",
-   "area_en": "露丝契亚",
-   "area_key": "cai_region_hint_area_lustria",
-   "faction": "wh2_main_dwf_spine_of_sotek_dwarfs",
-   "faction_name": "索提戈之脊矮人",
-   "faction_name_en": "Spine of Sotek Dwarfs",
-   "is_capital": true,
-   "world": [
-    80.16,
-    167.39
-   ],
-   "hex": [
-    120,
-    217
-   ],
-   "px": [
-    333.3,
-    2415.2
-   ],
-   "flag_cell": [
-    336,
-    144
-   ]
-  },
-  {
-   "id": 539,
-   "campaign": "wh3_main_combi",
-   "campaign_name": "超凡帝国",
-   "campaign_name_en": "Immortal Empires",
-   "region": "wh3_main_combi_region_pillars_of_unseen_constellations",
-   "name": "未视石厅",
-   "name_en": "Pillars of Unseen Constellations",
-   "province": "wh3_main_combi_province_jungles_of_green_mist",
-   "province_name": "绿雾雨林",
-   "province_name_en": "Jungles of Green Mist",
-   "area": "露丝契亚",
-   "area_en": "露丝契亚",
-   "area_key": "cai_region_hint_area_lustria",
-   "faction": "wh2_main_def_blood_hall_coven",
-   "faction_name": "血厅女巫团",
-   "faction_name_en": "Blood Hall Coven",
-   "is_capital": false,
-   "world": [
-    39.41,
-    256.48
-   ],
-   "hex": [
-    59,
-    332
-   ],
-   "px": [
-    163.9,
-    2044.9
-   ],
-   "flag_cell": [
-    384,
-    96
-   ]
-  },
-  {
-   "id": 540,
-   "campaign": "wh3_main_combi",
-   "campaign_name": "超凡帝国",
-   "campaign_name_en": "Immortal Empires",
-   "region": "wh3_main_combi_region_wellsprings_of_eternity",
-   "name": "永恒之源",
-   "name_en": "Wellsprings of Eternity",
-   "province": "wh3_main_combi_province_jungles_of_green_mist",
-   "province_name": "绿雾雨林",
-   "province_name_en": "Jungles of Green Mist",
-   "area": "露丝契亚",
-   "area_en": "露丝契亚",
-   "area_key": "cai_region_hint_area_lustria",
-   "faction": "wh2_main_def_blood_hall_coven",
-   "faction_name": "血厅女巫团",
-   "faction_name_en": "Blood Hall Coven",
-   "is_capital": false,
-   "world": [
-    47.43,
-    275.77
-   ],
-   "hex": [
-    71,
-    357
-   ],
-   "px": [
-    197.2,
-    1964.7
-   ],
-   "flag_cell": [
-    384,
-    96
-   ]
-  },
-  {
-   "id": 541,
-   "campaign": "wh3_main_combi",
-   "campaign_name": "超凡帝国",
-   "campaign_name_en": "Immortal Empires",
-   "region": "wh3_main_combi_region_the_blood_hall",
-   "name": "鲜血之厅",
-   "name_en": "The Blood Hall",
-   "province": "wh3_main_combi_province_jungles_of_green_mist",
-   "province_name": "绿雾雨林",
-   "province_name_en": "Jungles of Green Mist",
-   "area": "露丝契亚",
-   "area_en": "露丝契亚",
-   "area_key": "cai_region_hint_area_lustria",
-   "faction": "wh3_dlc27_sla_masque_of_slaanesh",
-   "faction_name": "诅咒剧团",
-   "faction_name_en": "The Accursed Troupe",
-   "is_capital": true,
-   "world": [
-    17.37,
-    256.1
-   ],
-   "hex": [
-    26,
-    332
-   ],
-   "px": [
-    72.2,
-    2046.5
-   ],
-   "flag_cell": [
-    48,
-    384
-   ]
-  },
-  {
-   "id": 542,
-   "campaign": "wh3_main_combi",
-   "campaign_name": "超凡帝国",
-   "campaign_name_en": "Immortal Empires",
-   "region": "wh3_main_combi_region_tlax",
-   "name": "塔拉克斯",
-   "name_en": "Tlax",
-   "province": "wh3_main_combi_province_vampire_coast",
-   "province_name": "网道雨林",
-   "province_name_en": "Jungle of Webs",
-   "area": "露丝契亚",
-   "area_en": "露丝契亚",
-   "area_key": "cai_region_hint_area_lustria",
-   "faction": "wh2_dlc11_cst_vampire_coast_rebels",
-   "faction_name": "吸血鬼海岸哗变者",
-   "faction_name_en": "Vampire Coast Mutineers",
-   "is_capital": false,
-   "world": [
-    173.02,
-    223.31
-   ],
-   "hex": [
-    259,
-    289
-   ],
-   "px": [
-    719.5,
-    2182.7
-   ],
-   "flag_cell": [
-    624,
-    0
-   ]
-  },
-  {
-   "id": 543,
-   "campaign": "wh3_main_combi",
-   "campaign_name": "超凡帝国",
-   "campaign_name_en": "Immortal Empires",
-   "region": "wh3_main_combi_region_pox_marsh",
-   "name": "疱疹沼泽",
-   "name_en": "Pox Marsh",
-   "province": "wh3_main_combi_province_vampire_coast",
-   "province_name": "网道雨林",
-   "province_name_en": "Jungle of Webs",
-   "area": "露丝契亚",
-   "area_en": "露丝契亚",
-   "area_key": "cai_region_hint_area_lustria",
-   "faction": "wh2_dlc11_cst_vampire_coast_rebels",
-   "faction_name": "吸血鬼海岸哗变者",
-   "faction_name_en": "Vampire Coast Mutineers",
-   "is_capital": false,
-   "world": [
-    199.07,
-    218.3
-   ],
-   "hex": [
-    298,
-    283
-   ],
-   "px": [
-    827.8,
-    2203.6
-   ],
-   "flag_cell": [
-    624,
-    0
-   ]
-  },
-  {
-   "id": 544,
-   "campaign": "wh3_main_combi",
-   "campaign_name": "超凡帝国",
-   "campaign_name_en": "Immortal Empires",
-   "region": "wh3_main_combi_region_the_awakening",
-   "name": "觉醒地",
-   "name_en": "The Awakening",
-   "province": "wh3_main_combi_province_vampire_coast",
-   "province_name": "网道雨林",
-   "province_name_en": "Jungle of Webs",
-   "area": "露丝契亚",
-   "area_en": "露丝契亚",
-   "area_key": "cai_region_hint_area_lustria",
-   "faction": "wh2_dlc11_cst_vampire_coast",
-   "faction_name": "觉醒者",
-   "faction_name_en": "The Awakened",
-   "is_capital": true,
-   "world": [
-    184.38,
-    202.1
-   ],
-   "hex": [
-    276,
-    262
-   ],
-   "px": [
-    766.7,
-    2270.9
-   ],
-   "flag_cell": [
-    576,
-    0
-   ]
-  },
-  {
-   "id": 545,
-   "campaign": "wh3_main_combi",
-   "campaign_name": "超凡帝国",
-   "campaign_name_en": "Immortal Empires",
-   "region": "wh3_main_combi_region_the_southern_sentinels",
-   "name": "南方哨站",
-   "name_en": "The Southern Sentinels",
-   "province": "wh3_main_combi_province_culchan_plains",
-   "province_name": "考琛平原",
-   "province_name_en": "Culchan Plains",
-   "area": "露丝契亚",
-   "area_en": "露丝契亚",
-   "area_key": "cai_region_hint_area_lustria",
-   "faction": "wh2_main_lzd_southern_sentinels",
-   "faction_name": "南方哨站",
-   "faction_name_en": "Southern Sentinels",
-   "is_capital": true,
-   "world": [
-    149.64,
-    102.59
-   ],
-   "hex": [
-    224,
-    133
-   ],
-   "px": [
-    622.2,
-    2684.5
-   ],
-   "flag_cell": [
-    528,
-    192
-   ]
-  },
-  {
-   "id": 546,
-   "campaign": "wh3_main_combi",
-   "campaign_name": "超凡帝国",
-   "campaign_name_en": "Immortal Empires",
-   "region": "wh3_main_combi_region_chupayotl",
-   "name": "查佩尤托",
-   "name_en": "Chupayotl",
-   "province": "wh3_main_combi_province_culchan_plains",
-   "province_name": "考琛平原",
-   "province_name_en": "Culchan Plains",
-   "area": "露丝契亚",
-   "area_en": "露丝契亚",
-   "area_key": "cai_region_hint_area_lustria",
-   "faction": "wh2_main_lzd_southern_sentinels",
-   "faction_name": "南方哨站",
-   "faction_name_en": "Southern Sentinels",
-   "is_capital": false,
-   "world": [
-    167.68,
-    126.12
-   ],
-   "hex": [
-    251,
-    163
-   ],
-   "px": [
-    697.2,
-    2586.7
-   ],
-   "flag_cell": [
-    528,
-    192
-   ]
-  },
-  {
-   "id": 547,
-   "campaign": "wh3_main_combi",
-   "campaign_name": "超凡帝国",
-   "campaign_name_en": "Immortal Empires",
-   "region": "wh3_main_combi_region_mangrove_coast",
-   "name": "红树林海岸",
-   "name_en": "Mangrove Coast",
-   "province": "wh3_main_combi_province_culchan_plains",
-   "province_name": "考琛平原",
-   "province_name_en": "Culchan Plains",
-   "area": "露丝契亚",
-   "area_en": "露丝契亚",
-   "area_key": "cai_region_hint_area_lustria",
-   "faction": "wh2_main_lzd_southern_sentinels",
-   "faction_name": "南方哨站",
-   "faction_name_en": "Southern Sentinels",
-   "is_capital": false,
-   "world": [
-    175.69,
-    106.06
-   ],
-   "hex": [
-    263,
-    137
-   ],
-   "px": [
-    730.6,
-    2670.1
-   ],
-   "flag_cell": [
-    528,
-    192
-   ]
-  },
-  {
-   "id": 548,
-   "campaign": "wh3_main_combi",
-   "campaign_name": "超凡帝国",
-   "campaign_name_en": "Immortal Empires",
-   "region": "wh3_main_combi_region_the_high_sentinel",
-   "name": "入云哨塔",
-   "name_en": "The High Sentinel",
-   "province": "wh3_main_combi_province_aymara_swamps",
-   "province_name": "艾玛拉沼泽",
-   "province_name_en": "Aymara Swamps",
-   "area": "露丝契亚",
-   "area_en": "露丝契亚",
-   "area_key": "cai_region_hint_area_lustria",
-   "faction": "wh2_main_grn_blue_vipers",
-   "faction_name": "蓝蝰蛇",
-   "faction_name_en": "Blue Vipers",
-   "is_capital": false,
-   "world": [
-    80.16,
-    311.64
-   ],
-   "hex": [
-    120,
-    404
-   ],
-   "px": [
-    333.3,
-    1815.6
-   ],
-   "flag_cell": [
-    480,
-    144
-   ]
-  },
-  {
-   "id": 549,
-   "campaign": "wh3_main_combi",
-   "campaign_name": "超凡帝国",
-   "campaign_name_en": "Immortal Empires",
-   "region": "wh3_main_combi_region_floating_pyramid",
-   "name": "悬浮金字塔",
-   "name_en": "Floating Pyramid",
-   "province": "wh3_main_combi_province_aymara_swamps",
-   "province_name": "艾玛拉沼泽",
-   "province_name_en": "Aymara Swamps",
-   "area": "露丝契亚",
-   "area_en": "露丝契亚",
-   "area_key": "cai_region_hint_area_lustria",
-   "faction": "wh3_dlc24_cth_the_celestial_court",
-   "faction_name": "玉廷",
-   "faction_name_en": "The Jade Court",
-   "is_capital": false,
-   "world": [
-    69.48,
-    303.92
-   ],
-   "hex": [
-    104,
-    394
-   ],
-   "px": [
-    288.9,
-    1847.7
-   ],
-   "flag_cell": [
-    240,
-    336
-   ]
-  },
-  {
-   "id": 550,
-   "campaign": "wh3_main_combi",
-   "campaign_name": "超凡帝国",
-   "campaign_name_en": "Immortal Empires",
-   "region": "wh3_main_combi_region_isle_of_the_crimson_skull",
-   "name": "绯红骷髅岛",
-   "name_en": "Isle of the Crimson Skull",
-   "province": "wh3_main_combi_province_aymara_swamps",
-   "province_name": "艾玛拉沼泽",
-   "province_name_en": "Aymara Swamps",
-   "area": "露丝契亚",
-   "area_en": "露丝契亚",
-   "area_key": "cai_region_hint_area_lustria",
-   "faction": "wh3_dlc24_cth_the_celestial_court",
-   "faction_name": "玉廷",
-   "faction_name_en": "The Jade Court",
-   "is_capital": true,
-   "world": [
-    41.42,
-    313.95
-   ],
-   "hex": [
-    62,
-    407
-   ],
-   "px": [
-    172.2,
-    1806.0
-   ],
-   "flag_cell": [
-    240,
-    336
-   ]
-  },
-  {
-   "id": 551,
-   "campaign": "wh3_main_combi",
-   "campaign_name": "超凡帝国",
-   "campaign_name_en": "Immortal Empires",
-   "region": "wh3_main_combi_region_chaqua",
-   "name": "查库阿",
-   "name_en": "Chaqua",
-   "province": "wh3_main_combi_province_the_gwangee_valley",
-   "province_name": "蒄棘山谷",
-   "province_name_en": "The Gwangee Valley",
-   "area": "露丝契亚",
-   "area_en": "露丝契亚",
-   "area_key": "cai_region_hint_area_lustria",
-   "faction": "wh3_dlc20_tze_apostles_of_change",
-   "faction_name": "万变使徒",
-   "faction_name_en": "Apostles of Change",
-   "is_capital": false,
-   "world": [
-    116.24,
-    210.59
-   ],
-   "hex": [
-    174,
-    273
-   ],
-   "px": [
-    483.3,
-    2235.6
-   ],
-   "flag_cell": [
-    480,
-    288
-   ]
-  },
-  {
-   "id": 552,
-   "campaign": "wh3_main_combi",
-   "campaign_name": "超凡帝国",
-   "campaign_name_en": "Immortal Empires",
-   "region": "wh3_main_combi_region_quittax",
-   "name": "茱伊泰克斯",
-   "name_en": "Qu'ittax",
-   "province": "wh3_main_combi_province_the_gwangee_valley",
-   "province_name": "蒄棘山谷",
-   "province_name_en": "The Gwangee Valley",
-   "area": "露丝契亚",
-   "area_en": "露丝契亚",
-   "area_key": "cai_region_hint_area_lustria",
-   "faction": "wh3_dlc20_tze_apostles_of_change",
-   "faction_name": "万变使徒",
-   "faction_name_en": "Apostles of Change",
-   "is_capital": false,
-   "world": [
-    94.86,
-    232.18
-   ],
-   "hex": [
-    142,
-    301
-   ],
-   "px": [
-    394.4,
-    2145.9
-   ],
-   "flag_cell": [
-    480,
-    288
-   ]
-  },
-  {
-   "id": 553,
-   "campaign": "wh3_main_combi",
-   "campaign_name": "超凡帝国",
-   "campaign_name_en": "Immortal Empires",
-   "region": "wh3_main_combi_region_hualotal",
-   "name": "霍罗妥",
-   "name_en": "Hualotal",
-   "province": "wh3_main_combi_province_the_gwangee_valley",
-   "province_name": "蒄棘山谷",
-   "province_name_en": "The Gwangee Valley",
-   "area": "露丝契亚",
-   "area_en": "露丝契亚",
-   "area_key": "cai_region_hint_area_lustria",
-   "faction": "wh3_dlc26_kho_skulltaker",
-   "faction_name": "血腥流浪者",
-   "faction_name_en": "Blooded Wanderers",
-   "is_capital": true,
-   "world": [
-    66.14,
-    238.74
-   ],
-   "hex": [
-    99,
-    309
-   ],
-   "px": [
-    275.0,
-    2118.6
-   ],
-   "flag_cell": [
-    672,
-    336
-   ]
-  },
-  {
-   "id": 554,
-   "campaign": "wh3_main_combi",
-   "campaign_name": "超凡帝国",
-   "campaign_name_en": "Immortal Empires",
-   "region": "wh3_main_combi_region_monument_of_izzatal",
-   "name": "伊扎塔之碑",
-   "name_en": "Monument of Izzatal",
-   "province": "wh3_main_combi_province_the_creeping_jungle",
-   "province_name": "蠕行丛林",
-   "province_name_en": "The Creeping Jungle",
-   "area": "露丝契亚",
-   "area_en": "露丝契亚",
-   "area_key": "cai_region_hint_area_lustria",
-   "faction": "wh2_dlc12_skv_clan_mange",
-   "faction_name": "螨疮氏族",
-   "faction_name_en": "Clan Mange",
-   "is_capital": false,
-   "world": [
-    70.14,
-    271.91
-   ],
-   "hex": [
-    105,
-    352
-   ],
-   "px": [
-    291.7,
-    1980.7
-   ],
-   "flag_cell": [
-    96,
-    48
-   ]
-  },
-  {
-   "id": 555,
-   "campaign": "wh3_main_combi",
-   "campaign_name": "超凡帝国",
-   "campaign_name_en": "Immortal Empires",
-   "region": "wh3_main_combi_region_temple_of_kara",
-   "name": "卡拉神殿",
-   "name_en": "Temple of Kara",
-   "province": "wh3_main_combi_province_the_creeping_jungle",
-   "province_name": "蠕行丛林",
-   "province_name_en": "The Creeping Jungle",
-   "area": "露丝契亚",
-   "area_en": "露丝契亚",
-   "area_key": "cai_region_hint_area_lustria",
-   "faction": "wh2_dlc13_emp_the_huntmarshals_expedition",
-   "faction_name": "猎人元帅远征军",
-   "faction_name_en": "The Huntsmarshal's Expedition",
-   "is_capital": false,
-   "world": [
-    101.54,
-    282.32
-   ],
-   "hex": [
-    152,
-    366
-   ],
-   "px": [
-    422.2,
-    1937.4
-   ],
-   "flag_cell": [
-    144,
-    48
-   ]
-  },
-  {
-   "id": 556,
-   "campaign": "wh3_main_combi",
-   "campaign_name": "超凡帝国",
-   "campaign_name_en": "Immortal Empires",
-   "region": "wh3_main_combi_region_spektazuma",
-   "name": "斯皮卡祖玛",
-   "name_en": "Spektazuma",
-   "province": "wh3_main_combi_province_the_creeping_jungle",
-   "province_name": "蠕行丛林",
-   "province_name_en": "The Creeping Jungle",
-   "area": "露丝契亚",
-   "area_en": "露丝契亚",
-   "area_key": "cai_region_hint_area_lustria",
-   "faction": "wh2_dlc12_skv_clan_mange",
-   "faction_name": "螨疮氏族",
-   "faction_name_en": "Clan Mange",
-   "is_capital": true,
-   "world": [
-    58.12,
-    291.97
-   ],
-   "hex": [
-    87,
-    378
-   ],
-   "px": [
-    241.7,
-    1897.4
-   ],
-   "flag_cell": [
-    96,
-    48
-   ]
-  },
-  {
-   "id": 557,
-   "campaign": "wh3_main_combi",
-   "campaign_name": "超凡帝国",
-   "campaign_name_en": "Immortal Empires",
-   "region": "wh3_main_combi_region_fallen_gates",
-   "name": "失陷之门",
-   "name_en": "Fallen Gates",
-   "province": "wh3_main_combi_province_isthmus_of_lustria",
-   "province_name": "露丝契亚地峡",
-   "province_name_en": "Isthmus of Lustria",
-   "area": "露丝契亚",
-   "area_en": "露丝契亚",
-   "area_key": "cai_region_hint_area_lustria",
-   "faction": "wh3_dlc20_sla_keepers_of_bliss",
-   "faction_name": "极乐守卫",
-   "faction_name_en": "Keepers of Bliss",
-   "is_capital": false,
-   "world": [
-    29.39,
-    393.4
-   ],
-   "hex": [
-    44,
-    510
-   ],
-   "px": [
-    122.2,
-    1475.7
-   ],
-   "flag_cell": [
-    432,
-    288
-   ]
-  },
-  {
-   "id": 558,
-   "campaign": "wh3_main_combi",
-   "campaign_name": "超凡帝国",
-   "campaign_name_en": "Immortal Empires",
-   "region": "wh3_main_combi_region_hexoatl",
-   "name": "赫斯欧塔",
-   "name_en": "Hexoatl",
-   "province": "wh3_main_combi_province_isthmus_of_lustria",
-   "province_name": "露丝契亚地峡",
-   "province_name_en": "Isthmus of Lustria",
-   "area": "露丝契亚",
-   "area_en": "露丝契亚",
-   "area_key": "cai_region_hint_area_lustria",
-   "faction": "wh2_main_lzd_hexoatl",
-   "faction_name": "赫斯欧塔",
-   "faction_name_en": "Hexoatl",
-   "is_capital": true,
-   "world": [
-    46.09,
-    377.59
-   ],
-   "hex": [
-    69,
-    489
-   ],
-   "px": [
-    191.7,
-    1541.5
-   ],
-   "flag_cell": [
-    336,
-    192
-   ]
-  },
-  {
-   "id": 559,
-   "campaign": "wh3_main_combi",
-   "campaign_name": "超凡帝国",
-   "campaign_name_en": "Immortal Empires",
-   "region": "wh3_main_combi_region_macu_peaks",
-   "name": "马库群峰",
-   "name_en": "Macu Peaks",
-   "province": "wh3_main_combi_province_isthmus_of_lustria",
-   "province_name": "露丝契亚地峡",
-   "province_name_en": "Isthmus of Lustria",
-   "area": "露丝契亚",
-   "area_en": "露丝契亚",
-   "area_key": "cai_region_hint_area_lustria",
-   "faction": "wh3_dlc20_sla_keepers_of_bliss",
-   "faction_name": "极乐守卫",
-   "faction_name_en": "Keepers of Bliss",
-   "is_capital": false,
-   "world": [
-    35.41,
-    352.91
-   ],
-   "hex": [
-    53,
-    457
-   ],
-   "px": [
-    147.2,
-    1644.1
-   ],
-   "flag_cell": [
-    432,
-    288
-   ]
-  },
-  {
-   "id": 560,
-   "campaign": "wh3_main_combi",
-   "campaign_name": "超凡帝国",
-   "campaign_name_en": "Immortal Empires",
-   "region": "wh3_main_combi_region_tlanxla",
-   "name": "塔兰克斯拉",
-   "name_en": "Tlanxla",
-   "province": "wh3_main_combi_province_scorpion_coast",
-   "province_name": "食人鱼沼泽",
-   "province_name_en": "Piranha Swamps",
-   "area": "露丝契亚",
-   "area_en": "露丝契亚",
-   "area_key": "cai_region_hint_area_lustria",
-   "faction": "wh2_main_lzd_tlaxtlan",
-   "faction_name": "塔拉克斯兰",
-   "faction_name_en": "Tlaxtlan",
-   "is_capital": false,
-   "world": [
-    83.5,
-    255.71
-   ],
-   "hex": [
-    125,
-    331
-   ],
-   "px": [
-    347.2,
-    2048.1
-   ],
-   "flag_cell": [
-    624,
-    192
-   ]
-  },
-  {
-   "id": 561,
-   "campaign": "wh3_main_combi",
-   "campaign_name": "超凡帝国",
-   "campaign_name_en": "Immortal Empires",
-   "region": "wh3_main_combi_region_tlaxtlan",
-   "name": "塔拉克斯兰",
-   "name_en": "Tlaxtlan",
-   "province": "wh3_main_combi_province_scorpion_coast",
-   "province_name": "食人鱼沼泽",
-   "province_name_en": "Piranha Swamps",
-   "area": "露丝契亚",
-   "area_en": "露丝契亚",
-   "area_key": "cai_region_hint_area_lustria",
-   "faction": "wh2_main_lzd_tlaxtlan",
-   "faction_name": "塔拉克斯兰",
-   "faction_name_en": "Tlaxtlan",
-   "is_capital": true,
-   "world": [
-    109.56,
-    249.93
-   ],
-   "hex": [
-    164,
-    324
-   ],
-   "px": [
-    455.6,
-    2072.1
-   ],
-   "flag_cell": [
-    624,
-    192
-   ]
-  },
-  {
-   "id": 562,
-   "campaign": "wh3_main_combi",
-   "campaign_name": "超凡帝国",
-   "campaign_name_en": "Immortal Empires",
-   "region": "wh3_main_combi_region_temple_of_tlencan",
-   "name": "布雷贡",
-   "name_en": "Bregonne",
-   "province": "wh3_main_combi_province_scorpion_coast",
-   "province_name": "食人鱼沼泽",
-   "province_name_en": "Piranha Swamps",
-   "area": "露丝契亚",
-   "area_en": "露丝契亚",
-   "area_key": "cai_region_hint_area_lustria",
-   "faction": "wh_main_brt_bordeleaux",
-   "faction_name": "波尔德罗长征军",
-   "faction_name_en": "Bordeleaux Errant",
-   "is_capital": false,
-   "world": [
-    143.63,
-    258.8
-   ],
-   "hex": [
-    215,
-    335
-   ],
-   "px": [
-    597.2,
-    2035.2
-   ],
-   "flag_cell": [
-    384,
-    672
-   ]
-  },
-  {
-   "id": 563,
-   "campaign": "wh3_main_combi",
-   "campaign_name": "超凡帝国",
-   "campaign_name_en": "Immortal Empires",
-   "region": "wh3_main_combi_region_xahutec",
-   "name": "扎慧塔克",
-   "name_en": "Xahutec",
-   "province": "wh3_main_combi_province_scorpion_coast",
-   "province_name": "食人鱼沼泽",
-   "province_name_en": "Piranha Swamps",
-   "area": "露丝契亚",
-   "area_en": "露丝契亚",
-   "area_key": "cai_region_hint_area_lustria",
-   "faction": "wh2_main_lzd_tlaxtlan",
-   "faction_name": "塔拉克斯兰",
-   "faction_name_en": "Tlaxtlan",
-   "is_capital": false,
-   "world": [
-    136.28,
-    236.81
-   ],
-   "hex": [
-    204,
-    307
-   ],
-   "px": [
-    566.7,
-    2126.6
-   ],
-   "flag_cell": [
-    624,
-    192
-   ]
-  },
-  {
-   "id": 564,
-   "campaign": "wh3_main_combi",
-   "campaign_name": "超凡帝国",
-   "campaign_name_en": "Immortal Empires",
-   "region": "wh3_main_combi_region_itza",
-   "name": "伊塔扎",
-   "name_en": "Itza",
-   "province": "wh3_main_combi_province_river_qurveza",
-   "province_name": "魁伟扎河",
-   "province_name_en": "River Qurveza",
-   "area": "露丝契亚",
-   "area_en": "露丝契亚",
-   "area_key": "cai_region_hint_area_lustria",
-   "faction": "wh2_main_lzd_itza",
-   "faction_name": "伊塔扎",
-   "faction_name_en": "Itza",
-   "is_capital": true,
-   "world": [
-    112.23,
-    184.36
-   ],
-   "hex": [
-    168,
-    239
-   ],
-   "px": [
-    466.7,
-    2344.7
-   ],
-   "flag_cell": [
-    384,
-    192
-   ]
-  },
-  {
-   "id": 565,
-   "campaign": "wh3_main_combi",
-   "campaign_name": "超凡帝国",
-   "campaign_name_en": "Immortal Empires",
-   "region": "wh3_main_combi_region_quetza",
-   "name": "奎扎",
-   "name_en": "Quetza",
-   "province": "wh3_main_combi_province_river_qurveza",
-   "province_name": "魁伟扎河",
-   "province_name_en": "River Qurveza",
-   "area": "露丝契亚",
-   "area_en": "露丝契亚",
-   "area_key": "cai_region_hint_area_lustria",
-   "faction": "wh3_dlc20_nur_pallid_nurslings",
-   "faction_name": "苍白乳婴",
-   "faction_name_en": "Pallid Nurslings",
-   "is_capital": false,
-   "world": [
-    124.25,
-    168.93
-   ],
-   "hex": [
-    186,
-    219
-   ],
-   "px": [
-    516.7,
-    2408.8
-   ],
-   "flag_cell": [
-    384,
-    288
-   ]
-  },
-  {
-   "id": 566,
-   "campaign": "wh3_main_combi",
-   "campaign_name": "超凡帝国",
-   "campaign_name_en": "Immortal Empires",
-   "region": "wh3_main_combi_region_xhotl",
-   "name": "阿斯霍托",
-   "name_en": "Xhotl",
-   "province": "wh3_main_combi_province_river_qurveza",
-   "province_name": "魁伟扎河",
-   "province_name_en": "River Qurveza",
-   "area": "露丝契亚",
-   "area_en": "露丝契亚",
-   "area_key": "cai_region_hint_area_lustria",
-   "faction": "wh3_dlc20_nur_pallid_nurslings",
-   "faction_name": "苍白乳婴",
-   "faction_name_en": "Pallid Nurslings",
-   "is_capital": false,
-   "world": [
-    88.85,
-    183.97
-   ],
-   "hex": [
-    133,
-    238
-   ],
-   "px": [
-    369.4,
-    2346.3
-   ],
-   "flag_cell": [
-    384,
-    288
-   ]
-  },
-  {
-   "id": 567,
-   "campaign": "wh3_main_combi",
-   "campaign_name": "超凡帝国",
-   "campaign_name_en": "Immortal Empires",
-   "region": "wh3_main_combi_region_the_dust_gate",
-   "name": "尘埃之门",
-   "name_en": "The Dust Gate",
-   "province": "wh3_main_combi_province_copper_desert",
-   "province_name": "黄铜沙漠",
-   "province_name_en": "Copper Desert",
-   "area": "露丝契亚",
-   "area_en": "露丝契亚",
-   "area_key": "cai_region_hint_area_lustria",
-   "faction": "wh3_main_tmb_deserters_of_khatep",
-   "faction_name": "卡特普离散者",
-   "faction_name_en": "Deserters of Khatep",
-   "is_capital": false,
-   "world": [
-    93.52,
-    120.34
-   ],
-   "hex": [
-    140,
-    156
-   ],
-   "px": [
-    388.9,
-    2610.8
-   ],
-   "flag_cell": [
-    432,
-    576
-   ]
-  },
-  {
-   "id": 568,
-   "campaign": "wh3_main_combi",
-   "campaign_name": "超凡帝国",
-   "campaign_name_en": "Immortal Empires",
-   "region": "wh3_main_combi_region_the_golden_colossus",
-   "name": "黄金巨像",
-   "name_en": "The Golden Colossus",
-   "province": "wh3_main_combi_province_copper_desert",
-   "province_name": "黄铜沙漠",
-   "province_name_en": "Copper Desert",
-   "area": "露丝契亚",
-   "area_en": "露丝契亚",
-   "area_key": "cai_region_hint_area_lustria",
-   "faction": "wh3_main_tmb_deserters_of_khatep",
-   "faction_name": "卡特普离散者",
-   "faction_name_en": "Deserters of Khatep",
-   "is_capital": true,
-   "world": [
-    57.45,
-    162.76
-   ],
-   "hex": [
-    86,
-    211
-   ],
-   "px": [
-    238.9,
-    2434.4
-   ],
-   "flag_cell": [
-    432,
-    576
-   ]
-  },
-  {
-   "id": 569,
-   "campaign": "wh3_main_combi",
-   "campaign_name": "超凡帝国",
-   "campaign_name_en": "Immortal Empires",
-   "region": "wh3_main_combi_region_the_copper_landing",
-   "name": "黄铜滩",
-   "name_en": "The Copper Landing",
-   "province": "wh3_main_combi_province_copper_desert",
-   "province_name": "黄铜沙漠",
-   "province_name_en": "Copper Desert",
-   "area": "露丝契亚",
-   "area_en": "露丝契亚",
-   "area_key": "cai_region_hint_area_lustria",
-   "faction": "wh3_main_tmb_deserters_of_khatep",
-   "faction_name": "卡特普离散者",
-   "faction_name_en": "Deserters of Khatep",
-   "is_capital": false,
-   "world": [
-    75.49,
-    133.06
-   ],
-   "hex": [
-    113,
-    172
-   ],
-   "px": [
-    313.9,
-    2557.9
-   ],
-   "flag_cell": [
-    432,
-    576
    ]
   },
   {
@@ -28693,7 +28694,7 @@
   {
    "campaign": "wh3_main_combi",
    "name": "露丝契亚",
-   "name_en": "露丝契亚",
+   "name_en": "Lustria",
    "color": "#25b814",
    "towns": 59,
    "label_world": [
