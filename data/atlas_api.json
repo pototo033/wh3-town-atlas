@@ -1030,11 +1030,6 @@
    "is_capital": true,
    "resources": [
     {
-     "key": "res_river_trolls",
-     "name": "河巨魔巢穴",
-     "name_en": "River Trolls Den"
-    },
-    {
      "key": "res_rom_marble",
      "name": "大理石",
      "name_en": "Marble"
@@ -1598,11 +1593,6 @@
    "faction_name_en": "The Forgebound",
    "is_capital": false,
    "resources": [
-    {
-     "key": "res_river_trolls",
-     "name": "河巨魔巢穴",
-     "name_en": "River Trolls Den"
-    },
     {
      "key": "res_rom_iron",
      "name": "生铁",
@@ -2819,13 +2809,7 @@
    "faction_name": "血毒氏族",
    "faction_name_en": "Clan Septik",
    "is_capital": true,
-   "resources": [
-    {
-     "key": "res_stone_trolls",
-     "name": "石巨魔巢穴",
-     "name_en": "Stone Trolls Den"
-    }
-   ],
+   "resources": [],
    "world": [
     36.74,
     626.74
@@ -2939,13 +2923,7 @@
    "faction_name": null,
    "faction_name_en": null,
    "is_capital": false,
-   "resources": [
-    {
-     "key": "res_stone_trolls",
-     "name": "石巨魔巢穴",
-     "name_en": "Stone Trolls Den"
-    }
-   ],
+   "resources": [],
    "world": [
     49.43,
     497.54
@@ -3834,11 +3812,6 @@
    "faction_name_en": "Xlanhuapec",
    "is_capital": false,
    "resources": [
-    {
-     "key": "res_river_trolls",
-     "name": "河巨魔巢穴",
-     "name_en": "River Trolls Den"
-    },
     {
      "key": "res_rom_timber",
      "name": "木材",
@@ -5615,11 +5588,6 @@
    "is_capital": false,
    "resources": [
     {
-     "key": "res_river_trolls",
-     "name": "河巨魔巢穴",
-     "name_en": "River Trolls Den"
-    },
-    {
      "key": "res_rom_timber",
      "name": "木材",
      "name_en": "Timber"
@@ -6146,13 +6114,7 @@
    "faction_name": "血手",
    "faction_name_en": "The Bloody Handz",
    "is_capital": true,
-   "resources": [
-    {
-     "key": "res_river_trolls",
-     "name": "河巨魔巢穴",
-     "name_en": "River Trolls Den"
-    }
-   ],
+   "resources": [],
    "world": [
     427.54,
     130.36
@@ -6301,11 +6263,6 @@
      "key": "res_gold",
      "name": "黄金",
      "name_en": "Gold"
-    },
-    {
-     "key": "res_river_trolls",
-     "name": "河巨魔巢穴",
-     "name_en": "River Trolls Den"
     }
    ],
    "world": [
@@ -6762,11 +6719,6 @@
      "key": "res_obsidian",
      "name": "雕刻黑曜石",
      "name_en": "Carved Obsidian"
-    },
-    {
-     "key": "res_stone_trolls",
-     "name": "石巨魔巢穴",
-     "name_en": "Stone Trolls Den"
     }
    ],
    "world": [
@@ -7728,13 +7680,7 @@
    "faction_name": "灰须勘探队",
    "faction_name_en": "Greybeard's Prospectors",
    "is_capital": true,
-   "resources": [
-    {
-     "key": "res_stone_trolls",
-     "name": "石巨魔巢穴",
-     "name_en": "Stone Trolls Den"
-    }
-   ],
+   "resources": [],
    "world": [
     303.29,
     222.93
@@ -8510,11 +8456,6 @@
    "is_capital": false,
    "resources": [
     {
-     "key": "res_bile_trolls",
-     "name": "胆汁巨魔巢穴",
-     "name_en": "Bile Trolls Den"
-    },
-    {
      "key": "res_rom_furs",
      "name": "毛皮",
      "name_en": "Furs"
@@ -8664,11 +8605,6 @@
    "faction_name_en": "The Fecundites",
    "is_capital": true,
    "resources": [
-    {
-     "key": "res_bile_trolls",
-     "name": "胆汁巨魔巢穴",
-     "name_en": "Bile Trolls Den"
-    },
     {
      "key": "res_dyes",
      "name": "染料",
@@ -9113,11 +9049,6 @@
    "faction_name_en": "Talabecland",
    "is_capital": true,
    "resources": [
-    {
-     "key": "res_river_trolls",
-     "name": "河巨魔巢穴",
-     "name_en": "River Trolls Den"
-    },
     {
      "key": "res_rom_furs",
      "name": "毛皮",
@@ -9899,11 +9830,6 @@
    "is_capital": true,
    "resources": [
     {
-     "key": "res_river_trolls",
-     "name": "河巨魔巢穴",
-     "name_en": "River Trolls Den"
-    },
-    {
      "key": "res_rom_oil",
      "name": "畜类",
      "name_en": "Pastures"
@@ -10240,11 +10166,6 @@
    "is_capital": true,
    "resources": [
     {
-     "key": "res_river_trolls",
-     "name": "河巨魔巢穴",
-     "name_en": "River Trolls Den"
-    },
-    {
      "key": "res_rom_timber",
      "name": "木材",
      "name_en": "Timber"
@@ -10580,11 +10501,6 @@
    "faction_name_en": "Artois",
    "is_capital": false,
    "resources": [
-    {
-     "key": "res_river_trolls",
-     "name": "河巨魔巢穴",
-     "name_en": "River Trolls Den"
-    },
     {
      "key": "res_rom_furs",
      "name": "毛皮",
@@ -11148,13 +11064,7 @@
    "faction_name": "碎斧",
    "faction_name_en": "Broken Axe",
    "is_capital": true,
-   "resources": [
-    {
-     "key": "res_stone_trolls",
-     "name": "石巨魔巢穴",
-     "name_en": "Stone Trolls Den"
-    }
-   ],
+   "resources": [],
    "world": [
     305.96,
     437.37
@@ -11634,13 +11544,7 @@
    "faction_name": "盲眼者",
    "faction_name_en": "The Sightless",
    "is_capital": true,
-   "resources": [
-    {
-     "key": "res_river_trolls",
-     "name": "河巨魔巢穴",
-     "name_en": "River Trolls Den"
-    }
-   ],
+   "resources": [],
    "world": [
     230.47,
     575.06
@@ -13205,11 +13109,6 @@
      "key": "res_rom_oil",
      "name": "畜类",
      "name_en": "Pastures"
-    },
-    {
-     "key": "res_stone_trolls",
-     "name": "石巨魔巢穴",
-     "name_en": "Stone Trolls Den"
     }
    ],
    "world": [
@@ -13283,13 +13182,7 @@
    "faction_name": "响骨",
    "faction_name_en": "Bonerattlaz",
    "is_capital": true,
-   "resources": [
-    {
-     "key": "res_stone_trolls",
-     "name": "石巨魔巢穴",
-     "name_en": "Stone Trolls Den"
-    }
-   ],
+   "resources": [],
    "world": [
     534.43,
     521.45
@@ -14243,13 +14136,7 @@
    "faction_name": "断鼻",
    "faction_name_en": "Broken Nose",
    "is_capital": true,
-   "resources": [
-    {
-     "key": "res_stone_trolls",
-     "name": "石巨魔巢穴",
-     "name_en": "Stone Trolls Den"
-    }
-   ],
+   "resources": [],
    "world": [
     373.43,
     389.93
@@ -14362,11 +14249,6 @@
      "key": "res_rom_oil",
      "name": "畜类",
      "name_en": "Pastures"
-    },
-    {
-     "key": "res_stone_trolls",
-     "name": "石巨魔巢穴",
-     "name_en": "Stone Trolls Den"
     }
    ],
    "world": [
@@ -14884,13 +14766,7 @@
    "faction_name": "埃斯塔利亚",
    "faction_name_en": "Estalia",
    "is_capital": false,
-   "resources": [
-    {
-     "key": "res_river_trolls",
-     "name": "河巨魔巢穴",
-     "name_en": "River Trolls Den"
-    }
-   ],
+   "resources": [],
    "world": [
     276.57,
     350.21
@@ -15687,13 +15563,7 @@
    "faction_name": "摩茹堪诸公",
    "faction_name_en": "Sires of Mourkain",
    "is_capital": true,
-   "resources": [
-    {
-     "key": "res_river_trolls",
-     "name": "河巨魔巢穴",
-     "name_en": "River Trolls Den"
-    }
-   ],
+   "resources": [],
    "world": [
     457.6,
     315.88
@@ -16269,13 +16139,7 @@
    "faction_name": "嗜血狂",
    "faction_name_en": "Blood Guzzlers",
    "is_capital": true,
-   "resources": [
-    {
-     "key": "res_stone_trolls",
-     "name": "石巨魔巢穴",
-     "name_en": "Stone Trolls Den"
-    }
-   ],
+   "resources": [],
    "world": [
     696.76,
     463.21
@@ -16575,13 +16439,7 @@
    "faction_name": "叉棒",
    "faction_name_en": "Crossed Clubs",
    "is_capital": false,
-   "resources": [
-    {
-     "key": "res_stone_trolls",
-     "name": "石巨魔巢穴",
-     "name_en": "Stone Trolls Den"
-    }
-   ],
+   "resources": [],
    "world": [
     701.44,
     377.2
@@ -17194,11 +17052,6 @@
    "faction_name_en": "Poxmakers of Nurgle",
    "is_capital": false,
    "resources": [
-    {
-     "key": "res_bile_trolls",
-     "name": "胆汁巨魔巢穴",
-     "name_en": "Bile Trolls Den"
-    },
     {
      "key": "res_medicine",
      "name": "医用植物",
@@ -18338,13 +18191,7 @@
    "faction_name": "蛆虫军团",
    "faction_name_en": "The Maggot Host",
    "is_capital": true,
-   "resources": [
-    {
-     "key": "res_bile_trolls",
-     "name": "胆汁巨魔巢穴",
-     "name_en": "Bile Trolls Den"
-    }
-   ],
+   "resources": [],
    "world": [
     669.37,
     646.42
@@ -18632,13 +18479,7 @@
    "faction_name": "全视之眼",
    "faction_name_en": "All-Seeing Eye",
    "is_capital": false,
-   "resources": [
-    {
-     "key": "res_bile_trolls",
-     "name": "胆汁巨魔巢穴",
-     "name_en": "Bile Trolls Den"
-    }
-   ],
+   "resources": [],
    "world": [
     456.93,
     710.44
@@ -18675,11 +18516,6 @@
    "faction_name_en": "Tallymen of Pestilence",
    "is_capital": true,
    "resources": [
-    {
-     "key": "res_bile_trolls",
-     "name": "胆汁巨魔巢穴",
-     "name_en": "Bile Trolls Den"
-    },
     {
      "key": "res_medicine",
      "name": "医用植物",
@@ -18722,11 +18558,6 @@
    "faction_name_en": "Broken Wheel",
    "is_capital": false,
    "resources": [
-    {
-     "key": "res_bile_trolls",
-     "name": "胆汁巨魔巢穴",
-     "name_en": "Bile Trolls Den"
-    },
     {
      "key": "res_rom_timber",
      "name": "木材",
@@ -18930,13 +18761,7 @@
    "faction_name": "精美之痛",
    "faction_name_en": "Exquisite Pain",
    "is_capital": false,
-   "resources": [
-    {
-     "key": "res_bile_trolls",
-     "name": "胆汁巨魔巢穴",
-     "name_en": "Bile Trolls Den"
-    }
-   ],
+   "resources": [],
    "world": [
     569.83,
     654.51
@@ -19046,11 +18871,6 @@
    "is_capital": false,
    "resources": [
     {
-     "key": "res_bile_trolls",
-     "name": "胆汁巨魔巢穴",
-     "name_en": "Bile Trolls Den"
-    },
-    {
      "key": "res_rom_lead",
      "name": "食盐",
      "name_en": "Salt"
@@ -19127,13 +18947,7 @@
    "faction_name": "受恩者",
    "faction_name_en": "Lazarghs",
    "is_capital": true,
-   "resources": [
-    {
-     "key": "res_stone_trolls",
-     "name": "石巨魔巢穴",
-     "name_en": "Stone Trolls Den"
-    }
-   ],
+   "resources": [],
    "world": [
     592.55,
     589.72
@@ -19702,13 +19516,7 @@
    "faction_name": "僵尸叛军",
    "faction_name_en": "Jiangshi Rebels",
    "is_capital": false,
-   "resources": [
-    {
-     "key": "res_river_trolls",
-     "name": "河巨魔巢穴",
-     "name_en": "River Trolls Den"
-    }
-   ],
+   "resources": [],
    "world": [
     827.69,
     355.22
@@ -20787,11 +20595,6 @@
      "key": "res_gems",
      "name": "宝石",
      "name_en": "Gemstones"
-    },
-    {
-     "key": "res_river_trolls",
-     "name": "河巨魔巢穴",
-     "name_en": "River Trolls Den"
     }
    ],
    "world": [
@@ -21330,13 +21133,7 @@
    "faction_name": "簇眼部落",
    "faction_name_en": "Cluster-Eye Tribe",
    "is_capital": false,
-   "resources": [
-    {
-     "key": "res_stone_trolls",
-     "name": "石巨魔巢穴",
-     "name_en": "Stone Trolls Den"
-    }
-   ],
+   "resources": [],
    "world": [
     883.14,
     258.41
@@ -21559,11 +21356,6 @@
    "faction_name_en": null,
    "is_capital": true,
    "resources": [
-    {
-     "key": "res_bile_trolls",
-     "name": "胆汁巨魔巢穴",
-     "name_en": "Bile Trolls Den"
-    },
     {
      "key": "res_dyes",
      "name": "染料",
@@ -22050,11 +21842,6 @@
    "faction_name_en": "Feastmaster",
    "is_capital": true,
    "resources": [
-    {
-     "key": "res_river_trolls",
-     "name": "河巨魔巢穴",
-     "name_en": "River Trolls Den"
-    },
     {
      "key": "res_rom_furs",
      "name": "毛皮",
@@ -22985,11 +22772,6 @@
    "faction_name_en": "Nordland",
    "is_capital": true,
    "resources": [
-    {
-     "key": "res_river_trolls",
-     "name": "河巨魔巢穴",
-     "name_en": "River Trolls Den"
-    },
     {
      "key": "res_rom_timber",
      "name": "木材",
@@ -24861,13 +24643,7 @@
    "faction_name": "赤目",
    "faction_name_en": "Red Eye",
    "is_capital": false,
-   "resources": [
-    {
-     "key": "res_stone_trolls",
-     "name": "石巨魔巢穴",
-     "name_en": "Stone Trolls Den"
-    }
-   ],
+   "resources": [],
    "world": [
     406.16,
     118.02
@@ -25354,11 +25130,6 @@
    "faction_name_en": "Tepok's Spawn",
    "is_capital": true,
    "resources": [
-    {
-     "key": "res_bile_trolls",
-     "name": "胆汁巨魔巢穴",
-     "name_en": "Bile Trolls Den"
-    },
     {
      "key": "res_medicine",
      "name": "医用植物",
@@ -27110,13 +26881,7 @@
    "faction_name": "嗜血狂",
    "faction_name_en": "Blood Guzzlers",
    "is_capital": true,
-   "resources": [
-    {
-     "key": "res_stone_trolls",
-     "name": "石巨魔巢穴",
-     "name_en": "Stone Trolls Den"
-    }
-   ],
+   "resources": [],
    "world": [
     589.86,
     282.71
@@ -27302,13 +27067,7 @@
    "faction_name": "叉棒",
    "faction_name_en": "Crossed Clubs",
    "is_capital": false,
-   "resources": [
-    {
-     "key": "res_stone_trolls",
-     "name": "石巨魔巢穴",
-     "name_en": "Stone Trolls Den"
-    }
-   ],
+   "resources": [],
    "world": [
     662.01,
     199.4
@@ -27494,13 +27253,7 @@
    "faction_name": "精美之痛",
    "faction_name_en": "Exquisite Pain",
    "is_capital": false,
-   "resources": [
-    {
-     "key": "res_bile_trolls",
-     "name": "胆汁巨魔巢穴",
-     "name_en": "Bile Trolls Den"
-    }
-   ],
+   "resources": [],
    "world": [
     209.09,
     302.76
@@ -27817,13 +27570,7 @@
    "faction_name": "幻焰书吏",
    "faction_name_en": "Flaming Scribes",
    "is_capital": false,
-   "resources": [
-    {
-     "key": "res_bile_trolls",
-     "name": "胆汁巨魔巢穴",
-     "name_en": "Bile Trolls Den"
-    }
-   ],
+   "resources": [],
    "world": [
     439.56,
     359.46
@@ -28377,11 +28124,6 @@
    "is_capital": false,
    "resources": [
     {
-     "key": "res_bile_trolls",
-     "name": "胆汁巨魔巢穴",
-     "name_en": "Bile Trolls Den"
-    },
-    {
      "key": "res_rom_timber",
      "name": "木材",
      "name_en": "Timber"
@@ -28465,11 +28207,6 @@
    "faction_name_en": "Septic Claw",
    "is_capital": false,
    "resources": [
-    {
-     "key": "res_bile_trolls",
-     "name": "胆汁巨魔巢穴",
-     "name_en": "Bile Trolls Den"
-    },
     {
      "key": "res_medicine",
      "name": "医用植物",
@@ -29105,13 +28842,7 @@
    "faction_name": "赫尔海因氏族",
    "faction_name_en": "Clan Helhein",
    "is_capital": false,
-   "resources": [
-    {
-     "key": "res_stone_trolls",
-     "name": "石巨魔巢穴",
-     "name_en": "Stone Trolls Den"
-    }
-   ],
+   "resources": [],
    "world": [
     464.28,
     251.85
@@ -29608,13 +29339,7 @@
    "faction_name": "猎颅者",
    "faction_name_en": "Skull-takerz",
    "is_capital": false,
-   "resources": [
-    {
-     "key": "res_river_trolls",
-     "name": "河巨魔巢穴",
-     "name_en": "River Trolls Den"
-    }
-   ],
+   "resources": [],
    "world": [
     722.13,
     431.58
@@ -30105,11 +29830,6 @@
      "key": "res_gems",
      "name": "宝石",
      "name_en": "Gemstones"
-    },
-    {
-     "key": "res_river_trolls",
-     "name": "河巨魔巢穴",
-     "name_en": "River Trolls Den"
     }
    ],
    "world": [
