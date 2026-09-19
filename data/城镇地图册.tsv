@@ -228,7 +228,7 @@
 227	南方荒原	超凡帝国	无底冰川	沃卢特拉	肿腺疫群		420.86	18.51	630	24	wh3_main_combi_region_volulltrax	wh3_main_combi_province_the_abyssal_glacier	wh3_main_nur_bubonic_swarm	Volulltrax	cai_region_hint_area_southern_wastes	官方	
 228	南方荒原	超凡帝国	无底冰川	织命者裂隙	奸奇传谕使	是	340.70	20.83	510	27	wh3_main_combi_region_fateweavers_crevasse	wh3_main_combi_province_the_abyssal_glacier	wh3_main_tze_oracles_of_tzeentch	Fateweaver's Crevasse	cai_region_hint_area_southern_wastes	官方	
 229	南方荒原	超凡帝国	无底冰川	雕颅人之家	肿腺疫群		443.57	9.26	664	12	wh3_main_combi_region_the_skull_carvers_abode	wh3_main_combi_province_the_abyssal_glacier	wh3_main_nur_bubonic_swarm	The Skull-Carver's Abode	cai_region_hint_area_southern_wastes	官方	
-230	帝国（旧世界）	超凡帝国	中部山脉	黄铜要塞	猖殖聚群	是	395.48	568.51	592	737	wh3_main_combi_region_brass_keep	wh3_dlc20_combi_province_middle_mountains	wh3_dlc20_chs_festus	Brass Keep	cai_region_hint_area_empire	官方	染料
+230	帝国（旧世界）	超凡帝国	中部山脉	黄铜要塞	猖殖聚群	是	395.48	568.51	592	737	wh3_main_combi_region_brass_keep	wh3_dlc20_combi_province_middle_mountains	wh3_dlc20_chs_festus	Brass Keep	cai_region_hint_area_empire	官方	染料、黑暗要塞基址
 231	帝国（旧世界）	超凡帝国	冬齿隘口	索尔要塞	暗毒	是	388.80	418.09	582	542	wh3_main_combi_region_fort_soll	wh3_main_combi_province_winters_teeth_pass	wh_main_grn_black_venom	Fort Soll	cai_region_hint_area_empire	官方	
 232	帝国（旧世界）	超凡帝国	劳伦洛伦森林	劳伦洛伦森林	劳伦洛伦	是	352.05	563.49	527	730	wh3_main_combi_region_laurelorn_forest	wh3_main_combi_province_the_witchs_wood	wh3_main_wef_laurelorn	Laurelorn Forest	cai_region_hint_area_empire	官方	
 233	帝国（旧世界）	超凡帝国	北希尔瓦尼亚	塔兰霍夫城堡	塔兰霍夫	是	458.27	484.43	686	628	wh3_main_combi_region_castle_templehof	wh3_main_combi_province_northern_sylvania	wh_main_vmp_rival_sylvanian_vamps	Castle Templehof	cai_region_hint_area_empire	官方	
@@ -508,8 +508,8 @@
 507	混沌荒原	超凡帝国	骨骸之路	头骨立柱	受恩者		585.20	618.65	876	802	wh3_main_combi_region_pillar_of_skulls	wh3_main_combi_province_the_skull_road	wh3_main_ogr_lazarghs	Pillar of Skulls	cai_region_hint_area_chaos_wastes	官方	
 508	混沌荒原	超凡帝国	骨骸之路	番灭地	受恩者		565.82	603.60	847	782	wh3_main_combi_region_tribeslaughter	wh3_main_combi_province_the_skull_road	wh3_main_ogr_lazarghs	Tribeslaughter	cai_region_hint_area_chaos_wastes	官方	
 509	混沌荒原	超凡帝国	骨骸之路	风骸山	恐虐挑战者		540.44	639.09	809	828	wh3_main_combi_region_stormvrack_mount	wh3_main_combi_province_the_skull_road	wh3_dlc26_kho_arbaal	Stormvrack Mount	cai_region_hint_area_chaos_wastes	官方	
-510	震旦	超凡帝国	东部草原	血风堡	卡扎格	是	831.03	554.62	1244	719	wh3_main_combi_region_bloodwind_keep	wh3_main_combi_province_eastern_steppes	wh3_main_chs_khazag	Bloodwind Keep	cai_region_hint_area_cathay	官方	长牙、雕刻黑曜石
-511	震旦	超凡帝国	东部草原	铁风暴	卡扎格		800.30	547.68	1198	710	wh3_main_combi_region_iron_storm	wh3_main_combi_province_eastern_steppes	wh3_main_chs_khazag	Iron Storm	cai_region_hint_area_cathay	官方	
+510	震旦	超凡帝国	东部草原	血风堡	卡扎格	是	831.03	554.62	1244	719	wh3_main_combi_region_bloodwind_keep	wh3_main_combi_province_eastern_steppes	wh3_main_chs_khazag	Bloodwind Keep	cai_region_hint_area_cathay	官方	长牙、黑暗要塞基址、雕刻黑曜石
+511	震旦	超凡帝国	东部草原	铁风暴	卡扎格		800.30	547.68	1198	710	wh3_main_combi_region_iron_storm	wh3_main_combi_province_eastern_steppes	wh3_main_chs_khazag	Iron Storm	cai_region_hint_area_cathay	官方	黑暗要塞基址
 512	震旦	超凡帝国	东部草原	龙馗路	帝国戍卫		815.67	528.01	1221	684	wh3_main_combi_region_dragons_crossroad	wh3_main_combi_province_eastern_steppes	wh3_main_cth_imperial_wardens	Dragon's Crossroad	cai_region_hint_area_cathay	官方	
 513	震旦	超凡帝国	京畿路	修验官城	天廷忠卫		865.10	474.01	1295	614	wh3_main_combi_region_city_of_the_shugengan	wh3_main_combi_province_imperial_road	wh3_main_cth_celestial_loyalists	City of the Shugengan	cai_region_hint_area_cathay	官方	
 514	震旦	超凡帝国	京畿路	巍京	天廷忠卫	是	852.41	500.62	1276	649	wh3_main_combi_region_wei_jin	wh3_main_combi_province_imperial_road	wh3_main_cth_celestial_loyalists	Wei-Jin	cai_region_hint_area_cathay	官方	香料
@@ -727,10 +727,10 @@
 157	哀恸山脉	混沌魔域	长牙之路	漫步峰	叉棒		611.24	229.48	915	297	wh3_main_chaos_region_amblepeak	wh3_main_chaos_province_ivory_road	wh3_main_ogr_crossed_clubs	Amblepeak	cai_chaos_region_hint_area_mourn_mountains	官方	
 158	混沌荒原	混沌魔域	冷泽	扭曲群塔	精美之痛		229.80	324.74	344	421	wh3_main_chaos_region_the_twisted_towers	wh3_main_chaos_province_the_cold_mires	wh3_main_sla_exquisite_pain	The Twisted Towers	cai_chaos_region_hint_area_chaos_wastes	官方	
 159	混沌荒原	混沌魔域	冷泽	蝇塔	精美之痛		209.09	302.76	313	392	wh3_main_chaos_region_the_tower_of_flies	wh3_main_chaos_province_the_cold_mires	wh3_main_sla_exquisite_pain	The Tower of Flies	cai_chaos_region_hint_area_chaos_wastes	官方	
-160	混沌荒原	混沌魔域	冷泽	黑岩	噶哈尔	是	219.11	275.38	328	357	wh3_main_chaos_region_black_rock	wh3_main_chaos_province_the_cold_mires	wh3_main_chs_gharhar	Black Rock	cai_chaos_region_hint_area_chaos_wastes	官方	雕刻黑曜石
+160	混沌荒原	混沌魔域	冷泽	黑岩	噶哈尔	是	219.11	275.38	328	357	wh3_main_chaos_region_black_rock	wh3_main_chaos_province_the_cold_mires	wh3_main_chs_gharhar	Black Rock	cai_chaos_region_hint_area_chaos_wastes	官方	黑暗要塞基址、雕刻黑曜石
 161	混沌荒原	混沌魔域	北部荒原	亵渎要塞	盲眼者		86.84	394.17	130	511	wh3_main_chaos_region_fortress_of_the_damned	wh3_main_chaos_province_northern_wastes	wh3_dlc20_tze_the_sightless	Fortress of the Damned	cai_chaos_region_hint_area_chaos_wastes	官方	黑暗要塞基址、大理石
 162	混沌荒原	混沌魔域	北部荒原	折磨裂谷	盲眼者		117.57	374.11	176	485	wh3_main_chaos_region_chasm_of_torment	wh3_main_chaos_province_northern_wastes	wh3_dlc20_tze_the_sightless	Chasm of Torment	cai_chaos_region_hint_area_chaos_wastes	官方	
-163	混沌荒原	混沌魔域	北部荒原	替换之碑	科维林	是	151.64	386.84	227	501	wh3_main_chaos_region_the_shifting_monolith	wh3_main_chaos_province_northern_wastes	wh3_main_chs_kvellig	The Shifting Monolith	cai_chaos_region_hint_area_chaos_wastes	官方	黄金
+163	混沌荒原	混沌魔域	北部荒原	替换之碑	科维林	是	151.64	386.84	227	501	wh3_main_chaos_region_the_shifting_monolith	wh3_main_chaos_province_northern_wastes	wh3_main_chs_kvellig	The Shifting Monolith	cai_chaos_region_hint_area_chaos_wastes	官方	黄金、黑暗要塞基址
 164	混沌荒原	混沌魔域	北部荒原	马雷菲克斯之厅	盲眼者		139.62	354.44	209	459	wh3_main_chaos_region_the_folly_of_malofex	wh3_main_chaos_province_northern_wastes	wh3_dlc20_tze_the_sightless	The Folly of Malofex	cai_chaos_region_hint_area_chaos_wastes	官方	
 165	混沌荒原	混沌魔域	卡达莎	红色深渊	幻焰书吏		472.96	353.29	708	458	wh3_main_chaos_region_the_red_abyss	wh3_main_chaos_province_kdatha	wh3_main_tze_flaming_scribes	The Red Abyss	cai_chaos_region_hint_area_chaos_wastes	官方	
 166	混沌荒原	混沌魔域	卡达莎	绞架树	幻焰书吏	是	402.82	325.90	603	422	wh3_main_chaos_region_the_gallows_tree	wh3_main_chaos_province_kdatha	wh3_main_tze_flaming_scribes	The Gallows Tree	cai_chaos_region_hint_area_chaos_wastes	官方	木材
@@ -766,16 +766,16 @@
 196	混沌荒原	混沌魔域	血沼	魔影之树	绯红骷髅		338.02	334.77	506	434	wh3_main_chaos_region_tree_of_damned_shades	wh3_main_chaos_province_the_blood_marshes	wh3_main_kho_crimson_skull	Tree of Damned Shades	cai_chaos_region_hint_area_chaos_wastes	官方	
 197	混沌荒原	混沌魔域	血火瀑布	死斧之碑	精美之痛		162.33	308.16	243	399	wh3_main_chaos_region_the_monolith_of_kjarl_deathaxe	wh3_main_chaos_province_bloodfire_falls	wh3_main_sla_exquisite_pain	Deathaxe's Monolith	cai_chaos_region_hint_area_chaos_wastes	官方	
 198	混沌荒原	混沌魔域	血火瀑布	炼狱	恐虐流放者	是	195.06	367.17	292	476	wh3_main_chaos_region_infernius	wh3_main_chaos_province_bloodfire_falls	wh3_main_kho_exiles_of_khorne	Infernius	cai_chaos_region_hint_area_chaos_wastes	官方	
-199	混沌荒原	混沌魔域	血火瀑布	黄铜冰川	噶哈尔		178.36	334.39	267	433	wh3_main_chaos_region_the_brass_glacier	wh3_main_chaos_province_bloodfire_falls	wh3_main_chs_gharhar	The Brass Glacier	cai_chaos_region_hint_area_chaos_wastes	官方	
-200	混沌荒原	混沌魔域	血火瀑布	黄铜桥	噶哈尔		225.12	349.81	337	453	wh3_main_chaos_region_bridge_of_brass	wh3_main_chaos_province_bloodfire_falls	wh3_main_chs_gharhar	Bridge of Brass	cai_chaos_region_hint_area_chaos_wastes	官方	
+199	混沌荒原	混沌魔域	血火瀑布	黄铜冰川	噶哈尔		178.36	334.39	267	433	wh3_main_chaos_region_the_brass_glacier	wh3_main_chaos_province_bloodfire_falls	wh3_main_chs_gharhar	The Brass Glacier	cai_chaos_region_hint_area_chaos_wastes	官方	黑暗要塞基址
+200	混沌荒原	混沌魔域	血火瀑布	黄铜桥	噶哈尔		225.12	349.81	337	453	wh3_main_chaos_region_bridge_of_brass	wh3_main_chaos_province_bloodfire_falls	wh3_main_chs_gharhar	Bridge of Brass	cai_chaos_region_hint_area_chaos_wastes	官方	黑暗要塞基址
 201	混沌荒原	混沌魔域	颅骨之路	卡拉克·厄运堡	赫尔海因氏族		464.28	251.85	695	326	wh3_main_chaos_region_karak_dum	wh3_main_chaos_province_road_of_skulls	wh2_dlc15_dwf_clan_helhein	Karak Dum	cai_chaos_region_hint_area_chaos_wastes	官方	
 202	混沌荒原	混沌魔域	颅骨之路	多尔甘叶尔森林	森林之女		458.26	279.23	686	362	wh3_main_chaos_region_fort_dolganyeir	wh3_main_chaos_province_road_of_skulls	wh3_dlc24_ksl_daughters_of_the_forest	Dolganyeir Forests	cai_chaos_region_hint_area_chaos_wastes	官方	
 203	混沌荒原	混沌魔域	颅骨之路	扎摩斯基	恐之主子嗣		477.64	294.28	715	381	wh3_main_chaos_region_zamoski	wh3_main_chaos_province_road_of_skulls	wh3_main_kho_karneths_sons	Zamoski	cai_chaos_region_hint_area_chaos_wastes	官方	
 204	混沌荒原	混沌魔域	颅骨之路	碎裂城	恐之主子嗣	是	495.67	323.20	742	419	wh3_main_chaos_region_city_of_splinters	wh3_main_chaos_province_road_of_skulls	wh3_main_kho_karneths_sons	City of Splinters	cai_chaos_region_hint_area_chaos_wastes	官方	
 205	震旦	混沌魔域	东部草原	千眼要塞	帝国戍卫		575.17	436.98	861	566	wh3_main_chaos_region_fortress_of_eyes	wh3_main_chaos_province_eastern_steppes	wh3_main_cth_imperial_wardens	Fortress of Eyes	cai_chaos_region_hint_area_cathay	官方	黑暗要塞基址
 206	震旦	混沌魔域	东部草原	沃拉里	奸奇传谕使	是	538.43	376.43	806	488	wh3_main_chaos_region_the_volary	wh3_main_chaos_province_eastern_steppes	wh3_main_tze_oracles_of_tzeentch	The Volary	cai_chaos_region_hint_area_cathay	官方	
-207	震旦	混沌魔域	东部草原	血风堡	卡扎格		552.45	399.95	827	518	wh3_main_chaos_region_bloodwind_keep	wh3_main_chaos_province_eastern_steppes	wh3_main_chs_khazag	Bloodwind Keep	cai_chaos_region_hint_area_cathay	官方	长牙、雕刻黑曜石
-208	震旦	混沌魔域	东部草原	骸骨铸坊	卡扎格		553.79	424.64	829	550	wh3_main_chaos_region_foundry_of_bones	wh3_main_chaos_province_eastern_steppes	wh3_main_chs_khazag	Foundry of Bones	cai_chaos_region_hint_area_cathay	官方	
+207	震旦	混沌魔域	东部草原	血风堡	卡扎格		552.45	399.95	827	518	wh3_main_chaos_region_bloodwind_keep	wh3_main_chaos_province_eastern_steppes	wh3_main_chs_khazag	Bloodwind Keep	cai_chaos_region_hint_area_cathay	官方	长牙、黑暗要塞基址、雕刻黑曜石
+208	震旦	混沌魔域	东部草原	骸骨铸坊	卡扎格		553.79	424.64	829	550	wh3_main_chaos_region_foundry_of_bones	wh3_main_chaos_province_eastern_steppes	wh3_main_chs_khazag	Foundry of Bones	cai_chaos_region_hint_area_cathay	官方	黑暗要塞基址
 209	震旦	混沌魔域	京畿路	修验官城	天廷忠卫		643.97	515.27	964	668	wh3_main_chaos_region_city_of_the_shugengan	wh3_main_chaos_province_imperial_road	wh3_main_cth_celestial_loyalists	City of the Shugengan	cai_chaos_region_hint_area_cathay	官方	
 210	震旦	混沌魔域	京畿路	巍京	天廷忠卫	是	619.92	523.76	928	679	wh3_main_chaos_region_wei_jin	wh3_main_chaos_province_imperial_road	wh3_main_cth_celestial_loyalists	Wei-Jin	cai_chaos_region_hint_area_cathay	官方	香料
 211	震旦	混沌魔域	京畿路	昆兰	天廷忠卫		660.01	490.59	988	636	wh3_main_chaos_region_kunlan	wh3_main_chaos_province_imperial_road	wh3_main_cth_celestial_loyalists	Kunlan	cai_chaos_region_hint_area_cathay	官方	

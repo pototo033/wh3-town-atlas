@@ -8609,6 +8609,11 @@
      "key": "res_dyes",
      "name": "染料",
      "name_en": "Dyes"
+    },
+    {
+     "key": "res_location_dark_fortress",
+     "name": "黑暗要塞基址",
+     "name_en": "Dark Fortress Site"
     }
    ],
    "world": [
@@ -19098,6 +19103,11 @@
      "name_en": "Tusks"
     },
     {
+     "key": "res_location_dark_fortress",
+     "name": "黑暗要塞基址",
+     "name_en": "Dark Fortress Site"
+    },
+    {
      "key": "res_obsidian",
      "name": "雕刻黑曜石",
      "name_en": "Carved Obsidian"
@@ -19138,7 +19148,13 @@
    "faction_name": "卡扎格",
    "faction_name_en": "Khazag",
    "is_capital": false,
-   "resources": [],
+   "resources": [
+    {
+     "key": "res_location_dark_fortress",
+     "name": "黑暗要塞基址",
+     "name_en": "Dark Fortress Site"
+    }
+   ],
    "world": [
     800.3,
     547.68
@@ -27291,6 +27307,11 @@
    "is_capital": true,
    "resources": [
     {
+     "key": "res_location_dark_fortress",
+     "name": "黑暗要塞基址",
+     "name_en": "Dark Fortress Site"
+    },
+    {
      "key": "res_obsidian",
      "name": "雕刻黑曜石",
      "name_en": "Carved Obsidian"
@@ -27419,6 +27440,11 @@
      "key": "res_gold",
      "name": "黄金",
      "name_en": "Gold"
+    },
+    {
+     "key": "res_location_dark_fortress",
+     "name": "黑暗要塞基址",
+     "name_en": "Dark Fortress Site"
     }
    ],
    "world": [
@@ -28770,7 +28796,13 @@
    "faction_name": "噶哈尔",
    "faction_name_en": "Gharhar",
    "is_capital": false,
-   "resources": [],
+   "resources": [
+    {
+     "key": "res_location_dark_fortress",
+     "name": "黑暗要塞基址",
+     "name_en": "Dark Fortress Site"
+    }
+   ],
    "world": [
     178.36,
     334.39
@@ -28806,7 +28838,13 @@
    "faction_name": "噶哈尔",
    "faction_name_en": "Gharhar",
    "is_capital": false,
-   "resources": [],
+   "resources": [
+    {
+     "key": "res_location_dark_fortress",
+     "name": "黑暗要塞基址",
+     "name_en": "Dark Fortress Site"
+    }
+   ],
    "world": [
     225.12,
     349.81
@@ -29071,6 +29109,11 @@
      "name_en": "Tusks"
     },
     {
+     "key": "res_location_dark_fortress",
+     "name": "黑暗要塞基址",
+     "name_en": "Dark Fortress Site"
+    },
+    {
      "key": "res_obsidian",
      "name": "雕刻黑曜石",
      "name_en": "Carved Obsidian"
@@ -29111,7 +29154,13 @@
    "faction_name": "卡扎格",
    "faction_name_en": "Khazag",
    "is_capital": false,
-   "resources": [],
+   "resources": [
+    {
+     "key": "res_location_dark_fortress",
+     "name": "黑暗要塞基址",
+     "name_en": "Dark Fortress Site"
+    }
+   ],
    "world": [
     553.79,
     424.64
