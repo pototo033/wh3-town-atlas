@@ -5,7 +5,8 @@
   "data_maps.pack → campaign_maps/<map>/map_data.esf（城镇坐标与地块）",
   "db/regions_tables、region_to_province_junctions、campaign_map_regions、regions_to_region_groups_junctions、start_pos_regions/factions",
   "本地化 regions_onscreen_* / provinces_onscreen_* / factions_screen_name_*",
-  "ui.pack → ui/flags/<派系>/mon_256.png（派系旗帜）"
+  "ui.pack → ui/flags/<派系>/mon_256.png（派系旗帜）",
+  "城镇资源：db/slot_templates_tables（特殊槽位模板名反推归属）+ resources_tables（图标/口径）+ 本地化 resources_onscreen_text_*；图标在 ui.pack/ui2.pack 的 effect_bundles 与 dlc27_nor_troll_expansion。开局程序化分配的泛化槽位无法反推，覆盖不含这类城镇"
  ],
  "coord_system": {
   "world": "战役地图逻辑坐标，原点在西南角；超凡帝国 0..961.96 × 0..748.42，混沌魔域 0..740.18 × 0..557.12",
@@ -97,6 +98,7 @@
    "faction_name": "恣纵教派",
    "faction_name_en": "Cult of Excess",
    "is_capital": false,
+   "resources": [],
    "world": [
     179.7,
     408.44
@@ -132,6 +134,7 @@
    "faction_name": "伊泰恩",
    "faction_name_en": "Eataine",
    "is_capital": true,
+   "resources": [],
    "world": [
     169.68,
     395.72
@@ -167,6 +170,7 @@
    "faction_name": "恣纵教派",
    "faction_name_en": "Cult of Excess",
    "is_capital": false,
+   "resources": [],
    "world": [
     152.31,
     405.75
@@ -202,6 +206,7 @@
    "faction_name": "恣纵教派",
    "faction_name_en": "Cult of Excess",
    "is_capital": false,
+   "resources": [],
    "world": [
     172.35,
     416.54
@@ -237,6 +242,7 @@
    "faction_name": "凯恩之鞭",
    "faction_name_en": "Scourge of Khaine",
    "is_capital": true,
+   "resources": [],
    "world": [
     163.67,
     477.87
@@ -272,6 +278,7 @@
    "faction_name": "颅岩",
    "faction_name_en": "Skull Crag",
    "is_capital": false,
+   "resources": [],
    "world": [
     229.8,
     433.51
@@ -307,6 +314,13 @@
    "faction_name": "伊瑞斯",
    "faction_name_en": "Yvresse",
    "is_capital": true,
+   "resources": [
+    {
+     "key": "res_rom_oil",
+     "name": "畜类",
+     "name_en": "Pastures"
+    }
+   ],
    "world": [
     211.1,
     442.77
@@ -342,6 +356,7 @@
    "faction_name": "颅岩",
    "faction_name_en": "Skull Crag",
    "is_capital": false,
+   "resources": [],
    "world": [
     207.76,
     394.56
@@ -377,6 +392,7 @@
    "faction_name": "颅岩",
    "faction_name_en": "Skull Crag",
    "is_capital": false,
+   "resources": [],
    "world": [
     190.39,
     399.19
@@ -412,6 +428,7 @@
    "faction_name": "颅岩",
    "faction_name_en": "Skull Crag",
    "is_capital": true,
+   "resources": [],
    "world": [
     211.77,
     410.76
@@ -447,6 +464,7 @@
    "faction_name": "卡勒多",
    "faction_name_en": "Caledor",
    "is_capital": false,
+   "resources": [],
    "world": [
     137.61,
     408.83
@@ -482,6 +500,13 @@
    "faction_name": "卡勒多",
    "faction_name_en": "Caledor",
    "is_capital": true,
+   "resources": [
+    {
+     "key": "res_rom_iron",
+     "name": "生铁",
+     "name_en": "Iron"
+    }
+   ],
    "world": [
     136.28,
     394.17
@@ -517,6 +542,7 @@
    "faction_name": "查瑞斯",
    "faction_name_en": "Chrace",
    "is_capital": false,
+   "resources": [],
    "world": [
     199.74,
     494.07
@@ -552,6 +578,13 @@
    "faction_name": "查瑞斯",
    "faction_name_en": "Chrace",
    "is_capital": true,
+   "resources": [
+    {
+     "key": "res_rom_furs",
+     "name": "毛皮",
+     "name_en": "Furs"
+    }
+   ],
    "world": [
     197.07,
     477.87
@@ -587,6 +620,7 @@
    "faction_name": "色孽迷魂者",
    "faction_name_en": "Seducers of Slaanesh",
    "is_capital": false,
+   "resources": [],
    "world": [
     178.36,
     495.61
@@ -622,6 +656,13 @@
    "faction_name": "柯思奎",
    "faction_name_en": "Cothique",
    "is_capital": true,
+   "resources": [
+    {
+     "key": "res_rom_lead",
+     "name": "食盐",
+     "name_en": "Salt"
+    }
+   ],
    "world": [
     221.12,
     467.84
@@ -657,6 +698,7 @@
    "faction_name": "柯思奎",
    "faction_name_en": "Cothique",
    "is_capital": false,
+   "resources": [],
    "world": [
     221.12,
     489.44
@@ -692,6 +734,13 @@
    "faction_name": "泰伦洛克",
    "faction_name_en": "Tiranoc",
    "is_capital": true,
+   "resources": [
+    {
+     "key": "res_gold",
+     "name": "黄金",
+     "name_en": "Gold"
+    }
+   ],
    "world": [
     118.91,
     457.43
@@ -727,6 +776,7 @@
    "faction_name": "泰伦洛克",
    "faction_name_en": "Tiranoc",
    "is_capital": false,
+   "resources": [],
    "world": [
     114.23,
     440.84
@@ -762,6 +812,7 @@
    "faction_name": "泰伦洛克",
    "faction_name_en": "Tiranoc",
    "is_capital": false,
+   "resources": [],
    "world": [
     124.92,
     421.56
@@ -797,6 +848,7 @@
    "faction_name": "恐惧舰队",
    "faction_name_en": "The Dreadfleet",
    "is_capital": true,
+   "resources": [],
    "world": [
     171.68,
     345.96
@@ -832,6 +884,7 @@
    "faction_name": "艾里昂",
    "faction_name_en": "Ellyrion",
    "is_capital": true,
+   "resources": [],
    "world": [
     144.3,
     471.31
@@ -867,6 +920,7 @@
    "faction_name": "泰伦洛克",
    "faction_name_en": "Tiranoc",
    "is_capital": true,
+   "resources": [],
    "world": [
     130.93,
     458.2
@@ -902,6 +956,7 @@
    "faction_name": "凯恩之鞭",
    "faction_name_en": "Scourge of Khaine",
    "is_capital": false,
+   "resources": [],
    "world": [
     172.35,
     511.42
@@ -937,6 +992,7 @@
    "faction_name": "凯恩之鞭",
    "faction_name_en": "Scourge of Khaine",
    "is_capital": false,
+   "resources": [],
    "world": [
     132.27,
     483.65
@@ -972,6 +1028,18 @@
    "faction_name": "凯恩之鞭",
    "faction_name_en": "Scourge of Khaine",
    "is_capital": true,
+   "resources": [
+    {
+     "key": "res_river_trolls",
+     "name": "河巨魔巢穴",
+     "name_en": "River Trolls Den"
+    },
+    {
+     "key": "res_rom_marble",
+     "name": "大理石",
+     "name_en": "Marble"
+    }
+   ],
    "world": [
     156.32,
     501.4
@@ -1007,6 +1075,13 @@
    "faction_name": "艾里昂",
    "faction_name_en": "Ellyrion",
    "is_capital": true,
+   "resources": [
+    {
+     "key": "res_rom_wine",
+     "name": "葡萄酒",
+     "name_en": "Wine"
+    }
+   ],
    "world": [
     137.61,
     430.43
@@ -1042,6 +1117,7 @@
    "faction_name": "艾里昂",
    "faction_name_en": "Ellyrion",
    "is_capital": false,
+   "resources": [],
    "world": [
     146.3,
     449.33
@@ -1077,6 +1153,7 @@
    "faction_name": "萨芙睿",
    "faction_name_en": "Saphery",
    "is_capital": false,
+   "resources": [],
    "world": [
     189.72,
     417.32
@@ -1112,6 +1189,7 @@
    "faction_name": "萨芙睿",
    "faction_name_en": "Saphery",
    "is_capital": false,
+   "resources": [],
    "world": [
     199.74,
     451.64
@@ -1147,6 +1225,7 @@
    "faction_name": "萨芙睿",
    "faction_name_en": "Saphery",
    "is_capital": true,
+   "resources": [],
    "world": [
     197.07,
     433.9
@@ -1182,6 +1261,13 @@
    "faction_name": "阿瓦隆",
    "faction_name_en": "Avelorn",
    "is_capital": true,
+   "resources": [
+    {
+     "key": "res_animals",
+     "name": "异域动物",
+     "name_en": "Exotic Animals"
+    }
+   ],
    "world": [
     171.02,
     446.63
@@ -1217,6 +1303,7 @@
    "faction_name": "凯恩之鞭",
    "faction_name_en": "Scourge of Khaine",
    "is_capital": false,
+   "resources": [],
    "world": [
     180.37,
     463.6
@@ -1252,6 +1339,7 @@
    "faction_name": "凯恩之鞭",
    "faction_name_en": "Scourge of Khaine",
    "is_capital": false,
+   "resources": [],
    "world": [
     160.33,
     458.97
@@ -1287,6 +1375,7 @@
    "faction_name": "艾里昂",
    "faction_name_en": "Ellyrion",
    "is_capital": true,
+   "resources": [],
    "world": [
     126.26,
     441.61
@@ -1322,6 +1411,13 @@
    "faction_name": "森林之女",
    "faction_name_en": "Daughters of the Forest",
    "is_capital": false,
+   "resources": [
+    {
+     "key": "res_location_dark_fortress",
+     "name": "黑暗要塞基址",
+     "name_en": "Dark Fortress Site"
+    }
+   ],
    "world": [
     59.45,
     477.1
@@ -1357,6 +1453,7 @@
    "faction_name": "荒芜守军",
    "faction_name_en": "Bleak Holds",
    "is_capital": false,
+   "resources": [],
    "world": [
     89.52,
     437.37
@@ -1392,6 +1489,7 @@
    "faction_name": "荒芜守军",
    "faction_name_en": "Bleak Holds",
    "is_capital": true,
+   "resources": [],
    "world": [
     98.2,
     453.96
@@ -1427,6 +1525,7 @@
    "faction_name": "荒芜守军",
    "faction_name_en": "Bleak Holds",
    "is_capital": false,
+   "resources": [],
    "world": [
     73.48,
     463.6
@@ -1462,6 +1561,7 @@
    "faction_name": "溺亡者",
    "faction_name_en": "The Drowned",
    "is_capital": true,
+   "resources": [],
    "world": [
     138.95,
     533.79
@@ -1497,6 +1597,18 @@
    "faction_name": "锻炉盟会",
    "faction_name_en": "The Forgebound",
    "is_capital": false,
+   "resources": [
+    {
+     "key": "res_river_trolls",
+     "name": "河巨魔巢穴",
+     "name_en": "River Trolls Den"
+    },
+    {
+     "key": "res_rom_iron",
+     "name": "生铁",
+     "name_en": "Iron"
+    }
+   ],
    "world": [
     115.57,
     554.24
@@ -1532,6 +1644,7 @@
    "faction_name": "锻炉盟会",
    "faction_name_en": "The Forgebound",
    "is_capital": false,
+   "resources": [],
    "world": [
     138.28,
     559.64
@@ -1567,6 +1680,7 @@
    "faction_name": "艾瑞尔军锋",
    "faction_name_en": "Heralds of Ariel",
    "is_capital": true,
+   "resources": [],
    "world": [
     44.09,
     509.11
@@ -1602,6 +1716,7 @@
    "faction_name": null,
    "faction_name_en": null,
    "is_capital": false,
+   "resources": [],
    "world": [
     115.57,
     688.46
@@ -1637,6 +1752,13 @@
    "faction_name": null,
    "faction_name_en": null,
    "is_capital": true,
+   "resources": [
+    {
+     "key": "res_spices",
+     "name": "香料",
+     "name_en": "Spices"
+    }
+   ],
    "world": [
     153.65,
     697.33
@@ -1672,6 +1794,7 @@
    "faction_name": "德库拉女巫团",
    "faction_name_en": "Drackla Coven",
    "is_capital": true,
+   "resources": [],
    "world": [
     70.81,
     496.77
@@ -1707,6 +1830,7 @@
    "faction_name": "德库拉女巫团",
    "faction_name_en": "Drackla Coven",
    "is_capital": false,
+   "resources": [],
    "world": [
     84.17,
     516.82
@@ -1742,6 +1866,7 @@
    "faction_name": "德库拉女巫团",
    "faction_name_en": "Drackla Coven",
    "is_capital": false,
+   "resources": [],
    "world": [
     50.77,
     531.48
@@ -1777,6 +1902,7 @@
    "faction_name": "枯木哨兵",
    "faction_name_en": "Deadwood Sentinels",
    "is_capital": true,
+   "resources": [],
    "world": [
     189.72,
     672.64
@@ -1812,6 +1938,7 @@
    "faction_name": "破笼者",
    "faction_name_en": "Da Cage Breakaz",
    "is_capital": false,
+   "resources": [],
    "world": [
     181.04,
     645.26
@@ -1847,6 +1974,7 @@
    "faction_name": "破笼者",
    "faction_name_en": "Da Cage Breakaz",
    "is_capital": false,
+   "resources": [],
    "world": [
     166.34,
     662.23
@@ -1882,6 +2010,7 @@
    "faction_name": "希拉卓·塔尔",
    "faction_name_en": "Ss'ildra Tor",
    "is_capital": false,
+   "resources": [],
    "world": [
     42.75,
     412.69
@@ -1917,6 +2046,13 @@
    "faction_name": "欢愉教派",
    "faction_name_en": "Cult of Pleasure",
    "is_capital": true,
+   "resources": [
+    {
+     "key": "res_obsidian",
+     "name": "雕刻黑曜石",
+     "name_en": "Carved Obsidian"
+    }
+   ],
    "world": [
     48.77,
     457.04
@@ -1952,6 +2088,7 @@
    "faction_name": "希拉卓·塔尔",
    "faction_name_en": "Ss'ildra Tor",
    "is_capital": false,
+   "resources": [],
    "world": [
     70.81,
     418.86
@@ -1987,6 +2124,7 @@
    "faction_name": "希拉卓·塔尔",
    "faction_name_en": "Ss'ildra Tor",
    "is_capital": false,
+   "resources": [],
    "world": [
     51.44,
     430.04
@@ -2022,6 +2160,7 @@
    "faction_name": "磨砂氏族",
    "faction_name_en": "Clan Gritus",
    "is_capital": false,
+   "resources": [],
    "world": [
     10.02,
     463.21
@@ -2057,6 +2196,7 @@
    "faction_name": "磨砂氏族",
    "faction_name_en": "Clan Gritus",
    "is_capital": true,
+   "resources": [],
    "world": [
     14.03,
     442.39
@@ -2092,6 +2232,7 @@
    "faction_name": "磨砂氏族",
    "faction_name_en": "Clan Gritus",
    "is_capital": false,
+   "resources": [],
    "world": [
     14.7,
     410.37
@@ -2127,6 +2268,7 @@
    "faction_name": "希拉卓·塔尔",
    "faction_name_en": "Ss'ildra Tor",
    "is_capital": false,
+   "resources": [],
    "world": [
     28.73,
     422.33
@@ -2162,6 +2304,18 @@
    "faction_name": "枯木哨兵",
    "faction_name_en": "Deadwood Sentinels",
    "is_capital": true,
+   "resources": [
+    {
+     "key": "res_location_dark_fortress",
+     "name": "黑暗要塞基址",
+     "name_en": "Dark Fortress Site"
+    },
+    {
+     "key": "res_rom_marble",
+     "name": "大理石",
+     "name_en": "Marble"
+    }
+   ],
    "world": [
     250.51,
     671.48
@@ -2197,6 +2351,7 @@
    "faction_name": "枯木哨兵",
    "faction_name_en": "Deadwood Sentinels",
    "is_capital": false,
+   "resources": [],
    "world": [
     213.1,
     658.37
@@ -2232,6 +2387,7 @@
    "faction_name": "阿骨尔",
    "faction_name_en": "Aghol",
    "is_capital": false,
+   "resources": [],
    "world": [
     209.76,
     694.24
@@ -2267,6 +2423,7 @@
    "faction_name": "卡隆德·卡尔",
    "faction_name_en": "Karond Kar",
    "is_capital": true,
+   "resources": [],
    "world": [
     185.05,
     615.17
@@ -2302,6 +2459,7 @@
    "faction_name": "卡隆德·卡尔",
    "faction_name_en": "Karond Kar",
    "is_capital": false,
+   "resources": [],
    "world": [
     158.99,
     580.85
@@ -2337,6 +2495,7 @@
    "faction_name": "卡隆德·卡尔",
    "faction_name_en": "Karond Kar",
    "is_capital": false,
+   "resources": [],
    "world": [
     179.7,
     592.8
@@ -2372,6 +2531,7 @@
    "faction_name": "尼科放逐者",
    "faction_name_en": "Exiles of Nehek",
    "is_capital": true,
+   "resources": [],
    "world": [
     10.69,
     501.4
@@ -2407,6 +2567,7 @@
    "faction_name": "碎镣",
    "faction_name_en": "Broken Chainz",
    "is_capital": false,
+   "resources": [],
    "world": [
     8.68,
     565.81
@@ -2442,6 +2603,7 @@
    "faction_name": "碎镣",
    "faction_name_en": "Broken Chainz",
    "is_capital": false,
+   "resources": [],
    "world": [
     19.37,
     544.21
@@ -2477,6 +2639,7 @@
    "faction_name": "碎镣",
    "faction_name_en": "Broken Chainz",
    "is_capital": false,
+   "resources": [],
    "world": [
     26.72,
     522.22
@@ -2512,6 +2675,7 @@
    "faction_name": "纳迦瑞斯",
    "faction_name_en": "Nagarythe",
    "is_capital": false,
+   "resources": [],
    "world": [
     135.61,
     582.78
@@ -2547,6 +2711,7 @@
    "faction_name": "卡隆德·卡尔",
    "faction_name_en": "Karond Kar",
    "is_capital": false,
+   "resources": [],
    "world": [
     149.64,
     599.36
@@ -2582,6 +2747,7 @@
    "faction_name": "卡隆德·卡尔",
    "faction_name_en": "Karond Kar",
    "is_capital": true,
+   "resources": [],
    "world": [
     140.29,
     611.7
@@ -2617,6 +2783,7 @@
    "faction_name": null,
    "faction_name_en": null,
    "is_capital": false,
+   "resources": [],
    "world": [
     38.08,
     592.8
@@ -2652,6 +2819,13 @@
    "faction_name": "血毒氏族",
    "faction_name_en": "Clan Septik",
    "is_capital": true,
+   "resources": [
+    {
+     "key": "res_stone_trolls",
+     "name": "石巨魔巢穴",
+     "name_en": "Stone Trolls Den"
+    }
+   ],
    "world": [
     36.74,
     626.74
@@ -2687,6 +2861,7 @@
    "faction_name": "血毒氏族",
    "faction_name_en": "Clan Septik",
    "is_capital": false,
+   "resources": [],
    "world": [
     54.11,
     653.74
@@ -2722,6 +2897,13 @@
    "faction_name": "纳迦隆德",
    "faction_name_en": "Naggarond",
    "is_capital": true,
+   "resources": [
+    {
+     "key": "res_rom_marble",
+     "name": "大理石",
+     "name_en": "Marble"
+    }
+   ],
    "world": [
     74.82,
     627.13
@@ -2757,6 +2939,13 @@
    "faction_name": null,
    "faction_name_en": null,
    "is_capital": false,
+   "resources": [
+    {
+     "key": "res_stone_trolls",
+     "name": "石巨魔巢穴",
+     "name_en": "Stone Trolls Den"
+    }
+   ],
    "world": [
     49.43,
     497.54
@@ -2792,6 +2981,7 @@
    "faction_name": "磨砂氏族",
    "faction_name_en": "Clan Gritus",
    "is_capital": true,
+   "resources": [],
    "world": [
     26.72,
     488.28
@@ -2827,6 +3017,7 @@
    "faction_name": "血毒氏族",
    "faction_name_en": "Clan Septik",
    "is_capital": false,
+   "resources": [],
    "world": [
     10.02,
     629.06
@@ -2862,6 +3053,7 @@
    "faction_name": "先祖之军",
    "faction_name_en": "The Ancestral Throng",
    "is_capital": false,
+   "resources": [],
    "world": [
     14.03,
     602.83
@@ -2897,6 +3089,7 @@
    "faction_name": "血毒氏族",
    "faction_name_en": "Clan Septik",
    "is_capital": true,
+   "resources": [],
    "world": [
     29.39,
     649.5
@@ -2932,6 +3125,7 @@
    "faction_name": "戈隆德",
    "faction_name_en": "Ghrond",
    "is_capital": false,
+   "resources": [],
    "world": [
     103.55,
     629.83
@@ -2967,6 +3161,7 @@
    "faction_name": "戈隆德",
    "faction_name_en": "Ghrond",
    "is_capital": false,
+   "resources": [],
    "world": [
     86.84,
     642.56
@@ -3002,6 +3197,13 @@
    "faction_name": "戈隆德",
    "faction_name_en": "Ghrond",
    "is_capital": true,
+   "resources": [
+    {
+     "key": "res_gold",
+     "name": "黄金",
+     "name_en": "Gold"
+    }
+   ],
    "world": [
     104.88,
     649.11
@@ -3037,6 +3239,13 @@
    "faction_name": "戈隆德",
    "faction_name_en": "Ghrond",
    "is_capital": false,
+   "resources": [
+    {
+     "key": "res_obsidian",
+     "name": "雕刻黑曜石",
+     "name_en": "Carved Obsidian"
+    }
+   ],
    "world": [
     90.18,
     665.31
@@ -3072,6 +3281,7 @@
    "faction_name": "蒙人",
    "faction_name_en": "Mung",
    "is_capital": false,
+   "resources": [],
    "world": [
     52.77,
     696.94
@@ -3107,6 +3317,7 @@
    "faction_name": "戈隆德",
    "faction_name_en": "Ghrond",
    "is_capital": true,
+   "resources": [],
    "world": [
     85.51,
     701.18
@@ -3142,6 +3353,7 @@
    "faction_name": "蒙人",
    "faction_name_en": "Mung",
    "is_capital": false,
+   "resources": [],
    "world": [
     26.72,
     677.27
@@ -3177,6 +3389,7 @@
    "faction_name": "哈尔·冈西",
    "faction_name_en": "Har Ganeth",
    "is_capital": true,
+   "resources": [],
    "world": [
     141.62,
     637.93
@@ -3212,6 +3425,7 @@
    "faction_name": "破笼者",
    "faction_name_en": "Da Cage Breakaz",
    "is_capital": false,
+   "resources": [],
    "world": [
     126.93,
     651.81
@@ -3247,6 +3461,7 @@
    "faction_name": "破笼者",
    "faction_name_en": "Da Cage Breakaz",
    "is_capital": false,
+   "resources": [],
    "world": [
     142.96,
     654.9
@@ -3282,6 +3497,7 @@
    "faction_name": "破笼者",
    "faction_name_en": "Da Cage Breakaz",
    "is_capital": false,
+   "resources": [],
    "world": [
     134.94,
     672.64
@@ -3317,6 +3533,13 @@
    "faction_name": "克拉卡隆德",
    "faction_name_en": "Clar Karond",
    "is_capital": true,
+   "resources": [
+    {
+     "key": "res_rom_timber",
+     "name": "木材",
+     "name_en": "Timber"
+    }
+   ],
    "world": [
     78.16,
     560.41
@@ -3352,6 +3575,7 @@
    "faction_name": null,
    "faction_name_en": null,
    "is_capital": false,
+   "resources": [],
    "world": [
     48.1,
     560.79
@@ -3387,6 +3611,7 @@
    "faction_name": "克拉卡隆德",
    "faction_name_en": "Clar Karond",
    "is_capital": false,
+   "resources": [],
    "world": [
     106.22,
     584.32
@@ -3422,6 +3647,7 @@
    "faction_name": "克拉卡隆德",
    "faction_name_en": "Clar Karond",
    "is_capital": false,
+   "resources": [],
    "world": [
     94.86,
     546.91
@@ -3457,6 +3683,7 @@
    "faction_name": null,
    "faction_name_en": null,
    "is_capital": false,
+   "resources": [],
    "world": [
     59.45,
     608.23
@@ -3492,6 +3719,7 @@
    "faction_name": null,
    "faction_name_en": null,
    "is_capital": false,
+   "resources": [],
    "world": [
     68.81,
     591.26
@@ -3527,6 +3755,7 @@
    "faction_name": "海格·葛雷夫",
    "faction_name_en": "Hag Graef",
    "is_capital": true,
+   "resources": [],
    "world": [
     92.86,
     607.46
@@ -3562,6 +3791,13 @@
    "faction_name": "斯兰雾佩克",
    "faction_name_en": "Xlanhuapec",
    "is_capital": true,
+   "resources": [
+    {
+     "key": "res_rom_iron",
+     "name": "生铁",
+     "name_en": "Iron"
+    }
+   ],
    "world": [
     143.63,
     204.03
@@ -3597,6 +3833,18 @@
    "faction_name": "斯兰雾佩克",
    "faction_name_en": "Xlanhuapec",
    "is_capital": false,
+   "resources": [
+    {
+     "key": "res_river_trolls",
+     "name": "河巨魔巢穴",
+     "name_en": "River Trolls Den"
+    },
+    {
+     "key": "res_rom_timber",
+     "name": "木材",
+     "name_en": "Timber"
+    }
+   ],
    "world": [
     138.28,
     178.57
@@ -3632,6 +3880,7 @@
    "faction_name": null,
    "faction_name_en": null,
    "is_capital": false,
+   "resources": [],
    "world": [
     159.66,
     181.66
@@ -3667,6 +3916,7 @@
    "faction_name": "新世界殖民者",
    "faction_name_en": "New World Colonies",
    "is_capital": false,
+   "resources": [],
    "world": [
     65.47,
     371.03
@@ -3702,6 +3952,7 @@
    "faction_name": "斯科吉",
    "faction_name_en": "Skeggi",
    "is_capital": true,
+   "resources": [],
    "world": [
     84.17,
     395.72
@@ -3737,6 +3988,7 @@
    "faction_name": "斯科吉",
    "faction_name_en": "Skeggi",
    "is_capital": false,
+   "resources": [],
    "world": [
     61.46,
     398.8
@@ -3772,6 +4024,7 @@
    "faction_name": "斯克拉特氏族",
    "faction_name_en": "Clan Skrat",
    "is_capital": true,
+   "resources": [],
    "world": [
     127.59,
     91.41
@@ -3807,6 +4060,7 @@
    "faction_name": "索提戈教派",
    "faction_name_en": "Cult of Sotek",
    "is_capital": false,
+   "resources": [],
    "world": [
     161.0,
     84.47
@@ -3842,6 +4096,13 @@
    "faction_name": "疫病氏族",
    "faction_name_en": "Clan Pestilens",
    "is_capital": true,
+   "resources": [
+    {
+     "key": "res_animals",
+     "name": "异域动物",
+     "name_en": "Exotic Animals"
+    }
+   ],
    "world": [
     122.25,
     144.63
@@ -3877,6 +4138,7 @@
    "faction_name": "南方哨站",
    "faction_name_en": "Southern Sentinels",
    "is_capital": false,
+   "resources": [],
    "world": [
     126.93,
     117.25
@@ -3912,6 +4174,7 @@
    "faction_name": "疫病氏族",
    "faction_name_en": "Clan Pestilens",
    "is_capital": false,
+   "resources": [],
    "world": [
     97.53,
     155.05
@@ -3947,6 +4210,18 @@
    "faction_name": "蓝蝰蛇",
    "faction_name_en": "Blue Vipers",
    "is_capital": true,
+   "resources": [
+    {
+     "key": "res_medicine",
+     "name": "医用植物",
+     "name_en": "Medicinal Plants"
+    },
+    {
+     "key": "res_savage",
+     "name": "蛮荒兽人",
+     "name_en": "Savage Orcs"
+    }
+   ],
    "world": [
     61.46,
     331.69
@@ -3982,6 +4257,7 @@
    "faction_name": "新世界殖民者",
    "faction_name_en": "New World Colonies",
    "is_capital": false,
+   "resources": [],
    "world": [
     96.86,
     351.36
@@ -4017,6 +4293,7 @@
    "faction_name": "新世界殖民者",
    "faction_name_en": "New World Colonies",
    "is_capital": false,
+   "resources": [],
    "world": [
     60.79,
     354.45
@@ -4052,6 +4329,13 @@
    "faction_name": "蓝蝰蛇",
    "faction_name_en": "Blue Vipers",
    "is_capital": false,
+   "resources": [
+    {
+     "key": "res_dyes",
+     "name": "染料",
+     "name_en": "Dyes"
+    }
+   ],
    "world": [
     31.4,
     329.76
@@ -4087,6 +4371,7 @@
    "faction_name": "千噬",
    "faction_name_en": "The Thousand Maws",
    "is_capital": true,
+   "resources": [],
    "world": [
     20.71,
     193.23
@@ -4122,6 +4407,13 @@
    "faction_name": "瑟提哨站",
    "faction_name_en": "Sentinels of Xeti",
    "is_capital": false,
+   "resources": [
+    {
+     "key": "res_medicine",
+     "name": "医用植物",
+     "name_en": "Medicinal Plants"
+    }
+   ],
    "world": [
     47.43,
     210.97
@@ -4157,6 +4449,7 @@
    "faction_name": "瑟提哨站",
    "faction_name_en": "Sentinels of Xeti",
    "is_capital": false,
+   "resources": [],
    "world": [
     51.44,
     187.83
@@ -4192,6 +4485,7 @@
    "faction_name": "瑟提哨站",
    "faction_name_en": "Sentinels of Xeti",
    "is_capital": false,
+   "resources": [],
    "world": [
     24.72,
     217.91
@@ -4227,6 +4521,7 @@
    "faction_name": null,
    "faction_name_en": null,
    "is_capital": false,
+   "resources": [],
    "world": [
     191.06,
     178.96
@@ -4262,6 +4557,7 @@
    "faction_name": "恶唾氏族",
    "faction_name_en": "Clan Spittel",
    "is_capital": true,
+   "resources": [],
    "world": [
     187.05,
     165.07
@@ -4297,6 +4593,7 @@
    "faction_name": "恶唾氏族",
    "faction_name_en": "Clan Spittel",
    "is_capital": false,
+   "resources": [],
    "world": [
     150.31,
     142.32
@@ -4332,6 +4629,7 @@
    "faction_name": "恶唾氏族",
    "faction_name_en": "Clan Spittel",
    "is_capital": true,
+   "resources": [],
    "world": [
     163.67,
     159.29
@@ -4367,6 +4665,7 @@
    "faction_name": "暮光要塞",
    "faction_name_en": "Citadel of Dusk",
    "is_capital": true,
+   "resources": [],
    "world": [
     201.75,
     68.65
@@ -4402,6 +4701,7 @@
    "faction_name": "暮光要塞",
    "faction_name_en": "Citadel of Dusk",
    "is_capital": false,
+   "resources": [],
    "world": [
     187.72,
     81.38
@@ -4437,6 +4737,7 @@
    "faction_name": "维生池守望者",
    "faction_name_en": "Wardens of the Living Pools",
    "is_capital": true,
+   "resources": [],
    "world": [
     102.21,
     201.72
@@ -4472,6 +4773,7 @@
    "faction_name": "索提戈之脊矮人",
    "faction_name_en": "Spine of Sotek Dwarfs",
    "is_capital": false,
+   "resources": [],
    "world": [
     100.87,
     133.06
@@ -4507,6 +4809,7 @@
    "faction_name": "索提戈之脊矮人",
    "faction_name_en": "Spine of Sotek Dwarfs",
    "is_capital": true,
+   "resources": [],
    "world": [
     80.16,
     167.39
@@ -4542,6 +4845,7 @@
    "faction_name": "血厅女巫团",
    "faction_name_en": "Blood Hall Coven",
    "is_capital": false,
+   "resources": [],
    "world": [
     39.41,
     256.48
@@ -4577,6 +4881,7 @@
    "faction_name": "血厅女巫团",
    "faction_name_en": "Blood Hall Coven",
    "is_capital": false,
+   "resources": [],
    "world": [
     47.43,
     275.77
@@ -4612,6 +4917,7 @@
    "faction_name": "诅咒剧团",
    "faction_name_en": "The Accursed Troupe",
    "is_capital": true,
+   "resources": [],
    "world": [
     17.37,
     256.1
@@ -4647,6 +4953,7 @@
    "faction_name": "吸血鬼海岸哗变者",
    "faction_name_en": "Vampire Coast Mutineers",
    "is_capital": false,
+   "resources": [],
    "world": [
     173.02,
     223.31
@@ -4682,6 +4989,7 @@
    "faction_name": "吸血鬼海岸哗变者",
    "faction_name_en": "Vampire Coast Mutineers",
    "is_capital": false,
+   "resources": [],
    "world": [
     199.07,
     218.3
@@ -4717,6 +5025,7 @@
    "faction_name": "觉醒者",
    "faction_name_en": "The Awakened",
    "is_capital": true,
+   "resources": [],
    "world": [
     184.38,
     202.1
@@ -4752,6 +5061,7 @@
    "faction_name": "南方哨站",
    "faction_name_en": "Southern Sentinels",
    "is_capital": true,
+   "resources": [],
    "world": [
     149.64,
     102.59
@@ -4787,6 +5097,7 @@
    "faction_name": "南方哨站",
    "faction_name_en": "Southern Sentinels",
    "is_capital": false,
+   "resources": [],
    "world": [
     167.68,
     126.12
@@ -4822,6 +5133,7 @@
    "faction_name": "南方哨站",
    "faction_name_en": "Southern Sentinels",
    "is_capital": false,
+   "resources": [],
    "world": [
     175.69,
     106.06
@@ -4857,6 +5169,7 @@
    "faction_name": "蓝蝰蛇",
    "faction_name_en": "Blue Vipers",
    "is_capital": false,
+   "resources": [],
    "world": [
     80.16,
     311.64
@@ -4892,6 +5205,7 @@
    "faction_name": "玉廷",
    "faction_name_en": "The Jade Court",
    "is_capital": false,
+   "resources": [],
    "world": [
     69.48,
     303.92
@@ -4927,6 +5241,7 @@
    "faction_name": "玉廷",
    "faction_name_en": "The Jade Court",
    "is_capital": true,
+   "resources": [],
    "world": [
     41.42,
     313.95
@@ -4962,6 +5277,7 @@
    "faction_name": "万变使徒",
    "faction_name_en": "Apostles of Change",
    "is_capital": false,
+   "resources": [],
    "world": [
     116.24,
     210.59
@@ -4997,6 +5313,7 @@
    "faction_name": "万变使徒",
    "faction_name_en": "Apostles of Change",
    "is_capital": false,
+   "resources": [],
    "world": [
     94.86,
     232.18
@@ -5032,6 +5349,7 @@
    "faction_name": "血腥流浪者",
    "faction_name_en": "Blooded Wanderers",
    "is_capital": true,
+   "resources": [],
    "world": [
     66.14,
     238.74
@@ -5067,6 +5385,7 @@
    "faction_name": "螨疮氏族",
    "faction_name_en": "Clan Mange",
    "is_capital": false,
+   "resources": [],
    "world": [
     70.14,
     271.91
@@ -5102,6 +5421,7 @@
    "faction_name": "猎人元帅远征军",
    "faction_name_en": "The Huntsmarshal's Expedition",
    "is_capital": false,
+   "resources": [],
    "world": [
     101.54,
     282.32
@@ -5137,6 +5457,7 @@
    "faction_name": "螨疮氏族",
    "faction_name_en": "Clan Mange",
    "is_capital": true,
+   "resources": [],
    "world": [
     58.12,
     291.97
@@ -5172,6 +5493,13 @@
    "faction_name": "极乐守卫",
    "faction_name_en": "Keepers of Bliss",
    "is_capital": false,
+   "resources": [
+    {
+     "key": "res_spices",
+     "name": "香料",
+     "name_en": "Spices"
+    }
+   ],
    "world": [
     29.39,
     393.4
@@ -5207,6 +5535,13 @@
    "faction_name": "赫斯欧塔",
    "faction_name_en": "Hexoatl",
    "is_capital": true,
+   "resources": [
+    {
+     "key": "res_gold",
+     "name": "黄金",
+     "name_en": "Gold"
+    }
+   ],
    "world": [
     46.09,
     377.59
@@ -5242,6 +5577,7 @@
    "faction_name": "极乐守卫",
    "faction_name_en": "Keepers of Bliss",
    "is_capital": false,
+   "resources": [],
    "world": [
     35.41,
     352.91
@@ -5277,6 +5613,18 @@
    "faction_name": "塔拉克斯兰",
    "faction_name_en": "Tlaxtlan",
    "is_capital": false,
+   "resources": [
+    {
+     "key": "res_river_trolls",
+     "name": "河巨魔巢穴",
+     "name_en": "River Trolls Den"
+    },
+    {
+     "key": "res_rom_timber",
+     "name": "木材",
+     "name_en": "Timber"
+    }
+   ],
    "world": [
     83.5,
     255.71
@@ -5312,6 +5660,7 @@
    "faction_name": "塔拉克斯兰",
    "faction_name_en": "Tlaxtlan",
    "is_capital": true,
+   "resources": [],
    "world": [
     109.56,
     249.93
@@ -5347,6 +5696,7 @@
    "faction_name": "波尔德罗长征军",
    "faction_name_en": "Bordeleaux Errant",
    "is_capital": false,
+   "resources": [],
    "world": [
     143.63,
     258.8
@@ -5382,6 +5732,7 @@
    "faction_name": "塔拉克斯兰",
    "faction_name_en": "Tlaxtlan",
    "is_capital": false,
+   "resources": [],
    "world": [
     136.28,
     236.81
@@ -5417,6 +5768,13 @@
    "faction_name": "伊塔扎",
    "faction_name_en": "Itza",
    "is_capital": true,
+   "resources": [
+    {
+     "key": "res_gold",
+     "name": "黄金",
+     "name_en": "Gold"
+    }
+   ],
    "world": [
     112.23,
     184.36
@@ -5452,6 +5810,7 @@
    "faction_name": "苍白乳婴",
    "faction_name_en": "Pallid Nurslings",
    "is_capital": false,
+   "resources": [],
    "world": [
     124.25,
     168.93
@@ -5487,6 +5846,7 @@
    "faction_name": "苍白乳婴",
    "faction_name_en": "Pallid Nurslings",
    "is_capital": false,
+   "resources": [],
    "world": [
     88.85,
     183.97
@@ -5522,6 +5882,7 @@
    "faction_name": "卡特普离散者",
    "faction_name_en": "Deserters of Khatep",
    "is_capital": false,
+   "resources": [],
    "world": [
     93.52,
     120.34
@@ -5557,6 +5918,7 @@
    "faction_name": "卡特普离散者",
    "faction_name_en": "Deserters of Khatep",
    "is_capital": true,
+   "resources": [],
    "world": [
     57.45,
     162.76
@@ -5592,6 +5954,7 @@
    "faction_name": "卡特普离散者",
    "faction_name_en": "Deserters of Khatep",
    "is_capital": false,
+   "resources": [],
    "world": [
     75.49,
     133.06
@@ -5627,6 +5990,7 @@
    "faction_name": "奥瑞恩箭团",
    "faction_name_en": "Bowmen of Oreon",
    "is_capital": true,
+   "resources": [],
    "world": [
     428.21,
     167.0
@@ -5662,6 +6026,13 @@
    "faction_name": "恐惧之岩私掠舰队",
    "faction_name_en": "Dread Rock Privateers",
    "is_capital": false,
+   "resources": [
+    {
+     "key": "res_rom_textiles",
+     "name": "陶器",
+     "name_en": "Pottery"
+    }
+   ],
    "world": [
     608.58,
     60.55
@@ -5697,6 +6068,13 @@
    "faction_name": "恐惧之岩私掠舰队",
    "faction_name_en": "Dread Rock Privateers",
    "is_capital": true,
+   "resources": [
+    {
+     "key": "res_spices",
+     "name": "香料",
+     "name_en": "Spices"
+    }
+   ],
    "world": [
     655.34,
     102.98
@@ -5732,6 +6110,7 @@
    "faction_name": "恐惧之岩私掠舰队",
    "faction_name_en": "Dread Rock Privateers",
    "is_capital": false,
+   "resources": [],
    "world": [
     625.28,
     133.45
@@ -5767,6 +6146,13 @@
    "faction_name": "血手",
    "faction_name_en": "The Bloody Handz",
    "is_capital": true,
+   "resources": [
+    {
+     "key": "res_river_trolls",
+     "name": "河巨魔巢穴",
+     "name_en": "River Trolls Den"
+    }
+   ],
    "world": [
     427.54,
     130.36
@@ -5802,6 +6188,7 @@
    "faction_name": "碎叶者部落",
    "faction_name_en": "Leaf-Cutterz Tribe",
    "is_capital": false,
+   "resources": [],
    "world": [
     406.83,
     139.23
@@ -5837,6 +6224,7 @@
    "faction_name": "碎叶者部落",
    "faction_name_en": "Leaf-Cutterz Tribe",
    "is_capital": false,
+   "resources": [],
    "world": [
     375.43,
     112.62
@@ -5872,6 +6260,7 @@
    "faction_name": "努玛斯",
    "faction_name_en": "Numas",
    "is_capital": false,
+   "resources": [],
    "world": [
     434.89,
     229.49
@@ -5907,6 +6296,18 @@
    "faction_name": "喀穆里",
    "faction_name_en": "Khemri",
    "is_capital": true,
+   "resources": [
+    {
+     "key": "res_gold",
+     "name": "黄金",
+     "name_en": "Gold"
+    },
+    {
+     "key": "res_river_trolls",
+     "name": "河巨魔巢穴",
+     "name_en": "River Trolls Den"
+    }
+   ],
    "world": [
     408.84,
     222.93
@@ -5942,6 +6343,7 @@
    "faction_name": "努玛斯",
    "faction_name_en": "Numas",
    "is_capital": false,
+   "resources": [],
    "world": [
     452.93,
     213.67
@@ -5977,6 +6379,13 @@
    "faction_name": "尼古拉契兄弟会",
    "faction_name_en": "Necrarch Brotherhood",
    "is_capital": false,
+   "resources": [
+    {
+     "key": "res_rom_marble",
+     "name": "大理石",
+     "name_en": "Marble"
+    }
+   ],
    "world": [
     419.52,
     206.73
@@ -6012,6 +6421,7 @@
    "faction_name": "纳迦什信徒",
    "faction_name_en": "Followers of Nagash",
    "is_capital": true,
+   "resources": [],
    "world": [
     291.93,
     207.89
@@ -6047,6 +6457,7 @@
    "faction_name": "明焰骑士团",
    "faction_name_en": "Knights of the Flame",
    "is_capital": false,
+   "resources": [],
    "world": [
     299.28,
     242.98
@@ -6082,6 +6493,7 @@
    "faction_name": "纳迦什信徒",
    "faction_name_en": "Followers of Nagash",
    "is_capital": false,
+   "resources": [],
    "world": [
     280.57,
     238.36
@@ -6117,6 +6529,13 @@
    "faction_name": "铁眉远征军",
    "faction_name_en": "Ironbrow's Expedition",
    "is_capital": true,
+   "resources": [
+    {
+     "key": "res_gold",
+     "name": "黄金",
+     "name_en": "Gold"
+    }
+   ],
    "world": [
     455.6,
     170.47
@@ -6152,6 +6571,7 @@
    "faction_name": "巨蜘蛛",
    "faction_name_en": "Arachnos",
    "is_capital": false,
+   "resources": [],
    "world": [
     470.3,
     187.44
@@ -6187,6 +6607,13 @@
    "faction_name": "巨蜘蛛",
    "faction_name_en": "Arachnos",
    "is_capital": false,
+   "resources": [
+    {
+     "key": "res_animals",
+     "name": "异域动物",
+     "name_en": "Exotic Animals"
+    }
+   ],
    "world": [
     476.31,
     206.34
@@ -6222,6 +6649,7 @@
    "faction_name": "泽特兰",
    "faction_name_en": "Zlatlan",
    "is_capital": false,
+   "resources": [],
    "world": [
     402.16,
     77.91
@@ -6257,6 +6685,7 @@
    "faction_name": "泽特兰",
    "faction_name_en": "Zlatlan",
    "is_capital": true,
+   "resources": [],
    "world": [
     407.5,
     94.88
@@ -6292,6 +6721,7 @@
    "faction_name": "前哨站",
    "faction_name_en": "The Sentinels",
    "is_capital": true,
+   "resources": [],
    "world": [
     386.79,
     218.69
@@ -6327,6 +6757,18 @@
    "faction_name": "巨蜘蛛",
    "faction_name_en": "Arachnos",
    "is_capital": true,
+   "resources": [
+    {
+     "key": "res_obsidian",
+     "name": "雕刻黑曜石",
+     "name_en": "Carved Obsidian"
+    },
+    {
+     "key": "res_stone_trolls",
+     "name": "石巨魔巢穴",
+     "name_en": "Stone Trolls Den"
+    }
+   ],
    "world": [
     480.98,
     238.36
@@ -6362,6 +6804,7 @@
    "faction_name": null,
    "faction_name_en": null,
    "is_capital": false,
+   "resources": [],
    "world": [
     504.37,
     236.43
@@ -6397,6 +6840,7 @@
    "faction_name": "白银血军",
    "faction_name_en": "The Silver Host",
    "is_capital": false,
+   "resources": [],
    "world": [
     515.72,
     246.84
@@ -6432,6 +6876,7 @@
    "faction_name": "拉卡封王朝",
    "faction_name_en": "Rakaph Dynasty",
    "is_capital": false,
+   "resources": [],
    "world": [
     355.39,
     210.59
@@ -6467,6 +6912,7 @@
    "faction_name": "拉卡封王朝",
    "faction_name_en": "Rakaph Dynasty",
    "is_capital": false,
+   "resources": [],
    "world": [
     349.38,
     234.88
@@ -6502,6 +6948,13 @@
    "faction_name": "欧瑞格骑士",
    "faction_name_en": "Knights of Origo",
    "is_capital": false,
+   "resources": [
+    {
+     "key": "res_rom_textiles",
+     "name": "陶器",
+     "name_en": "Pottery"
+    }
+   ],
    "world": [
     361.41,
     251.08
@@ -6537,6 +6990,7 @@
    "faction_name": "拉卡封王朝",
    "faction_name_en": "Rakaph Dynasty",
    "is_capital": true,
+   "resources": [],
    "world": [
     367.42,
     226.79
@@ -6572,6 +7026,7 @@
    "faction_name": "白银血军",
    "faction_name_en": "The Silver Host",
    "is_capital": false,
+   "resources": [],
    "world": [
     540.44,
     217.91
@@ -6607,6 +7062,7 @@
    "faction_name": "莱巴拉斯宫廷",
    "faction_name_en": "Court of Lybaras",
    "is_capital": false,
+   "resources": [],
    "world": [
     551.13,
     244.91
@@ -6642,6 +7098,13 @@
    "faction_name": "白银血军",
    "faction_name_en": "The Silver Host",
    "is_capital": true,
+   "resources": [
+    {
+     "key": "res_gems",
+     "name": "宝石",
+     "name_en": "Gemstones"
+    }
+   ],
    "world": [
     533.09,
     267.67
@@ -6677,6 +7140,7 @@
    "faction_name": "白银血军",
    "faction_name_en": "The Silver Host",
    "is_capital": false,
+   "resources": [],
    "world": [
     511.71,
     221.39
@@ -6712,6 +7176,13 @@
    "faction_name": "邓肯霍夫秘会",
    "faction_name_en": "The Drakenhof Conclave",
    "is_capital": true,
+   "resources": [
+    {
+     "key": "res_rom_oil",
+     "name": "畜类",
+     "name_en": "Pastures"
+    }
+   ],
    "world": [
     428.88,
     190.53
@@ -6747,6 +7218,7 @@
    "faction_name": "沙丘王国",
    "faction_name_en": "Dune Kingdoms",
    "is_capital": false,
+   "resources": [],
    "world": [
     403.49,
     168.93
@@ -6782,6 +7254,13 @@
    "faction_name": "沙丘王国",
    "faction_name_en": "Dune Kingdoms",
    "is_capital": false,
+   "resources": [
+    {
+     "key": "res_gems",
+     "name": "宝石",
+     "name_en": "Gemstones"
+    }
+   ],
    "world": [
     399.48,
     189.76
@@ -6817,6 +7296,7 @@
    "faction_name": "沙丘王国",
    "faction_name_en": "Dune Kingdoms",
    "is_capital": false,
+   "resources": [],
    "world": [
     374.1,
     176.65
@@ -6852,6 +7332,7 @@
    "faction_name": "西格玛教会",
    "faction_name_en": "Cult of Sigmar",
    "is_capital": true,
+   "resources": [],
    "world": [
     367.42,
     195.93
@@ -6887,6 +7368,7 @@
    "faction_name": "碎叶者部落",
    "faction_name_en": "Leaf-Cutterz Tribe",
    "is_capital": false,
+   "resources": [],
    "world": [
     364.08,
     135.38
@@ -6922,6 +7404,7 @@
    "faction_name": "塔拉夸",
    "faction_name_en": "Tlaqua",
    "is_capital": true,
+   "resources": [],
    "world": [
     363.41,
     156.59
@@ -6957,6 +7440,7 @@
    "faction_name": "碎叶者部落",
    "faction_name_en": "Leaf-Cutterz Tribe",
    "is_capital": false,
+   "resources": [],
    "world": [
     332.01,
     154.66
@@ -6992,6 +7476,7 @@
    "faction_name": "恶疾氏族",
    "faction_name_en": "Clan Morbidus",
    "is_capital": false,
+   "resources": [],
    "world": [
     474.3,
     125.73
@@ -7027,6 +7512,7 @@
    "faction_name": "恶疾氏族",
    "faction_name_en": "Clan Morbidus",
    "is_capital": false,
+   "resources": [],
    "world": [
     449.59,
     82.15
@@ -7062,6 +7548,7 @@
    "faction_name": "恶疾氏族",
    "faction_name_en": "Clan Morbidus",
    "is_capital": true,
+   "resources": [],
    "world": [
     479.65,
     92.57
@@ -7097,6 +7584,7 @@
    "faction_name": "莫尔德金氏族",
    "faction_name_en": "Clan Mordkin",
    "is_capital": false,
+   "resources": [],
    "world": [
     531.09,
     169.32
@@ -7132,6 +7620,7 @@
    "faction_name": "莫尔德金氏族",
    "faction_name_en": "Clan Mordkin",
    "is_capital": true,
+   "resources": [],
    "world": [
     515.05,
     191.69
@@ -7167,6 +7656,7 @@
    "faction_name": "莫尔德金氏族",
    "faction_name_en": "Clan Mordkin",
    "is_capital": false,
+   "resources": [],
    "world": [
     497.02,
     165.85
@@ -7202,6 +7692,7 @@
    "faction_name": "瑟安圣战军",
    "faction_name_en": "Thegan's Errantry",
    "is_capital": false,
+   "resources": [],
    "world": [
     326.67,
     244.91
@@ -7237,6 +7728,13 @@
    "faction_name": "灰须勘探队",
    "faction_name_en": "Greybeard's Prospectors",
    "is_capital": true,
+   "resources": [
+    {
+     "key": "res_stone_trolls",
+     "name": "石巨魔巢穴",
+     "name_en": "Stone Trolls Den"
+    }
+   ],
    "world": [
     303.29,
     222.93
@@ -7272,6 +7770,7 @@
    "faction_name": "灰须勘探队",
    "faction_name_en": "Greybeard's Prospectors",
    "is_capital": false,
+   "resources": [],
    "world": [
     321.32,
     237.2
@@ -7307,6 +7806,7 @@
    "faction_name": "饿死鬼",
    "faction_name_en": "The Famished",
    "is_capital": true,
+   "resources": [],
    "world": [
     325.33,
     206.34
@@ -7342,6 +7842,7 @@
    "faction_name": "史崔格帝国",
    "faction_name_en": "Strygos Empire",
    "is_capital": true,
+   "resources": [],
    "world": [
     341.37,
     256.48
@@ -7377,6 +7878,7 @@
    "faction_name": "里昂尼斯骑士战团",
    "faction_name_en": "Chevaliers de Lyonesse",
    "is_capital": false,
+   "resources": [],
    "world": [
     315.98,
     263.43
@@ -7412,6 +7914,7 @@
    "faction_name": "史崔格帝国",
    "faction_name_en": "Strygos Empire",
    "is_capital": false,
+   "resources": [],
    "world": [
     330.68,
     270.37
@@ -7447,6 +7950,7 @@
    "faction_name": "莫尔德金氏族",
    "faction_name_en": "Clan Mordkin",
    "is_capital": true,
+   "resources": [],
    "world": [
     494.34,
     144.25
@@ -7482,6 +7986,7 @@
    "faction_name": "最后守卫者",
    "faction_name_en": "Last Defenders",
    "is_capital": false,
+   "resources": [],
    "world": [
     454.26,
     152.73
@@ -7517,6 +8022,7 @@
    "faction_name": "萨索瑞尔守望者",
    "faction_name_en": "Sarthorael's Watchers",
    "is_capital": false,
+   "resources": [],
    "world": [
     408.84,
     59.4
@@ -7552,6 +8058,7 @@
    "faction_name": "萨索瑞尔守望者",
    "faction_name_en": "Sarthorael's Watchers",
    "is_capital": false,
+   "resources": [],
    "world": [
     390.13,
     43.97
@@ -7587,6 +8094,13 @@
    "faction_name": "魔剑士议会",
    "faction_name_en": "Order of Loremasters",
    "is_capital": true,
+   "resources": [
+    {
+     "key": "res_spices",
+     "name": "香料",
+     "name_en": "Spices"
+    }
+   ],
    "world": [
     364.08,
     52.84
@@ -7622,6 +8136,7 @@
    "faction_name": "黄铜王座",
    "faction_name_en": "Brazen Throne",
    "is_capital": false,
+   "resources": [],
    "world": [
     187.72,
     14.27
@@ -7657,6 +8172,13 @@
    "faction_name": "帕花科斯幽灵",
    "faction_name_en": "Ghosts of Pahuax",
    "is_capital": true,
+   "resources": [
+    {
+     "key": "res_rom_lead",
+     "name": "食盐",
+     "name_en": "Salt"
+    }
+   ],
    "world": [
     156.99,
     17.36
@@ -7692,6 +8214,7 @@
    "faction_name": "黄铜王座",
    "faction_name_en": "Brazen Throne",
    "is_capital": false,
+   "resources": [],
    "world": [
     199.74,
     28.16
@@ -7727,6 +8250,13 @@
    "faction_name": "幻焰书吏",
    "faction_name_en": "Flaming Scribes",
    "is_capital": true,
+   "resources": [
+    {
+     "key": "res_obsidian",
+     "name": "雕刻黑曜石",
+     "name_en": "Carved Obsidian"
+    }
+   ],
    "world": [
     309.3,
     44.35
@@ -7762,6 +8292,7 @@
    "faction_name": "幻焰书吏",
    "faction_name_en": "Flaming Scribes",
    "is_capital": false,
+   "resources": [],
    "world": [
     275.23,
     39.34
@@ -7797,6 +8328,7 @@
    "faction_name": "幻焰书吏",
    "faction_name_en": "Flaming Scribes",
    "is_capital": false,
+   "resources": [],
    "world": [
     246.5,
     28.93
@@ -7832,6 +8364,7 @@
    "faction_name": "极乐之愉",
    "faction_name_en": "Rapturous Excess",
    "is_capital": true,
+   "resources": [],
    "world": [
     473.64,
     21.98
@@ -7867,6 +8400,7 @@
    "faction_name": "极乐之愉",
    "faction_name_en": "Rapturous Excess",
    "is_capital": false,
+   "resources": [],
    "world": [
     551.8,
     23.14
@@ -7902,6 +8436,7 @@
    "faction_name": "极乐之愉",
    "faction_name_en": "Rapturous Excess",
    "is_capital": false,
+   "resources": [],
    "world": [
     515.72,
     12.34
@@ -7937,6 +8472,7 @@
    "faction_name": "极乐之愉",
    "faction_name_en": "Rapturous Excess",
    "is_capital": false,
+   "resources": [],
    "world": [
     503.7,
     37.03
@@ -7972,6 +8508,18 @@
    "faction_name": "肿腺疫群",
    "faction_name_en": "Bubonic Swarm",
    "is_capital": false,
+   "resources": [
+    {
+     "key": "res_bile_trolls",
+     "name": "胆汁巨魔巢穴",
+     "name_en": "Bile Trolls Den"
+    },
+    {
+     "key": "res_rom_furs",
+     "name": "毛皮",
+     "name_en": "Furs"
+    }
+   ],
    "world": [
     380.78,
     14.66
@@ -8007,6 +8555,7 @@
    "faction_name": "肿腺疫群",
    "faction_name_en": "Bubonic Swarm",
    "is_capital": false,
+   "resources": [],
    "world": [
     420.86,
     18.51
@@ -8042,6 +8591,7 @@
    "faction_name": "奸奇传谕使",
    "faction_name_en": "Oracles of Tzeentch",
    "is_capital": true,
+   "resources": [],
    "world": [
     340.7,
     20.83
@@ -8077,6 +8627,7 @@
    "faction_name": "肿腺疫群",
    "faction_name_en": "Bubonic Swarm",
    "is_capital": false,
+   "resources": [],
    "world": [
     443.57,
     9.26
@@ -8112,6 +8663,18 @@
    "faction_name": "猖殖聚群",
    "faction_name_en": "The Fecundites",
    "is_capital": true,
+   "resources": [
+    {
+     "key": "res_bile_trolls",
+     "name": "胆汁巨魔巢穴",
+     "name_en": "Bile Trolls Den"
+    },
+    {
+     "key": "res_dyes",
+     "name": "染料",
+     "name_en": "Dyes"
+    }
+   ],
    "world": [
     395.48,
     568.51
@@ -8147,6 +8710,7 @@
    "faction_name": "暗毒",
    "faction_name_en": "Black Venom",
    "is_capital": true,
+   "resources": [],
    "world": [
     388.8,
     418.09
@@ -8182,6 +8746,7 @@
    "faction_name": "劳伦洛伦",
    "faction_name_en": "Laurelorn",
    "is_capital": true,
+   "resources": [],
    "world": [
     352.05,
     563.49
@@ -8217,6 +8782,7 @@
    "faction_name": "塔兰霍夫",
    "faction_name_en": "Templehof",
    "is_capital": true,
+   "resources": [],
    "world": [
     458.27,
     484.43
@@ -8252,6 +8818,7 @@
    "faction_name": "塔兰霍夫",
    "faction_name_en": "Templehof",
    "is_capital": false,
+   "resources": [],
    "world": [
     446.25,
     479.03
@@ -8287,6 +8854,7 @@
    "faction_name": "塔兰霍夫",
    "faction_name_en": "Templehof",
    "is_capital": false,
+   "resources": [],
    "world": [
     480.98,
     499.85
@@ -8322,6 +8890,7 @@
    "faction_name": "塔兰霍夫",
    "faction_name_en": "Templehof",
    "is_capital": false,
+   "resources": [],
    "world": [
     476.98,
     489.83
@@ -8357,6 +8926,7 @@
    "faction_name": "希尔瓦尼亚",
    "faction_name_en": "Sylvania",
    "is_capital": false,
+   "resources": [],
    "world": [
     450.25,
     457.43
@@ -8392,6 +8962,13 @@
    "faction_name": "希尔瓦尼亚",
    "faction_name_en": "Sylvania",
    "is_capital": true,
+   "resources": [
+    {
+     "key": "res_gold",
+     "name": "黄金",
+     "name_en": "Gold"
+    }
+   ],
    "world": [
     478.31,
     472.08
@@ -8427,6 +9004,7 @@
    "faction_name": "玛丽恩堡",
    "faction_name_en": "Marienburg",
    "is_capital": true,
+   "resources": [],
    "world": [
     299.95,
     490.98
@@ -8462,6 +9040,7 @@
    "faction_name": "塔拉贝克领",
    "faction_name_en": "Talabecland",
    "is_capital": false,
+   "resources": [],
    "world": [
     423.53,
     504.48
@@ -8497,6 +9076,7 @@
    "faction_name": "塔拉贝克领",
    "faction_name_en": "Talabecland",
    "is_capital": false,
+   "resources": [],
    "world": [
     436.23,
     546.52
@@ -8532,6 +9112,18 @@
    "faction_name": "塔拉贝克领",
    "faction_name_en": "Talabecland",
    "is_capital": true,
+   "resources": [
+    {
+     "key": "res_river_trolls",
+     "name": "河巨魔巢穴",
+     "name_en": "River Trolls Den"
+    },
+    {
+     "key": "res_rom_furs",
+     "name": "毛皮",
+     "name_en": "Furs"
+    }
+   ],
    "world": [
     403.49,
     532.25
@@ -8567,6 +9159,7 @@
    "faction_name": "塔拉贝克领",
    "faction_name_en": "Talabecland",
    "is_capital": false,
+   "resources": [],
    "world": [
     377.44,
     491.75
@@ -8602,6 +9195,7 @@
    "faction_name": "奥斯特领",
    "faction_name_en": "Ostland",
    "is_capital": false,
+   "resources": [],
    "world": [
     431.55,
     580.08
@@ -8637,6 +9231,13 @@
    "faction_name": "奥斯特领",
    "faction_name_en": "Ostland",
    "is_capital": true,
+   "resources": [
+    {
+     "key": "res_gold",
+     "name": "黄金",
+     "name_en": "Gold"
+    }
+   ],
    "world": [
     416.85,
     560.79
@@ -8672,6 +9273,7 @@
    "faction_name": "诺德领",
    "faction_name_en": "Nordland",
    "is_capital": false,
+   "resources": [],
    "world": [
     396.81,
     593.96
@@ -8707,6 +9309,7 @@
    "faction_name": "奥斯特马克",
    "faction_name_en": "Ostermark",
    "is_capital": false,
+   "resources": [],
    "world": [
     462.95,
     511.04
@@ -8742,6 +9345,7 @@
    "faction_name": "奥斯特马克",
    "faction_name_en": "Ostermark",
    "is_capital": false,
+   "resources": [],
    "world": [
     478.98,
     526.47
@@ -8777,6 +9381,7 @@
    "faction_name": "怪爬氏族",
    "faction_name_en": "Clan Kreepus",
    "is_capital": false,
+   "resources": [],
    "world": [
     450.92,
     510.27
@@ -8812,6 +9417,7 @@
    "faction_name": "奥斯特马克",
    "faction_name_en": "Ostermark",
    "is_capital": true,
+   "resources": [],
    "world": [
     452.26,
     552.69
@@ -8847,6 +9453,13 @@
    "faction_name": "威森领与努恩",
    "faction_name_en": "Wissenland & Nuln",
    "is_capital": true,
+   "resources": [
+    {
+     "key": "res_rom_iron",
+     "name": "生铁",
+     "name_en": "Iron"
+    }
+   ],
    "world": [
     369.42,
     468.61
@@ -8882,6 +9495,7 @@
    "faction_name": "午夜宫廷",
    "faction_name_en": "The Court of Night",
    "is_capital": false,
+   "resources": [],
    "world": [
     385.46,
     452.41
@@ -8917,6 +9531,7 @@
    "faction_name": "午夜宫廷",
    "faction_name_en": "The Court of Night",
    "is_capital": false,
+   "resources": [],
    "world": [
     364.75,
     449.71
@@ -8952,6 +9567,7 @@
    "faction_name": "瑞克领",
    "faction_name_en": "Reikland",
    "is_capital": true,
+   "resources": [],
    "world": [
     325.33,
     465.53
@@ -8987,6 +9603,7 @@
    "faction_name": "斯提尔领",
    "faction_name_en": "Stirland",
    "is_capital": true,
+   "resources": [],
    "world": [
     405.5,
     489.44
@@ -9022,6 +9639,7 @@
    "faction_name": "斯提尔领",
    "faction_name_en": "Stirland",
    "is_capital": false,
+   "resources": [],
    "world": [
     436.23,
     494.07
@@ -9057,6 +9675,7 @@
    "faction_name": "斯提尔领",
    "faction_name_en": "Stirland",
    "is_capital": false,
+   "resources": [],
    "world": [
     392.14,
     477.1
@@ -9092,6 +9711,7 @@
    "faction_name": "灾厄战林",
    "faction_name_en": "Wargrove of Woe",
    "is_capital": true,
+   "resources": [],
    "world": [
     446.91,
     526.47
@@ -9127,6 +9747,7 @@
    "faction_name": "帝国分离势力",
    "faction_name_en": "Empire Secessionists",
    "is_capital": false,
+   "resources": [],
    "world": [
     337.36,
     474.01
@@ -9162,6 +9783,7 @@
    "faction_name": "帝国分离势力",
    "faction_name_en": "Empire Secessionists",
    "is_capital": false,
+   "resources": [],
    "world": [
     366.08,
     480.57
@@ -9197,6 +9819,7 @@
    "faction_name": "帝国分离势力",
    "faction_name_en": "Empire Secessionists",
    "is_capital": false,
+   "resources": [],
    "world": [
     321.99,
     492.91
@@ -9232,6 +9855,13 @@
    "faction_name": "瑞克领",
    "faction_name_en": "Reikland",
    "is_capital": true,
+   "resources": [
+    {
+     "key": "res_rom_textiles",
+     "name": "陶器",
+     "name_en": "Pottery"
+    }
+   ],
    "world": [
     352.05,
     500.24
@@ -9267,6 +9897,18 @@
    "faction_name": "斯提尔领",
    "faction_name_en": "Stirland",
    "is_capital": true,
+   "resources": [
+    {
+     "key": "res_river_trolls",
+     "name": "河巨魔巢穴",
+     "name_en": "River Trolls Den"
+    },
+    {
+     "key": "res_rom_oil",
+     "name": "畜类",
+     "name_en": "Pastures"
+    }
+   ],
    "world": [
     432.89,
     463.6
@@ -9302,6 +9944,13 @@
    "faction_name": "米登领",
    "faction_name_en": "Middenland",
    "is_capital": false,
+   "resources": [
+    {
+     "key": "res_rom_oil",
+     "name": "畜类",
+     "name_en": "Pastures"
+    }
+   ],
    "world": [
     340.03,
     506.41
@@ -9337,6 +9986,7 @@
    "faction_name": "米登领",
    "faction_name_en": "Middenland",
    "is_capital": false,
+   "resources": [],
    "world": [
     379.44,
     532.25
@@ -9372,6 +10022,7 @@
    "faction_name": "米登领",
    "faction_name_en": "Middenland",
    "is_capital": true,
+   "resources": [],
    "world": [
     370.09,
     544.59
@@ -9407,6 +10058,7 @@
    "faction_name": "米登领",
    "faction_name_en": "Middenland",
    "is_capital": false,
+   "resources": [],
    "world": [
     353.39,
     525.69
@@ -9442,6 +10094,7 @@
    "faction_name": "暗毒",
    "faction_name_en": "Black Venom",
    "is_capital": false,
+   "resources": [],
    "world": [
     414.18,
     435.83
@@ -9477,6 +10130,7 @@
    "faction_name": "午夜宫廷",
    "faction_name_en": "The Court of Night",
    "is_capital": true,
+   "resources": [],
    "world": [
     392.8,
     440.46
@@ -9512,6 +10166,7 @@
    "faction_name": "艾维领",
    "faction_name_en": "Averland",
    "is_capital": true,
+   "resources": [],
    "world": [
     410.84,
     462.44
@@ -9547,6 +10202,7 @@
    "faction_name": "艾维领",
    "faction_name_en": "Averland",
    "is_capital": false,
+   "resources": [],
    "world": [
     432.89,
     442.0
@@ -9582,6 +10238,18 @@
    "faction_name": "诺德领",
    "faction_name_en": "Nordland",
    "is_capital": true,
+   "resources": [
+    {
+     "key": "res_river_trolls",
+     "name": "河巨魔巢穴",
+     "name_en": "River Trolls Den"
+    },
+    {
+     "key": "res_rom_timber",
+     "name": "木材",
+     "name_en": "Timber"
+    }
+   ],
    "world": [
     372.09,
     584.32
@@ -9617,6 +10285,7 @@
    "faction_name": "诺德领",
    "faction_name_en": "Nordland",
    "is_capital": false,
+   "resources": [],
    "world": [
     351.39,
     587.79
@@ -9652,6 +10321,7 @@
    "faction_name": "黑暗深渊部落",
    "faction_name_en": "The Black Pit Tribe",
    "is_capital": false,
+   "resources": [],
    "world": [
     316.65,
     576.99
@@ -9687,6 +10357,7 @@
    "faction_name": "黑暗深渊部落",
    "faction_name_en": "The Black Pit Tribe",
    "is_capital": true,
+   "resources": [],
    "world": [
     340.7,
     543.82
@@ -9722,6 +10393,7 @@
    "faction_name": "霍克领",
    "faction_name_en": "Hochland",
    "is_capital": false,
+   "resources": [],
    "world": [
     383.45,
     552.31
@@ -9757,6 +10429,7 @@
    "faction_name": "霍克领",
    "faction_name_en": "Hochland",
    "is_capital": true,
+   "resources": [],
    "world": [
     401.49,
     541.89
@@ -9792,6 +10465,13 @@
    "faction_name": "玛丽恩堡",
    "faction_name_en": "Marienburg",
    "is_capital": true,
+   "resources": [
+    {
+     "key": "res_dyes",
+     "name": "染料",
+     "name_en": "Dyes"
+    }
+   ],
    "world": [
     301.95,
     506.8
@@ -9827,6 +10507,7 @@
    "faction_name": "玛丽恩堡",
    "faction_name_en": "Marienburg",
    "is_capital": false,
+   "resources": [],
    "world": [
     306.63,
     558.86
@@ -9862,6 +10543,7 @@
    "faction_name": "玛丽恩堡",
    "faction_name_en": "Marienburg",
    "is_capital": false,
+   "resources": [],
    "world": [
     307.3,
     525.31
@@ -9897,6 +10579,18 @@
    "faction_name": "阿图瓦",
    "faction_name_en": "Artois",
    "is_capital": false,
+   "resources": [
+    {
+     "key": "res_river_trolls",
+     "name": "河巨魔巢穴",
+     "name_en": "River Trolls Den"
+    },
+    {
+     "key": "res_rom_furs",
+     "name": "毛皮",
+     "name_en": "Furs"
+    }
+   ],
    "world": [
     292.6,
     483.65
@@ -9932,6 +10626,7 @@
    "faction_name": "阿图瓦",
    "faction_name_en": "Artois",
    "is_capital": true,
+   "resources": [],
    "world": [
     273.89,
     492.91
@@ -9967,6 +10662,7 @@
    "faction_name": "卡拉克·微风堡",
    "faction_name_en": "Karak Ziflin",
    "is_capital": false,
+   "resources": [],
    "world": [
     317.98,
     469.0
@@ -10002,6 +10698,7 @@
    "faction_name": "碎颅者",
    "faction_name_en": "Skullsmasherz",
    "is_capital": false,
+   "resources": [],
    "world": [
     289.93,
     501.4
@@ -10037,6 +10734,7 @@
    "faction_name": "古坟军团",
    "faction_name_en": "The Barrow Legion",
    "is_capital": true,
+   "resources": [],
    "world": [
     305.29,
     480.95
@@ -10072,6 +10770,13 @@
    "faction_name": "卡尔卡松",
    "faction_name_en": "Carcassonne",
    "is_capital": true,
+   "resources": [
+    {
+     "key": "res_dyes",
+     "name": "染料",
+     "name_en": "Dyes"
+    }
+   ],
    "world": [
     310.64,
     388.39
@@ -10107,6 +10812,7 @@
    "faction_name": "红云",
    "faction_name_en": "Red Cloud",
    "is_capital": false,
+   "resources": [],
    "world": [
     280.57,
     406.52
@@ -10142,6 +10848,7 @@
    "faction_name": "穆席隆",
    "faction_name_en": "Mousillon",
    "is_capital": false,
+   "resources": [],
    "world": [
     256.52,
     509.88
@@ -10177,6 +10884,13 @@
    "faction_name": "哥隆尼",
    "faction_name_en": "Couronne",
    "is_capital": true,
+   "resources": [
+    {
+     "key": "res_rom_textiles",
+     "name": "陶器",
+     "name_en": "Pottery"
+    }
+   ],
    "world": [
     273.89,
     520.68
@@ -10212,6 +10926,7 @@
    "faction_name": "帕拉翁",
    "faction_name_en": "Parravon",
    "is_capital": false,
+   "resources": [],
    "world": [
     321.32,
     416.93
@@ -10247,6 +10962,13 @@
    "faction_name": "帕拉翁",
    "faction_name_en": "Parravon",
    "is_capital": true,
+   "resources": [
+    {
+     "key": "res_rom_marble",
+     "name": "大理石",
+     "name_en": "Marble"
+    }
+   ],
    "world": [
     322.66,
     443.93
@@ -10282,6 +11004,7 @@
    "faction_name": "巴斯托涅",
    "faction_name_en": "Bastonne",
    "is_capital": true,
+   "resources": [],
    "world": [
     285.92,
     464.37
@@ -10317,6 +11040,7 @@
    "faction_name": "巴斯托涅",
    "faction_name_en": "Bastonne",
    "is_capital": false,
+   "resources": [],
    "world": [
     316.65,
     457.43
@@ -10352,6 +11076,7 @@
    "faction_name": "阿奎坦",
    "faction_name_en": "Aquitaine",
    "is_capital": true,
+   "resources": [],
    "world": [
     262.54,
     447.79
@@ -10387,6 +11112,7 @@
    "faction_name": "阿奎坦",
    "faction_name_en": "Aquitaine",
    "is_capital": false,
+   "resources": [],
    "world": [
     281.24,
     439.3
@@ -10422,6 +11148,13 @@
    "faction_name": "碎斧",
    "faction_name_en": "Broken Axe",
    "is_capital": true,
+   "resources": [
+    {
+     "key": "res_stone_trolls",
+     "name": "石巨魔巢穴",
+     "name_en": "Stone Trolls Den"
+    }
+   ],
    "world": [
     305.96,
     437.37
@@ -10457,6 +11190,7 @@
    "faction_name": "穆席隆",
    "faction_name_en": "Mousillon",
    "is_capital": false,
+   "resources": [],
    "world": [
     255.19,
     466.68
@@ -10492,6 +11226,7 @@
    "faction_name": "里昂尼斯",
    "faction_name_en": "Lyonesse",
    "is_capital": true,
+   "resources": [],
    "world": [
     241.83,
     486.74
@@ -10527,6 +11262,7 @@
    "faction_name": "斯凯林",
    "faction_name_en": "Skaeling",
    "is_capital": false,
+   "resources": [],
    "world": [
     301.95,
     585.48
@@ -10562,6 +11298,7 @@
    "faction_name": "斯凯林",
    "faction_name_en": "Skaeling",
    "is_capital": true,
+   "resources": [],
    "world": [
     336.02,
     604.38
@@ -10597,6 +11334,7 @@
    "faction_name": "斯凯林",
    "faction_name_en": "Skaeling",
    "is_capital": false,
+   "resources": [],
    "world": [
     362.74,
     609.0
@@ -10632,6 +11370,7 @@
    "faction_name": "艾斯林",
    "faction_name_en": "Aesling",
    "is_capital": false,
+   "resources": [],
    "world": [
     452.93,
     668.01
@@ -10667,6 +11406,13 @@
    "faction_name": "艾斯林",
    "faction_name_en": "Aesling",
    "is_capital": true,
+   "resources": [
+    {
+     "key": "res_rom_iron",
+     "name": "生铁",
+     "name_en": "Iron"
+    }
+   ],
    "world": [
     413.51,
     655.29
@@ -10702,6 +11448,7 @@
    "faction_name": "冬牙",
    "faction_name_en": "Wintertooth",
    "is_capital": false,
+   "resources": [],
    "world": [
     400.82,
     689.61
@@ -10737,6 +11484,7 @@
    "faction_name": "艾斯林",
    "faction_name_en": "Aesling",
    "is_capital": false,
+   "resources": [],
    "world": [
     434.22,
     671.87
@@ -10772,6 +11520,13 @@
    "faction_name": "瓦格",
    "faction_name_en": "Varg",
    "is_capital": true,
+   "resources": [
+    {
+     "key": "res_obsidian",
+     "name": "雕刻黑曜石",
+     "name_en": "Carved Obsidian"
+    }
+   ],
    "world": [
     301.28,
     666.86
@@ -10807,6 +11562,7 @@
    "faction_name": "瓦格",
    "faction_name_en": "Varg",
    "is_capital": false,
+   "resources": [],
    "world": [
     343.37,
     674.18
@@ -10842,6 +11598,7 @@
    "faction_name": "瓦格",
    "faction_name_en": "Varg",
    "is_capital": false,
+   "resources": [],
    "world": [
     277.9,
     654.13
@@ -10877,6 +11634,13 @@
    "faction_name": "盲眼者",
    "faction_name_en": "The Sightless",
    "is_capital": true,
+   "resources": [
+    {
+     "key": "res_river_trolls",
+     "name": "河巨魔巢穴",
+     "name_en": "River Trolls Den"
+    }
+   ],
    "world": [
     230.47,
     575.06
@@ -10912,6 +11676,7 @@
    "faction_name": "瓦纳海姆林",
    "faction_name_en": "Vanaheimlings",
    "is_capital": false,
+   "resources": [],
    "world": [
     234.48,
     558.09
@@ -10947,6 +11712,7 @@
    "faction_name": "盲眼者",
    "faction_name_en": "The Sightless",
    "is_capital": false,
+   "resources": [],
    "world": [
     237.15,
     588.95
@@ -10982,6 +11748,7 @@
    "faction_name": "疫蛆兄弟",
    "faction_name_en": "Maggoth Kin",
    "is_capital": false,
+   "resources": [],
    "world": [
     458.94,
     635.23
@@ -11017,6 +11784,7 @@
    "faction_name": "疫蛆兄弟",
    "faction_name_en": "Maggoth Kin",
    "is_capital": false,
+   "resources": [],
    "world": [
     484.99,
     638.7
@@ -11052,6 +11820,13 @@
    "faction_name": "创新大师",
    "faction_name_en": "Masters of Innovation",
    "is_capital": true,
+   "resources": [
+    {
+     "key": "res_gems",
+     "name": "宝石",
+     "name_en": "Gemstones"
+    }
+   ],
    "world": [
     473.64,
     649.11
@@ -11087,6 +11862,13 @@
    "faction_name": "战熊兄弟会",
    "faction_name_en": "Brotherhood of the Bear",
    "is_capital": true,
+   "resources": [
+    {
+     "key": "res_rom_marble",
+     "name": "大理石",
+     "name_en": "Marble"
+    }
+   ],
    "world": [
     422.2,
     633.3
@@ -11122,6 +11904,7 @@
    "faction_name": "战熊兄弟会",
    "faction_name_en": "Brotherhood of the Bear",
    "is_capital": false,
+   "resources": [],
    "world": [
     388.8,
     627.9
@@ -11157,6 +11940,7 @@
    "faction_name": "萨利",
    "faction_name_en": "Sarl",
    "is_capital": false,
+   "resources": [],
    "world": [
     391.47,
     652.59
@@ -11192,6 +11976,7 @@
    "faction_name": "戈罗迈德尼部落",
    "faction_name_en": "Goromadny Tribe",
    "is_capital": true,
+   "resources": [],
    "world": [
     545.78,
     583.55
@@ -11227,6 +12012,7 @@
    "faction_name": null,
    "faction_name_en": null,
    "is_capital": false,
+   "resources": [],
    "world": [
     508.37,
     632.92
@@ -11262,6 +12048,7 @@
    "faction_name": "戈罗迈德尼部落",
    "faction_name_en": "Goromadny Tribe",
    "is_capital": false,
+   "resources": [],
    "world": [
     526.41,
     610.16
@@ -11297,6 +12084,7 @@
    "faction_name": "戈罗迈德尼部落",
    "faction_name_en": "Goromadny Tribe",
    "is_capital": false,
+   "resources": [],
    "world": [
     573.84,
     571.21
@@ -11332,6 +12120,7 @@
    "faction_name": "比约林",
    "faction_name_en": "Bjornling",
    "is_capital": true,
+   "resources": [],
    "world": [
     300.62,
     617.87
@@ -11367,6 +12156,13 @@
    "faction_name": "世界行者",
    "faction_name_en": "World Walkers",
    "is_capital": false,
+   "resources": [
+    {
+     "key": "res_rom_lead",
+     "name": "食盐",
+     "name_en": "Salt"
+    }
+   ],
    "world": [
     257.86,
     613.25
@@ -11402,6 +12198,13 @@
    "faction_name": "纳戈法林",
    "faction_name_en": "Naglfarlings",
    "is_capital": true,
+   "resources": [
+    {
+     "key": "res_rom_marble",
+     "name": "大理石",
+     "name_en": "Marble"
+    }
+   ],
    "world": [
     343.37,
     644.87
@@ -11437,6 +12240,7 @@
    "faction_name": "纳戈法林",
    "faction_name_en": "Naglfarlings",
    "is_capital": false,
+   "resources": [],
    "world": [
     319.99,
     639.86
@@ -11472,6 +12276,7 @@
    "faction_name": "纳戈法林",
    "faction_name_en": "Naglfarlings",
    "is_capital": false,
+   "resources": [],
    "world": [
     368.75,
     646.42
@@ -11507,6 +12312,7 @@
    "faction_name": "罗普思曼氏族",
    "faction_name_en": "Ropsmenn Clan",
    "is_capital": false,
+   "resources": [],
    "world": [
     511.05,
     582.01
@@ -11542,6 +12348,13 @@
    "faction_name": "罗普思曼氏族",
    "faction_name_en": "Ropsmenn Clan",
    "is_capital": true,
+   "resources": [
+    {
+     "key": "res_rom_timber",
+     "name": "木材",
+     "name_en": "Timber"
+    }
+   ],
    "world": [
     500.36,
     600.52
@@ -11577,6 +12390,7 @@
    "faction_name": null,
    "faction_name_en": null,
    "is_capital": false,
+   "resources": [],
    "world": [
     495.68,
     615.56
@@ -11612,6 +12426,7 @@
    "faction_name": "罗普思曼氏族",
    "faction_name_en": "Ropsmenn Clan",
    "is_capital": false,
+   "resources": [],
    "world": [
     522.4,
     592.42
@@ -11647,6 +12462,7 @@
    "faction_name": "冰雪王廷",
    "faction_name_en": "The Ice Court",
    "is_capital": true,
+   "resources": [],
    "world": [
     480.32,
     568.12
@@ -11682,6 +12498,7 @@
    "faction_name": "贝尔索林",
    "faction_name_en": "Baersonling",
    "is_capital": true,
+   "resources": [],
    "world": [
     494.34,
     541.51
@@ -11717,6 +12534,7 @@
    "faction_name": "冰雪王廷",
    "faction_name_en": "The Ice Court",
    "is_capital": false,
+   "resources": [],
    "world": [
     450.25,
     567.73
@@ -11752,6 +12570,7 @@
    "faction_name": "贝尔索林",
    "faction_name_en": "Baersonling",
    "is_capital": false,
+   "resources": [],
    "world": [
     473.64,
     548.84
@@ -11787,6 +12606,7 @@
    "faction_name": "贝尔索林",
    "faction_name_en": "Baersonling",
    "is_capital": false,
+   "resources": [],
    "world": [
     501.69,
     562.72
@@ -11822,6 +12642,7 @@
    "faction_name": "罗普思曼氏族",
    "faction_name_en": "Ropsmenn Clan",
    "is_capital": true,
+   "resources": [],
    "world": [
     482.99,
     594.35
@@ -11857,6 +12678,13 @@
    "faction_name": "大正教会",
    "faction_name_en": "The Great Orthodoxy",
    "is_capital": false,
+   "resources": [
+    {
+     "key": "res_rom_wine",
+     "name": "葡萄酒",
+     "name_en": "Wine"
+    }
+   ],
    "world": [
     409.5,
     611.32
@@ -11892,6 +12720,7 @@
    "faction_name": "乌果尔族裔",
    "faction_name_en": "Ungol Kindred",
    "is_capital": false,
+   "resources": [],
    "world": [
     430.88,
     612.86
@@ -11927,6 +12756,7 @@
    "faction_name": "飞地近卫军",
    "faction_name_en": "Druzhina Enclave",
    "is_capital": true,
+   "resources": [],
    "world": [
     454.26,
     606.3
@@ -11962,6 +12792,7 @@
    "faction_name": "飞地近卫军",
    "faction_name_en": "Druzhina Enclave",
    "is_capital": false,
+   "resources": [],
    "world": [
     447.58,
     621.73
@@ -11997,6 +12828,7 @@
    "faction_name": "大正教会",
    "faction_name_en": "The Great Orthodoxy",
    "is_capital": true,
+   "resources": [],
    "world": [
     423.53,
     593.96
@@ -12032,6 +12864,13 @@
    "faction_name": "腐坏氏族",
    "faction_name_en": "Clan Moulder",
    "is_capital": true,
+   "resources": [
+    {
+     "key": "res_animals",
+     "name": "异域动物",
+     "name_en": "Exotic Animals"
+    }
+   ],
    "world": [
     470.96,
     622.89
@@ -12067,6 +12906,7 @@
    "faction_name": "塔塞恩",
    "faction_name_en": "Talsyn",
    "is_capital": true,
+   "resources": [],
    "world": [
     342.7,
     409.99
@@ -12102,6 +12942,7 @@
    "faction_name": "塔塞恩",
    "faction_name_en": "Talsyn",
    "is_capital": true,
+   "resources": [],
    "world": [
     342.03,
     400.35
@@ -12137,6 +12978,7 @@
    "faction_name": "温德里赫",
    "faction_name_en": "Wydrioth",
    "is_capital": true,
+   "resources": [],
    "world": [
     352.72,
     419.63
@@ -12172,6 +13014,13 @@
    "faction_name": "特戈凡",
    "faction_name_en": "Torgovann",
    "is_capital": true,
+   "resources": [
+    {
+     "key": "res_rom_timber",
+     "name": "木材",
+     "name_en": "Timber"
+    }
+   ],
    "world": [
     335.35,
     425.03
@@ -12207,6 +13056,7 @@
    "faction_name": "阿格维隆",
    "faction_name_en": "Argwylon",
    "is_capital": true,
+   "resources": [],
    "world": [
     344.04,
     436.99
@@ -12242,6 +13092,7 @@
    "faction_name": "卡拉克·铁峰堡",
    "faction_name_en": "Karak Azul",
    "is_capital": false,
+   "resources": [],
    "world": [
     505.03,
     320.89
@@ -12277,6 +13128,7 @@
    "faction_name": "卡拉克·铁峰堡",
    "faction_name_en": "Karak Azul",
    "is_capital": false,
+   "resources": [],
    "world": [
     527.08,
     322.05
@@ -12312,6 +13164,7 @@
    "faction_name": "赤牙",
    "faction_name_en": "Red Fangs",
    "is_capital": true,
+   "resources": [],
    "world": [
     488.33,
     321.28
@@ -12347,6 +13200,18 @@
    "faction_name": "邪月反抗军",
    "faction_name_en": "Crooked Moon Mutinous Gits",
    "is_capital": true,
+   "resources": [
+    {
+     "key": "res_rom_oil",
+     "name": "畜类",
+     "name_en": "Pastures"
+    },
+    {
+     "key": "res_stone_trolls",
+     "name": "石巨魔巢穴",
+     "name_en": "Stone Trolls Den"
+    }
+   ],
    "world": [
     508.37,
     354.45
@@ -12382,6 +13247,7 @@
    "faction_name": "邪月反抗军",
    "faction_name_en": "Crooked Moon Mutinous Gits",
    "is_capital": false,
+   "resources": [],
    "world": [
     492.34,
     344.42
@@ -12417,6 +13283,13 @@
    "faction_name": "响骨",
    "faction_name_en": "Bonerattlaz",
    "is_capital": true,
+   "resources": [
+    {
+     "key": "res_stone_trolls",
+     "name": "石巨魔巢穴",
+     "name_en": "Stone Trolls Den"
+    }
+   ],
    "world": [
     534.43,
     521.45
@@ -12452,6 +13325,7 @@
    "faction_name": "硬石脑袋",
    "faction_name_en": "Rock Skulls",
    "is_capital": false,
+   "resources": [],
    "world": [
     507.04,
     516.44
@@ -12487,6 +13361,13 @@
    "faction_name": "硬石脑袋",
    "faction_name_en": "Rock Skulls",
    "is_capital": false,
+   "resources": [
+    {
+     "key": "res_gold",
+     "name": "黄金",
+     "name_en": "Gold"
+    }
+   ],
    "world": [
     515.72,
     535.34
@@ -12522,6 +13403,13 @@
    "faction_name": "卡拉克·铁峰堡",
    "faction_name_en": "Karak Azul",
    "is_capital": true,
+   "resources": [
+    {
+     "key": "res_rom_lead",
+     "name": "食盐",
+     "name_en": "Salt"
+    }
+   ],
    "world": [
     533.76,
     349.05
@@ -12557,6 +13445,7 @@
    "faction_name": "卡拉克·铁峰堡",
    "faction_name_en": "Karak Azul",
    "is_capital": false,
+   "resources": [],
    "world": [
     538.43,
     334.01
@@ -12592,6 +13481,7 @@
    "faction_name": "卡拉克·铁峰堡",
    "faction_name_en": "Karak Azul",
    "is_capital": false,
+   "resources": [],
    "world": [
     532.42,
     371.42
@@ -12627,6 +13517,7 @@
    "faction_name": null,
    "faction_name_en": null,
    "is_capital": false,
+   "resources": [],
    "world": [
     337.36,
     457.04
@@ -12662,6 +13553,13 @@
    "faction_name": "卡拉克·荒芜堡",
    "faction_name_en": "Karak Norn",
    "is_capital": true,
+   "resources": [
+    {
+     "key": "res_rom_furs",
+     "name": "毛皮",
+     "name_en": "Furs"
+    }
+   ],
    "world": [
     356.73,
     440.46
@@ -12697,6 +13595,7 @@
    "faction_name": "卡拉克·荒芜堡",
    "faction_name_en": "Karak Norn",
    "is_capital": false,
+   "resources": [],
    "world": [
     364.75,
     408.83
@@ -12732,6 +13631,13 @@
    "faction_name": null,
    "faction_name_en": null,
    "is_capital": false,
+   "resources": [
+    {
+     "key": "res_ivory",
+     "name": "长牙",
+     "name_en": "Tusks"
+    }
+   ],
    "world": [
     374.77,
     423.1
@@ -12767,6 +13673,7 @@
    "faction_name": "卡拉克·卡德林",
    "faction_name_en": "Karak Kadrin",
    "is_capital": true,
+   "resources": [],
    "world": [
     499.69,
     496.77
@@ -12802,6 +13709,7 @@
    "faction_name": "赤目",
    "faction_name_en": "Red Eye",
    "is_capital": false,
+   "resources": [],
    "world": [
     529.08,
     496.0
@@ -12837,6 +13745,7 @@
    "faction_name": "铁爪兽人",
    "faction_name_en": "Ironclaw Orcs",
    "is_capital": false,
+   "resources": [],
    "world": [
     502.36,
     398.8
@@ -12872,6 +13781,13 @@
    "faction_name": "疤眼",
    "faction_name_en": "Scabby Eye",
    "is_capital": false,
+   "resources": [
+    {
+     "key": "res_rom_iron",
+     "name": "生铁",
+     "name_en": "Iron"
+    }
+   ],
    "world": [
     486.33,
     378.75
@@ -12907,6 +13823,13 @@
    "faction_name": "铁爪兽人",
    "faction_name_en": "Ironclaw Orcs",
    "is_capital": true,
+   "resources": [
+    {
+     "key": "res_gold",
+     "name": "黄金",
+     "name_en": "Gold"
+    }
+   ],
    "world": [
     503.03,
     372.96
@@ -12942,6 +13865,7 @@
    "faction_name": "血矛",
    "faction_name_en": "Bloody Spearz",
    "is_capital": false,
+   "resources": [],
    "world": [
     547.12,
     434.67
@@ -12977,6 +13901,13 @@
    "faction_name": "邪月",
    "faction_name_en": "Crooked Moon",
    "is_capital": true,
+   "resources": [
+    {
+     "key": "res_gold",
+     "name": "黄金",
+     "name_en": "Gold"
+    }
+   ],
    "world": [
     540.44,
     453.96
@@ -13012,6 +13943,7 @@
    "faction_name": "血矛",
    "faction_name_en": "Bloody Spearz",
    "is_capital": false,
+   "resources": [],
    "world": [
     531.09,
     424.64
@@ -13047,6 +13979,7 @@
    "faction_name": "赤牙",
    "faction_name_en": "Red Fangs",
    "is_capital": false,
+   "resources": [],
    "world": [
     499.02,
     302.77
@@ -13082,6 +14015,13 @@
    "faction_name": "赤牙",
    "faction_name_en": "Red Fangs",
    "is_capital": true,
+   "resources": [
+    {
+     "key": "res_gems",
+     "name": "宝石",
+     "name_en": "Gemstones"
+    }
+   ],
    "world": [
     476.98,
     304.69
@@ -13117,6 +14057,7 @@
    "faction_name": "摩斯氏族",
    "faction_name_en": "Clan Mors",
    "is_capital": false,
+   "resources": [],
    "world": [
     522.4,
     296.98
@@ -13152,6 +14093,13 @@
    "faction_name": "卡拉扎-阿-卡拉克",
    "faction_name_en": "Karaz-a-Karak",
    "is_capital": true,
+   "resources": [
+    {
+     "key": "res_gems",
+     "name": "宝石",
+     "name_en": "Gemstones"
+    }
+   ],
    "world": [
     491.67,
     423.49
@@ -13187,6 +14135,7 @@
    "faction_name": "血矛",
    "faction_name_en": "Bloody Spearz",
    "is_capital": false,
+   "resources": [],
    "world": [
     520.4,
     413.07
@@ -13222,6 +14171,7 @@
    "faction_name": "血矛",
    "faction_name_en": "Bloody Spearz",
    "is_capital": false,
+   "resources": [],
    "world": [
     509.04,
     421.94
@@ -13257,6 +14207,7 @@
    "faction_name": "断鼻",
    "faction_name_en": "Broken Nose",
    "is_capital": false,
+   "resources": [],
    "world": [
     353.39,
     385.3
@@ -13292,6 +14243,13 @@
    "faction_name": "断鼻",
    "faction_name_en": "Broken Nose",
    "is_capital": true,
+   "resources": [
+    {
+     "key": "res_stone_trolls",
+     "name": "石巨魔巢穴",
+     "name_en": "Stone Trolls Den"
+    }
+   ],
    "world": [
     373.43,
     389.93
@@ -13327,6 +14285,7 @@
    "faction_name": "安格朗德氏族",
    "faction_name_en": "Clan Angrund",
    "is_capital": false,
+   "resources": [],
    "world": [
     360.07,
     348.28
@@ -13362,6 +14321,7 @@
    "faction_name": "赤目",
    "faction_name_en": "Red Eye",
    "is_capital": false,
+   "resources": [],
    "world": [
     526.41,
     483.65
@@ -13397,6 +14357,18 @@
    "faction_name": "赤目",
    "faction_name_en": "Red Eye",
    "is_capital": true,
+   "resources": [
+    {
+     "key": "res_rom_oil",
+     "name": "畜类",
+     "name_en": "Pastures"
+    },
+    {
+     "key": "res_stone_trolls",
+     "name": "石巨魔巢穴",
+     "name_en": "Stone Trolls Den"
+    }
+   ],
    "world": [
     513.05,
     454.34
@@ -13432,6 +14404,7 @@
    "faction_name": "疤眼",
    "faction_name_en": "Scabby Eye",
    "is_capital": false,
+   "resources": [],
    "world": [
     473.64,
     393.02
@@ -13467,6 +14440,7 @@
    "faction_name": "巴拉克·海门",
    "faction_name_en": "Barak Varr",
    "is_capital": true,
+   "resources": [],
    "world": [
     448.92,
     394.95
@@ -13502,6 +14476,7 @@
    "faction_name": "疤眼",
    "faction_name_en": "Scabby Eye",
    "is_capital": false,
+   "resources": [],
    "world": [
     446.25,
     383.38
@@ -13537,6 +14512,7 @@
    "faction_name": "巴拉克·海门",
    "faction_name_en": "Barak Varr",
    "is_capital": false,
+   "resources": [],
    "world": [
     468.96,
     408.06
@@ -13572,6 +14548,7 @@
    "faction_name": "激流关",
    "faction_name_en": "Zhufbar",
    "is_capital": false,
+   "resources": [],
    "world": [
     450.92,
     433.9
@@ -13607,6 +14584,7 @@
    "faction_name": "激流关",
    "faction_name_en": "Zhufbar",
    "is_capital": false,
+   "resources": [],
    "world": [
     477.64,
     455.5
@@ -13642,6 +14620,13 @@
    "faction_name": "激流关",
    "faction_name_en": "Zhufbar",
    "is_capital": true,
+   "resources": [
+    {
+     "key": "res_rom_iron",
+     "name": "生铁",
+     "name_en": "Iron"
+    }
+   ],
    "world": [
     492.34,
     459.36
@@ -13677,6 +14662,13 @@
    "faction_name": "卡拉克·号角堡",
    "faction_name_en": "Karak Hirn",
    "is_capital": true,
+   "resources": [
+    {
+     "key": "res_rom_iron",
+     "name": "生铁",
+     "name_en": "Iron"
+    }
+   ],
    "world": [
     394.14,
     413.46
@@ -13712,6 +14704,7 @@
    "faction_name": "卡拉克·号角堡",
    "faction_name_en": "Karak Hirn",
    "is_capital": false,
+   "resources": [],
    "world": [
     434.22,
     427.34
@@ -13747,6 +14740,7 @@
    "faction_name": "大胃信徒",
    "faction_name_en": "Disciples of the Maw",
    "is_capital": false,
+   "resources": [],
    "world": [
     420.19,
     409.99
@@ -13782,6 +14776,7 @@
    "faction_name": "边境亲王",
    "faction_name_en": "Border Princes",
    "is_capital": true,
+   "resources": [],
    "world": [
     452.93,
     416.54
@@ -13817,6 +14812,7 @@
    "faction_name": "边境亲王",
    "faction_name_en": "Border Princes",
    "is_capital": false,
+   "resources": [],
    "world": [
     422.2,
     389.55
@@ -13852,6 +14848,7 @@
    "faction_name": "埃斯塔利亚",
    "faction_name_en": "Estalia",
    "is_capital": true,
+   "resources": [],
    "world": [
     266.55,
     370.65
@@ -13887,6 +14884,13 @@
    "faction_name": "埃斯塔利亚",
    "faction_name_en": "Estalia",
    "is_capital": false,
+   "resources": [
+    {
+     "key": "res_river_trolls",
+     "name": "河巨魔巢穴",
+     "name_en": "River Trolls Den"
+    }
+   ],
    "world": [
     276.57,
     350.21
@@ -13922,6 +14926,7 @@
    "faction_name": "埃斯塔利亚",
    "faction_name_en": "Estalia",
    "is_capital": false,
+   "resources": [],
    "world": [
     254.52,
     328.99
@@ -13957,6 +14962,7 @@
    "faction_name": "埃斯塔利亚",
    "faction_name_en": "Estalia",
    "is_capital": false,
+   "resources": [],
    "world": [
     311.97,
     342.11
@@ -13992,6 +14998,13 @@
    "faction_name": "埃斯塔利亚",
    "faction_name_en": "Estalia",
    "is_capital": true,
+   "resources": [
+    {
+     "key": "res_rom_iron",
+     "name": "生铁",
+     "name_en": "Iron"
+    }
+   ],
    "world": [
     278.57,
     330.54
@@ -14027,6 +15040,7 @@
    "faction_name": "死匍",
    "faction_name_en": "Creeping Death",
    "is_capital": true,
+   "resources": [],
    "world": [
     469.63,
     423.87
@@ -14062,6 +15076,7 @@
    "faction_name": "提利尔",
    "faction_name_en": "Tilea",
    "is_capital": false,
+   "resources": [],
    "world": [
     337.36,
     316.65
@@ -14097,6 +15112,7 @@
    "faction_name": "提利尔",
    "faction_name_en": "Tilea",
    "is_capital": false,
+   "resources": [],
    "world": [
     346.71,
     335.94
@@ -14132,6 +15148,13 @@
    "faction_name": "提利尔",
    "faction_name_en": "Tilea",
    "is_capital": true,
+   "resources": [
+    {
+     "key": "res_rom_oil",
+     "name": "畜类",
+     "name_en": "Pastures"
+    }
+   ],
    "world": [
     332.01,
     352.13
@@ -14167,6 +15190,7 @@
    "faction_name": "史库里氏族",
    "faction_name_en": "Clan Skryre",
    "is_capital": true,
+   "resources": [],
    "world": [
     310.64,
     355.99
@@ -14202,6 +15226,13 @@
    "faction_name": "萨图沙海盗",
    "faction_name_en": "Pirates of Sartosa",
    "is_capital": true,
+   "resources": [
+    {
+     "key": "res_rom_wine",
+     "name": "葡萄酒",
+     "name_en": "Wine"
+    }
+   ],
    "world": [
     328.67,
     300.84
@@ -14237,6 +15268,7 @@
    "faction_name": "边境亲王",
    "faction_name_en": "Border Princes",
    "is_capital": false,
+   "resources": [],
    "world": [
     388.13,
     378.36
@@ -14272,6 +15304,7 @@
    "faction_name": "边境亲王",
    "faction_name_en": "Border Princes",
    "is_capital": true,
+   "resources": [],
    "world": [
     382.12,
     334.78
@@ -14307,6 +15340,7 @@
    "faction_name": "边境亲王",
    "faction_name_en": "Border Princes",
    "is_capital": false,
+   "resources": [],
    "world": [
     372.09,
     348.28
@@ -14342,6 +15376,7 @@
    "faction_name": "边境亲王",
    "faction_name_en": "Border Princes",
    "is_capital": false,
+   "resources": [],
    "world": [
     359.4,
     321.66
@@ -14377,6 +15412,13 @@
    "faction_name": "顶髻",
    "faction_name_en": "Top Knotz",
    "is_capital": false,
+   "resources": [
+    {
+     "key": "res_rom_lead",
+     "name": "食盐",
+     "name_en": "Salt"
+    }
+   ],
    "world": [
     390.8,
     318.96
@@ -14412,6 +15454,13 @@
    "faction_name": "顶髻",
    "faction_name_en": "Top Knotz",
    "is_capital": true,
+   "resources": [
+    {
+     "key": "res_savage",
+     "name": "蛮荒兽人",
+     "name_en": "Savage Orcs"
+    }
+   ],
    "world": [
     416.85,
     290.81
@@ -14447,6 +15496,7 @@
    "faction_name": "顶髻",
    "faction_name_en": "Top Knotz",
    "is_capital": false,
+   "resources": [],
    "world": [
     379.44,
     273.07
@@ -14482,6 +15532,7 @@
    "faction_name": "恐虐流放者",
    "faction_name_en": "Exiles of Khorne",
    "is_capital": true,
+   "resources": [],
    "world": [
     478.98,
     273.45
@@ -14517,6 +15568,7 @@
    "faction_name": "顶髻",
    "faction_name_en": "Top Knotz",
    "is_capital": false,
+   "resources": [],
    "world": [
     436.23,
     255.71
@@ -14552,6 +15604,18 @@
    "faction_name": "顶髻",
    "faction_name_en": "Top Knotz",
    "is_capital": false,
+   "resources": [
+    {
+     "key": "res_rom_iron",
+     "name": "生铁",
+     "name_en": "Iron"
+    },
+    {
+     "key": "res_savage",
+     "name": "蛮荒兽人",
+     "name_en": "Savage Orcs"
+    }
+   ],
    "world": [
     393.47,
     257.25
@@ -14587,6 +15651,7 @@
    "faction_name": "摩茹堪诸公",
    "faction_name_en": "Sires of Mourkain",
    "is_capital": false,
+   "resources": [],
    "world": [
     456.27,
     287.34
@@ -14622,6 +15687,13 @@
    "faction_name": "摩茹堪诸公",
    "faction_name_en": "Sires of Mourkain",
    "is_capital": true,
+   "resources": [
+    {
+     "key": "res_river_trolls",
+     "name": "河巨魔巢穴",
+     "name_en": "River Trolls Den"
+    }
+   ],
    "world": [
     457.6,
     315.88
@@ -14657,6 +15729,7 @@
    "faction_name": "摩茹堪诸公",
    "faction_name_en": "Sires of Mourkain",
    "is_capital": false,
+   "resources": [],
    "world": [
     432.22,
     279.62
@@ -14692,6 +15765,7 @@
    "faction_name": "劫牙",
    "faction_name_en": "Teef Snatchaz",
    "is_capital": true,
+   "resources": [],
    "world": [
     423.53,
     342.49
@@ -14727,6 +15801,7 @@
    "faction_name": "蠕虫氏族",
    "faction_name_en": "Clan Verms",
    "is_capital": false,
+   "resources": [],
    "world": [
     418.19,
     371.8
@@ -14762,6 +15837,7 @@
    "faction_name": "劫牙",
    "faction_name_en": "Teef Snatchaz",
    "is_capital": false,
+   "resources": [],
    "world": [
     440.9,
     347.89
@@ -14797,6 +15873,7 @@
    "faction_name": "蠕虫氏族",
    "faction_name_en": "Clan Verms",
    "is_capital": false,
+   "resources": [],
    "world": [
     432.22,
     327.45
@@ -14832,6 +15909,7 @@
    "faction_name": "赛铁刀皮",
    "faction_name_en": "Sabreskin",
    "is_capital": true,
+   "resources": [],
    "world": [
     624.61,
     540.35
@@ -14867,6 +15945,7 @@
    "faction_name": "獠日部落",
    "faction_name_en": "Tusked Sunz",
    "is_capital": false,
+   "resources": [],
    "world": [
     678.72,
     539.19
@@ -14902,6 +15981,7 @@
    "faction_name": "獠日部落",
    "faction_name_en": "Tusked Sunz",
    "is_capital": false,
+   "resources": [],
    "world": [
     647.32,
     550.38
@@ -14937,6 +16017,7 @@
    "faction_name": "卡拉克·黑域堡",
    "faction_name_en": "Karak Azorn",
    "is_capital": true,
+   "resources": [],
    "world": [
     665.36,
     437.37
@@ -14972,6 +16053,7 @@
    "faction_name": "群山之子",
    "faction_name_en": "Sons of the Mountain",
    "is_capital": false,
+   "resources": [],
    "world": [
     668.03,
     403.43
@@ -15007,6 +16089,7 @@
    "faction_name": "群山之子",
    "faction_name_en": "Sons of the Mountain",
    "is_capital": false,
+   "resources": [],
    "world": [
     686.07,
     421.56
@@ -15042,6 +16125,7 @@
    "faction_name": "崔彻锐克氏族",
    "faction_name_en": "Clan Treecherik",
    "is_capital": false,
+   "resources": [],
    "world": [
     716.13,
     336.32
@@ -15077,6 +16161,7 @@
    "faction_name": "崔彻锐克氏族",
    "faction_name_en": "Clan Treecherik",
    "is_capital": false,
+   "resources": [],
    "world": [
     703.44,
     355.99
@@ -15112,6 +16197,7 @@
    "faction_name": "扎尔战团",
    "faction_name_en": "The Warhost of Zharr",
    "is_capital": false,
+   "resources": [],
    "world": [
     718.8,
     542.28
@@ -15147,6 +16233,7 @@
    "faction_name": "白虎之爪",
    "faction_name_en": "Claws of the White Tiger",
    "is_capital": false,
+   "resources": [],
    "world": [
     708.12,
     431.97
@@ -15182,6 +16269,13 @@
    "faction_name": "嗜血狂",
    "faction_name_en": "Blood Guzzlers",
    "is_capital": true,
+   "resources": [
+    {
+     "key": "res_stone_trolls",
+     "name": "石巨魔巢穴",
+     "name_en": "Stone Trolls Den"
+    }
+   ],
    "world": [
     696.76,
     463.21
@@ -15217,6 +16311,13 @@
    "faction_name": "嗜血狂",
    "faction_name_en": "Blood Guzzlers",
    "is_capital": false,
+   "resources": [
+    {
+     "key": "res_rom_furs",
+     "name": "毛皮",
+     "name_en": "Furs"
+    }
+   ],
    "world": [
     672.71,
     460.13
@@ -15252,6 +16353,7 @@
    "faction_name": "吞山者",
    "faction_name_en": "Mountaineaters",
    "is_capital": false,
+   "resources": [],
    "world": [
     699.43,
     490.21
@@ -15287,6 +16389,7 @@
    "faction_name": "吞山者",
    "faction_name_en": "Mountaineaters",
    "is_capital": true,
+   "resources": [],
    "world": [
     715.46,
     477.87
@@ -15322,6 +16425,13 @@
    "faction_name": "佛戈",
    "faction_name_en": "Fulg",
    "is_capital": true,
+   "resources": [
+    {
+     "key": "res_gems",
+     "name": "宝石",
+     "name_en": "Gemstones"
+    }
+   ],
    "world": [
     674.71,
     506.02
@@ -15357,6 +16467,7 @@
    "faction_name": "佛戈",
    "faction_name_en": "Fulg",
    "is_capital": false,
+   "resources": [],
    "world": [
     666.03,
     523.38
@@ -15392,6 +16503,7 @@
    "faction_name": "格里姆格的狠小子",
    "faction_name_en": "Grimgor's 'Ardboyz",
    "is_capital": false,
+   "resources": [],
    "world": [
     642.65,
     512.97
@@ -15427,6 +16539,7 @@
    "faction_name": "佛戈",
    "faction_name_en": "Fulg",
    "is_capital": false,
+   "resources": [],
    "world": [
     652.0,
     492.91
@@ -15462,6 +16575,13 @@
    "faction_name": "叉棒",
    "faction_name_en": "Crossed Clubs",
    "is_capital": false,
+   "resources": [
+    {
+     "key": "res_stone_trolls",
+     "name": "石巨魔巢穴",
+     "name_en": "Stone Trolls Den"
+    }
+   ],
    "world": [
     701.44,
     377.2
@@ -15497,6 +16617,7 @@
    "faction_name": "金牙",
    "faction_name_en": "Goldtooth",
    "is_capital": false,
+   "resources": [],
    "world": [
     670.04,
     379.13
@@ -15532,6 +16653,13 @@
    "faction_name": "叉棒",
    "faction_name_en": "Crossed Clubs",
    "is_capital": false,
+   "resources": [
+    {
+     "key": "res_spices",
+     "name": "香料",
+     "name_en": "Spices"
+    }
+   ],
    "world": [
     711.46,
     396.87
@@ -15567,6 +16695,13 @@
    "faction_name": "金牙",
    "faction_name_en": "Goldtooth",
    "is_capital": true,
+   "resources": [
+    {
+     "key": "res_gold",
+     "name": "黄金",
+     "name_en": "Gold"
+    }
+   ],
    "world": [
     688.07,
     388.0
@@ -15602,6 +16737,7 @@
    "faction_name": "蓝玫瑰车队",
    "faction_name_en": "Caravan of Blue Roses",
    "is_capital": true,
+   "resources": [],
    "world": [
     712.12,
     322.44
@@ -15637,6 +16773,13 @@
    "faction_name": "黑暗之地兽人",
    "faction_name_en": "Dark Land Orcs",
    "is_capital": false,
+   "resources": [
+    {
+     "key": "res_rom_marble",
+     "name": "大理石",
+     "name_en": "Marble"
+    }
+   ],
    "world": [
     632.63,
     393.79
@@ -15672,6 +16815,13 @@
    "faction_name": "黑暗之地兽人",
    "faction_name_en": "Dark Land Orcs",
    "is_capital": false,
+   "resources": [
+    {
+     "key": "res_savage",
+     "name": "蛮荒兽人",
+     "name_en": "Savage Orcs"
+    }
+   ],
    "world": [
     600.56,
     369.1
@@ -15707,6 +16857,13 @@
    "faction_name": "阿佐格军团",
    "faction_name_en": "The Legion of Azgorh",
    "is_capital": true,
+   "resources": [
+    {
+     "key": "res_location_dark_fortress",
+     "name": "黑暗要塞基址",
+     "name_en": "Dark Fortress Site"
+    }
+   ],
    "world": [
     634.63,
     369.49
@@ -15742,6 +16899,7 @@
    "faction_name": "月嚎部落",
    "faction_name_en": "Moon Howlerz",
    "is_capital": false,
+   "resources": [],
    "world": [
     587.2,
     397.65
@@ -15777,6 +16935,7 @@
    "faction_name": "月嚎部落",
    "faction_name_en": "Moon Howlerz",
    "is_capital": false,
+   "resources": [],
    "world": [
     555.14,
     417.7
@@ -15812,6 +16971,13 @@
    "faction_name": "咧嘴氏族",
    "faction_name_en": "Clan Rictus",
    "is_capital": true,
+   "resources": [
+    {
+     "key": "res_rom_iron",
+     "name": "生铁",
+     "name_en": "Iron"
+    }
+   ],
    "world": [
     563.82,
     401.12
@@ -15847,6 +17013,7 @@
    "faction_name": "崔彻锐克氏族",
    "faction_name_en": "Clan Treecherik",
    "is_capital": true,
+   "resources": [],
    "world": [
     662.69,
     363.32
@@ -15882,6 +17049,7 @@
    "faction_name": "崔彻锐克氏族",
    "faction_name_en": "Clan Treecherik",
    "is_capital": false,
+   "resources": [],
    "world": [
     677.39,
     346.35
@@ -15917,6 +17085,7 @@
    "faction_name": "泰波克之种",
    "faction_name_en": "Tepok's Spawn",
    "is_capital": true,
+   "resources": [],
    "world": [
     649.33,
     307.78
@@ -15952,6 +17121,7 @@
    "faction_name": "泰波克之种",
    "faction_name_en": "Tepok's Spawn",
    "is_capital": false,
+   "resources": [],
    "world": [
     667.37,
     296.6
@@ -15987,6 +17157,7 @@
    "faction_name": "泰波克之种",
    "faction_name_en": "Tepok's Spawn",
    "is_capital": false,
+   "resources": [],
    "world": [
     667.37,
     322.05
@@ -16022,6 +17193,18 @@
    "faction_name": "纳垢驭疹官",
    "faction_name_en": "Poxmakers of Nurgle",
    "is_capital": false,
+   "resources": [
+    {
+     "key": "res_bile_trolls",
+     "name": "胆汁巨魔巢穴",
+     "name_en": "Bile Trolls Den"
+    },
+    {
+     "key": "res_medicine",
+     "name": "医用植物",
+     "name_en": "Medicinal Plants"
+    }
+   ],
    "world": [
     647.99,
     269.98
@@ -16057,6 +17240,7 @@
    "faction_name": "秘会侍仆",
    "faction_name_en": "Servants of the Conclave",
    "is_capital": false,
+   "resources": [],
    "world": [
     629.96,
     463.98
@@ -16092,6 +17276,13 @@
    "faction_name": "秘会侍仆",
    "faction_name_en": "Servants of the Conclave",
    "is_capital": true,
+   "resources": [
+    {
+     "key": "res_obsidian",
+     "name": "雕刻黑曜石",
+     "name_en": "Carved Obsidian"
+    }
+   ],
    "world": [
     629.96,
     484.81
@@ -16127,6 +17318,7 @@
    "faction_name": "秘会侍仆",
    "faction_name_en": "Servants of the Conclave",
    "is_capital": false,
+   "resources": [],
    "world": [
     607.91,
     502.94
@@ -16162,6 +17354,7 @@
    "faction_name": null,
    "faction_name_en": null,
    "is_capital": false,
+   "resources": [],
    "world": [
     590.54,
     311.64
@@ -16197,6 +17390,7 @@
    "faction_name": "腐肉氏族",
    "faction_name_en": "Clan Carrion",
    "is_capital": true,
+   "resources": [],
    "world": [
     566.49,
     312.41
@@ -16232,6 +17426,7 @@
    "faction_name": null,
    "faction_name_en": null,
    "is_capital": false,
+   "resources": [],
    "world": [
     547.12,
     317.42
@@ -16267,6 +17462,7 @@
    "faction_name": "雷肠",
    "faction_name_en": "Thunderguts",
    "is_capital": false,
+   "resources": [],
    "world": [
     632.63,
     329.76
@@ -16302,6 +17498,13 @@
    "faction_name": "雷肠",
    "faction_name_en": "Thunderguts",
    "is_capital": true,
+   "resources": [
+    {
+     "key": "res_spices",
+     "name": "香料",
+     "name_en": "Spices"
+    }
+   ],
    "world": [
     648.66,
     353.68
@@ -16337,6 +17540,7 @@
    "faction_name": "扎尔杜克霸主",
    "faction_name_en": "Overlords of Zharrduk",
    "is_capital": true,
+   "resources": [],
    "world": [
     603.9,
     406.52
@@ -16372,6 +17576,7 @@
    "faction_name": "扎尔杜克霸主",
    "faction_name_en": "Overlords of Zharrduk",
    "is_capital": false,
+   "resources": [],
    "world": [
     647.32,
     421.56
@@ -16407,6 +17612,7 @@
    "faction_name": "扎尔杜克霸主",
    "faction_name_en": "Overlords of Zharrduk",
    "is_capital": false,
+   "resources": [],
    "world": [
     611.92,
     435.06
@@ -16442,6 +17648,7 @@
    "faction_name": "血牙部落",
    "faction_name_en": "Drippin Fangs",
    "is_capital": false,
+   "resources": [],
    "world": [
     580.52,
     457.04
@@ -16477,6 +17684,7 @@
    "faction_name": "血牙部落",
    "faction_name_en": "Drippin Fangs",
    "is_capital": false,
+   "resources": [],
    "world": [
     573.17,
     489.05
@@ -16512,6 +17720,13 @@
    "faction_name": "莱弥亚姐妹会",
    "faction_name_en": "Lahmian Sisterhood",
    "is_capital": true,
+   "resources": [
+    {
+     "key": "res_gems",
+     "name": "宝石",
+     "name_en": "Gemstones"
+    }
+   ],
    "world": [
     550.46,
     509.11
@@ -16547,6 +17762,7 @@
    "faction_name": "血牙部落",
    "faction_name_en": "Drippin Fangs",
    "is_capital": false,
+   "resources": [],
    "world": [
     556.47,
     471.7
@@ -16582,6 +17798,13 @@
    "faction_name": "卡勒多骑士",
    "faction_name_en": "Knights of Caledor",
    "is_capital": true,
+   "resources": [
+    {
+     "key": "res_location_dark_fortress",
+     "name": "黑暗要塞基址",
+     "name_en": "Dark Fortress Site"
+    }
+   ],
    "world": [
     593.88,
     338.25
@@ -16617,6 +17840,7 @@
    "faction_name": "赫尔海因氏族",
    "faction_name_en": "Clan Helhein",
    "is_capital": false,
+   "resources": [],
    "world": [
     575.84,
     354.06
@@ -16652,6 +17876,7 @@
    "faction_name": "赫尔海因氏族",
    "faction_name_en": "Clan Helhein",
    "is_capital": false,
+   "resources": [],
    "world": [
     561.82,
     326.68
@@ -16687,6 +17912,13 @@
    "faction_name": "哈苏特信徒",
    "faction_name_en": "Disciples of Hashut",
    "is_capital": true,
+   "resources": [
+    {
+     "key": "res_rom_iron",
+     "name": "生铁",
+     "name_en": "Iron"
+    }
+   ],
    "world": [
     570.5,
     557.71
@@ -16722,6 +17954,13 @@
    "faction_name": "扎尔之奴",
    "faction_name_en": "Slaves of Zharr",
    "is_capital": false,
+   "resources": [
+    {
+     "key": "res_rom_oil",
+     "name": "畜类",
+     "name_en": "Pastures"
+    }
+   ],
    "world": [
     569.83,
     534.18
@@ -16757,6 +17996,7 @@
    "faction_name": "扎尔之奴",
    "faction_name_en": "Slaves of Zharr",
    "is_capital": false,
+   "resources": [],
    "world": [
     591.21,
     534.18
@@ -16792,6 +18032,7 @@
    "faction_name": "隐秘之刑",
    "faction_name_en": "Subtle Torture",
    "is_capital": false,
+   "resources": [],
    "world": [
     269.89,
     688.84
@@ -16827,6 +18068,7 @@
    "faction_name": "隐秘之刑",
    "faction_name_en": "Subtle Torture",
    "is_capital": false,
+   "resources": [],
    "world": [
     294.6,
     691.54
@@ -16862,6 +18104,7 @@
    "faction_name": "隐秘之刑",
    "faction_name_en": "Subtle Torture",
    "is_capital": true,
+   "resources": [],
    "world": [
     324.0,
     724.71
@@ -16897,6 +18140,7 @@
    "faction_name": "隐秘之刑",
    "faction_name_en": "Subtle Torture",
    "is_capital": false,
+   "resources": [],
    "world": [
     313.98,
     700.41
@@ -16932,6 +18176,13 @@
    "faction_name": "绯红骷髅",
    "faction_name_en": "Crimson Skull",
    "is_capital": true,
+   "resources": [
+    {
+     "key": "res_gems",
+     "name": "宝石",
+     "name_en": "Gemstones"
+    }
+   ],
    "world": [
     251.85,
     723.17
@@ -16967,6 +18218,13 @@
    "faction_name": "绯红骷髅",
    "faction_name_en": "Crimson Skull",
    "is_capital": false,
+   "resources": [
+    {
+     "key": "res_rom_iron",
+     "name": "生铁",
+     "name_en": "Iron"
+    }
+   ],
    "world": [
     280.57,
     711.98
@@ -17002,6 +18260,7 @@
    "faction_name": "绯红骷髅",
    "faction_name_en": "Crimson Skull",
    "is_capital": false,
+   "resources": [],
    "world": [
     287.25,
     729.72
@@ -17037,6 +18296,13 @@
    "faction_name": "纳吉",
    "faction_name_en": "{{tr:factions_screen_name_wh3_prologue_the_narj}}",
    "is_capital": false,
+   "resources": [
+    {
+     "key": "res_rom_timber",
+     "name": "木材",
+     "name_en": "Timber"
+    }
+   ],
    "world": [
     651.33,
     632.14
@@ -17072,6 +18338,13 @@
    "faction_name": "蛆虫军团",
    "faction_name_en": "The Maggot Host",
    "is_capital": true,
+   "resources": [
+    {
+     "key": "res_bile_trolls",
+     "name": "胆汁巨魔巢穴",
+     "name_en": "Bile Trolls Den"
+    }
+   ],
    "world": [
     669.37,
     646.42
@@ -17107,6 +18380,7 @@
    "faction_name": "贪肉者",
    "faction_name_en": "Fleshgreeders",
    "is_capital": true,
+   "resources": [],
    "world": [
     682.06,
     560.41
@@ -17142,6 +18416,7 @@
    "faction_name": "纳吉",
    "faction_name_en": "{{tr:factions_screen_name_wh3_prologue_the_narj}}",
    "is_capital": false,
+   "resources": [],
    "world": [
     684.73,
     609.77
@@ -17177,6 +18452,7 @@
    "faction_name": "纳吉",
    "faction_name_en": "{{tr:factions_screen_name_wh3_prologue_the_narj}}",
    "is_capital": false,
+   "resources": [],
    "world": [
     691.41,
     583.55
@@ -17212,6 +18488,7 @@
    "faction_name": "全视之眼",
    "faction_name_en": "All-Seeing Eye",
    "is_capital": true,
+   "resources": [],
    "world": [
     500.36,
     714.68
@@ -17247,6 +18524,7 @@
    "faction_name": "全视之眼",
    "faction_name_en": "All-Seeing Eye",
    "is_capital": false,
+   "resources": [],
    "world": [
     465.62,
     726.25
@@ -17282,6 +18560,7 @@
    "faction_name": "全视之眼",
    "faction_name_en": "All-Seeing Eye",
    "is_capital": false,
+   "resources": [],
    "world": [
     479.65,
     694.24
@@ -17317,6 +18596,7 @@
    "faction_name": "瘟疫计患官",
    "faction_name_en": "Tallymen of Pestilence",
    "is_capital": false,
+   "resources": [],
    "world": [
     406.16,
     711.21
@@ -17352,6 +18632,13 @@
    "faction_name": "全视之眼",
    "faction_name_en": "All-Seeing Eye",
    "is_capital": false,
+   "resources": [
+    {
+     "key": "res_bile_trolls",
+     "name": "胆汁巨魔巢穴",
+     "name_en": "Bile Trolls Den"
+    }
+   ],
    "world": [
     456.93,
     710.44
@@ -17387,6 +18674,18 @@
    "faction_name": "瘟疫计患官",
    "faction_name_en": "Tallymen of Pestilence",
    "is_capital": true,
+   "resources": [
+    {
+     "key": "res_bile_trolls",
+     "name": "胆汁巨魔巢穴",
+     "name_en": "Bile Trolls Den"
+    },
+    {
+     "key": "res_medicine",
+     "name": "医用植物",
+     "name_en": "Medicinal Plants"
+    }
+   ],
    "world": [
     427.54,
     724.32
@@ -17422,6 +18721,18 @@
    "faction_name": "零落命轮",
    "faction_name_en": "Broken Wheel",
    "is_capital": false,
+   "resources": [
+    {
+     "key": "res_bile_trolls",
+     "name": "胆汁巨魔巢穴",
+     "name_en": "Bile Trolls Den"
+    },
+    {
+     "key": "res_rom_timber",
+     "name": "木材",
+     "name_en": "Timber"
+    }
+   ],
    "world": [
     374.1,
     735.12
@@ -17457,6 +18768,13 @@
    "faction_name": "零落命轮",
    "faction_name_en": "Broken Wheel",
    "is_capital": false,
+   "resources": [
+    {
+     "key": "res_ivory",
+     "name": "长牙",
+     "name_en": "Tusks"
+    }
+   ],
    "world": [
     352.05,
     720.08
@@ -17492,6 +18810,13 @@
    "faction_name": "零落命轮",
    "faction_name_en": "Broken Wheel",
    "is_capital": true,
+   "resources": [
+    {
+     "key": "res_obsidian",
+     "name": "雕刻黑曜石",
+     "name_en": "Carved Obsidian"
+    }
+   ],
    "world": [
     389.46,
     723.94
@@ -17527,6 +18852,13 @@
    "faction_name": "精美之痛",
    "faction_name_en": "Exquisite Pain",
    "is_capital": true,
+   "resources": [
+    {
+     "key": "res_location_dark_fortress",
+     "name": "黑暗要塞基址",
+     "name_en": "Dark Fortress Site"
+    }
+   ],
    "world": [
     611.25,
     684.6
@@ -17562,6 +18894,7 @@
    "faction_name": "库尔",
    "faction_name_en": "Kul",
    "is_capital": false,
+   "resources": [],
    "world": [
     616.59,
     646.03
@@ -17597,6 +18930,13 @@
    "faction_name": "精美之痛",
    "faction_name_en": "Exquisite Pain",
    "is_capital": false,
+   "resources": [
+    {
+     "key": "res_bile_trolls",
+     "name": "胆汁巨魔巢穴",
+     "name_en": "Bile Trolls Den"
+    }
+   ],
    "world": [
     569.83,
     654.51
@@ -17632,6 +18972,7 @@
    "faction_name": "浴血长剑",
    "faction_name_en": "Bloody Sword",
    "is_capital": true,
+   "resources": [],
    "world": [
     527.75,
     704.27
@@ -17667,6 +19008,7 @@
    "faction_name": "浴血长剑",
    "faction_name_en": "Bloody Sword",
    "is_capital": false,
+   "resources": [],
    "world": [
     507.71,
     661.84
@@ -17702,6 +19044,18 @@
    "faction_name": "浴血长剑",
    "faction_name_en": "Bloody Sword",
    "is_capital": false,
+   "resources": [
+    {
+     "key": "res_bile_trolls",
+     "name": "胆汁巨魔巢穴",
+     "name_en": "Bile Trolls Den"
+    },
+    {
+     "key": "res_rom_lead",
+     "name": "食盐",
+     "name_en": "Salt"
+    }
+   ],
    "world": [
     547.79,
     669.56
@@ -17737,6 +19091,7 @@
    "faction_name": "浴血长剑",
    "faction_name_en": "Bloody Sword",
    "is_capital": false,
+   "resources": [],
    "world": [
     566.49,
     691.16
@@ -17772,6 +19127,13 @@
    "faction_name": "受恩者",
    "faction_name_en": "Lazarghs",
    "is_capital": true,
+   "resources": [
+    {
+     "key": "res_stone_trolls",
+     "name": "石巨魔巢穴",
+     "name_en": "Stone Trolls Den"
+    }
+   ],
    "world": [
     592.55,
     589.72
@@ -17807,6 +19169,7 @@
    "faction_name": "受恩者",
    "faction_name_en": "Lazarghs",
    "is_capital": false,
+   "resources": [],
    "world": [
     585.2,
     618.65
@@ -17842,6 +19205,7 @@
    "faction_name": "受恩者",
    "faction_name_en": "Lazarghs",
    "is_capital": false,
+   "resources": [],
    "world": [
     565.82,
     603.6
@@ -17877,6 +19241,7 @@
    "faction_name": "恐虐挑战者",
    "faction_name_en": "Challengers of Khorne",
    "is_capital": false,
+   "resources": [],
    "world": [
     540.44,
     639.09
@@ -17912,6 +19277,18 @@
    "faction_name": "卡扎格",
    "faction_name_en": "Khazag",
    "is_capital": true,
+   "resources": [
+    {
+     "key": "res_ivory",
+     "name": "长牙",
+     "name_en": "Tusks"
+    },
+    {
+     "key": "res_obsidian",
+     "name": "雕刻黑曜石",
+     "name_en": "Carved Obsidian"
+    }
+   ],
    "world": [
     831.03,
     554.62
@@ -17947,6 +19324,7 @@
    "faction_name": "卡扎格",
    "faction_name_en": "Khazag",
    "is_capital": false,
+   "resources": [],
    "world": [
     800.3,
     547.68
@@ -17982,6 +19360,7 @@
    "faction_name": "帝国戍卫",
    "faction_name_en": "Imperial Wardens",
    "is_capital": false,
+   "resources": [],
    "world": [
     815.67,
     528.01
@@ -18017,6 +19396,7 @@
    "faction_name": "天廷忠卫",
    "faction_name_en": "Celestial Loyalists",
    "is_capital": false,
+   "resources": [],
    "world": [
     865.1,
     474.01
@@ -18052,6 +19432,13 @@
    "faction_name": "天廷忠卫",
    "faction_name_en": "Celestial Loyalists",
    "is_capital": true,
+   "resources": [
+    {
+     "key": "res_spices",
+     "name": "香料",
+     "name_en": "Spices"
+    }
+   ],
    "world": [
     852.41,
     500.62
@@ -18087,6 +19474,7 @@
    "faction_name": "天廷忠卫",
    "faction_name_en": "Celestial Loyalists",
    "is_capital": false,
+   "resources": [],
    "world": [
     829.7,
     472.08
@@ -18122,6 +19510,7 @@
    "faction_name": "玉石护军",
    "faction_name_en": "The Jade Custodians",
    "is_capital": true,
+   "resources": [],
    "world": [
     849.07,
     380.68
@@ -18157,6 +19546,13 @@
    "faction_name": "玉石护军",
    "faction_name_en": "The Jade Custodians",
    "is_capital": false,
+   "resources": [
+    {
+     "key": "res_rom_textiles",
+     "name": "陶器",
+     "name_en": "Pottery"
+    }
+   ],
    "world": [
     847.73,
     355.22
@@ -18192,6 +19588,7 @@
    "faction_name": "燃风牧民",
    "faction_name_en": "Burning Wind Nomads",
    "is_capital": false,
+   "resources": [],
    "world": [
     846.4,
     295.82
@@ -18227,6 +19624,7 @@
    "faction_name": "燃风牧民",
    "faction_name_en": "Burning Wind Nomads",
    "is_capital": true,
+   "resources": [],
    "world": [
     843.06,
     332.46
@@ -18262,6 +19660,13 @@
    "faction_name": "玉廷",
    "faction_name_en": "The Jade Court",
    "is_capital": true,
+   "resources": [
+    {
+     "key": "res_animals",
+     "name": "异域动物",
+     "name_en": "Exotic Animals"
+    }
+   ],
    "world": [
     777.59,
     369.49
@@ -18297,6 +19702,13 @@
    "faction_name": "僵尸叛军",
    "faction_name_en": "Jiangshi Rebels",
    "is_capital": false,
+   "resources": [
+    {
+     "key": "res_river_trolls",
+     "name": "河巨魔巢穴",
+     "name_en": "River Trolls Den"
+    }
+   ],
    "world": [
     827.69,
     355.22
@@ -18332,6 +19744,7 @@
    "faction_name": "僵尸叛军",
    "faction_name_en": "Jiangshi Rebels",
    "is_capital": false,
+   "resources": [],
    "world": [
     794.96,
     388.0
@@ -18367,6 +19780,7 @@
    "faction_name": "僵尸叛军",
    "faction_name_en": "Jiangshi Rebels",
    "is_capital": false,
+   "resources": [],
    "world": [
     822.35,
     383.76
@@ -18402,6 +19816,7 @@
    "faction_name": "玉石护军",
    "faction_name_en": "The Jade Custodians",
    "is_capital": false,
+   "resources": [],
    "world": [
     824.35,
     411.14
@@ -18437,6 +19852,7 @@
    "faction_name": "玉石护军",
    "faction_name_en": "The Jade Custodians",
    "is_capital": true,
+   "resources": [],
    "world": [
     851.74,
     400.73
@@ -18472,6 +19888,13 @@
    "faction_name": "燃风牧民",
    "faction_name_en": "Burning Wind Nomads",
    "is_capital": true,
+   "resources": [
+    {
+     "key": "res_dyes",
+     "name": "染料",
+     "name_en": "Dyes"
+    }
+   ],
    "world": [
     821.68,
     290.04
@@ -18507,6 +19930,13 @@
    "faction_name": "燃风牧民",
    "faction_name_en": "Burning Wind Nomads",
    "is_capital": false,
+   "resources": [
+    {
+     "key": "res_rom_timber",
+     "name": "木材",
+     "name_en": "Timber"
+    }
+   ],
    "world": [
     772.25,
     340.18
@@ -18542,6 +19972,7 @@
    "faction_name": "燃风牧民",
    "faction_name_en": "Burning Wind Nomads",
    "is_capital": false,
+   "resources": [],
    "world": [
     794.29,
     319.74
@@ -18577,6 +20008,7 @@
    "faction_name": "山林精魂",
    "faction_name_en": "Spirits of Shanlin",
    "is_capital": true,
+   "resources": [],
    "world": [
     870.45,
     298.14
@@ -18612,6 +20044,7 @@
    "faction_name": "阿瓦格",
    "faction_name_en": "Avag",
    "is_capital": false,
+   "resources": [],
    "world": [
     824.35,
     572.36
@@ -18647,6 +20080,7 @@
    "faction_name": "阿瓦格",
    "faction_name_en": "Avag",
    "is_capital": false,
+   "resources": [],
    "world": [
     777.59,
     565.42
@@ -18682,6 +20116,7 @@
    "faction_name": "阿瓦格",
    "faction_name_en": "Avag",
    "is_capital": false,
+   "resources": [],
    "world": [
     798.97,
     563.11
@@ -18717,6 +20152,7 @@
    "faction_name": "多尔甘",
    "faction_name_en": "Dolgan",
    "is_capital": true,
+   "resources": [],
    "world": [
     849.74,
     559.25
@@ -18752,6 +20188,13 @@
    "faction_name": "卡扎格",
    "faction_name_en": "Khazag",
    "is_capital": false,
+   "resources": [
+    {
+     "key": "res_location_dark_fortress",
+     "name": "黑暗要塞基址",
+     "name_en": "Dark Fortress Site"
+    }
+   ],
    "world": [
     776.92,
     543.44
@@ -18787,6 +20230,7 @@
    "faction_name": "扎尔战团",
    "faction_name_en": "The Warhost of Zharr",
    "is_capital": true,
+   "resources": [],
    "world": [
     742.19,
     552.69
@@ -18822,6 +20266,7 @@
    "faction_name": "南阳叛王",
    "faction_name_en": "Rebel Lords of Nan-Yang",
    "is_capital": false,
+   "resources": [],
    "world": [
     801.64,
     486.74
@@ -18857,6 +20302,13 @@
    "faction_name": "南阳叛王",
    "faction_name_en": "Rebel Lords of Nan-Yang",
    "is_capital": false,
+   "resources": [
+    {
+     "key": "res_rom_iron",
+     "name": "生铁",
+     "name_en": "Iron"
+    }
+   ],
    "world": [
     782.94,
     469.77
@@ -18892,6 +20344,7 @@
    "faction_name": "南阳叛王",
    "faction_name_en": "Rebel Lords of Nan-Yang",
    "is_capital": true,
+   "resources": [],
    "world": [
     820.34,
     500.62
@@ -18927,6 +20380,7 @@
    "faction_name": "妖龙族裔",
    "faction_name_en": "Wyrmkins",
    "is_capital": false,
+   "resources": [],
    "world": [
     915.87,
     294.28
@@ -18962,6 +20416,7 @@
    "faction_name": "妖龙族裔",
    "faction_name_en": "Wyrmkins",
    "is_capital": true,
+   "resources": [],
    "world": [
     888.48,
     282.32
@@ -18997,6 +20452,13 @@
    "faction_name": "缙绅逆臣",
    "faction_name_en": "Dissenter Lords of Jinshen",
    "is_capital": true,
+   "resources": [
+    {
+     "key": "res_spices",
+     "name": "香料",
+     "name_en": "Spices"
+    }
+   ],
    "world": [
     752.87,
     427.73
@@ -19032,6 +20494,7 @@
    "faction_name": "缙绅逆臣",
    "faction_name_en": "Dissenter Lords of Jinshen",
    "is_capital": false,
+   "resources": [],
    "world": [
     750.87,
     462.06
@@ -19067,6 +20530,7 @@
    "faction_name": "缙绅逆臣",
    "faction_name_en": "Dissenter Lords of Jinshen",
    "is_capital": false,
+   "resources": [],
    "world": [
     784.94,
     427.73
@@ -19102,6 +20566,7 @@
    "faction_name": "死旗舰队",
    "faction_name_en": "Dead Flag Fleet",
    "is_capital": false,
+   "resources": [],
    "world": [
     905.85,
     427.34
@@ -19137,6 +20602,7 @@
    "faction_name": "死旗舰队",
    "faction_name_en": "Dead Flag Fleet",
    "is_capital": false,
+   "resources": [],
    "world": [
     877.13,
     402.27
@@ -19172,6 +20638,7 @@
    "faction_name": "死旗舰队",
    "faction_name_en": "Dead Flag Fleet",
    "is_capital": true,
+   "resources": [],
    "world": [
     904.52,
     388.77
@@ -19207,6 +20674,7 @@
    "faction_name": "死旗舰队",
    "faction_name_en": "Dead Flag Fleet",
    "is_capital": false,
+   "resources": [],
    "world": [
     882.47,
     450.87
@@ -19242,6 +20710,7 @@
    "faction_name": "神佑恶党",
    "faction_name_en": "The Blessed Dread",
    "is_capital": true,
+   "resources": [],
    "world": [
     903.18,
     479.8
@@ -19277,6 +20746,7 @@
    "faction_name": "点心",
    "faction_name_en": "Dimmed Sunz",
    "is_capital": true,
+   "resources": [],
    "world": [
     835.71,
     453.18
@@ -19312,6 +20782,18 @@
    "faction_name": "艾辛氏族",
    "faction_name_en": "Clan Eshin",
    "is_capital": false,
+   "resources": [
+    {
+     "key": "res_gems",
+     "name": "宝石",
+     "name_en": "Gemstones"
+    },
+    {
+     "key": "res_river_trolls",
+     "name": "河巨魔巢穴",
+     "name_en": "River Trolls Den"
+    }
+   ],
    "world": [
     801.64,
     440.46
@@ -19347,6 +20829,18 @@
    "faction_name": "点心",
    "faction_name_en": "Dimmed Sunz",
    "is_capital": false,
+   "resources": [
+    {
+     "key": "res_ivory",
+     "name": "长牙",
+     "name_en": "Tusks"
+    },
+    {
+     "key": "res_savage",
+     "name": "蛮荒兽人",
+     "name_en": "Savage Orcs"
+    }
+   ],
    "world": [
     857.75,
     430.43
@@ -19382,6 +20876,7 @@
    "faction_name": "点心",
    "faction_name_en": "Dimmed Sunz",
    "is_capital": false,
+   "resources": [],
    "world": [
     835.71,
     425.42
@@ -19417,6 +20912,13 @@
    "faction_name": "卫北列省",
    "faction_name_en": "The Northern Provinces",
    "is_capital": true,
+   "resources": [
+    {
+     "key": "res_rom_textiles",
+     "name": "陶器",
+     "name_en": "Pottery"
+    }
+   ],
    "world": [
     760.22,
     506.02
@@ -19452,6 +20954,7 @@
    "faction_name": "南阳叛王",
    "faction_name_en": "Rebel Lords of Nan-Yang",
    "is_capital": false,
+   "resources": [],
    "world": [
     763.56,
     483.27
@@ -19487,6 +20990,23 @@
    "faction_name": "帝国戍卫",
    "faction_name_en": "Imperial Wardens",
    "is_capital": true,
+   "resources": [
+    {
+     "key": "res_ivory",
+     "name": "长牙",
+     "name_en": "Tusks"
+    },
+    {
+     "key": "res_location_dark_fortress",
+     "name": "黑暗要塞基址",
+     "name_en": "Dark Fortress Site"
+    },
+    {
+     "key": "res_obsidian",
+     "name": "雕刻黑曜石",
+     "name_en": "Carved Obsidian"
+    }
+   ],
    "world": [
     879.8,
     511.81
@@ -19522,6 +21042,7 @@
    "faction_name": "尤萨克",
    "faction_name_en": "Yusak",
    "is_capital": false,
+   "resources": [],
    "world": [
     865.1,
     538.04
@@ -19557,6 +21078,7 @@
    "faction_name": "克里泽氏族",
    "faction_name_en": "Clan Krizzor",
    "is_capital": false,
+   "resources": [],
    "world": [
     750.2,
     405.36
@@ -19592,6 +21114,7 @@
    "faction_name": "缙绅逆臣",
    "faction_name_en": "Dissenter Lords of Jinshen",
    "is_capital": true,
+   "resources": [],
    "world": [
     752.87,
     381.45
@@ -19627,6 +21150,7 @@
    "faction_name": "卫西列省",
    "faction_name_en": "The Western Provinces",
    "is_capital": false,
+   "resources": [],
    "world": [
     742.85,
     361.01
@@ -19662,6 +21186,7 @@
    "faction_name": "帝国戍卫",
    "faction_name_en": "Imperial Wardens",
    "is_capital": true,
+   "resources": [],
    "world": [
     832.37,
     512.97
@@ -19697,6 +21222,7 @@
    "faction_name": "帝国戍卫",
    "faction_name_en": "Imperial Wardens",
    "is_capital": true,
+   "resources": [],
    "world": [
     807.65,
     514.12
@@ -19732,6 +21258,7 @@
    "faction_name": "帝国戍卫",
    "faction_name_en": "Imperial Wardens",
    "is_capital": true,
+   "resources": [],
    "world": [
     784.94,
     513.35
@@ -19767,6 +21294,7 @@
    "faction_name": "簇眼部落",
    "faction_name_en": "Cluster-Eye Tribe",
    "is_capital": false,
+   "resources": [],
    "world": [
     855.08,
     253.01
@@ -19802,6 +21330,13 @@
    "faction_name": "簇眼部落",
    "faction_name_en": "Cluster-Eye Tribe",
    "is_capital": false,
+   "resources": [
+    {
+     "key": "res_stone_trolls",
+     "name": "石巨魔巢穴",
+     "name_en": "Stone Trolls Den"
+    }
+   ],
    "world": [
     883.14,
     258.41
@@ -19837,6 +21372,7 @@
    "faction_name": "簇眼部落",
    "faction_name_en": "Cluster-Eye Tribe",
    "is_capital": true,
+   "resources": [],
    "world": [
     839.72,
     269.6
@@ -19872,6 +21408,7 @@
    "faction_name": "折磨者",
    "faction_name_en": "The Tormentors",
    "is_capital": false,
+   "resources": [],
    "world": [
     917.21,
     251.08
@@ -19907,6 +21444,13 @@
    "faction_name": "东河诸侯",
    "faction_name_en": "Eastern River Lords",
    "is_capital": true,
+   "resources": [
+    {
+     "key": "res_obsidian",
+     "name": "雕刻黑曜石",
+     "name_en": "Carved Obsidian"
+    }
+   ],
    "world": [
     911.87,
     322.05
@@ -19942,6 +21486,7 @@
    "faction_name": "东河诸侯",
    "faction_name_en": "Eastern River Lords",
    "is_capital": false,
+   "resources": [],
    "world": [
     913.2,
     362.93
@@ -19977,6 +21522,7 @@
    "faction_name": "东河诸侯",
    "faction_name_en": "Eastern River Lords",
    "is_capital": false,
+   "resources": [],
    "world": [
     894.5,
     346.73
@@ -20012,6 +21558,18 @@
    "faction_name": null,
    "faction_name_en": null,
    "is_capital": true,
+   "resources": [
+    {
+     "key": "res_bile_trolls",
+     "name": "胆汁巨魔巢穴",
+     "name_en": "Bile Trolls Den"
+    },
+    {
+     "key": "res_dyes",
+     "name": "染料",
+     "name_en": "Dyes"
+    }
+   ],
    "world": [
     169.68,
     70.97
@@ -20047,6 +21605,7 @@
    "faction_name": "玛丽恩堡",
    "faction_name_en": "Marienburg",
    "is_capital": false,
+   "resources": [],
    "world": [
     61.46,
     148.1
@@ -20082,6 +21641,7 @@
    "faction_name": "黑暗深渊部落",
    "faction_name_en": "The Black Pit Tribe",
    "is_capital": false,
+   "resources": [],
    "world": [
     57.45,
     189.76
@@ -20117,6 +21677,7 @@
    "faction_name": "黑暗深渊部落",
    "faction_name_en": "The Black Pit Tribe",
    "is_capital": true,
+   "resources": [],
    "world": [
     87.51,
     140.77
@@ -20152,6 +21713,13 @@
    "faction_name": null,
    "faction_name_en": null,
    "is_capital": false,
+   "resources": [
+    {
+     "key": "res_rom_iron",
+     "name": "生铁",
+     "name_en": "Iron"
+    }
+   ],
    "world": [
     31.4,
     58.24
@@ -20187,6 +21755,7 @@
    "faction_name": "恶疾氏族",
    "faction_name_en": "Clan Morbidus",
    "is_capital": true,
+   "resources": [],
    "world": [
     21.38,
     76.37
@@ -20222,6 +21791,7 @@
    "faction_name": "卡拉克·微风堡",
    "faction_name_en": "Karak Ziflin",
    "is_capital": false,
+   "resources": [],
    "world": [
     45.43,
     37.8
@@ -20257,6 +21827,7 @@
    "faction_name": "卡拉克·微风堡",
    "faction_name_en": "Karak Ziflin",
    "is_capital": true,
+   "resources": [],
    "world": [
     64.8,
     23.53
@@ -20292,6 +21863,7 @@
    "faction_name": "卡拉克·微风堡",
    "faction_name_en": "Karak Ziflin",
    "is_capital": false,
+   "resources": [],
    "world": [
     83.5,
     15.81
@@ -20327,6 +21899,13 @@
    "faction_name": "大胃信徒",
    "faction_name_en": "Disciples of the Maw",
    "is_capital": false,
+   "resources": [
+    {
+     "key": "res_ivory",
+     "name": "长牙",
+     "name_en": "Tusks"
+    }
+   ],
    "world": [
     102.88,
     17.74
@@ -20362,6 +21941,7 @@
    "faction_name": "哥隆尼边地",
    "faction_name_en": "Marches of Couronne",
    "is_capital": true,
+   "resources": [],
    "world": [
     32.73,
     156.2
@@ -20397,6 +21977,7 @@
    "faction_name": "哥隆尼边地",
    "faction_name_en": "Marches of Couronne",
    "is_capital": false,
+   "resources": [],
    "world": [
     22.71,
     195.93
@@ -20432,6 +22013,7 @@
    "faction_name": "碎颅者",
    "faction_name_en": "Skullsmasherz",
    "is_capital": false,
+   "resources": [],
    "world": [
     11.36,
     131.52
@@ -20467,6 +22049,18 @@
    "faction_name": "飨宴",
    "faction_name_en": "Feastmaster",
    "is_capital": true,
+   "resources": [
+    {
+     "key": "res_river_trolls",
+     "name": "河巨魔巢穴",
+     "name_en": "River Trolls Den"
+    },
+    {
+     "key": "res_rom_furs",
+     "name": "毛皮",
+     "name_en": "Furs"
+    }
+   ],
    "world": [
     217.78,
     36.25
@@ -20502,6 +22096,7 @@
    "faction_name": "瓦尔登霍夫",
    "faction_name_en": "Waldenhof",
    "is_capital": false,
+   "resources": [],
    "world": [
     245.83,
     50.14
@@ -20537,6 +22132,7 @@
    "faction_name": "奥斯特领",
    "faction_name_en": "Ostland",
    "is_capital": false,
+   "resources": [],
    "world": [
     250.51,
     75.98
@@ -20572,6 +22168,7 @@
    "faction_name": "奥斯特领",
    "faction_name_en": "Ostland",
    "is_capital": false,
+   "resources": [],
    "world": [
     213.77,
     93.34
@@ -20607,6 +22204,13 @@
    "faction_name": "奥斯特领",
    "faction_name_en": "Ostland",
    "is_capital": true,
+   "resources": [
+    {
+     "key": "res_gold",
+     "name": "黄金",
+     "name_en": "Gold"
+    }
+   ],
    "world": [
     209.09,
     72.12
@@ -20642,6 +22246,7 @@
    "faction_name": "奥斯特马克",
    "faction_name_en": "Ostermark",
    "is_capital": false,
+   "resources": [],
    "world": [
     333.34,
     67.49
@@ -20677,6 +22282,7 @@
    "faction_name": "奥斯特马克",
    "faction_name_en": "Ostermark",
    "is_capital": false,
+   "resources": [],
    "world": [
     313.3,
     77.52
@@ -20712,6 +22318,7 @@
    "faction_name": "奥斯特马克",
    "faction_name_en": "Ostermark",
    "is_capital": true,
+   "resources": [],
    "world": [
     270.55,
     60.55
@@ -20747,6 +22354,7 @@
    "faction_name": "诺德领",
    "faction_name_en": "Nordland",
    "is_capital": false,
+   "resources": [],
    "world": [
     26.72,
     229.1
@@ -20782,6 +22390,7 @@
    "faction_name": "瓦纳海姆林",
    "faction_name_en": "Vanaheimlings",
    "is_capital": false,
+   "resources": [],
    "world": [
     22.71,
     266.89
@@ -20817,6 +22426,7 @@
    "faction_name": "瓦纳海姆林",
    "faction_name_en": "Vanaheimlings",
    "is_capital": true,
+   "resources": [],
    "world": [
     12.69,
     248.77
@@ -20852,6 +22462,13 @@
    "faction_name": "威森领与努恩",
    "faction_name_en": "Wissenland & Nuln",
    "is_capital": true,
+   "resources": [
+    {
+     "key": "res_rom_iron",
+     "name": "生铁",
+     "name_en": "Iron"
+    }
+   ],
    "world": [
     225.79,
     18.51
@@ -20887,6 +22504,7 @@
    "faction_name": "飨宴",
    "faction_name_en": "Feastmaster",
    "is_capital": false,
+   "resources": [],
    "world": [
     191.05,
     21.6
@@ -20922,6 +22540,7 @@
    "faction_name": "劳伦洛伦",
    "faction_name_en": "Laurelorn",
    "is_capital": true,
+   "resources": [],
    "world": [
     88.18,
     120.33
@@ -20957,6 +22576,7 @@
    "faction_name": "邓肯霍夫秘会",
    "faction_name_en": "The Drakenhof Conclave",
    "is_capital": false,
+   "resources": [],
    "world": [
     311.3,
     25.46
@@ -20992,6 +22612,7 @@
    "faction_name": "瓦尔登霍夫",
    "faction_name_en": "Waldenhof",
    "is_capital": false,
+   "resources": [],
    "world": [
     308.63,
     47.05
@@ -21027,6 +22648,13 @@
    "faction_name": "邓肯霍夫秘会",
    "faction_name_en": "The Drakenhof Conclave",
    "is_capital": true,
+   "resources": [
+    {
+     "key": "res_gold",
+     "name": "黄金",
+     "name_en": "Gold"
+    }
+   ],
    "world": [
     340.02,
     35.87
@@ -21062,6 +22690,7 @@
    "faction_name": "斯提尔领",
    "faction_name_en": "Stirland",
    "is_capital": true,
+   "resources": [],
    "world": [
     273.22,
     25.07
@@ -21097,6 +22726,7 @@
    "faction_name": "瓦尔登霍夫",
    "faction_name_en": "Waldenhof",
    "is_capital": false,
+   "resources": [],
    "world": [
     276.56,
     40.11
@@ -21132,6 +22762,7 @@
    "faction_name": "瑞克领",
    "faction_name_en": "Reikland",
    "is_capital": false,
+   "resources": [],
    "world": [
     164.33,
     16.97
@@ -21167,6 +22798,7 @@
    "faction_name": "瑞克领",
    "faction_name_en": "Reikland",
    "is_capital": false,
+   "resources": [],
    "world": [
     88.18,
     28.54
@@ -21202,6 +22834,13 @@
    "faction_name": "瑞克领",
    "faction_name_en": "Reikland",
    "is_capital": true,
+   "resources": [
+    {
+     "key": "res_rom_textiles",
+     "name": "陶器",
+     "name_en": "Pottery"
+    }
+   ],
    "world": [
     134.27,
     32.01
@@ -21237,6 +22876,7 @@
    "faction_name": "米登领",
    "faction_name_en": "Middenland",
    "is_capital": false,
+   "resources": [],
    "world": [
     108.89,
     46.67
@@ -21272,6 +22912,7 @@
    "faction_name": "米登领",
    "faction_name_en": "Middenland",
    "is_capital": true,
+   "resources": [],
    "world": [
     116.24,
     67.88
@@ -21307,6 +22948,7 @@
    "faction_name": "米登领",
    "faction_name_en": "Middenland",
    "is_capital": false,
+   "resources": [],
    "world": [
     87.51,
     70.58
@@ -21342,6 +22984,18 @@
    "faction_name": "诺德领",
    "faction_name_en": "Nordland",
    "is_capital": true,
+   "resources": [
+    {
+     "key": "res_river_trolls",
+     "name": "河巨魔巢穴",
+     "name_en": "River Trolls Den"
+    },
+    {
+     "key": "res_rom_timber",
+     "name": "木材",
+     "name_en": "Timber"
+    }
+   ],
    "world": [
     118.24,
     111.46
@@ -21377,6 +23031,7 @@
    "faction_name": "诺德领",
    "faction_name_en": "Nordland",
    "is_capital": false,
+   "resources": [],
    "world": [
     144.96,
     116.86
@@ -21412,6 +23067,7 @@
    "faction_name": "黑暗深渊部落",
    "faction_name_en": "The Black Pit Tribe",
    "is_capital": false,
+   "resources": [],
    "world": [
     118.91,
     137.3
@@ -21447,6 +23103,7 @@
    "faction_name": "霍克领",
    "faction_name_en": "Hochland",
    "is_capital": false,
+   "resources": [],
    "world": [
     160.99,
     59.78
@@ -21482,6 +23139,7 @@
    "faction_name": "霍克领",
    "faction_name_en": "Hochland",
    "is_capital": true,
+   "resources": [],
    "world": [
     207.75,
     42.81
@@ -21517,6 +23175,7 @@
    "faction_name": "玛丽恩堡",
    "faction_name_en": "Marienburg",
    "is_capital": false,
+   "resources": [],
    "world": [
     48.77,
     54.38
@@ -21552,6 +23211,13 @@
    "faction_name": "玛丽恩堡",
    "faction_name_en": "Marienburg",
    "is_capital": true,
+   "resources": [
+    {
+     "key": "res_dyes",
+     "name": "染料",
+     "name_en": "Dyes"
+    }
+   ],
    "world": [
     52.77,
     91.41
@@ -21587,6 +23253,7 @@
    "faction_name": "玛丽恩堡",
    "faction_name_en": "Marienburg",
    "is_capital": false,
+   "resources": [],
    "world": [
     34.07,
     124.58
@@ -21622,6 +23289,7 @@
    "faction_name": "玛丽恩堡",
    "faction_name_en": "Marienburg",
    "is_capital": false,
+   "resources": [],
    "world": [
     64.13,
     115.7
@@ -21657,6 +23325,7 @@
    "faction_name": "斯凯林",
    "faction_name_en": "Skaeling",
    "is_capital": false,
+   "resources": [],
    "world": [
     54.78,
     272.29
@@ -21692,6 +23361,7 @@
    "faction_name": "诺德领",
    "faction_name_en": "Nordland",
    "is_capital": false,
+   "resources": [],
    "world": [
     94.86,
     216.75
@@ -21727,6 +23397,13 @@
    "faction_name": null,
    "faction_name_en": null,
    "is_capital": true,
+   "resources": [
+    {
+     "key": "res_rom_marble",
+     "name": "大理石",
+     "name_en": "Marble"
+    }
+   ],
    "world": [
     120.24,
     246.07
@@ -21762,6 +23439,7 @@
    "faction_name": "斯凯林",
    "faction_name_en": "Skaeling",
    "is_capital": false,
+   "resources": [],
    "world": [
     72.15,
     244.52
@@ -21797,6 +23475,7 @@
    "faction_name": "艾斯林",
    "faction_name_en": "Aesling",
    "is_capital": false,
+   "resources": [],
    "world": [
     229.8,
     205.95
@@ -21832,6 +23511,13 @@
    "faction_name": "艾斯林",
    "faction_name_en": "Aesling",
    "is_capital": true,
+   "resources": [
+    {
+     "key": "res_rom_iron",
+     "name": "生铁",
+     "name_en": "Iron"
+    }
+   ],
    "world": [
     182.37,
     236.42
@@ -21867,6 +23553,7 @@
    "faction_name": "暗毒",
    "faction_name_en": "Black Venom",
    "is_capital": false,
+   "resources": [],
    "world": [
     156.99,
     267.28
@@ -21902,6 +23589,13 @@
    "faction_name": "瓦格",
    "faction_name_en": "Varg",
    "is_capital": false,
+   "resources": [
+    {
+     "key": "res_obsidian",
+     "name": "雕刻黑曜石",
+     "name_en": "Carved Obsidian"
+    }
+   ],
    "world": [
     88.85,
     278.85
@@ -21937,6 +23631,13 @@
    "faction_name": "瓦格",
    "faction_name_en": "Varg",
    "is_capital": true,
+   "resources": [
+    {
+     "key": "res_location_dark_fortress",
+     "name": "黑暗要塞基址",
+     "name_en": "Dark Fortress Site"
+    }
+   ],
    "world": [
     79.49,
     301.99
@@ -21972,6 +23673,7 @@
    "faction_name": "瓦格",
    "faction_name_en": "Varg",
    "is_capital": false,
+   "resources": [],
    "world": [
     120.91,
     288.88
@@ -22007,6 +23709,7 @@
    "faction_name": "创新大师",
    "faction_name_en": "Masters of Innovation",
    "is_capital": false,
+   "resources": [],
    "world": [
     275.22,
     202.1
@@ -22042,6 +23745,13 @@
    "faction_name": "创新大师",
    "faction_name_en": "Masters of Innovation",
    "is_capital": true,
+   "resources": [
+    {
+     "key": "res_gems",
+     "name": "宝石",
+     "name_en": "Gemstones"
+    }
+   ],
    "world": [
     306.62,
     194.77
@@ -22077,6 +23787,13 @@
    "faction_name": "萨利",
    "faction_name_en": "Sarl",
    "is_capital": false,
+   "resources": [
+    {
+     "key": "res_rom_marble",
+     "name": "大理石",
+     "name_en": "Marble"
+    }
+   ],
    "world": [
     187.71,
     209.43
@@ -22112,6 +23829,7 @@
    "faction_name": "冬牙",
    "faction_name_en": "Wintertooth",
    "is_capital": false,
+   "resources": [],
    "world": [
     213.77,
     182.04
@@ -22147,6 +23865,7 @@
    "faction_name": "萨利",
    "faction_name_en": "Sarl",
    "is_capital": true,
+   "resources": [],
    "world": [
     124.25,
     209.81
@@ -22182,6 +23901,7 @@
    "faction_name": "螨疮氏族",
    "faction_name_en": "Clan Mange",
    "is_capital": false,
+   "resources": [],
    "world": [
     152.98,
     231.8
@@ -22217,6 +23937,7 @@
    "faction_name": "戈罗迈德尼部落",
    "faction_name_en": "Goromadny Tribe",
    "is_capital": true,
+   "resources": [],
    "world": [
     388.12,
     216.37
@@ -22252,6 +23973,7 @@
    "faction_name": "贝尔索林",
    "faction_name_en": "Baersonling",
    "is_capital": false,
+   "resources": [],
    "world": [
     350.04,
     194.38
@@ -22287,6 +24009,7 @@
    "faction_name": "戈罗迈德尼部落",
    "faction_name_en": "Goromadny Tribe",
    "is_capital": false,
+   "resources": [],
    "world": [
     434.21,
     195.93
@@ -22322,6 +24045,7 @@
    "faction_name": "比约林",
    "faction_name_en": "Bjornling",
    "is_capital": false,
+   "resources": [],
    "world": [
     32.73,
     312.79
@@ -22357,6 +24081,13 @@
    "faction_name": "比约林",
    "faction_name_en": "Bjornling",
    "is_capital": true,
+   "resources": [
+    {
+     "key": "res_rom_lead",
+     "name": "食盐",
+     "name_en": "Salt"
+    }
+   ],
    "world": [
     26.72,
     365.63
@@ -22392,6 +24123,7 @@
    "faction_name": "比约林",
    "faction_name_en": "Bjornling",
    "is_capital": false,
+   "resources": [],
    "world": [
     73.48,
     329.37
@@ -22427,6 +24159,7 @@
    "faction_name": "罗普思曼氏族",
    "faction_name_en": "Ropsmenn Clan",
    "is_capital": false,
+   "resources": [],
    "world": [
     358.06,
     98.73
@@ -22462,6 +24195,7 @@
    "faction_name": "多尔甘",
    "faction_name_en": "Dolgan",
    "is_capital": false,
+   "resources": [],
    "world": [
     311.97,
     96.81
@@ -22497,6 +24231,13 @@
    "faction_name": "罗普思曼氏族",
    "faction_name_en": "Ropsmenn Clan",
    "is_capital": true,
+   "resources": [
+    {
+     "key": "res_rom_timber",
+     "name": "木材",
+     "name_en": "Timber"
+    }
+   ],
    "world": [
     318.65,
     129.2
@@ -22532,6 +24273,7 @@
    "faction_name": "罗普思曼氏族",
    "faction_name_en": "Ropsmenn Clan",
    "is_capital": false,
+   "resources": [],
    "world": [
     332.67,
     105.68
@@ -22567,6 +24309,7 @@
    "faction_name": "冰雪王廷",
    "faction_name_en": "The Ice Court",
    "is_capital": true,
+   "resources": [],
    "world": [
     277.9,
     96.42
@@ -22602,6 +24345,7 @@
    "faction_name": "飞地近卫军",
    "faction_name_en": "Druzhina Enclave",
    "is_capital": true,
+   "resources": [],
    "world": [
     191.05,
     130.36
@@ -22637,6 +24381,7 @@
    "faction_name": "飞地近卫军",
    "faction_name_en": "Druzhina Enclave",
    "is_capital": false,
+   "resources": [],
    "world": [
     255.85,
     112.23
@@ -22672,6 +24417,7 @@
    "faction_name": "飞地近卫军",
    "faction_name_en": "Druzhina Enclave",
    "is_capital": false,
+   "resources": [],
    "world": [
     219.78,
     140.77
@@ -22707,6 +24453,7 @@
    "faction_name": "飞地近卫军",
    "faction_name_en": "Druzhina Enclave",
    "is_capital": false,
+   "resources": [],
    "world": [
     243.83,
     129.98
@@ -22742,6 +24489,7 @@
    "faction_name": "罗普思曼氏族",
    "faction_name_en": "Ropsmenn Clan",
    "is_capital": true,
+   "resources": [],
    "world": [
     276.56,
     136.53
@@ -22777,6 +24525,13 @@
    "faction_name": "大正教会",
    "faction_name_en": "The Great Orthodoxy",
    "is_capital": true,
+   "resources": [
+    {
+     "key": "res_rom_wine",
+     "name": "葡萄酒",
+     "name_en": "Wine"
+    }
+   ],
    "world": [
     150.3,
     150.8
@@ -22812,6 +24567,7 @@
    "faction_name": "乌果尔族裔",
    "faction_name_en": "Ungol Kindred",
    "is_capital": false,
+   "resources": [],
    "world": [
     183.71,
     157.74
@@ -22847,6 +24603,7 @@
    "faction_name": "乌果尔族裔",
    "faction_name_en": "Ungol Kindred",
    "is_capital": false,
+   "resources": [],
    "world": [
     205.75,
     165.07
@@ -22882,6 +24639,7 @@
    "faction_name": "飞地近卫军",
    "faction_name_en": "Druzhina Enclave",
    "is_capital": true,
+   "resources": [],
    "world": [
     173.02,
     107.61
@@ -22917,6 +24675,7 @@
    "faction_name": "贝尔索林",
    "faction_name_en": "Baersonling",
    "is_capital": false,
+   "resources": [],
    "world": [
     330.67,
     163.14
@@ -22952,6 +24711,7 @@
    "faction_name": "战熊兄弟会",
    "faction_name_en": "Brotherhood of the Bear",
    "is_capital": false,
+   "resources": [],
    "world": [
     354.05,
     137.3
@@ -22987,6 +24747,7 @@
    "faction_name": "贝尔索林",
    "faction_name_en": "Baersonling",
    "is_capital": false,
+   "resources": [],
    "world": [
     307.96,
     162.37
@@ -23022,6 +24783,7 @@
    "faction_name": "贝尔索林",
    "faction_name_en": "Baersonling",
    "is_capital": true,
+   "resources": [],
    "world": [
     360.73,
     162.76
@@ -23057,6 +24819,13 @@
    "faction_name": "腐坏氏族",
    "faction_name_en": "Clan Moulder",
    "is_capital": true,
+   "resources": [
+    {
+     "key": "res_animals",
+     "name": "异域动物",
+     "name_en": "Exotic Animals"
+    }
+   ],
    "world": [
     246.5,
     156.2
@@ -23092,6 +24861,13 @@
    "faction_name": "赤目",
    "faction_name_en": "Red Eye",
    "is_capital": false,
+   "resources": [
+    {
+     "key": "res_stone_trolls",
+     "name": "石巨魔巢穴",
+     "name_en": "Stone Trolls Den"
+    }
+   ],
    "world": [
     406.16,
     118.02
@@ -23127,6 +24903,13 @@
    "faction_name": "赤目",
    "faction_name_en": "Red Eye",
    "is_capital": false,
+   "resources": [
+    {
+     "key": "res_gold",
+     "name": "黄金",
+     "name_en": "Gold"
+    }
+   ],
    "world": [
     381.44,
     119.18
@@ -23162,6 +24945,7 @@
    "faction_name": "莱弥亚姐妹会",
    "faction_name_en": "Lahmian Sisterhood",
    "is_capital": true,
+   "resources": [],
    "world": [
     435.55,
     121.88
@@ -23197,6 +24981,13 @@
    "faction_name": "扎尔杜克霸主",
    "faction_name_en": "Overlords of Zharrduk",
    "is_capital": false,
+   "resources": [
+    {
+     "key": "res_rom_marble",
+     "name": "大理石",
+     "name_en": "Marble"
+    }
+   ],
    "world": [
     597.88,
     129.2
@@ -23232,6 +25023,7 @@
    "faction_name": "扎尔杜克霸主",
    "faction_name_en": "Overlords of Zharrduk",
    "is_capital": true,
+   "resources": [],
    "world": [
     542.43,
     80.22
@@ -23267,6 +25059,7 @@
    "faction_name": "扎尔杜克霸主",
    "faction_name_en": "Overlords of Zharrduk",
    "is_capital": false,
+   "resources": [],
    "world": [
     584.52,
     96.03
@@ -23302,6 +25095,7 @@
    "faction_name": "阿佐格军团",
    "faction_name_en": "The Legion of Azgorh",
    "is_capital": false,
+   "resources": [],
    "world": [
     645.98,
     152.34
@@ -23337,6 +25131,7 @@
    "faction_name": "雷肠",
    "faction_name_en": "Thunderguts",
    "is_capital": false,
+   "resources": [],
    "world": [
     693.41,
     142.7
@@ -23372,6 +25167,7 @@
    "faction_name": "雷肠",
    "faction_name_en": "Thunderguts",
    "is_capital": false,
+   "resources": [],
    "world": [
     660.01,
     101.82
@@ -23407,6 +25203,13 @@
    "faction_name": "阿佐格军团",
    "faction_name_en": "The Legion of Azgorh",
    "is_capital": true,
+   "resources": [
+    {
+     "key": "res_location_dark_fortress",
+     "name": "黑暗要塞基址",
+     "name_en": "Dark Fortress Site"
+    }
+   ],
    "world": [
     636.62,
     132.29
@@ -23442,6 +25245,7 @@
    "faction_name": "卡拉克·卡德林",
    "faction_name_en": "Karak Kadrin",
    "is_capital": true,
+   "resources": [],
    "world": [
     377.43,
     70.58
@@ -23477,6 +25281,7 @@
    "faction_name": "赤目",
    "faction_name_en": "Red Eye",
    "is_capital": false,
+   "resources": [],
    "world": [
     412.17,
     72.12
@@ -23512,6 +25317,7 @@
    "faction_name": "赤目",
    "faction_name_en": "Red Eye",
    "is_capital": false,
+   "resources": [],
    "world": [
     444.9,
     84.08
@@ -23547,6 +25353,18 @@
    "faction_name": "泰波克之种",
    "faction_name_en": "Tepok's Spawn",
    "is_capital": true,
+   "resources": [
+    {
+     "key": "res_bile_trolls",
+     "name": "胆汁巨魔巢穴",
+     "name_en": "Bile Trolls Den"
+    },
+    {
+     "key": "res_medicine",
+     "name": "医用植物",
+     "name_en": "Medicinal Plants"
+    }
+   ],
    "world": [
     719.46,
     61.32
@@ -23582,6 +25400,7 @@
    "faction_name": "秘会侍仆",
    "faction_name_en": "Servants of the Conclave",
    "is_capital": false,
+   "resources": [],
    "world": [
     579.84,
     167.39
@@ -23617,6 +25436,13 @@
    "faction_name": "秘会侍仆",
    "faction_name_en": "Servants of the Conclave",
    "is_capital": true,
+   "resources": [
+    {
+     "key": "res_obsidian",
+     "name": "雕刻黑曜石",
+     "name_en": "Carved Obsidian"
+    }
+   ],
    "world": [
     544.44,
     170.09
@@ -23652,6 +25478,7 @@
    "faction_name": "秘会侍仆",
    "faction_name_en": "Servants of the Conclave",
    "is_capital": false,
+   "resources": [],
    "world": [
     547.78,
     190.53
@@ -23687,6 +25514,7 @@
    "faction_name": "月嚎部落",
    "faction_name_en": "Moon Howlerz",
    "is_capital": false,
+   "resources": [],
    "world": [
     600.55,
     87.55
@@ -23722,6 +25550,7 @@
    "faction_name": "咧嘴氏族",
    "faction_name_en": "Clan Rictus",
    "is_capital": false,
+   "resources": [],
    "world": [
     567.15,
     63.64
@@ -23757,6 +25586,13 @@
    "faction_name": "咧嘴氏族",
    "faction_name_en": "Clan Rictus",
    "is_capital": true,
+   "resources": [
+    {
+     "key": "res_rom_iron",
+     "name": "生铁",
+     "name_en": "Iron"
+    }
+   ],
    "world": [
     527.74,
     34.71
@@ -23792,6 +25628,13 @@
    "faction_name": "血牙部落",
    "faction_name_en": "Drippin Fangs",
    "is_capital": false,
+   "resources": [
+    {
+     "key": "res_gold",
+     "name": "黄金",
+     "name_en": "Gold"
+    }
+   ],
    "world": [
     466.95,
     69.04
@@ -23827,6 +25670,7 @@
    "faction_name": "卡拉克·铁峰堡",
    "faction_name_en": "Karak Azul",
    "is_capital": false,
+   "resources": [],
    "world": [
     441.56,
     45.9
@@ -23862,6 +25706,7 @@
    "faction_name": "卡拉克·铁峰堡",
    "faction_name_en": "Karak Azul",
    "is_capital": true,
+   "resources": [],
    "world": [
     460.27,
     13.5
@@ -23897,6 +25742,7 @@
    "faction_name": "卡拉克·铁峰堡",
    "faction_name_en": "Karak Azul",
    "is_capital": false,
+   "resources": [],
    "world": [
     488.32,
     53.61
@@ -23932,6 +25778,7 @@
    "faction_name": "血牙部落",
    "faction_name_en": "Drippin Fangs",
    "is_capital": false,
+   "resources": [],
    "world": [
     508.36,
     106.83
@@ -23967,6 +25814,7 @@
    "faction_name": "扎尔战团",
    "faction_name_en": "The Warhost of Zharr",
    "is_capital": true,
+   "resources": [],
    "world": [
     543.1,
     118.4
@@ -24002,6 +25850,7 @@
    "faction_name": "血牙部落",
    "faction_name_en": "Drippin Fangs",
    "is_capital": false,
+   "resources": [],
    "world": [
     481.64,
     112.23
@@ -24037,6 +25886,7 @@
    "faction_name": "蓝玫瑰车队",
    "faction_name_en": "Caravan of Blue Roses",
    "is_capital": true,
+   "resources": [],
    "world": [
     722.8,
     144.25
@@ -24072,6 +25922,13 @@
    "faction_name": "卡勒多骑士",
    "faction_name_en": "Knights of Caledor",
    "is_capital": true,
+   "resources": [
+    {
+     "key": "res_location_dark_fortress",
+     "name": "黑暗要塞基址",
+     "name_en": "Dark Fortress Site"
+    }
+   ],
    "world": [
     607.23,
     38.95
@@ -24107,6 +25964,13 @@
    "faction_name": "月嚎部落",
    "faction_name_en": "Moon Howlerz",
    "is_capital": false,
+   "resources": [
+    {
+     "key": "res_spices",
+     "name": "香料",
+     "name_en": "Spices"
+    }
+   ],
    "world": [
     629.94,
     69.81
@@ -24142,6 +26006,7 @@
    "faction_name": "卡勒多骑士",
    "faction_name_en": "Knights of Caledor",
    "is_capital": false,
+   "resources": [],
    "world": [
     577.17,
     15.43
@@ -24177,6 +26042,13 @@
    "faction_name": "月嚎部落",
    "faction_name_en": "Moon Howlerz",
    "is_capital": false,
+   "resources": [
+    {
+     "key": "res_savage",
+     "name": "蛮荒兽人",
+     "name_en": "Savage Orcs"
+    }
+   ],
    "world": [
     601.22,
     63.25
@@ -24212,6 +26084,7 @@
    "faction_name": "黑暗之地兽人",
    "faction_name_en": "Dark Land Orcs",
    "is_capital": false,
+   "resources": [],
    "world": [
     477.64,
     155.43
@@ -24247,6 +26120,13 @@
    "faction_name": "哈苏特信徒",
    "faction_name_en": "Disciples of Hashut",
    "is_capital": true,
+   "resources": [
+    {
+     "key": "res_rom_iron",
+     "name": "生铁",
+     "name_en": "Iron"
+    }
+   ],
    "world": [
     488.99,
     186.67
@@ -24282,6 +26162,7 @@
    "faction_name": "厄孙复兴者",
    "faction_name_en": "Ursun Revivalists",
    "is_capital": false,
+   "resources": [],
    "world": [
     485.65,
     170.86
@@ -24317,6 +26198,7 @@
    "faction_name": "哈苏特信徒",
    "faction_name_en": "Disciples of Hashut",
    "is_capital": false,
+   "resources": [],
    "world": [
     517.72,
     183.2
@@ -24352,6 +26234,7 @@
    "faction_name": null,
    "faction_name_en": null,
    "is_capital": true,
+   "resources": [],
    "world": [
     418.85,
     175.49
@@ -24387,6 +26270,7 @@
    "faction_name": "磨砂氏族",
    "faction_name_en": "Clan Gritus",
    "is_capital": false,
+   "resources": [],
    "world": [
     448.24,
     179.34
@@ -24422,6 +26306,7 @@
    "faction_name": "磨砂氏族",
    "faction_name_en": "Clan Gritus",
    "is_capital": false,
+   "resources": [],
    "world": [
     408.16,
     152.34
@@ -24457,6 +26342,7 @@
    "faction_name": "磨砂氏族",
    "faction_name_en": "Clan Gritus",
    "is_capital": false,
+   "resources": [],
    "world": [
     431.54,
     140.39
@@ -24492,6 +26378,7 @@
    "faction_name": "激流关",
    "faction_name_en": "Zhufbar",
    "is_capital": false,
+   "resources": [],
    "world": [
     358.73,
     26.61
@@ -24527,6 +26414,13 @@
    "faction_name": "激流关",
    "faction_name_en": "Zhufbar",
    "is_capital": true,
+   "resources": [
+    {
+     "key": "res_rom_iron",
+     "name": "生铁",
+     "name_en": "Iron"
+    }
+   ],
    "world": [
     391.46,
     37.8
@@ -24562,6 +26456,7 @@
    "faction_name": "松齿",
    "faction_name_en": "Loose Tooth",
    "is_capital": false,
+   "resources": [],
    "world": [
     511.7,
     235.27
@@ -24597,6 +26492,7 @@
    "faction_name": "赛铁刀皮",
    "faction_name_en": "Sabreskin",
    "is_capital": false,
+   "resources": [],
    "world": [
     473.63,
     220.22
@@ -24632,6 +26528,7 @@
    "faction_name": "松齿",
    "faction_name_en": "Loose Tooth",
    "is_capital": true,
+   "resources": [],
    "world": [
     517.05,
     266.89
@@ -24667,6 +26564,7 @@
    "faction_name": "赛铁刀皮",
    "faction_name_en": "Sabreskin",
    "is_capital": false,
+   "resources": [],
    "world": [
     486.32,
     244.52
@@ -24702,6 +26600,7 @@
    "faction_name": "血胃",
    "faction_name_en": "Bloodmaw",
    "is_capital": true,
+   "resources": [],
    "world": [
     654.66,
     273.06
@@ -24737,6 +26636,7 @@
    "faction_name": "嗜血狂",
    "faction_name_en": "Blood Guzzlers",
    "is_capital": false,
+   "resources": [],
    "world": [
     616.58,
     305.85
@@ -24772,6 +26672,7 @@
    "faction_name": "血胃",
    "faction_name_en": "Bloodmaw",
    "is_capital": false,
+   "resources": [],
    "world": [
     627.27,
     268.82
@@ -24807,6 +26708,7 @@
    "faction_name": "卡拉克·黑域堡",
    "faction_name_en": "Karak Azorn",
    "is_capital": true,
+   "resources": [],
    "world": [
     598.55,
     210.58
@@ -24842,6 +26744,13 @@
    "faction_name": "佛戈",
    "faction_name_en": "Fulg",
    "is_capital": false,
+   "resources": [
+    {
+     "key": "res_rom_furs",
+     "name": "毛皮",
+     "name_en": "Furs"
+    }
+   ],
    "world": [
     586.52,
     244.52
@@ -24877,6 +26786,7 @@
    "faction_name": "佛戈",
    "faction_name_en": "Fulg",
    "is_capital": false,
+   "resources": [],
    "world": [
     555.79,
     217.52
@@ -24912,6 +26822,7 @@
    "faction_name": null,
    "faction_name_en": null,
    "is_capital": true,
+   "resources": [],
    "world": [
     657.33,
     237.58
@@ -24947,6 +26858,7 @@
    "faction_name": "受恩者",
    "faction_name_en": "Lazarghs",
    "is_capital": false,
+   "resources": [],
    "world": [
     686.06,
     274.22
@@ -24982,6 +26894,7 @@
    "faction_name": "受恩者",
    "faction_name_en": "Lazarghs",
    "is_capital": false,
+   "resources": [],
    "world": [
     688.06,
     247.61
@@ -25017,6 +26930,7 @@
    "faction_name": "吞山者",
    "faction_name_en": "Mountaineaters",
    "is_capital": false,
+   "resources": [],
    "world": [
     552.45,
     316.65
@@ -25052,6 +26966,7 @@
    "faction_name": "群山之子",
    "faction_name_en": "Sons of the Mountain",
    "is_capital": true,
+   "resources": [],
    "world": [
     574.5,
     344.8
@@ -25087,6 +27002,7 @@
    "faction_name": "群山之子",
    "faction_name_en": "Sons of the Mountain",
    "is_capital": false,
+   "resources": [],
    "world": [
     556.46,
     348.27
@@ -25122,6 +27038,7 @@
    "faction_name": "獠日部落",
    "faction_name_en": "Tusked Sunz",
    "is_capital": false,
+   "resources": [],
    "world": [
     586.52,
     313.95
@@ -25157,6 +27074,7 @@
    "faction_name": "獠日部落",
    "faction_name_en": "Tusked Sunz",
    "is_capital": false,
+   "resources": [],
    "world": [
     592.54,
     334.39
@@ -25192,6 +27110,13 @@
    "faction_name": "嗜血狂",
    "faction_name_en": "Blood Guzzlers",
    "is_capital": true,
+   "resources": [
+    {
+     "key": "res_stone_trolls",
+     "name": "石巨魔巢穴",
+     "name_en": "Stone Trolls Den"
+    }
+   ],
    "world": [
     589.86,
     282.71
@@ -25227,6 +27152,7 @@
    "faction_name": "松齿",
    "faction_name_en": "Loose Tooth",
    "is_capital": false,
+   "resources": [],
    "world": [
     551.79,
     281.55
@@ -25262,6 +27188,13 @@
    "faction_name": "格里姆格的狠小子",
    "faction_name_en": "Grimgor's 'Ardboyz",
    "is_capital": true,
+   "resources": [
+    {
+     "key": "res_gems",
+     "name": "宝石",
+     "name_en": "Gemstones"
+    }
+   ],
    "world": [
     559.13,
     258.02
@@ -25297,6 +27230,7 @@
    "faction_name": null,
    "faction_name_en": null,
    "is_capital": false,
+   "resources": [],
    "world": [
     541.1,
     246.84
@@ -25332,6 +27266,7 @@
    "faction_name": "佛戈",
    "faction_name_en": "Fulg",
    "is_capital": false,
+   "resources": [],
    "world": [
     535.75,
     209.04
@@ -25367,6 +27302,13 @@
    "faction_name": "叉棒",
    "faction_name_en": "Crossed Clubs",
    "is_capital": false,
+   "resources": [
+    {
+     "key": "res_stone_trolls",
+     "name": "石巨魔巢穴",
+     "name_en": "Stone Trolls Den"
+    }
+   ],
    "world": [
     662.01,
     199.4
@@ -25402,6 +27344,7 @@
    "faction_name": "克里泽氏族",
    "faction_name_en": "Clan Krizzor",
    "is_capital": false,
+   "resources": [],
    "world": [
     676.71,
     170.09
@@ -25437,6 +27380,13 @@
    "faction_name": "金牙",
    "faction_name_en": "Goldtooth",
    "is_capital": true,
+   "resources": [
+    {
+     "key": "res_gold",
+     "name": "黄金",
+     "name_en": "Gold"
+    }
+   ],
    "world": [
     635.29,
     217.14
@@ -25472,6 +27422,7 @@
    "faction_name": "叉棒",
    "faction_name_en": "Crossed Clubs",
    "is_capital": false,
+   "resources": [],
    "world": [
     611.24,
     229.48
@@ -25507,6 +27458,7 @@
    "faction_name": "精美之痛",
    "faction_name_en": "Exquisite Pain",
    "is_capital": false,
+   "resources": [],
    "world": [
     229.8,
     324.74
@@ -25542,6 +27494,13 @@
    "faction_name": "精美之痛",
    "faction_name_en": "Exquisite Pain",
    "is_capital": false,
+   "resources": [
+    {
+     "key": "res_bile_trolls",
+     "name": "胆汁巨魔巢穴",
+     "name_en": "Bile Trolls Den"
+    }
+   ],
    "world": [
     209.09,
     302.76
@@ -25577,6 +27536,13 @@
    "faction_name": "噶哈尔",
    "faction_name_en": "Gharhar",
    "is_capital": true,
+   "resources": [
+    {
+     "key": "res_obsidian",
+     "name": "雕刻黑曜石",
+     "name_en": "Carved Obsidian"
+    }
+   ],
    "world": [
     219.11,
     275.38
@@ -25612,6 +27578,18 @@
    "faction_name": "盲眼者",
    "faction_name_en": "The Sightless",
    "is_capital": false,
+   "resources": [
+    {
+     "key": "res_location_dark_fortress",
+     "name": "黑暗要塞基址",
+     "name_en": "Dark Fortress Site"
+    },
+    {
+     "key": "res_rom_marble",
+     "name": "大理石",
+     "name_en": "Marble"
+    }
+   ],
    "world": [
     86.84,
     394.17
@@ -25647,6 +27625,7 @@
    "faction_name": "盲眼者",
    "faction_name_en": "The Sightless",
    "is_capital": false,
+   "resources": [],
    "world": [
     117.57,
     374.11
@@ -25682,6 +27661,13 @@
    "faction_name": "科维林",
    "faction_name_en": "Kvellig",
    "is_capital": true,
+   "resources": [
+    {
+     "key": "res_gold",
+     "name": "黄金",
+     "name_en": "Gold"
+    }
+   ],
    "world": [
     151.64,
     386.84
@@ -25717,6 +27703,7 @@
    "faction_name": "盲眼者",
    "faction_name_en": "The Sightless",
    "is_capital": false,
+   "resources": [],
    "world": [
     139.62,
     354.44
@@ -25752,6 +27739,7 @@
    "faction_name": "幻焰书吏",
    "faction_name_en": "Flaming Scribes",
    "is_capital": false,
+   "resources": [],
    "world": [
     472.96,
     353.29
@@ -25787,6 +27775,13 @@
    "faction_name": "幻焰书吏",
    "faction_name_en": "Flaming Scribes",
    "is_capital": true,
+   "resources": [
+    {
+     "key": "res_rom_timber",
+     "name": "木材",
+     "name_en": "Timber"
+    }
+   ],
    "world": [
     402.82,
     325.9
@@ -25822,6 +27817,13 @@
    "faction_name": "幻焰书吏",
    "faction_name_en": "Flaming Scribes",
    "is_capital": false,
+   "resources": [
+    {
+     "key": "res_bile_trolls",
+     "name": "胆汁巨魔巢穴",
+     "name_en": "Bile Trolls Den"
+    }
+   ],
    "world": [
     439.56,
     359.46
@@ -25857,6 +27859,7 @@
    "faction_name": "幻焰书吏",
    "faction_name_en": "Flaming Scribes",
    "is_capital": false,
+   "resources": [],
    "world": [
     438.89,
     329.76
@@ -25892,6 +27895,7 @@
    "faction_name": null,
    "faction_name_en": null,
    "is_capital": false,
+   "resources": [],
    "world": [
     521.72,
     319.73
@@ -25927,6 +27931,7 @@
    "faction_name": "恐之主子嗣",
    "faction_name_en": "Kharneth's Sons",
    "is_capital": false,
+   "resources": [],
    "world": [
     507.03,
     341.33
@@ -25962,6 +27967,7 @@
    "faction_name": "群山之子",
    "faction_name_en": "Sons of the Mountain",
    "is_capital": true,
+   "resources": [],
    "world": [
     533.08,
     343.26
@@ -25997,6 +28003,13 @@
    "faction_name": "恐之主子嗣",
    "faction_name_en": "Kharneth's Sons",
    "is_capital": false,
+   "resources": [
+    {
+     "key": "res_rom_marble",
+     "name": "大理石",
+     "name_en": "Marble"
+    }
+   ],
    "world": [
     519.05,
     362.16
@@ -26032,6 +28045,7 @@
    "faction_name": "疫蛆兄弟",
    "faction_name_en": "Maggoth Kin",
    "is_capital": false,
+   "resources": [],
    "world": [
     346.04,
     283.09
@@ -26067,6 +28081,7 @@
    "faction_name": "疫蛆兄弟",
    "faction_name_en": "Maggoth Kin",
    "is_capital": false,
+   "resources": [],
    "world": [
     305.29,
     267.28
@@ -26102,6 +28117,7 @@
    "faction_name": "蚀啮氏族",
    "faction_name_en": "Clan Gnaw",
    "is_capital": false,
+   "resources": [],
    "world": [
     265.87,
     320.12
@@ -26137,6 +28153,7 @@
    "faction_name": "蚀啮氏族",
    "faction_name_en": "Clan Gnaw",
    "is_capital": true,
+   "resources": [],
    "world": [
     293.26,
     293.5
@@ -26172,6 +28189,7 @@
    "faction_name": "贪肉者",
    "faction_name_en": "Fleshgreeders",
    "is_capital": false,
+   "resources": [],
    "world": [
     414.84,
     224.85
@@ -26207,6 +28225,7 @@
    "faction_name": "纳垢驭疹官",
    "faction_name_en": "Poxmakers of Nurgle",
    "is_capital": true,
+   "resources": [],
    "world": [
     386.12,
     278.46
@@ -26242,6 +28261,7 @@
    "faction_name": "贪肉者",
    "faction_name_en": "Fleshgreeders",
    "is_capital": false,
+   "resources": [],
    "world": [
     404.15,
     264.96
@@ -26277,6 +28297,7 @@
    "faction_name": "贪肉者",
    "faction_name_en": "Fleshgreeders",
    "is_capital": false,
+   "resources": [],
    "world": [
     432.21,
     254.94
@@ -26312,6 +28333,13 @@
    "faction_name": "脓毒之爪",
    "faction_name_en": "Septic Claw",
    "is_capital": true,
+   "resources": [
+    {
+     "key": "res_gems",
+     "name": "宝石",
+     "name_en": "Gemstones"
+    }
+   ],
    "world": [
     203.75,
     430.81
@@ -26347,6 +28375,18 @@
    "faction_name": "脓毒之爪",
    "faction_name_en": "Septic Claw",
    "is_capital": false,
+   "resources": [
+    {
+     "key": "res_bile_trolls",
+     "name": "胆汁巨魔巢穴",
+     "name_en": "Bile Trolls Den"
+    },
+    {
+     "key": "res_rom_timber",
+     "name": "木材",
+     "name_en": "Timber"
+    }
+   ],
    "world": [
     221.12,
     382.98
@@ -26382,6 +28422,13 @@
    "faction_name": "脓毒之爪",
    "faction_name_en": "Septic Claw",
    "is_capital": false,
+   "resources": [
+    {
+     "key": "res_ivory",
+     "name": "长牙",
+     "name_en": "Tusks"
+    }
+   ],
    "world": [
     195.73,
     399.18
@@ -26417,6 +28464,18 @@
    "faction_name": "脓毒之爪",
    "faction_name_en": "Septic Claw",
    "is_capital": false,
+   "resources": [
+    {
+     "key": "res_bile_trolls",
+     "name": "胆汁巨魔巢穴",
+     "name_en": "Bile Trolls Den"
+    },
+    {
+     "key": "res_medicine",
+     "name": "医用植物",
+     "name_en": "Medicinal Plants"
+    }
+   ],
    "world": [
     255.18,
     357.91
@@ -26452,6 +28511,7 @@
    "faction_name": "隐秘之刑",
    "faction_name_en": "Subtle Torture",
    "is_capital": false,
+   "resources": [],
    "world": [
     318.65,
     376.04
@@ -26487,6 +28547,7 @@
    "faction_name": "零落命轮",
    "faction_name_en": "Broken Wheel",
    "is_capital": true,
+   "resources": [],
    "world": [
     259.86,
     392.24
@@ -26522,6 +28583,7 @@
    "faction_name": "隐秘之刑",
    "faction_name_en": "Subtle Torture",
    "is_capital": false,
+   "resources": [],
    "world": [
     290.59,
     333.62
@@ -26557,6 +28619,7 @@
    "faction_name": "零落命轮",
    "faction_name_en": "Broken Wheel",
    "is_capital": false,
+   "resources": [],
    "world": [
     283.24,
     377.2
@@ -26592,6 +28655,7 @@
    "faction_name": "浴血长剑",
    "faction_name_en": "Bloody Sword",
    "is_capital": false,
+   "resources": [],
    "world": [
     92.19,
     428.88
@@ -26627,6 +28691,13 @@
    "faction_name": "色孽迷魂者",
    "faction_name_en": "Seducers of Slaanesh",
    "is_capital": true,
+   "resources": [
+    {
+     "key": "res_spices",
+     "name": "香料",
+     "name_en": "Spices"
+    }
+   ],
    "world": [
     87.51,
     458.58
@@ -26662,6 +28733,7 @@
    "faction_name": "浴血长剑",
    "faction_name_en": "Bloody Sword",
    "is_capital": false,
+   "resources": [],
    "world": [
     118.91,
     438.91
@@ -26697,6 +28769,13 @@
    "faction_name": "浴血长剑",
    "faction_name_en": "Bloody Sword",
    "is_capital": false,
+   "resources": [
+    {
+     "key": "res_rom_iron",
+     "name": "生铁",
+     "name_en": "Iron"
+    }
+   ],
    "world": [
     148.3,
     435.82
@@ -26732,6 +28811,13 @@
    "faction_name": "蛆虫军团",
    "faction_name_en": "The Maggot Host",
    "is_capital": true,
+   "resources": [
+    {
+     "key": "res_location_dark_fortress",
+     "name": "黑暗要塞基址",
+     "name_en": "Dark Fortress Site"
+    }
+   ],
    "world": [
     365.41,
     358.3
@@ -26767,6 +28853,7 @@
    "faction_name": "绯红骷髅",
    "faction_name_en": "Crimson Skull",
    "is_capital": false,
+   "resources": [],
    "world": [
     384.78,
     300.83
@@ -26802,6 +28889,7 @@
    "faction_name": "绯红骷髅",
    "faction_name_en": "Crimson Skull",
    "is_capital": false,
+   "resources": [],
    "world": [
     352.05,
     311.25
@@ -26837,6 +28925,7 @@
    "faction_name": "绯红骷髅",
    "faction_name_en": "Crimson Skull",
    "is_capital": false,
+   "resources": [],
    "world": [
     338.02,
     334.77
@@ -26872,6 +28961,7 @@
    "faction_name": "精美之痛",
    "faction_name_en": "Exquisite Pain",
    "is_capital": false,
+   "resources": [],
    "world": [
     162.33,
     308.16
@@ -26907,6 +28997,7 @@
    "faction_name": "恐虐流放者",
    "faction_name_en": "Exiles of Khorne",
    "is_capital": true,
+   "resources": [],
    "world": [
     195.06,
     367.17
@@ -26942,6 +29033,7 @@
    "faction_name": "噶哈尔",
    "faction_name_en": "Gharhar",
    "is_capital": false,
+   "resources": [],
    "world": [
     178.36,
     334.39
@@ -26977,6 +29069,7 @@
    "faction_name": "噶哈尔",
    "faction_name_en": "Gharhar",
    "is_capital": false,
+   "resources": [],
    "world": [
     225.12,
     349.81
@@ -27012,6 +29105,13 @@
    "faction_name": "赫尔海因氏族",
    "faction_name_en": "Clan Helhein",
    "is_capital": false,
+   "resources": [
+    {
+     "key": "res_stone_trolls",
+     "name": "石巨魔巢穴",
+     "name_en": "Stone Trolls Den"
+    }
+   ],
    "world": [
     464.28,
     251.85
@@ -27047,6 +29147,7 @@
    "faction_name": "森林之女",
    "faction_name_en": "Daughters of the Forest",
    "is_capital": false,
+   "resources": [],
    "world": [
     458.26,
     279.23
@@ -27082,6 +29183,7 @@
    "faction_name": "恐之主子嗣",
    "faction_name_en": "Kharneth's Sons",
    "is_capital": false,
+   "resources": [],
    "world": [
     477.64,
     294.28
@@ -27117,6 +29219,7 @@
    "faction_name": "恐之主子嗣",
    "faction_name_en": "Kharneth's Sons",
    "is_capital": true,
+   "resources": [],
    "world": [
     495.67,
     323.2
@@ -27152,6 +29255,13 @@
    "faction_name": "帝国戍卫",
    "faction_name_en": "Imperial Wardens",
    "is_capital": false,
+   "resources": [
+    {
+     "key": "res_location_dark_fortress",
+     "name": "黑暗要塞基址",
+     "name_en": "Dark Fortress Site"
+    }
+   ],
    "world": [
     575.17,
     436.98
@@ -27187,6 +29297,7 @@
    "faction_name": "奸奇传谕使",
    "faction_name_en": "Oracles of Tzeentch",
    "is_capital": true,
+   "resources": [],
    "world": [
     538.43,
     376.43
@@ -27222,6 +29333,18 @@
    "faction_name": "卡扎格",
    "faction_name_en": "Khazag",
    "is_capital": false,
+   "resources": [
+    {
+     "key": "res_ivory",
+     "name": "长牙",
+     "name_en": "Tusks"
+    },
+    {
+     "key": "res_obsidian",
+     "name": "雕刻黑曜石",
+     "name_en": "Carved Obsidian"
+    }
+   ],
    "world": [
     552.45,
     399.95
@@ -27257,6 +29380,7 @@
    "faction_name": "卡扎格",
    "faction_name_en": "Khazag",
    "is_capital": false,
+   "resources": [],
    "world": [
     553.79,
     424.64
@@ -27292,6 +29416,7 @@
    "faction_name": "天廷忠卫",
    "faction_name_en": "Celestial Loyalists",
    "is_capital": false,
+   "resources": [],
    "world": [
     643.97,
     515.27
@@ -27327,6 +29452,13 @@
    "faction_name": "天廷忠卫",
    "faction_name_en": "Celestial Loyalists",
    "is_capital": true,
+   "resources": [
+    {
+     "key": "res_spices",
+     "name": "香料",
+     "name_en": "Spices"
+    }
+   ],
    "world": [
     619.92,
     523.76
@@ -27362,6 +29494,7 @@
    "faction_name": "天廷忠卫",
    "faction_name_en": "Celestial Loyalists",
    "is_capital": false,
+   "resources": [],
    "world": [
     660.01,
     490.59
@@ -27397,6 +29530,13 @@
    "faction_name": "玉廷",
    "faction_name_en": "The Jade Court",
    "is_capital": true,
+   "resources": [
+    {
+     "key": "res_animals",
+     "name": "异域动物",
+     "name_en": "Exotic Animals"
+    }
+   ],
    "world": [
     718.79,
     373.34
@@ -27432,6 +29572,7 @@
    "faction_name": "猎颅者",
    "faction_name_en": "Skull-takerz",
    "is_capital": false,
+   "resources": [],
    "world": [
     702.76,
     392.62
@@ -27467,6 +29608,13 @@
    "faction_name": "猎颅者",
    "faction_name_en": "Skull-takerz",
    "is_capital": false,
+   "resources": [
+    {
+     "key": "res_river_trolls",
+     "name": "河巨魔巢穴",
+     "name_en": "River Trolls Den"
+    }
+   ],
    "world": [
     722.13,
     431.58
@@ -27502,6 +29650,7 @@
    "faction_name": "猎颅者",
    "faction_name_en": "Skull-takerz",
    "is_capital": false,
+   "resources": [],
    "world": [
     700.75,
     416.92
@@ -27537,6 +29686,13 @@
    "faction_name": "燃风牧民",
    "faction_name_en": "Burning Wind Nomads",
    "is_capital": false,
+   "resources": [
+    {
+     "key": "res_rom_timber",
+     "name": "木材",
+     "name_en": "Timber"
+    }
+   ],
    "world": [
     718.12,
     335.16
@@ -27572,6 +29728,7 @@
    "faction_name": "蓝蝰蛇",
    "faction_name_en": "Blue Vipers",
    "is_capital": false,
+   "resources": [],
    "world": [
     698.75,
     296.98
@@ -27607,6 +29764,7 @@
    "faction_name": "燃风牧民",
    "faction_name_en": "Burning Wind Nomads",
    "is_capital": true,
+   "resources": [],
    "world": [
     721.46,
     309.32
@@ -27642,6 +29800,7 @@
    "faction_name": "萨索瑞尔守望者",
    "faction_name_en": "Sarthorael's Watchers",
    "is_capital": false,
+   "resources": [],
    "world": [
     620.59,
     443.15
@@ -27677,6 +29836,7 @@
    "faction_name": "帝国戍卫",
    "faction_name_en": "Imperial Wardens",
    "is_capital": false,
+   "resources": [],
    "world": [
     647.31,
     465.52
@@ -27712,6 +29872,13 @@
    "faction_name": "帝国戍卫",
    "faction_name_en": "Imperial Wardens",
    "is_capital": false,
+   "resources": [
+    {
+     "key": "res_rom_iron",
+     "name": "生铁",
+     "name_en": "Iron"
+    }
+   ],
    "world": [
     637.96,
     427.72
@@ -27747,6 +29914,7 @@
    "faction_name": "帝国戍卫",
    "faction_name_en": "Imperial Wardens",
    "is_capital": true,
+   "resources": [],
    "world": [
     623.93,
     466.68
@@ -27782,6 +29950,13 @@
    "faction_name": "缙绅逆臣",
    "faction_name_en": "Dissenter Lords of Jinshen",
    "is_capital": true,
+   "resources": [
+    {
+     "key": "res_spices",
+     "name": "香料",
+     "name_en": "Spices"
+    }
+   ],
    "world": [
     636.62,
     361.38
@@ -27817,6 +29992,7 @@
    "faction_name": "缙绅逆臣",
    "faction_name_en": "Dissenter Lords of Jinshen",
    "is_capital": false,
+   "resources": [],
    "world": [
     645.31,
     384.91
@@ -27852,6 +30028,7 @@
    "faction_name": "艾辛氏族",
    "faction_name_en": "Clan Eshin",
    "is_capital": false,
+   "resources": [],
    "world": [
     664.01,
     408.82
@@ -27887,6 +30064,7 @@
    "faction_name": "缙绅逆臣",
    "faction_name_en": "Dissenter Lords of Jinshen",
    "is_capital": false,
+   "resources": [],
    "world": [
     608.57,
     349.04
@@ -27922,6 +30100,18 @@
    "faction_name": "天廷忠卫",
    "faction_name_en": "Celestial Loyalists",
    "is_capital": false,
+   "resources": [
+    {
+     "key": "res_gems",
+     "name": "宝石",
+     "name_en": "Gemstones"
+    },
+    {
+     "key": "res_river_trolls",
+     "name": "河巨魔巢穴",
+     "name_en": "River Trolls Den"
+    }
+   ],
    "world": [
     675.37,
     443.15
@@ -27957,6 +30147,18 @@
    "faction_name": "恶唾氏族",
    "faction_name_en": "Clan Spittel",
    "is_capital": false,
+   "resources": [
+    {
+     "key": "res_ivory",
+     "name": "长牙",
+     "name_en": "Tusks"
+    },
+    {
+     "key": "res_savage",
+     "name": "蛮荒兽人",
+     "name_en": "Savage Orcs"
+    }
+   ],
    "world": [
     684.05,
     495.22
@@ -27992,6 +30194,7 @@
    "faction_name": "碎叶者部落",
    "faction_name_en": "Leaf-Cutterz Tribe",
    "is_capital": false,
+   "resources": [],
    "world": [
     674.03,
     464.75
@@ -28027,6 +30230,7 @@
    "faction_name": "碎叶者部落",
    "faction_name_en": "Leaf-Cutterz Tribe",
    "is_capital": true,
+   "resources": [],
    "world": [
     703.43,
     475.55
@@ -28062,6 +30266,13 @@
    "faction_name": "卫北列省",
    "faction_name_en": "The Northern Provinces",
    "is_capital": true,
+   "resources": [
+    {
+     "key": "res_rom_textiles",
+     "name": "陶器",
+     "name_en": "Pottery"
+    }
+   ],
    "world": [
     587.19,
     415.38
@@ -28097,6 +30308,7 @@
    "faction_name": "南阳叛王",
    "faction_name_en": "Rebel Lords of Nan-Yang",
    "is_capital": false,
+   "resources": [],
    "world": [
     619.92,
     394.17
@@ -28132,6 +30344,7 @@
    "faction_name": "南阳叛王",
    "faction_name_en": "Rebel Lords of Nan-Yang",
    "is_capital": false,
+   "resources": [],
    "world": [
     614.58,
     418.85
@@ -28167,6 +30380,23 @@
    "faction_name": "库吉",
    "faction_name_en": "Kuj",
    "is_capital": true,
+   "resources": [
+    {
+     "key": "res_ivory",
+     "name": "长牙",
+     "name_en": "Tusks"
+    },
+    {
+     "key": "res_location_dark_fortress",
+     "name": "黑暗要塞基址",
+     "name_en": "Dark Fortress Site"
+    },
+    {
+     "key": "res_obsidian",
+     "name": "雕刻黑曜石",
+     "name_en": "Carved Obsidian"
+    }
+   ],
    "world": [
     585.86,
     507.94
@@ -28202,6 +30432,7 @@
    "faction_name": "库吉",
    "faction_name_en": "Kuj",
    "is_capital": false,
+   "resources": [],
    "world": [
     571.83,
     464.36
@@ -28237,6 +30468,7 @@
    "faction_name": "帝国戍卫",
    "faction_name_en": "Imperial Wardens",
    "is_capital": false,
+   "resources": [],
    "world": [
     587.86,
     483.65
@@ -28272,6 +30504,7 @@
    "faction_name": "艾辛氏族",
    "faction_name_en": "Clan Eshin",
    "is_capital": false,
+   "resources": [],
    "world": [
     664.68,
     349.81
@@ -28307,6 +30540,7 @@
    "faction_name": "卫西列省",
    "faction_name_en": "The Western Provinces",
    "is_capital": true,
+   "resources": [],
    "world": [
     682.05,
     329.76
@@ -28342,6 +30576,7 @@
    "faction_name": "缙绅逆臣",
    "faction_name_en": "Dissenter Lords of Jinshen",
    "is_capital": false,
+   "resources": [],
    "world": [
     668.02,
     377.97
@@ -28377,6 +30612,7 @@
    "faction_name": "帝国戍卫",
    "faction_name_en": "Imperial Wardens",
    "is_capital": true,
+   "resources": [],
    "world": [
     607.23,
     494.83
@@ -28412,6 +30648,7 @@
    "faction_name": "帝国戍卫",
    "faction_name_en": "Imperial Wardens",
    "is_capital": true,
+   "resources": [],
    "world": [
     602.56,
     465.9
@@ -28447,6 +30684,7 @@
    "faction_name": null,
    "faction_name_en": null,
    "is_capital": true,
+   "resources": [],
    "world": [
     593.2,
     439.68
