@@ -105,7 +105,7 @@ background-size:calc(8 * 13 * 1px) calc(3 * 13 * 1px);
 background-position:var(--rx,0) var(--ry,0);
 box-shadow:0 0 0 1.5px #14100c,0 1px 3px rgba(0,0,0,.7);pointer-events:none}
 /* 城镇横幅基底（data/banners.png 存在时才启用，见 BBASE_CSS） */
-
+body.bbase-on .pin{background-image:url(assets/faction_flags.png),url(assets/banners.png);background-repeat:no-repeat,no-repeat;background-size:calc(16 * 24 * 1px) calc(18 * 24 * 1px),34px 44px;background-position:var(--sx,0) var(--sy,0),center -10px}.pin .dficon{position:absolute;left:50%;top:-16px;width:20px;height:26px;transform:translateX(-50%);background-image:url(assets/df_icon.png);background-repeat:no-repeat;background-size:100% 100%;pointer-events:none;box-shadow:0 0 0 1px #14100c,0 1px 3px rgba(0,0,0,.7);border-radius:4px}
 .world.dragging .pin{pointer-events:none}
 .tooltip{position:absolute;pointer-events:none;background:rgba(16,12,8,.95);border:1px solid var(--gold);
 border-radius:8px;padding:7px 11px;font-size:13px;line-height:1.55;display:none;z-index:50;
@@ -319,7 +319,8 @@ const DATA={"wh3_main_combi":{"w":4000,"h":3111,"ext":[961.96,748.42],"hexg":[14
 const RES_META={"res_rom_iron":{"x":0,"y":0,"cn":"生铁","en":"Iron"},"res_gold":{"x":1,"y":0,"cn":"黄金","en":"Gold"},"res_rom_timber":{"x":2,"y":0,"cn":"木材","en":"Timber"},"res_rom_marble":{"x":3,"y":0,"cn":"大理石","en":"Marble"},"res_gems":{"x":4,"y":0,"cn":"宝石","en":"Gemstones"},"res_obsidian":{"x":5,"y":0,"cn":"雕刻黑曜石","en":"Carved Obsidian"},"res_rom_lead":{"x":6,"y":0,"cn":"食盐","en":"Salt"},"res_rom_oil":{"x":7,"y":0,"cn":"畜类","en":"Pastures"},"res_rom_furs":{"x":0,"y":1,"cn":"毛皮","en":"Furs"},"res_rom_wine":{"x":1,"y":1,"cn":"葡萄酒","en":"Wine"},"res_dyes":{"x":2,"y":1,"cn":"染料","en":"Dyes"},"res_spices":{"x":3,"y":1,"cn":"香料","en":"Spices"},"res_ivory":{"x":4,"y":1,"cn":"长牙","en":"Tusks"},"res_medicine":{"x":5,"y":1,"cn":"医用植物","en":"Medicinal Plants"},"res_animals":{"x":6,"y":1,"cn":"异域动物","en":"Exotic Animals"},"res_rom_glass":{"x":7,"y":1,"cn":"矮人啤酒","en":"Dwarf Beer"},"res_rom_textiles":{"x":0,"y":2,"cn":"陶器","en":"Pottery"},"res_trinkets":{"x":1,"y":2,"cn":"精灵饰品","en":"Elven Trinkets"},"res_gold_idols":{"x":2,"y":2,"cn":"黄金偶像","en":"Golden Idols"},"res_savage":{"x":3,"y":2,"cn":"蛮荒兽人","en":"Savage Orcs"},"res_location_colony":{"x":4,"y":2,"cn":"远古精灵殖民地","en":"Ancient Elven Colony"},"res_location_dark_fortress":{"x":5,"y":2,"cn":"黑暗要塞基址","en":"Dark Fortress Site"}};
 const RESZ=13;
 const DARK_RES='res_location_dark_fortress';
-const BBASE=false;
+const BBASE=true;
+if(BBASE) document.body.classList.add('bbase-on');
 function $(s,r){return (r||document).querySelector(s)}
 function $$(s,r){return [...(r||document).querySelectorAll(s)]}
 const views={}, state={};
@@ -339,10 +340,8 @@ function makePin(camp,i){
   el.style.setProperty('--sx',p[10]+'px'); el.style.setProperty('--sy',p[11]+'px');
   el.dataset.i=i; el.dataset.cap=p[8]?'1':'0'; el.dataset.w=p[9];
   el.dataset.a=p[4]; el.dataset.f=p[7];
-  if(BBASE){                                            // 城镇横幅基底（素材就位才启用）
-    const b=document.createElement('span');
-    b.className='bbase'+(p[19]&&p[19].indexOf(DARK_RES)>=0?' dk':'');
-    el.appendChild(b);
+  if(BBASE && p[19] && p[19].indexOf(DARK_RES)>=0){     // 黑暗要塞：暗黑塔楼图标悬浮在城堡上方
+    const f=document.createElement('span'); f.className='dficon'; el.appendChild(f);
   }
   if(p[19]){                                            // 资源角标（右下角，多个并排）
     p[19].split(';').forEach((rk,i)=>{
