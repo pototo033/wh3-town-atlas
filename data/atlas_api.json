@@ -1406,13 +1406,7 @@
    "faction_name": "森林之女",
    "faction_name_en": "Daughters of the Forest",
    "is_capital": false,
-   "resources": [
-    {
-     "key": "res_location_dark_fortress",
-     "name": "黑暗要塞基址",
-     "name_en": "Dark Fortress Site"
-    }
-   ],
+   "resources": [],
    "world": [
     59.45,
     477.1
@@ -1744,6 +1738,11 @@
    "is_capital": true,
    "resources": [
     {
+     "key": "res_location_dark_fortress",
+     "name": "黑暗要塞基址",
+     "name_en": "Dark Fortress Site"
+    },
+    {
      "key": "res_spices",
      "name": "香料",
      "name_en": "Spices"
@@ -1892,7 +1891,13 @@
    "faction_name": "枯木哨兵",
    "faction_name_en": "Deadwood Sentinels",
    "is_capital": true,
-   "resources": [],
+   "resources": [
+    {
+     "key": "res_location_dark_fortress",
+     "name": "黑暗要塞基址",
+     "name_en": "Dark Fortress Site"
+    }
+   ],
    "world": [
     189.72,
     672.64
@@ -2037,6 +2042,11 @@
    "faction_name_en": "Cult of Pleasure",
    "is_capital": true,
    "resources": [
+    {
+     "key": "res_location_dark_fortress",
+     "name": "黑暗要塞基址",
+     "name_en": "Dark Fortress Site"
+    },
     {
      "key": "res_obsidian",
      "name": "雕刻黑曜石",
@@ -3295,7 +3305,13 @@
    "faction_name": "戈隆德",
    "faction_name_en": "Ghrond",
    "is_capital": true,
-   "resources": [],
+   "resources": [
+    {
+     "key": "res_location_dark_fortress",
+     "name": "黑暗要塞基址",
+     "name_en": "Dark Fortress Site"
+    }
+   ],
    "world": [
     85.51,
     701.18
@@ -8120,6 +8136,11 @@
    "is_capital": true,
    "resources": [
     {
+     "key": "res_location_dark_fortress",
+     "name": "黑暗要塞基址",
+     "name_en": "Dark Fortress Site"
+    },
+    {
      "key": "res_rom_lead",
      "name": "食盐",
      "name_en": "Salt"
@@ -8197,6 +8218,11 @@
    "faction_name_en": "Flaming Scribes",
    "is_capital": true,
    "resources": [
+    {
+     "key": "res_location_dark_fortress",
+     "name": "黑暗要塞基址",
+     "name_en": "Dark Fortress Site"
+    },
     {
      "key": "res_obsidian",
      "name": "雕刻黑曜石",
@@ -8310,7 +8336,13 @@
    "faction_name": "极乐之愉",
    "faction_name_en": "Rapturous Excess",
    "is_capital": true,
-   "resources": [],
+   "resources": [
+    {
+     "key": "res_location_dark_fortress",
+     "name": "黑暗要塞基址",
+     "name_en": "Dark Fortress Site"
+    }
+   ],
    "world": [
     473.64,
     21.98
@@ -8532,7 +8564,13 @@
    "faction_name": "奸奇传谕使",
    "faction_name_en": "Oracles of Tzeentch",
    "is_capital": true,
-   "resources": [],
+   "resources": [
+    {
+     "key": "res_location_dark_fortress",
+     "name": "黑暗要塞基址",
+     "name_en": "Dark Fortress Site"
+    }
+   ],
    "world": [
     340.7,
     20.83
@@ -9391,6 +9429,11 @@
    "is_capital": true,
    "resources": [
     {
+     "key": "res_location_dark_fortress",
+     "name": "黑暗要塞基址",
+     "name_en": "Dark Fortress Site"
+    },
+    {
      "key": "res_rom_iron",
      "name": "生铁",
      "name_en": "Iron"
@@ -9953,7 +9996,13 @@
    "faction_name": "米登领",
    "faction_name_en": "Middenland",
    "is_capital": true,
-   "resources": [],
+   "resources": [
+    {
+     "key": "res_location_dark_fortress",
+     "name": "黑暗要塞基址",
+     "name_en": "Dark Fortress Site"
+    }
+   ],
    "world": [
     370.09,
     544.59
@@ -11213,7 +11262,13 @@
    "faction_name": "斯凯林",
    "faction_name_en": "Skaeling",
    "is_capital": true,
-   "resources": [],
+   "resources": [
+    {
+     "key": "res_location_dark_fortress",
+     "name": "黑暗要塞基址",
+     "name_en": "Dark Fortress Site"
+    }
+   ],
    "world": [
     336.02,
     604.38
@@ -11322,6 +11377,11 @@
    "faction_name_en": "Aesling",
    "is_capital": true,
    "resources": [
+    {
+     "key": "res_location_dark_fortress",
+     "name": "黑暗要塞基址",
+     "name_en": "Dark Fortress Site"
+    },
     {
      "key": "res_rom_iron",
      "name": "生铁",
@@ -11437,6 +11497,11 @@
    "is_capital": true,
    "resources": [
     {
+     "key": "res_location_dark_fortress",
+     "name": "黑暗要塞基址",
+     "name_en": "Dark Fortress Site"
+    },
+    {
      "key": "res_obsidian",
      "name": "雕刻黑曜石",
      "name_en": "Carved Obsidian"
@@ -11549,7 +11614,13 @@
    "faction_name": "盲眼者",
    "faction_name_en": "The Sightless",
    "is_capital": true,
-   "resources": [],
+   "resources": [
+    {
+     "key": "res_location_dark_fortress",
+     "name": "黑暗要塞基址",
+     "name_en": "Dark Fortress Site"
+    }
+   ],
    "world": [
     230.47,
     575.06
@@ -11734,6 +11805,11 @@
      "key": "res_gems",
      "name": "宝石",
      "name_en": "Gemstones"
+    },
+    {
+     "key": "res_location_dark_fortress",
+     "name": "黑暗要塞基址",
+     "name_en": "Dark Fortress Site"
     }
    ],
    "world": [
@@ -11772,6 +11848,11 @@
    "faction_name_en": "Brotherhood of the Bear",
    "is_capital": true,
    "resources": [
+    {
+     "key": "res_location_dark_fortress",
+     "name": "黑暗要塞基址",
+     "name_en": "Dark Fortress Site"
+    },
     {
      "key": "res_rom_marble",
      "name": "大理石",
@@ -11885,7 +11966,13 @@
    "faction_name": "戈罗迈德尼部落",
    "faction_name_en": "Goromadny Tribe",
    "is_capital": true,
-   "resources": [],
+   "resources": [
+    {
+     "key": "res_location_dark_fortress",
+     "name": "黑暗要塞基址",
+     "name_en": "Dark Fortress Site"
+    }
+   ],
    "world": [
     545.78,
     583.55
@@ -12029,7 +12116,13 @@
    "faction_name": "比约林",
    "faction_name_en": "Bjornling",
    "is_capital": true,
-   "resources": [],
+   "resources": [
+    {
+     "key": "res_location_dark_fortress",
+     "name": "黑暗要塞基址",
+     "name_en": "Dark Fortress Site"
+    }
+   ],
    "world": [
     300.62,
     617.87
@@ -12108,6 +12201,11 @@
    "faction_name_en": "Naglfarlings",
    "is_capital": true,
    "resources": [
+    {
+     "key": "res_location_dark_fortress",
+     "name": "黑暗要塞基址",
+     "name_en": "Dark Fortress Site"
+    },
     {
      "key": "res_rom_marble",
      "name": "大理石",
@@ -12551,7 +12649,13 @@
    "faction_name": "罗普思曼氏族",
    "faction_name_en": "Ropsmenn Clan",
    "is_capital": true,
-   "resources": [],
+   "resources": [
+    {
+     "key": "res_location_dark_fortress",
+     "name": "黑暗要塞基址",
+     "name_en": "Dark Fortress Site"
+    }
+   ],
    "world": [
     482.99,
     594.35
@@ -17136,6 +17240,11 @@
    "is_capital": true,
    "resources": [
     {
+     "key": "res_location_dark_fortress",
+     "name": "黑暗要塞基址",
+     "name_en": "Dark Fortress Site"
+    },
+    {
      "key": "res_obsidian",
      "name": "雕刻黑曜石",
      "name_en": "Carved Obsidian"
@@ -17398,7 +17507,13 @@
    "faction_name": "扎尔杜克霸主",
    "faction_name_en": "Overlords of Zharrduk",
    "is_capital": true,
-   "resources": [],
+   "resources": [
+    {
+     "key": "res_location_dark_fortress",
+     "name": "黑暗要塞基址",
+     "name_en": "Dark Fortress Site"
+    }
+   ],
    "world": [
     603.9,
     406.52
@@ -17656,13 +17771,7 @@
    "faction_name": "卡勒多骑士",
    "faction_name_en": "Knights of Caledor",
    "is_capital": true,
-   "resources": [
-    {
-     "key": "res_location_dark_fortress",
-     "name": "黑暗要塞基址",
-     "name_en": "Dark Fortress Site"
-    }
-   ],
+   "resources": [],
    "world": [
     593.88,
     338.25
@@ -17962,7 +18071,13 @@
    "faction_name": "隐秘之刑",
    "faction_name_en": "Subtle Torture",
    "is_capital": true,
-   "resources": [],
+   "resources": [
+    {
+     "key": "res_location_dark_fortress",
+     "name": "黑暗要塞基址",
+     "name_en": "Dark Fortress Site"
+    }
+   ],
    "world": [
     324.0,
     724.71
@@ -18039,6 +18154,11 @@
      "key": "res_gems",
      "name": "宝石",
      "name_en": "Gemstones"
+    },
+    {
+     "key": "res_location_dark_fortress",
+     "name": "黑暗要塞基址",
+     "name_en": "Dark Fortress Site"
     }
    ],
    "world": [
@@ -18196,7 +18316,13 @@
    "faction_name": "蛆虫军团",
    "faction_name_en": "The Maggot Host",
    "is_capital": true,
-   "resources": [],
+   "resources": [
+    {
+     "key": "res_location_dark_fortress",
+     "name": "黑暗要塞基址",
+     "name_en": "Dark Fortress Site"
+    }
+   ],
    "world": [
     669.37,
     646.42
@@ -18232,7 +18358,13 @@
    "faction_name": "贪肉者",
    "faction_name_en": "Fleshgreeders",
    "is_capital": true,
-   "resources": [],
+   "resources": [
+    {
+     "key": "res_location_dark_fortress",
+     "name": "黑暗要塞基址",
+     "name_en": "Dark Fortress Site"
+    }
+   ],
    "world": [
     682.06,
     560.41
@@ -18340,7 +18472,13 @@
    "faction_name": "全视之眼",
    "faction_name_en": "All-Seeing Eye",
    "is_capital": true,
-   "resources": [],
+   "resources": [
+    {
+     "key": "res_location_dark_fortress",
+     "name": "黑暗要塞基址",
+     "name_en": "Dark Fortress Site"
+    }
+   ],
    "world": [
     500.36,
     714.68
@@ -18648,6 +18786,11 @@
    "is_capital": true,
    "resources": [
     {
+     "key": "res_location_dark_fortress",
+     "name": "黑暗要塞基址",
+     "name_en": "Dark Fortress Site"
+    },
+    {
      "key": "res_obsidian",
      "name": "雕刻黑曜石",
      "name_en": "Carved Obsidian"
@@ -18802,7 +18945,13 @@
    "faction_name": "浴血长剑",
    "faction_name_en": "Bloody Sword",
    "is_capital": true,
-   "resources": [],
+   "resources": [
+    {
+     "key": "res_location_dark_fortress",
+     "name": "黑暗要塞基址",
+     "name_en": "Dark Fortress Site"
+    }
+   ],
    "world": [
     527.75,
     704.27
@@ -18952,7 +19101,13 @@
    "faction_name": "受恩者",
    "faction_name_en": "Lazarghs",
    "is_capital": true,
-   "resources": [],
+   "resources": [
+    {
+     "key": "res_location_dark_fortress",
+     "name": "黑暗要塞基址",
+     "name_en": "Dark Fortress Site"
+    }
+   ],
    "world": [
     592.55,
     589.72
@@ -19148,13 +19303,7 @@
    "faction_name": "卡扎格",
    "faction_name_en": "Khazag",
    "is_capital": false,
-   "resources": [
-    {
-     "key": "res_location_dark_fortress",
-     "name": "黑暗要塞基址",
-     "name_en": "Dark Fortress Site"
-    }
-   ],
+   "resources": [],
    "world": [
     800.3,
     547.68
@@ -19263,6 +19412,11 @@
    "faction_name_en": "Celestial Loyalists",
    "is_capital": true,
    "resources": [
+    {
+     "key": "res_location_dark_fortress",
+     "name": "黑暗要塞基址",
+     "name_en": "Dark Fortress Site"
+    },
     {
      "key": "res_spices",
      "name": "香料",
@@ -19976,7 +20130,13 @@
    "faction_name": "多尔甘",
    "faction_name_en": "Dolgan",
    "is_capital": true,
-   "resources": [],
+   "resources": [
+    {
+     "key": "res_location_dark_fortress",
+     "name": "黑暗要塞基址",
+     "name_en": "Dark Fortress Site"
+    }
+   ],
    "world": [
     849.74,
     559.25
@@ -20012,13 +20172,7 @@
    "faction_name": "卡扎格",
    "faction_name_en": "Khazag",
    "is_capital": false,
-   "resources": [
-    {
-     "key": "res_location_dark_fortress",
-     "name": "黑暗要塞基址",
-     "name_en": "Dark Fortress Site"
-    }
-   ],
+   "resources": [],
    "world": [
     776.92,
     543.44
@@ -20054,7 +20208,13 @@
    "faction_name": "扎尔战团",
    "faction_name_en": "The Warhost of Zharr",
    "is_capital": true,
-   "resources": [],
+   "resources": [
+    {
+     "key": "res_location_dark_fortress",
+     "name": "黑暗要塞基址",
+     "name_en": "Dark Fortress Site"
+    }
+   ],
    "world": [
     742.19,
     552.69
@@ -20277,6 +20437,11 @@
    "faction_name_en": "Dissenter Lords of Jinshen",
    "is_capital": true,
    "resources": [
+    {
+     "key": "res_location_dark_fortress",
+     "name": "黑暗要塞基址",
+     "name_en": "Dark Fortress Site"
+    },
     {
      "key": "res_spices",
      "name": "香料",
@@ -20732,6 +20897,11 @@
    "faction_name_en": "The Northern Provinces",
    "is_capital": true,
    "resources": [
+    {
+     "key": "res_location_dark_fortress",
+     "name": "黑暗要塞基址",
+     "name_en": "Dark Fortress Site"
+    },
     {
      "key": "res_rom_textiles",
      "name": "陶器",
@@ -21376,6 +21546,11 @@
      "key": "res_dyes",
      "name": "染料",
      "name_en": "Dyes"
+    },
+    {
+     "key": "res_location_dark_fortress",
+     "name": "黑暗要塞基址",
+     "name_en": "Dark Fortress Site"
     }
    ],
    "world": [
@@ -22229,7 +22404,13 @@
    "faction_name": "瓦纳海姆林",
    "faction_name_en": "Vanaheimlings",
    "is_capital": true,
-   "resources": [],
+   "resources": [
+    {
+     "key": "res_location_dark_fortress",
+     "name": "黑暗要塞基址",
+     "name_en": "Dark Fortress Site"
+    }
+   ],
    "world": [
     12.69,
     248.77
@@ -22266,6 +22447,11 @@
    "faction_name_en": "Wissenland & Nuln",
    "is_capital": true,
    "resources": [
+    {
+     "key": "res_location_dark_fortress",
+     "name": "黑暗要塞基址",
+     "name_en": "Dark Fortress Site"
+    },
     {
      "key": "res_rom_iron",
      "name": "生铁",
@@ -22715,7 +22901,13 @@
    "faction_name": "米登领",
    "faction_name_en": "Middenland",
    "is_capital": true,
-   "resources": [],
+   "resources": [
+    {
+     "key": "res_location_dark_fortress",
+     "name": "黑暗要塞基址",
+     "name_en": "Dark Fortress Site"
+    }
+   ],
    "world": [
     116.24,
     67.88
@@ -23197,6 +23389,11 @@
    "is_capital": true,
    "resources": [
     {
+     "key": "res_location_dark_fortress",
+     "name": "黑暗要塞基址",
+     "name_en": "Dark Fortress Site"
+    },
+    {
      "key": "res_rom_marble",
      "name": "大理石",
      "name_en": "Marble"
@@ -23310,6 +23507,11 @@
    "faction_name_en": "Aesling",
    "is_capital": true,
    "resources": [
+    {
+     "key": "res_location_dark_fortress",
+     "name": "黑暗要塞基址",
+     "name_en": "Dark Fortress Site"
+    },
     {
      "key": "res_rom_iron",
      "name": "生铁",
@@ -23548,6 +23750,11 @@
      "key": "res_gems",
      "name": "宝石",
      "name_en": "Gemstones"
+    },
+    {
+     "key": "res_location_dark_fortress",
+     "name": "黑暗要塞基址",
+     "name_en": "Dark Fortress Site"
     }
    ],
    "world": [
@@ -23663,7 +23870,13 @@
    "faction_name": "萨利",
    "faction_name_en": "Sarl",
    "is_capital": true,
-   "resources": [],
+   "resources": [
+    {
+     "key": "res_location_dark_fortress",
+     "name": "黑暗要塞基址",
+     "name_en": "Dark Fortress Site"
+    }
+   ],
    "world": [
     124.25,
     209.81
@@ -23735,7 +23948,13 @@
    "faction_name": "戈罗迈德尼部落",
    "faction_name_en": "Goromadny Tribe",
    "is_capital": true,
-   "resources": [],
+   "resources": [
+    {
+     "key": "res_location_dark_fortress",
+     "name": "黑暗要塞基址",
+     "name_en": "Dark Fortress Site"
+    }
+   ],
    "world": [
     388.12,
     216.37
@@ -23880,6 +24099,11 @@
    "faction_name_en": "Bjornling",
    "is_capital": true,
    "resources": [
+    {
+     "key": "res_location_dark_fortress",
+     "name": "黑暗要塞基址",
+     "name_en": "Dark Fortress Site"
+    },
     {
      "key": "res_rom_lead",
      "name": "食盐",
@@ -24287,7 +24511,13 @@
    "faction_name": "罗普思曼氏族",
    "faction_name_en": "Ropsmenn Clan",
    "is_capital": true,
-   "resources": [],
+   "resources": [
+    {
+     "key": "res_location_dark_fortress",
+     "name": "黑暗要塞基址",
+     "name_en": "Dark Fortress Site"
+    }
+   ],
    "world": [
     276.56,
     136.53
@@ -24815,7 +25045,13 @@
    "faction_name": "扎尔杜克霸主",
    "faction_name_en": "Overlords of Zharrduk",
    "is_capital": true,
-   "resources": [],
+   "resources": [
+    {
+     "key": "res_location_dark_fortress",
+     "name": "黑暗要塞基址",
+     "name_en": "Dark Fortress Site"
+    }
+   ],
    "world": [
     542.43,
     80.22
@@ -25224,6 +25460,11 @@
    "faction_name_en": "Servants of the Conclave",
    "is_capital": true,
    "resources": [
+    {
+     "key": "res_location_dark_fortress",
+     "name": "黑暗要塞基址",
+     "name_en": "Dark Fortress Site"
+    },
     {
      "key": "res_obsidian",
      "name": "雕刻黑曜石",
@@ -25709,13 +25950,7 @@
    "faction_name": "卡勒多骑士",
    "faction_name_en": "Knights of Caledor",
    "is_capital": true,
-   "resources": [
-    {
-     "key": "res_location_dark_fortress",
-     "name": "黑暗要塞基址",
-     "name_en": "Dark Fortress Site"
-    }
-   ],
+   "resources": [],
    "world": [
     607.23,
     38.95
@@ -27354,11 +27589,6 @@
    "is_capital": false,
    "resources": [
     {
-     "key": "res_location_dark_fortress",
-     "name": "黑暗要塞基址",
-     "name_en": "Dark Fortress Site"
-    },
-    {
      "key": "res_rom_marble",
      "name": "大理石",
      "name_en": "Marble"
@@ -27556,6 +27786,11 @@
    "is_capital": true,
    "resources": [
     {
+     "key": "res_location_dark_fortress",
+     "name": "黑暗要塞基址",
+     "name_en": "Dark Fortress Site"
+    },
+    {
      "key": "res_rom_timber",
      "name": "木材",
      "name_en": "Timber"
@@ -27740,7 +27975,13 @@
    "faction_name": "群山之子",
    "faction_name_en": "Sons of the Mountain",
    "is_capital": true,
-   "resources": [],
+   "resources": [
+    {
+     "key": "res_location_dark_fortress",
+     "name": "黑暗要塞基址",
+     "name_en": "Dark Fortress Site"
+    }
+   ],
    "world": [
     533.08,
     343.26
@@ -27926,7 +28167,13 @@
    "faction_name": "蚀啮氏族",
    "faction_name_en": "Clan Gnaw",
    "is_capital": true,
-   "resources": [],
+   "resources": [
+    {
+     "key": "res_location_dark_fortress",
+     "name": "黑暗要塞基址",
+     "name_en": "Dark Fortress Site"
+    }
+   ],
    "world": [
     293.26,
     293.5
@@ -27998,7 +28245,13 @@
    "faction_name": "纳垢驭疹官",
    "faction_name_en": "Poxmakers of Nurgle",
    "is_capital": true,
-   "resources": [],
+   "resources": [
+    {
+     "key": "res_location_dark_fortress",
+     "name": "黑暗要塞基址",
+     "name_en": "Dark Fortress Site"
+    }
+   ],
    "world": [
     386.12,
     278.46
@@ -28111,6 +28364,11 @@
      "key": "res_gems",
      "name": "宝石",
      "name_en": "Gemstones"
+    },
+    {
+     "key": "res_location_dark_fortress",
+     "name": "黑暗要塞基址",
+     "name_en": "Dark Fortress Site"
     }
    ],
    "world": [
@@ -28310,7 +28568,13 @@
    "faction_name": "零落命轮",
    "faction_name_en": "Broken Wheel",
    "is_capital": true,
-   "resources": [],
+   "resources": [
+    {
+     "key": "res_location_dark_fortress",
+     "name": "黑暗要塞基址",
+     "name_en": "Dark Fortress Site"
+    }
+   ],
    "world": [
     259.86,
     392.24
@@ -28455,6 +28719,11 @@
    "faction_name_en": "Seducers of Slaanesh",
    "is_capital": true,
    "resources": [
+    {
+     "key": "res_location_dark_fortress",
+     "name": "黑暗要塞基址",
+     "name_en": "Dark Fortress Site"
+    },
     {
      "key": "res_spices",
      "name": "香料",
@@ -28760,7 +29029,13 @@
    "faction_name": "恐虐流放者",
    "faction_name_en": "Exiles of Khorne",
    "is_capital": true,
-   "resources": [],
+   "resources": [
+    {
+     "key": "res_location_dark_fortress",
+     "name": "黑暗要塞基址",
+     "name_en": "Dark Fortress Site"
+    }
+   ],
    "world": [
     195.06,
     367.17
@@ -28796,13 +29071,7 @@
    "faction_name": "噶哈尔",
    "faction_name_en": "Gharhar",
    "is_capital": false,
-   "resources": [
-    {
-     "key": "res_location_dark_fortress",
-     "name": "黑暗要塞基址",
-     "name_en": "Dark Fortress Site"
-    }
-   ],
+   "resources": [],
    "world": [
     178.36,
     334.39
@@ -28838,13 +29107,7 @@
    "faction_name": "噶哈尔",
    "faction_name_en": "Gharhar",
    "is_capital": false,
-   "resources": [
-    {
-     "key": "res_location_dark_fortress",
-     "name": "黑暗要塞基址",
-     "name_en": "Dark Fortress Site"
-    }
-   ],
+   "resources": [],
    "world": [
     225.12,
     349.81
@@ -28988,7 +29251,13 @@
    "faction_name": "恐之主子嗣",
    "faction_name_en": "Kharneth's Sons",
    "is_capital": true,
-   "resources": [],
+   "resources": [
+    {
+     "key": "res_location_dark_fortress",
+     "name": "黑暗要塞基址",
+     "name_en": "Dark Fortress Site"
+    }
+   ],
    "world": [
     495.67,
     323.2
@@ -29024,13 +29293,7 @@
    "faction_name": "帝国戍卫",
    "faction_name_en": "Imperial Wardens",
    "is_capital": false,
-   "resources": [
-    {
-     "key": "res_location_dark_fortress",
-     "name": "黑暗要塞基址",
-     "name_en": "Dark Fortress Site"
-    }
-   ],
+   "resources": [],
    "world": [
     575.17,
     436.98
@@ -29066,7 +29329,13 @@
    "faction_name": "奸奇传谕使",
    "faction_name_en": "Oracles of Tzeentch",
    "is_capital": true,
-   "resources": [],
+   "resources": [
+    {
+     "key": "res_location_dark_fortress",
+     "name": "黑暗要塞基址",
+     "name_en": "Dark Fortress Site"
+    }
+   ],
    "world": [
     538.43,
     376.43
@@ -29109,11 +29378,6 @@
      "name_en": "Tusks"
     },
     {
-     "key": "res_location_dark_fortress",
-     "name": "黑暗要塞基址",
-     "name_en": "Dark Fortress Site"
-    },
-    {
      "key": "res_obsidian",
      "name": "雕刻黑曜石",
      "name_en": "Carved Obsidian"
@@ -29154,13 +29418,7 @@
    "faction_name": "卡扎格",
    "faction_name_en": "Khazag",
    "is_capital": false,
-   "resources": [
-    {
-     "key": "res_location_dark_fortress",
-     "name": "黑暗要塞基址",
-     "name_en": "Dark Fortress Site"
-    }
-   ],
+   "resources": [],
    "world": [
     553.79,
     424.64
@@ -29233,6 +29491,11 @@
    "faction_name_en": "Celestial Loyalists",
    "is_capital": true,
    "resources": [
+    {
+     "key": "res_location_dark_fortress",
+     "name": "黑暗要塞基址",
+     "name_en": "Dark Fortress Site"
+    },
     {
      "key": "res_spices",
      "name": "香料",
@@ -29726,6 +29989,11 @@
    "is_capital": true,
    "resources": [
     {
+     "key": "res_location_dark_fortress",
+     "name": "黑暗要塞基址",
+     "name_en": "Dark Fortress Site"
+    },
+    {
      "key": "res_spices",
      "name": "香料",
      "name_en": "Spices"
@@ -30036,6 +30304,11 @@
    "faction_name_en": "The Northern Provinces",
    "is_capital": true,
    "resources": [
+    {
+     "key": "res_location_dark_fortress",
+     "name": "黑暗要塞基址",
+     "name_en": "Dark Fortress Site"
+    },
     {
      "key": "res_rom_textiles",
      "name": "陶器",
