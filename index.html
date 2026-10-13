@@ -256,6 +256,59 @@ body:not(.panel-open) .side{display:none}          /* 桌面：直接收起，�
   .fab{display:block}
   body.panel-open .fab{display:none}
 }
+/* 地图优先的工具层；不改变坐标、地图变换或雪碧图。 */
+:root{--bg:#121310;--panel:#1b1d18;--panel2:#252820;--line:#3b4033;--gold:#dec18a;--txt:#f0eee5;--dim:#b0b3a3;--red:#dbb77a;color-scheme:dark}
+body{height:100dvh;font-size:14px}
+header{padding:14px 22px 12px;background:linear-gradient(115deg,#27291f,#171913 70%)}
+h1{font-size:20px;letter-spacing:.5px;line-height:1.4}.htop{gap:10px}
+.sub{max-width:1040px;line-height:1.65;margin-top:7px}
+.stats{gap:8px;margin-top:10px}.stats div{background:transparent;border-color:#424737;padding:3px 11px;border-radius:5px}
+.stats b{font-size:15px;font-variant-numeric:tabular-nums}
+.usr{gap:10px}.avatar{width:30px;height:30px;border-width:1px}
+.dlbtn{background:transparent;color:var(--gold);border:1px solid #645940;font-weight:500}
+.htgl{margin-left:0;flex-shrink:0;width:30px;height:30px}
+.toolbar{position:relative;gap:9px;padding:10px 22px;z-index:46;box-shadow:0 3px 12px #0003}
+.csw{flex-shrink:0;padding:3px;gap:3px;border-radius:9px;background:#11130f}
+.csw button{border-radius:6px;background:transparent;padding:7px 13px;font-size:13px}
+.csw button.on{background:var(--gold);color:#242318}
+.mbtn{display:inline-flex;align-items:center;justify-content:center;min-height:38px;padding:7px 13px}
+.zoomtools{display:flex;gap:4px;margin-left:auto;flex-shrink:0}.zb{width:36px;height:38px}
+#q{flex:1;min-width:180px;max-width:420px;height:38px;background:#11130f;border-color:#454b3b;border-radius:8px}
+#q::placeholder{color:#a4aa96}.hint{font-size:11px;margin-left:0}.grid-read{font:11px Consolas,monospace}
+.areaswrap,.opts{display:none;position:absolute;top:calc(100% + 8px);z-index:48;background:#20231c;border:1px solid #505640;border-radius:12px;padding:16px;box-shadow:0 16px 40px #0008;max-height:min(52vh,440px);overflow:auto}
+.areaswrap{left:22px;width:min(640px,calc(100vw - 44px))}body.areas-open .areaswrap{display:block}
+.areas{gap:8px}.abtn{min-height:35px;padding:6px 10px;background:#2a2e24}
+.abtn b{background:#1115;padding:0 5px;border-radius:4px;font-variant-numeric:tabular-nums}.abtn .adot{margin-right:0;flex-shrink:0}
+.opts{right:22px;width:280px;flex-direction:column;gap:4px;align-items:stretch}body.opts-open .opts{display:flex}
+.tgl{padding:8px;border-radius:6px;color:var(--txt);font-size:13px;gap:10px;min-height:38px}.tgl:hover{background:#ffffff08}
+input[type=checkbox]{accent-color:var(--gold);width:16px;height:16px;flex-shrink:0}
+button,a,input{font-family:inherit}button:focus-visible,a:focus-visible,input:focus-visible{outline:2px solid var(--gold);outline-offset:3px}
+.mbtn:hover,.zb:hover,.fchip:hover{background:#353a2c;border-color:#8e805d}
+.mbtn[aria-expanded=true]{border-color:var(--gold);color:var(--gold);background:#353427}
+.side{box-shadow:-8px 0 24px #0002}
+.sheetbar{display:flex;align-items:center;justify-content:space-between;padding:8px 15px;border-bottom:1px solid var(--line);background:#22251c}
+.sheetbar .grab{font-size:11px;color:var(--dim)}
+.paneltgl{background:transparent;border:1px solid var(--line);border-radius:6px;color:var(--txt);padding:4px 10px;cursor:pointer;font-size:12px}
+.sideh{padding:14px 16px}.sideh h3{font-size:18px}.keytgl{margin-top:10px;gap:7px}
+.legend{margin-top:12px;padding-top:10px}.chips{gap:6px;max-height:100px}.fchip{padding:5px 8px;border-radius:6px;min-height:30px}
+.sidebody{scrollbar-width:thin;scrollbar-color:#62694b #171913}
+table.t{font-size:12.5px;line-height:1.65}table.t th{background:#2c3024;color:#dfcfad;padding:10px 11px;font-size:11px;white-space:nowrap}
+table.t td{padding:10px 11px;border-top-color:#34382d}table.t tr:nth-child(4n+1) td{background:#ffffff03}table.t tr:hover td{background:#373b2b}
+td.id{font-variant-numeric:tabular-nums;font-size:11px;color:#b7bd9e}td.ff{white-space:normal;min-width:105px}td.dim{color:#bdc1b2}
+tr.krow td{background:#151711}.tooltip{background:#1b1e17f5;border-color:#9d8b63;border-radius:10px;padding:11px 14px;line-height:1.75}
+.maphint{background:#171a13e8;border:1px solid #4e543d;color:#d0d4c3;border-radius:8px}
+.fab{display:block;border-radius:9px;bottom:18px;padding:10px 16px}body.panel-open .fab{display:none}
+footer{background:#151711;color:#9ba28d;padding:5px 22px;font-size:10px}
+@media(max-width:900px){
+header,body.intro-off header{padding:10px 12px}.toolbar{padding:8px 12px;gap:7px}h1{font-size:16px}.usr{gap:7px}.avatar{display:none}.htop{flex-wrap:wrap}
+.csw button{font-size:12px;padding:6px 10px}#q{max-width:none;min-width:150px}.mbtn{min-height:36px;padding:6px 10px}
+.areaswrap{left:12px;right:auto;width:calc(100vw - 24px);top:calc(100% + 6px);padding:12px}
+.opts{right:12px;top:calc(100% + 6px);width:min(280px,calc(100vw - 24px));padding:12px;gap:4px}
+.zoomtools{margin-left:0}.zb{height:36px;width:34px}.side{border-radius:16px 16px 0 0}.sheetbar{padding:7px 14px}.sideh{padding:10px 14px}
+.maphint{max-width:calc(100% - 28px);font-size:11px}footer{padding:4px 12px;font-size:9px}
+}
+@media(max-width:560px){h1{font-size:15px;flex:1 1 220px}.htop{gap:6px}.usr{width:100%;justify-content:flex-end}.dlbtn{padding:4px 9px}.csw{flex:1}.csw button{flex:1}#q{order:2;flex:1 1 calc(100% - 125px);min-width:0}.zoomtools{order:3}table.t th,table.t td{padding:8px}}
+@media(prefers-reduced-motion:reduce){.side,.pin,.ovl-line,.ovl-under,.ovl-fill,.alabel{transition:none}table.t tr.flash td{animation:none;background:#48432c}}
 </style></head><body>
 <header>
 <div class="htop">
@@ -280,10 +333,12 @@ body:not(.panel-open) .side{display:none}          /* 桌面：直接收起，�
 <div class="areas" data-camp="wh3_main_chaos"><button class="abtn all on" data-camp="wh3_main_chaos" data-area=""><span data-zh="全部" data-en="All">全部</span><b>242</b></button><button class="abtn" data-camp="wh3_main_chaos" data-area="帝国（旧世界）" data-box="0,1498,1908,2995"><i class="adot" style="background:#8a2ce8"></i><span data-zh="帝国（旧世界）" data-en="The Empire (Old World)">帝国（旧世界）</span><b>47</b></button><button class="abtn" data-camp="wh3_main_chaos" data-area="诺斯卡" data-box="74,965,2417,2096"><i class="adot" style="background:#25b814"></i><span data-zh="诺斯卡" data-en="Norsca">诺斯卡</span><b>22</b></button><button class="abtn" data-camp="wh3_main_chaos" data-area="基斯里夫" data-box="742,2048,2019,2559"><i class="adot" style="background:#b8144e"></i><span data-zh="基斯里夫" data-en="Kislev">基斯里夫</span><b>19</b></button><button class="abtn" data-camp="wh3_main_chaos" data-area="矮人帝国（世界边缘山脉）" data-box="1869,1911,3976,3007"><i class="adot" style="background:#188bd8"></i><span data-zh="矮人帝国（世界边缘山脉）" data-en="Dwarf Empire (Worlds Edge Mountains)">矮人帝国（世界边缘山脉）</span><b>42</b></button><button class="abtn" data-camp="wh3_main_chaos" data-area="哀恸山脉" data-box="2490,1058,3788,2161"><i class="adot" style="background:#d52ce8"></i><span data-zh="哀恸山脉" data-en="Mountains of Mourn">哀恸山脉</span><b>27</b></button><button class="abtn" data-camp="wh3_main_chaos" data-area="混沌荒原" data-box="399,462,2951,1865"><i class="adot" style="background:#188bd8"></i><span data-zh="混沌荒原" data-en="Chaos Wastes">混沌荒原</span><b>47</b></button><button class="abtn" data-camp="wh3_main_chaos" data-area="震旦" data-box="2840,110,3972,1476"><i class="adot" style="background:#25b814"></i><span data-zh="震旦" data-en="Grand Cathay">震旦</span><b>38</b></button></div>
 </div>
 <button class="mbtn" id="opttgl"><span data-zh="☰ 选项" data-en="☰ Options">☰ 选项</span></button>
-<div class="opts">
+<div class="zoomtools">
 <button class="zb" id="zin" title="放大" data-attr="title" data-zh="放大" data-en="Zoom in">＋</button>
 <button class="zb" id="zout" title="缩小" data-attr="title" data-zh="缩小" data-en="Zoom out">－</button>
 <button class="zb" id="zreset" title="复位到全图" data-attr="title" data-zh="复位到全图" data-en="Reset view">⤢</button>
+</div>
+<div class="opts" id="display-options">
 <label class="tgl"><input type="checkbox" id="lines" checked><span data-zh="大洲分界" data-en="Continent borders">大洲分界</span></label>
 <label class="tgl"><input type="checkbox" id="areafill" checked><span data-zh="大洲底色" data-en="Continent shading">大洲底色</span></label>
 <label class="tgl"><input type="checkbox" id="grid" autocomplete="off"><span data-zh="坐标网格" data-en="Coord grid">坐标网格</span></label>
@@ -908,8 +963,8 @@ function setIntro(on) {
   LS.set('intro', on);
 }
 // 地区 / 选项 下拉
-function setAreas(on) { document.body.classList.toggle('areas-open', on); LS.set('areas', on); }
-function setOpts(on) { document.body.classList.toggle('opts-open', on); }
+function setAreas(on) { document.body.classList.toggle('areas-open', on); document.getElementById('areatgl').setAttribute('aria-expanded', String(on)); LS.set('areas', on); }
+function setOpts(on) { document.body.classList.toggle('opts-open', on); document.getElementById('opttgl').setAttribute('aria-expanded', String(on)); }
 // 城镇表面板（桌面：右侧栏；手机：底部抽屉）
 function setPanel(on) {
   document.body.classList.toggle('panel-open', on);
@@ -934,6 +989,14 @@ document.getElementById('paneltgl').onclick = () =>
   setPanel(!document.body.classList.contains('panel-open'));
 document.getElementById('fab').onclick = () => setPanel(true);
 // 点地图其它地方收起下拉
+document.addEventListener('keydown', e => {
+  if (e.key === 'Escape') {
+    const trigger = document.body.classList.contains('opts-open') ? 'opttgl' :
+      document.body.classList.contains('areas-open') ? 'areatgl' : null;
+    setAreas(false); setOpts(false);
+    if (trigger) document.getElementById(trigger).focus();
+  }
+});
 document.addEventListener('click', e => {
   if (!e.target.closest('.toolbar')) { setAreas(false); setOpts(false); }
 });
