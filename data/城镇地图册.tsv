@@ -1456,125 +1456,125 @@
 644	震旦	超凡帝国扩展（IEE）	黎山	世武	东河诸侯	是	911.80	322.03	1365	417	wh3_main_combi_region_shi_wu	wh3_main_combi_province_mount_li	wh3_main_cth_eastern_river_lords	Shi-Wu	cai_region_hint_area_cathay	官方	雕刻黑曜石
 645	震旦	超凡帝国扩展（IEE）	黎山	丽珠	东河诸侯		913.14	362.91	1367	470	wh3_main_combi_region_li_zhu	wh3_main_combi_province_mount_li	wh3_main_cth_eastern_river_lords	Li Zhu	cai_region_hint_area_cathay	官方	
 646	震旦	超凡帝国扩展（IEE）	黎山	黎寺	东河诸侯		894.43	346.71	1339	449	wh3_main_combi_region_li_temple	wh3_main_combi_province_mount_li	wh3_main_cth_eastern_river_lords	Li Temple	cai_region_hint_area_cathay	官方	
-647	East Elf Colonies	超凡帝国扩展（IEE）	卡黎斯巨门	北部要塞	巨门守卫	是	858.36	51.29	1285	66	cr_combi_region_gates_of_calith_1	cr_combi_province_gates_of_calith	cr_hef_gate_guards	North Fortress	cai_region_hint_area_east_elf_colonies	官方	
-648	East Elf Colonies	超凡帝国扩展（IEE）	卡黎斯巨门	南部要塞	巨门守卫		858.36	42.04	1285	54	cr_combi_region_gates_of_calith_2	cr_combi_province_gates_of_calith	cr_hef_gate_guards	South Fortress	cai_region_hint_area_east_elf_colonies	官方	
-649	East Elf Colonies	超凡帝国扩展（IEE）	屿北	日升之塔	苦痛先遣军	是	982.61	126.88	1471	164	cr_combi_region_elithis_1_2	cr_combi_province_elithis_3	cr_def_harbingers_of_pain	Tower of the Rising Sun	cai_region_hint_area_east_elf_colonies	官方	
-650	East Elf Colonies	超凡帝国扩展（IEE）	屿北	莉安拉斯前哨	苦痛先遣军		959.23	95.64	1436	124	cr_combi_region_elithis_1_3	cr_combi_province_elithis_3	cr_def_harbingers_of_pain	Lianllach Outpost	cai_region_hint_area_east_elf_colonies	官方	
-651	East Elf Colonies	超凡帝国扩展（IEE）	艾利提斯之林	边远之地	塔尔·艾利提斯	是	1002.65	42.81	1501	55	cr_combi_region_elithis_2_1	cr_combi_province_elithis_2	cr_hef_tor_elithis	The Far Place	cai_region_hint_area_east_elf_colonies	官方	
-652	East Elf Colonies	超凡帝国扩展（IEE）	艾利提斯失落群岛	塔尔·艾利提斯	塔尔·艾利提斯	是	963.91	38.18	1443	49	cr_combi_region_elithis_1_1	cr_combi_province_elithis_1	cr_hef_tor_elithis	Tor Elithis	cai_region_hint_area_east_elf_colonies	官方	
-653	East Elf Colonies	超凡帝国扩展（IEE）	艾利提斯失落群岛	星尘港	塔尔·艾利提斯		988.62	17.74	1480	23	cr_combi_region_elithis_1_5	cr_combi_province_elithis_1	cr_hef_tor_elithis	Starsand Port	cai_region_hint_area_east_elf_colonies	官方	
-654	East Elf Colonies	超凡帝国扩展（IEE）	艾利提斯失落群岛	星沉之塔	塔尔·艾利提斯		983.94	70.58	1473	91	cr_combi_region_elithis_1_4	cr_combi_province_elithis_1	cr_hef_tor_elithis	Tower of the Fallen Stars	cai_region_hint_area_east_elf_colonies	官方	
-655	Ind	超凡帝国扩展（IEE）	千神之地	父愿之地	烂脓氏族		767.52	226.38	1149	293	cr_combi_region_pituhiccha	cr_combi_province_land_of_a_thousand_gods	cr_skv_clan_festerlingus	Pituhiccha	cai_region_hint_area_ind	官方	
-656	Ind	超凡帝国扩展（IEE）	千神之地	真言村	骸骨勘矿队		742.13	226.38	1111	293	cr_combi_region_rtanagram	cr_combi_province_land_of_a_thousand_gods	cr_chd_skullstack	Rtanagram	cai_region_hint_area_ind	官方	
-657	Ind	超凡帝国扩展（IEE）	千神之地	罗阇君城	烂脓氏族	是	772.19	259.94	1156	337	cr_combi_region_rajyapuram	cr_combi_province_land_of_a_thousand_gods	cr_skv_clan_festerlingus	Rajyapuram	cai_region_hint_area_ind	官方	
-658	Ind	超凡帝国扩展（IEE）	秘言高原	地母村	食日者	是	734.12	166.99	1099	216	cr_combi_region_pridvarkar	cr_combi_province_ashasani_highlands	cr_ogr_suneaters	Pridvarkar	cai_region_hint_area_ind	官方	
-659	Ind	超凡帝国扩展（IEE）	秘言高原	猴坛	食日者		747.48	209.41	1119	271	cr_combi_region_monkeys_altar	cr_combi_province_ashasani_highlands	cr_ogr_suneaters	Monkey's Altar	cai_region_hint_area_ind	官方	
-660	Ind	超凡帝国扩展（IEE）	穆塔谷	东胜村	恶怨私掠舰队		747.48	183.19	1119	237	cr_combi_region_pubjiwanpur	cr_combi_province_mutra_valley	cr_def_corsairs_of_spite	Pubjiwanpur	cai_region_hint_area_ind	官方	
-661	Ind	超凡帝国扩展（IEE）	穆塔谷	吉尔佳爪什神庙	罗阇宴宾	是	760.84	189.36	1139	245	cr_combi_region_temple_of_gilgadresh	cr_combi_province_mutra_valley	cr_emp_guests_of_the_raja	Temple of Gilgadresh	cai_region_hint_area_ind	官方	
-662	Ind	超凡帝国扩展（IEE）	穆塔谷	塞埠	恶怨私掠舰队		755.49	167.76	1131	217	cr_combi_region_bandaragha	cr_combi_province_mutra_valley	cr_def_corsairs_of_spite	Bandaragha	cai_region_hint_area_ind	官方	
-663	Ind	超凡帝国扩展（IEE）	蜥蜴海岸	乐律城	灾祸之子		699.38	144.62	1047	187	cr_combi_region_tarangnagar	cr_combi_province_lizard_coast	cr_chs_the_scourgeborn	Tarangnagar	cai_region_hint_area_ind	官方	
-664	Ind	超凡帝国扩展（IEE）	蜥蜴海岸	光曜都	千掠卡欣特		705.39	187.43	1056	243	cr_combi_region_suryapuri	cr_combi_province_lizard_coast	cr_lzd_one_hundred_thousand	Suryapuri	cai_region_hint_area_ind	官方	
-665	Ind	超凡帝国扩展（IEE）	蜥蜴海岸	梵寰神庙	千掠卡欣特	是	720.09	204.40	1078	265	cr_combi_region_temple_of_brahmir	cr_combi_province_lizard_coast	cr_lzd_one_hundred_thousand	Temple of Brahmir	cai_region_hint_area_ind	官方	黑暗要塞基址
-666	Ind	超凡帝国扩展（IEE）	血度母三角洲	多壑之地	无主（废墟）		784.22	242.20	1174	314	cr_combi_region_bistdarah	cr_combi_province_raktadevi_delta		Bistdarah	cai_region_hint_area_ind	官方	
-667	Ind	超凡帝国扩展（IEE）	血度母三角洲	度母之悯	罗阇宴宾		780.88	218.67	1169	283	cr_combi_region_matrdayam	cr_combi_province_raktadevi_delta	cr_emp_guests_of_the_raja	Matrdayam	cai_region_hint_area_ind	官方	
-668	Ind	超凡帝国扩展（IEE）	血度母三角洲	桑纳及里	罗阇宴宾	是	794.24	221.76	1189	287	cr_combi_region_somnagiri	cr_combi_province_raktadevi_delta	cr_emp_guests_of_the_raja	Somnagiri	cai_region_hint_area_ind	官方	
-669	Ind	超凡帝国扩展（IEE）	迷雾森林	禅思林	莲座夜叉	是	724.10	176.63	1084	229	cr_combi_region_aranyas_glade	cr_combi_province_forest_of_mists	cr_wef_lotus_flower	Aranya's Glade	cai_region_hint_area_ind	官方	
-670	Ind	超凡帝国扩展（IEE）	金饶岸	烬城	罗阇宴宾	是	781.54	203.63	1170	264	cr_combi_region_raakhse	cr_combi_province_upajao_tat	cr_emp_guests_of_the_raja	Raakhse	cai_region_hint_area_ind	官方	
-671	Ind	超凡帝国扩展（IEE）	金饶岸	集贤林	恶怨私掠舰队		776.20	174.32	1162	226	cr_combi_region_vrindavanis	cr_combi_province_upajao_tat	cr_def_corsairs_of_spite	Vrindavanis	cai_region_hint_area_ind	官方	
-672	Ind	超凡帝国扩展（IEE）	雄狮屿	巨狮盘踞处	灾祸之子	是	690.03	131.51	1033	170	cr_combi_region_lions_den	cr_combi_province_isle_of_lions	cr_chs_the_scourgeborn	The Lion's Den	cai_region_hint_area_ind	官方	
-673	Ind	超凡帝国扩展（IEE）	雄狮屿	羅睺計都巨石碑	灾祸之子		691.37	104.51	1035	135	cr_combi_region_monolith_of_rahuketu	cr_combi_province_isle_of_lions	cr_chs_the_scourgeborn	Monolith of Rahuketu	cai_region_hint_area_ind	官方	
-674	Ind	超凡帝国扩展（IEE）	香料之路	尖刺之城	寻星者		714.75	292.33	1070	379	cr_combi_region_city_of_spires	cr_combi_province_the_spice_route	cr_hef_the_starguided	City of Spires	cai_region_hint_area_ind	官方	
-675	Ind	超凡帝国扩展（IEE）	香料之路	月涟	烂脓氏族	是	744.14	265.34	1114	344	cr_combi_region_chandrahara	cr_combi_province_the_spice_route	cr_skv_clan_festerlingus	Chandrahara	cai_region_hint_area_ind	官方	
-676	Ind	超凡帝国扩展（IEE）	香料之路	水度母邦	骸骨勘矿队		732.78	247.21	1097	320	cr_combi_region_varindapur	cr_combi_province_the_spice_route	cr_chd_skullstack	Varindapur	cai_region_hint_area_ind	官方	
-677	Ind	超凡帝国扩展（IEE）	香料之路	猴王群屿	骸骨勘矿队		692.70	227.93	1037	295	cr_combi_region_isles_of_the_monkey_king	cr_combi_province_the_spice_route	cr_chd_skullstack	Isles of the Monkey King	cai_region_hint_area_ind	官方	
-678	Ind	超凡帝国扩展（IEE）	黑井平台	守岩峡	骸骨勘矿队	是	629.91	211.73	943	274	cr_combi_region_ungvarrskarr	cr_combi_province_black_field	cr_chd_skullstack	Ungvarrskarr	cai_region_hint_area_ind	官方	
-679	Khosun	超凡帝国扩展（IEE）	东台关	东台塞	铁狼	是	974.59	537.23	1459	696	cr_combi_region_fort_dongdae	cr_combi_province_dongdae_pass	cr_chs_iron_wolves	Fort Dongdae	cai_region_hint_area_khosun	官方	
-680	Khosun	超凡帝国扩展（IEE）	佰府	天境	天授黜君		929.84	450.45	1392	584	cr_combi_region_haneuri	cr_combi_province_hundred_counties	cr_cth_the_chosen	Haneuri	cai_region_hint_area_khosun	官方	
-681	Khosun	超凡帝国扩展（IEE）	佰府	天授	天授黜君	是	953.89	442.74	1428	574	cr_combi_region_cheonsu	cr_combi_province_hundred_counties	cr_cth_the_chosen	Cheonsu	cai_region_hint_area_khosun	官方	
-682	Khosun	超凡帝国扩展（IEE）	佰府	渊清	天授黜君		948.54	468.19	1420	607	cr_combi_region_yeoncheong	cr_combi_province_hundred_counties	cr_cth_the_chosen	Yeoncheong	cai_region_hint_area_khosun	官方	
-683	Khosun	超凡帝国扩展（IEE）	佰府	都梁	天授黜君		966.58	450.84	1447	584	cr_combi_region_doryang	cr_combi_province_hundred_counties	cr_cth_the_chosen	Doryang	cai_region_hint_area_khosun	官方	
-684	Khosun	超凡帝国扩展（IEE）	南皋鲜	宁楼	莉安拉斯家族		963.24	414.97	1442	538	cr_combi_region_tower_of_tranquility	cr_combi_province_nam_khosun	cr_hef_clan_lianllach	Tower of Tranquility	cai_region_hint_area_khosun	官方	
-685	Khosun	超凡帝国扩展（IEE）	南皋鲜	明村	莉安拉斯家族	是	946.54	424.61	1417	550	cr_combi_region_miryangjin	cr_combi_province_nam_khosun	cr_hef_clan_lianllach	Myeongchon	cai_region_hint_area_khosun	官方	
-686	Khosun	超凡帝国扩展（IEE）	南皋鲜	海城	莉安拉斯家族		932.51	408.03	1396	529	cr_combi_region_haeseong	cr_combi_province_nam_khosun	cr_hef_clan_lianllach	Haeseong	cai_region_hint_area_khosun	官方	
-687	Khosun	超凡帝国扩展（IEE）	密阳岛	暮辉麓	天授黜君	是	955.89	484.01	1431	627	cr_combi_region_hwimorok	cr_combi_province_miryang_isle	cr_cth_the_chosen	Hwimorok	cai_region_hint_area_khosun	官方	
-688	Khosun	超凡帝国扩展（IEE）	延皓山	宁世泷	勘日氏族		915.81	529.51	1371	686	cr_combi_region_nyeongse_falls	cr_combi_province_yeonho_mountains	cr_dwf_clan_narazdrek	Nyeongse Falls	cai_region_hint_area_khosun	官方	
-689	Khosun	超凡帝国扩展（IEE）	延皓山	新塘	勘日氏族		960.57	540.70	1438	701	cr_combi_region_sindaeng	cr_combi_province_yeonho_mountains	cr_dwf_clan_narazdrek	Sindaeng	cai_region_hint_area_khosun	官方	
-690	Khosun	超凡帝国扩展（IEE）	延皓山	白山	勘日氏族	是	948.54	523.73	1420	679	cr_combi_region_mount_baeksan	cr_combi_province_yeonho_mountains	cr_dwf_clan_narazdrek	Mount Baeksan	cai_region_hint_area_khosun	官方	黑暗要塞基址
-691	Khosun	超凡帝国扩展（IEE）	白发断	北岘	恐之主子嗣	是	934.51	477.84	1399	619	cr_combi_region_bukhyeon	cr_combi_province_ruins_of_baegbal	wh3_main_kho_karneths_sons	Bukhyeon	cai_region_hint_area_khosun	官方	
-692	Khosun	超凡帝国扩展（IEE）	白发断	虎境	恐之主子嗣		937.85	505.99	1404	656	cr_combi_region_beomgyeong	cr_combi_province_ruins_of_baegbal	wh3_main_kho_karneths_sons	Beomgyeong	cai_region_hint_area_khosun	官方	
-693	Khosun	超凡帝国扩展（IEE）	西苑关	西苑塞	恐之主子嗣	是	923.83	518.72	1383	672	cr_combi_region_fort_seowon	cr_combi_province_seowon_pass	wh3_main_kho_karneths_sons	Fort Seowon	cai_region_hint_area_khosun	官方	
-694	Khosun	超凡帝国扩展（IEE）	西进关	西进塞	黑狼氏族	是	930.51	533.37	1393	691	cr_combi_region_fort_seojin	cr_combi_province_seojin_pass	cr_grn_blackwolf_clan	Fort Seojin	cai_region_hint_area_khosun	官方	
-695	Khosun	超凡帝国扩展（IEE）	迷域伦布里亚	海伦德尔	碎壳者		1033.38	403.79	1547	523	cr_combi_region_lumbria_1_2	cr_combi_province_lumbria_1	cr_ogr_shellcrackers	Haelen'dur		就近推定	
-696	Khosun	超凡帝国扩展（IEE）	迷域伦布里亚	砂莱	碎壳者	是	1015.34	396.46	1520	514	cr_combi_region_lumbria_1_1	cr_combi_province_lumbria_1	cr_ogr_shellcrackers	Qal-Sherai		就近推定	
-697	Khosun	超凡帝国扩展（IEE）	迷域伦布里亚	维科鲁	碎壳者		1033.38	388.36	1547	503	cr_combi_region_lumbria_1_3	cr_combi_province_lumbria_1	cr_ogr_shellcrackers	Vey-Koru		就近推定	
-698	Khosun	超凡帝国扩展（IEE）	黄陆	立天险峰	画皮教派	是	976.60	483.62	1462	627	cr_combi_region_mount_haneulja	cr_combi_province_noleu_highlands	cr_chs_po_hai	Mount Haneulbong	cai_region_hint_area_khosun	官方	黑暗要塞基址
-699	Khosun	超凡帝国扩展（IEE）	黄陆	高台	画皮教派		979.94	453.92	1467	588	cr_combi_region_godae	cr_combi_province_noleu_highlands	cr_chs_po_hai	Godae	cai_region_hint_area_khosun	官方	
-700	Khosun	超凡帝国扩展（IEE）	黑洲	临江	画皮教派	是	989.96	508.30	1482	659	cr_combi_region_garami	cr_combi_province_heuk_delta	cr_chs_po_hai	Garami	cai_region_hint_area_khosun	官方	
-701	Khosun	超凡帝国扩展（IEE）	黑洲	月阳	画皮教派		991.29	534.53	1484	693	cr_combi_region_wolhae	cr_combi_province_heuk_delta	cr_chs_po_hai	Wolhae	cai_region_hint_area_khosun	官方	
-702	Khosun	超凡帝国扩展（IEE）	黑洲	杀魁	画皮教派		967.91	517.17	1449	670	cr_combi_region_salgoe	cr_combi_province_heuk_delta	cr_chs_po_hai	Salgoe	cai_region_hint_area_khosun	官方	
-703	Khuresh	超凡帝国扩展（IEE）	乐土之巅	普林	月后使臣		878.40	239.50	1315	310	cr_combi_region_preenn	cr_combi_province_paradise_spires	cr_cth_agents_of_the_moon	Preenn	cai_region_hint_area_khuresh	官方	
-704	Khuresh	超凡帝国扩展（IEE）	乐土之巅	阿瓦卡	蛇吻部落	是	860.37	234.48	1288	304	cr_combi_region_avauka	cr_combi_province_paradise_spires	cr_ogr_snakebiter_tribe	Avauka	cai_region_hint_area_khuresh	官方	
-705	Khuresh	超凡帝国扩展（IEE）	史兰之获	坦邦	低语群木		867.05	192.06	1298	249	cr_combi_region_tambang	cr_combi_province_slann_reap	cr_grn_speaking_trees	Tambang	cai_region_hint_area_khuresh	官方	
-706	Khuresh	超凡帝国扩展（IEE）	史兰之获	埃克西塔	阿斯霍兰卡后裔	是	870.39	173.16	1303	224	cr_combi_region_ekthita	cr_combi_province_slann_reap	cr_lzd_scions_of_xholankhas	Ekthita	cai_region_hint_area_khuresh	官方	
-707	Khuresh	超凡帝国扩展（IEE）	史兰之获	瑞坎	低语群木		877.07	206.33	1313	267	cr_combi_region_rekan	cr_combi_province_slann_reap	cr_grn_speaking_trees	Rekan	cai_region_hint_area_khuresh	官方	
-708	Khuresh	超凡帝国扩展（IEE）	噬人荒野	东陲荒洞	风暴之鸦		827.64	130.74	1239	169	cr_combi_region_caves_of_eystri_obygdir	cr_combi_province_biting_wilderness	cr_nor_stormravens	Caves of Eystri Obygdir	cai_region_hint_area_khuresh	官方	
-709	Khuresh	超凡帝国扩展（IEE）	噬人荒野	桑吉伦	罗什纵欲者		851.02	101.04	1274	131	cr_combi_region_sangirun	cr_combi_province_biting_wilderness	cr_sla_loeshs_indulgence	Sangirun	cai_region_hint_area_khuresh	官方	
-710	Khuresh	超凡帝国扩展（IEE）	噬人荒野	索乞纳	血色娜迦侍仆		854.36	139.22	1279	180	cr_combi_region_soglap	cr_combi_province_biting_wilderness	cr_kho_servants_of_the_blood_nagas	Soglap	cai_region_hint_area_khuresh	官方	
-711	Khuresh	超凡帝国扩展（IEE）	噬人荒野	虚妄圣所	罗什纵欲者	是	828.97	106.06	1241	137	cr_combi_region_sanctuary_of_lies	cr_combi_province_biting_wilderness	cr_sla_loeshs_indulgence	Sanctuary of Lies	cai_region_hint_area_khuresh	官方	
-712	Khuresh	超凡帝国扩展（IEE）	失落古圣之城	娜迦拉·伊什瓦	阿斯霍兰卡后裔	是	869.72	159.66	1302	207	cr_combi_region_nagara_ishsva	cr_combi_province_lost_city_of_the_old_ones	cr_lzd_scions_of_xholankhas	Nagara Ishsva	cai_region_hint_area_khuresh	官方	黑暗要塞基址
-713	Khuresh	超凡帝国扩展（IEE）	无际环沼	壑恩	腐朽之结		914.47	173.16	1369	224	cr_combi_region_hewn	cr_combi_province_great_enveloping_swamp	cr_cst_rotten_knot	Hewn	cai_region_hint_area_khuresh	官方	
-714	Khuresh	超凡帝国扩展（IEE）	无际环沼	桑马林	腐朽之结	是	916.48	191.29	1372	248	cr_combi_region_sanmal	cr_combi_province_great_enveloping_swamp	cr_cst_rotten_knot	Sanmal	cai_region_hint_area_khuresh	官方	
-715	Khuresh	超凡帝国扩展（IEE）	无际环沼	湄拓沼	腐朽之结		929.84	204.40	1392	265	cr_combi_region_mata_mire	cr_combi_province_great_enveloping_swamp	cr_cst_rotten_knot	Mata Mire	cai_region_hint_area_khuresh	官方	
-716	Khuresh	超凡帝国扩展（IEE）	灾变海岸	泥壤	风暴之鸦		810.27	156.19	1213	202	cr_combi_region_tanah_lic	cr_combi_province_coast_of_calamity	cr_nor_stormravens	Tanah Lic	cai_region_hint_area_khuresh	官方	
-717	Khuresh	超凡帝国扩展（IEE）	灾变海岸	玛来	风暴之鸦	是	792.90	130.74	1187	169	cr_combi_region_melay	cr_combi_province_coast_of_calamity	cr_nor_stormravens	Melay	cai_region_hint_area_khuresh	官方	黑暗要塞基址
-718	Khuresh	超凡帝国扩展（IEE）	灾变海岸	苏帕努西冯	风暴之鸦		841.66	150.41	1260	195	cr_combi_region_souphanousiphon	cr_combi_province_coast_of_calamity	cr_nor_stormravens	Souphanousiphon	cai_region_hint_area_khuresh	官方	
-719	Khuresh	超凡帝国扩展（IEE）	玛朗荒沙	佧萨	锐柯克氏族		875.73	92.94	1311	120	cr_combi_region_kasar	cr_combi_province_dunes_of_malang	cr_skv_clan_rikek	Kasar	cai_region_hint_area_khuresh	官方	
-720	Khuresh	超凡帝国扩展（IEE）	玛朗荒沙	贡普	利奥弗里克亲卫队		919.15	118.01	1376	153	cr_combi_region_kompot	cr_combi_province_dunes_of_malang	cr_brt_leofrics_fellowship	Kompot	cai_region_hint_area_khuresh	官方	
-721	Khuresh	超凡帝国扩展（IEE）	玛朗荒沙	锡澜	利奥弗里克亲卫队	是	890.43	108.37	1333	140	cr_combi_region_junkselon	cr_combi_province_dunes_of_malang	cr_brt_leofrics_fellowship	Junkselon	cai_region_hint_area_khuresh	官方	黑暗要塞基址
-722	Khuresh	超凡帝国扩展（IEE）	环域之境	三潘谷	蛇吻部落		812.27	186.66	1216	242	cr_combi_region_kuthen	cr_combi_province_the_girdled_grounds	cr_ogr_snakebiter_tribe	Sampanago	cai_region_hint_area_khuresh	官方	
-723	Khuresh	超凡帝国扩展（IEE）	环域之境	克里塞堡	罗阇宴宾		818.95	214.43	1226	278	cr_combi_region_fort_khryse	cr_combi_province_the_girdled_grounds	cr_emp_guests_of_the_raja	Fort Khryse	cai_region_hint_area_khuresh	官方	
-724	Khuresh	超凡帝国扩展（IEE）	环域之境	卡尔克萨	蛇吻部落		834.98	185.12	1250	240	cr_combi_region_carcosah	cr_combi_province_the_girdled_grounds	cr_ogr_snakebiter_tribe	Carcosah	cai_region_hint_area_khuresh	官方	
-725	Khuresh	超凡帝国扩展（IEE）	环域之境	挞贡	蛇吻部落	是	836.99	201.70	1253	261	cr_combi_region_dhaygon	cr_combi_province_the_girdled_grounds	cr_ogr_snakebiter_tribe	Dhaygon	cai_region_hint_area_khuresh	官方	黑暗要塞基址
-726	Khuresh	超凡帝国扩展（IEE）	缝缀平原	笼虎岛	锐柯克氏族		905.79	76.36	1356	99	cr_combi_region_tigercage_isle	cr_combi_province_sutured_plains	cr_skv_clan_rikek	Tigercage Isle	cai_region_hint_area_khuresh	官方	
-727	Khuresh	超凡帝国扩展（IEE）	缝缀平原	罗诺普拉	锐柯克氏族	是	862.37	72.89	1291	94	cr_combi_region_ronopura	cr_combi_province_sutured_plains	cr_skv_clan_rikek	Ronopura	cai_region_hint_area_khuresh	官方	黑暗要塞基址
-728	Khuresh	超凡帝国扩展（IEE）	缝缀平原	邦塔洛	锐柯克氏族		883.08	78.68	1322	102	cr_combi_region_bontallo	cr_combi_province_sutured_plains	cr_skv_clan_rikek	Bontallo	cai_region_hint_area_khuresh	官方	
-729	Khuresh	超凡帝国扩展（IEE）	缠梦林	萨图恩	魅魇狼马战兽群	是	844.34	122.64	1264	159	cr_combi_region_sartorn	cr_combi_province_dreaming_snarl	cr_bst_orobagor_warherd	Sartorn	cai_region_hint_area_khuresh	官方	黑暗要塞基址
-730	Khuresh	超凡帝国扩展（IEE）	缠陷边界	斯科恩盆地	低语群木	是	870.39	223.30	1303	289	cr_combi_region_skon_basin	cr_combi_province_boundary_tangle_of_snares	cr_grn_speaking_trees	Skon Basin	cai_region_hint_area_khuresh	官方	
-731	Khuresh	超凡帝国扩展（IEE）	落酸雨林	漆黑星阵	血色娜迦侍仆		891.09	128.81	1334	167	cr_combi_region_black_telemetron_array	cr_combi_province_raktadesa	cr_kho_servants_of_the_blood_nagas	Black Telemetron Array	cai_region_hint_area_khuresh	官方	
-732	Khuresh	超凡帝国扩展（IEE）	落酸雨林	纳空邦	血色娜迦侍仆	是	869.72	121.87	1302	158	cr_combi_region_naknakorn	cr_combi_province_raktadesa	cr_kho_servants_of_the_blood_nagas	Naknakorn	cai_region_hint_area_khuresh	官方	
-733	Khuresh	超凡帝国扩展（IEE）	蛮荒迷域	岱罗	月后使臣	是	893.77	236.03	1338	306	cr_combi_region_dai_loa	cr_combi_province_primal_labyrinth	cr_cth_agents_of_the_moon	Dai Loa	cai_region_hint_area_khuresh	官方	黑暗要塞基址
-734	Khuresh	超凡帝国扩展（IEE）	蛮荒迷域	莱洛	月后使臣		911.13	222.14	1364	288	cr_combi_region_leilou	cr_combi_province_primal_labyrinth	cr_cth_agents_of_the_moon	Leilou	cai_region_hint_area_khuresh	官方	
-735	Khuresh	超凡帝国扩展（IEE）	蛮荒迷域	隆尾	月后使臣		939.19	216.74	1406	281	cr_combi_region_long_vi	cr_combi_province_primal_labyrinth	cr_cth_agents_of_the_moon	Long Vi	cai_region_hint_area_khuresh	官方	
-736	Khuresh	超凡帝国扩展（IEE）	讥笑迷宫	席刹	阿斯霍兰卡后裔		892.43	169.69	1336	220	cr_combi_region_sipsaat	cr_combi_province_cackling_maze	cr_lzd_scions_of_xholankhas	Sipsaat	cai_region_hint_area_khuresh	官方	
-737	Khuresh	超凡帝国扩展（IEE）	讥笑迷宫	普雷维尔	低语群木	是	890.43	214.04	1333	277	cr_combi_region_preyveer	cr_combi_province_cackling_maze	cr_grn_speaking_trees	Preyveer	cai_region_hint_area_khuresh	官方	
-738	Khuresh	超凡帝国扩展（IEE）	讥笑迷宫	辛赛	低语群木		881.07	188.59	1319	244	cr_combi_region_sinsay	cr_combi_province_cackling_maze	cr_grn_speaking_trees	Sinsay	cai_region_hint_area_khuresh	官方	
-739	Khuresh	超凡帝国扩展（IEE）	贪噬沼泽	塔尔·赫伦纳尔	苦痛先遣军		935.18	136.52	1400	177	cr_combi_region_tor_hellenar	cr_combi_province_devouring_swamp	cr_def_harbingers_of_pain	Tor Hellenar	cai_region_hint_area_khuresh	官方	
-740	Khuresh	超凡帝国扩展（IEE）	贪噬沼泽	斐诺姆	阿斯霍兰卡后裔		899.78	146.17	1347	189	cr_combi_region_phenom	cr_combi_province_devouring_swamp	cr_lzd_scions_of_xholankhas	Phenom	cai_region_hint_area_khuresh	官方	
-741	Khuresh	超凡帝国扩展（IEE）	贪噬沼泽	莫拉克	苦痛先遣军	是	919.15	153.49	1376	199	cr_combi_region_morakot	cr_combi_province_devouring_swamp	cr_def_harbingers_of_pain	Morakot	cai_region_hint_area_khuresh	官方	黑暗要塞基址
-742	Khuresh	超凡帝国扩展（IEE）	辉光之链	三壑	罗什纵欲者	是	833.65	83.30	1248	108	cr_combi_region_santiaogou	cr_combi_province_glowing_chain	cr_sla_loeshs_indulgence	Santiaogou	cai_region_hint_area_khuresh	官方	
-743	Khuresh	超凡帝国扩展（IEE）	辉光之链	兰芳	罗什纵欲者		841.66	67.88	1260	88	cr_combi_region_lan_fang	cr_combi_province_glowing_chain	cr_sla_loeshs_indulgence	Lan Fang	cai_region_hint_area_khuresh	官方	
-744	Nippon	超凡帝国扩展（IEE）	净土	月落之塔	佩特拉之子		1047.40	172.01	1568	223	cr_combi_region_nippon_1_2	cr_combi_province_nippon_1	cr_tmb_sons_of_ptra	Tower of the Setting Moon	cai_region_hint_area_nippon	官方	
-745	Nippon	超凡帝国扩展（IEE）	净土	浮世	佩特拉之子	是	1032.71	147.32	1546	191	cr_combi_region_nippon_1_1	cr_combi_province_nippon_1	cr_tmb_sons_of_ptra	Ukiyo	cai_region_hint_area_nippon	官方	
-746	Nippon	超凡帝国扩展（IEE）	厚木州	故隠里	骷髅氏族	是	997.97	231.40	1494	300	cr_combi_region_nippon_2_1	cr_combi_province_nippon_2	cr_skv_clan_skully	Kokakurezato	cai_region_hint_area_nippon	官方	
-747	Nippon	超凡帝国扩展（IEE）	厚木州	谷矢城	骷髅氏族		991.96	258.78	1485	335	cr_combi_region_nippon_2_4	cr_combi_province_nippon_2	cr_skv_clan_skully	Taniyajo	cai_region_hint_area_nippon	官方	
-748	Nippon	超凡帝国扩展（IEE）	厚木州	鉄守	骷髅氏族		966.58	251.84	1447	326	cr_combi_region_nippon_2_2	cr_combi_province_nippon_2	cr_skv_clan_skully	Tetsu Fortress	cai_region_hint_area_nippon	官方	
-749	Nippon	超凡帝国扩展（IEE）	厚木州	静川	骷髅氏族		973.26	227.93	1457	295	cr_combi_region_nippon_2_3	cr_combi_province_nippon_2	cr_skv_clan_skully	Shizukawa	cai_region_hint_area_nippon	官方	
-750	Nippon	超凡帝国扩展（IEE）	古弥島	修気寺	清宝天尊信徒		981.27	284.23	1469	368	cr_combi_region_nippon_5_3	cr_combi_province_nippon_5	cr_tze_cult_of_tsien_tsin	Shuge Monastery	cai_region_hint_area_nippon	官方	
-751	Nippon	超凡帝国扩展（IEE）	古弥島	既知倶島	清宝天尊信徒		995.97	338.23	1491	438	cr_combi_region_nippon_5_2	cr_combi_province_nippon_5	cr_tze_cult_of_tsien_tsin	Kichikujima	cai_region_hint_area_nippon	官方	
-752	Nippon	超凡帝国扩展（IEE）	古弥島	邪見	清宝天尊信徒	是	982.61	304.29	1471	394	cr_combi_region_nippon_5_1	cr_combi_province_nippon_5	cr_tze_cult_of_tsien_tsin	Jakken	cai_region_hint_area_nippon	官方	黑暗要塞基址
-753	Nippon	超凡帝国扩展（IEE）	大現州	梅原	山陽氏		964.57	176.63	1444	229	cr_combi_region_nippon_3_3	cr_combi_province_nippon_3	cr_cth_sanyo_clan	Umehara	cai_region_hint_area_nippon	官方	
-754	Nippon	超凡帝国扩展（IEE）	大現州	海門	山陽氏		959.90	201.70	1437	261	cr_combi_region_nippon_3_2	cr_combi_province_nippon_3	cr_cth_sanyo_clan	Kaimon	cai_region_hint_area_nippon	官方	
-755	Nippon	超凡帝国扩展（IEE）	大現州	高須	山陽氏	是	1001.31	194.76	1499	252	cr_combi_region_nippon_3_1	cr_combi_province_nippon_3	cr_cth_sanyo_clan	Takasu	cai_region_hint_area_nippon	官方	
-756	Nippon	超凡帝国扩展（IEE）	嵐浜	大社	阳谋孙崽	是	1018.68	296.57	1525	384	cr_combi_region_nippon_9_1	cr_combi_province_nippon_9	cr_grn_rising_sunz	The Great Shrine	cai_region_hint_area_nippon	官方	
-757	Nippon	超凡帝国扩展（IEE）	嵐浜	風崖	阳谋孙崽		1018.01	273.82	1524	355	cr_combi_region_nippon_9_2	cr_combi_province_nippon_9	cr_grn_rising_sunz	Kazegake	cai_region_hint_area_nippon	官方	
-758	Nippon	超凡帝国扩展（IEE）	幽林	丸上	佩特拉之子		1020.02	166.22	1527	215	cr_combi_region_nippon_4_2	cr_combi_province_nippon_4	cr_tmb_sons_of_ptra	Marukami	cai_region_hint_area_nippon	官方	
-759	Nippon	超凡帝国扩展（IEE）	幽林	深森	斯特林亲族战兽群	是	986.62	168.53	1477	218	cr_combi_region_nippon_4_1	cr_combi_province_nippon_4	wh2_main_bst_skrinderkin	Fukamori	cai_region_hint_area_nippon	官方	
-760	Nippon	超凡帝国扩展（IEE）	御神森	御神木	奥本氏	是	1036.72	229.08	1552	297	cr_combi_region_nippon_7_1	cr_combi_province_nippon_7	cr_cth_okumoto_clan	The Sacred Tree	cai_region_hint_area_nippon	官方	
-761	Nippon	超凡帝国扩展（IEE）	故廷州	天阳神宫	奥本氏	是	1044.73	205.94	1564	267	cr_combi_region_nippon_6_1	cr_combi_province_nippon_6	cr_cth_okumoto_clan	Palace of the Divine Sun	cai_region_hint_area_nippon	官方	黑暗要塞基址
-762	Nippon	超凡帝国扩展（IEE）	故廷州	立波	奥本氏		1045.40	188.59	1565	244	cr_combi_region_nippon_6_2	cr_combi_province_nippon_6	cr_cth_okumoto_clan	Tatsuminato	cai_region_hint_area_nippon	官方	
-763	Nippon	超凡帝国扩展（IEE）	暑沢沼	溺里	奥本氏		1017.34	227.93	1523	295	cr_combi_region_nippon_8_2	cr_combi_province_nippon_8	cr_cth_okumoto_clan	Dekisato	cai_region_hint_area_nippon	官方	
-764	Nippon	超凡帝国扩展（IEE）	暑沢沼	足川	阳谋孙崽	是	1014.67	252.61	1519	327	cr_combi_region_nippon_8_1	cr_combi_province_nippon_8	cr_grn_rising_sunz	Asigawa	cai_region_hint_area_nippon	官方	
-765	Nippon	超凡帝国扩展（IEE）	鳴海	小間	莉安拉斯家族	是	960.57	374.86	1438	486	cr_combi_region_nippon_10_1	cr_combi_province_nippon_10	cr_hef_clan_lianllach	Koma	cai_region_hint_area_nippon	官方	
+647	东方精灵殖民领	超凡帝国扩展（IEE）	卡黎斯巨门	北部要塞	巨门守卫	是	858.36	51.29	1285	66	cr_combi_region_gates_of_calith_1	cr_combi_province_gates_of_calith	cr_hef_gate_guards	North Fortress	cai_region_hint_area_east_elf_colonies	官方	
+648	东方精灵殖民领	超凡帝国扩展（IEE）	卡黎斯巨门	南部要塞	巨门守卫		858.36	42.04	1285	54	cr_combi_region_gates_of_calith_2	cr_combi_province_gates_of_calith	cr_hef_gate_guards	South Fortress	cai_region_hint_area_east_elf_colonies	官方	
+649	东方精灵殖民领	超凡帝国扩展（IEE）	屿北	日升之塔	苦痛先遣军	是	982.61	126.88	1471	164	cr_combi_region_elithis_1_2	cr_combi_province_elithis_3	cr_def_harbingers_of_pain	Tower of the Rising Sun	cai_region_hint_area_east_elf_colonies	官方	
+650	东方精灵殖民领	超凡帝国扩展（IEE）	屿北	莉安拉斯前哨	苦痛先遣军		959.23	95.64	1436	124	cr_combi_region_elithis_1_3	cr_combi_province_elithis_3	cr_def_harbingers_of_pain	Lianllach Outpost	cai_region_hint_area_east_elf_colonies	官方	
+651	东方精灵殖民领	超凡帝国扩展（IEE）	艾利提斯之林	边远之地	塔尔·艾利提斯	是	1002.65	42.81	1501	55	cr_combi_region_elithis_2_1	cr_combi_province_elithis_2	cr_hef_tor_elithis	The Far Place	cai_region_hint_area_east_elf_colonies	官方	
+652	东方精灵殖民领	超凡帝国扩展（IEE）	艾利提斯失落群岛	塔尔·艾利提斯	塔尔·艾利提斯	是	963.91	38.18	1443	49	cr_combi_region_elithis_1_1	cr_combi_province_elithis_1	cr_hef_tor_elithis	Tor Elithis	cai_region_hint_area_east_elf_colonies	官方	
+653	东方精灵殖民领	超凡帝国扩展（IEE）	艾利提斯失落群岛	星尘港	塔尔·艾利提斯		988.62	17.74	1480	23	cr_combi_region_elithis_1_5	cr_combi_province_elithis_1	cr_hef_tor_elithis	Starsand Port	cai_region_hint_area_east_elf_colonies	官方	
+654	东方精灵殖民领	超凡帝国扩展（IEE）	艾利提斯失落群岛	星沉之塔	塔尔·艾利提斯		983.94	70.58	1473	91	cr_combi_region_elithis_1_4	cr_combi_province_elithis_1	cr_hef_tor_elithis	Tower of the Fallen Stars	cai_region_hint_area_east_elf_colonies	官方	
+655	印地	超凡帝国扩展（IEE）	千神之地	父愿之地	烂脓氏族		767.52	226.38	1149	293	cr_combi_region_pituhiccha	cr_combi_province_land_of_a_thousand_gods	cr_skv_clan_festerlingus	Pituhiccha	cai_region_hint_area_ind	官方	
+656	印地	超凡帝国扩展（IEE）	千神之地	真言村	骸骨勘矿队		742.13	226.38	1111	293	cr_combi_region_rtanagram	cr_combi_province_land_of_a_thousand_gods	cr_chd_skullstack	Rtanagram	cai_region_hint_area_ind	官方	
+657	印地	超凡帝国扩展（IEE）	千神之地	罗阇君城	烂脓氏族	是	772.19	259.94	1156	337	cr_combi_region_rajyapuram	cr_combi_province_land_of_a_thousand_gods	cr_skv_clan_festerlingus	Rajyapuram	cai_region_hint_area_ind	官方	
+658	印地	超凡帝国扩展（IEE）	秘言高原	地母村	食日者	是	734.12	166.99	1099	216	cr_combi_region_pridvarkar	cr_combi_province_ashasani_highlands	cr_ogr_suneaters	Pridvarkar	cai_region_hint_area_ind	官方	
+659	印地	超凡帝国扩展（IEE）	秘言高原	猴坛	食日者		747.48	209.41	1119	271	cr_combi_region_monkeys_altar	cr_combi_province_ashasani_highlands	cr_ogr_suneaters	Monkey's Altar	cai_region_hint_area_ind	官方	
+660	印地	超凡帝国扩展（IEE）	穆塔谷	东胜村	恶怨私掠舰队		747.48	183.19	1119	237	cr_combi_region_pubjiwanpur	cr_combi_province_mutra_valley	cr_def_corsairs_of_spite	Pubjiwanpur	cai_region_hint_area_ind	官方	
+661	印地	超凡帝国扩展（IEE）	穆塔谷	吉尔佳爪什神庙	罗阇宴宾	是	760.84	189.36	1139	245	cr_combi_region_temple_of_gilgadresh	cr_combi_province_mutra_valley	cr_emp_guests_of_the_raja	Temple of Gilgadresh	cai_region_hint_area_ind	官方	
+662	印地	超凡帝国扩展（IEE）	穆塔谷	塞埠	恶怨私掠舰队		755.49	167.76	1131	217	cr_combi_region_bandaragha	cr_combi_province_mutra_valley	cr_def_corsairs_of_spite	Bandaragha	cai_region_hint_area_ind	官方	
+663	印地	超凡帝国扩展（IEE）	蜥蜴海岸	乐律城	灾祸之子		699.38	144.62	1047	187	cr_combi_region_tarangnagar	cr_combi_province_lizard_coast	cr_chs_the_scourgeborn	Tarangnagar	cai_region_hint_area_ind	官方	
+664	印地	超凡帝国扩展（IEE）	蜥蜴海岸	光曜都	千掠卡欣特		705.39	187.43	1056	243	cr_combi_region_suryapuri	cr_combi_province_lizard_coast	cr_lzd_one_hundred_thousand	Suryapuri	cai_region_hint_area_ind	官方	
+665	印地	超凡帝国扩展（IEE）	蜥蜴海岸	梵寰神庙	千掠卡欣特	是	720.09	204.40	1078	265	cr_combi_region_temple_of_brahmir	cr_combi_province_lizard_coast	cr_lzd_one_hundred_thousand	Temple of Brahmir	cai_region_hint_area_ind	官方	黑暗要塞基址
+666	印地	超凡帝国扩展（IEE）	血度母三角洲	多壑之地	无主（废墟）		784.22	242.20	1174	314	cr_combi_region_bistdarah	cr_combi_province_raktadevi_delta		Bistdarah	cai_region_hint_area_ind	官方	
+667	印地	超凡帝国扩展（IEE）	血度母三角洲	度母之悯	罗阇宴宾		780.88	218.67	1169	283	cr_combi_region_matrdayam	cr_combi_province_raktadevi_delta	cr_emp_guests_of_the_raja	Matrdayam	cai_region_hint_area_ind	官方	
+668	印地	超凡帝国扩展（IEE）	血度母三角洲	桑纳及里	罗阇宴宾	是	794.24	221.76	1189	287	cr_combi_region_somnagiri	cr_combi_province_raktadevi_delta	cr_emp_guests_of_the_raja	Somnagiri	cai_region_hint_area_ind	官方	
+669	印地	超凡帝国扩展（IEE）	迷雾森林	禅思林	莲座夜叉	是	724.10	176.63	1084	229	cr_combi_region_aranyas_glade	cr_combi_province_forest_of_mists	cr_wef_lotus_flower	Aranya's Glade	cai_region_hint_area_ind	官方	
+670	印地	超凡帝国扩展（IEE）	金饶岸	烬城	罗阇宴宾	是	781.54	203.63	1170	264	cr_combi_region_raakhse	cr_combi_province_upajao_tat	cr_emp_guests_of_the_raja	Raakhse	cai_region_hint_area_ind	官方	
+671	印地	超凡帝国扩展（IEE）	金饶岸	集贤林	恶怨私掠舰队		776.20	174.32	1162	226	cr_combi_region_vrindavanis	cr_combi_province_upajao_tat	cr_def_corsairs_of_spite	Vrindavanis	cai_region_hint_area_ind	官方	
+672	印地	超凡帝国扩展（IEE）	雄狮屿	巨狮盘踞处	灾祸之子	是	690.03	131.51	1033	170	cr_combi_region_lions_den	cr_combi_province_isle_of_lions	cr_chs_the_scourgeborn	The Lion's Den	cai_region_hint_area_ind	官方	
+673	印地	超凡帝国扩展（IEE）	雄狮屿	羅睺計都巨石碑	灾祸之子		691.37	104.51	1035	135	cr_combi_region_monolith_of_rahuketu	cr_combi_province_isle_of_lions	cr_chs_the_scourgeborn	Monolith of Rahuketu	cai_region_hint_area_ind	官方	
+674	印地	超凡帝国扩展（IEE）	香料之路	尖刺之城	寻星者		714.75	292.33	1070	379	cr_combi_region_city_of_spires	cr_combi_province_the_spice_route	cr_hef_the_starguided	City of Spires	cai_region_hint_area_ind	官方	
+675	印地	超凡帝国扩展（IEE）	香料之路	月涟	烂脓氏族	是	744.14	265.34	1114	344	cr_combi_region_chandrahara	cr_combi_province_the_spice_route	cr_skv_clan_festerlingus	Chandrahara	cai_region_hint_area_ind	官方	
+676	印地	超凡帝国扩展（IEE）	香料之路	水度母邦	骸骨勘矿队		732.78	247.21	1097	320	cr_combi_region_varindapur	cr_combi_province_the_spice_route	cr_chd_skullstack	Varindapur	cai_region_hint_area_ind	官方	
+677	印地	超凡帝国扩展（IEE）	香料之路	猴王群屿	骸骨勘矿队		692.70	227.93	1037	295	cr_combi_region_isles_of_the_monkey_king	cr_combi_province_the_spice_route	cr_chd_skullstack	Isles of the Monkey King	cai_region_hint_area_ind	官方	
+678	印地	超凡帝国扩展（IEE）	黑井平台	守岩峡	骸骨勘矿队	是	629.91	211.73	943	274	cr_combi_region_ungvarrskarr	cr_combi_province_black_field	cr_chd_skullstack	Ungvarrskarr	cai_region_hint_area_ind	官方	
+679	皋鲜	超凡帝国扩展（IEE）	东台关	东台塞	铁狼	是	974.59	537.23	1459	696	cr_combi_region_fort_dongdae	cr_combi_province_dongdae_pass	cr_chs_iron_wolves	Fort Dongdae	cai_region_hint_area_khosun	官方	
+680	皋鲜	超凡帝国扩展（IEE）	佰府	天境	天授黜君		929.84	450.45	1392	584	cr_combi_region_haneuri	cr_combi_province_hundred_counties	cr_cth_the_chosen	Haneuri	cai_region_hint_area_khosun	官方	
+681	皋鲜	超凡帝国扩展（IEE）	佰府	天授	天授黜君	是	953.89	442.74	1428	574	cr_combi_region_cheonsu	cr_combi_province_hundred_counties	cr_cth_the_chosen	Cheonsu	cai_region_hint_area_khosun	官方	
+682	皋鲜	超凡帝国扩展（IEE）	佰府	渊清	天授黜君		948.54	468.19	1420	607	cr_combi_region_yeoncheong	cr_combi_province_hundred_counties	cr_cth_the_chosen	Yeoncheong	cai_region_hint_area_khosun	官方	
+683	皋鲜	超凡帝国扩展（IEE）	佰府	都梁	天授黜君		966.58	450.84	1447	584	cr_combi_region_doryang	cr_combi_province_hundred_counties	cr_cth_the_chosen	Doryang	cai_region_hint_area_khosun	官方	
+684	皋鲜	超凡帝国扩展（IEE）	南皋鲜	宁楼	莉安拉斯家族		963.24	414.97	1442	538	cr_combi_region_tower_of_tranquility	cr_combi_province_nam_khosun	cr_hef_clan_lianllach	Tower of Tranquility	cai_region_hint_area_khosun	官方	
+685	皋鲜	超凡帝国扩展（IEE）	南皋鲜	明村	莉安拉斯家族	是	946.54	424.61	1417	550	cr_combi_region_miryangjin	cr_combi_province_nam_khosun	cr_hef_clan_lianllach	Myeongchon	cai_region_hint_area_khosun	官方	
+686	皋鲜	超凡帝国扩展（IEE）	南皋鲜	海城	莉安拉斯家族		932.51	408.03	1396	529	cr_combi_region_haeseong	cr_combi_province_nam_khosun	cr_hef_clan_lianllach	Haeseong	cai_region_hint_area_khosun	官方	
+687	皋鲜	超凡帝国扩展（IEE）	密阳岛	暮辉麓	天授黜君	是	955.89	484.01	1431	627	cr_combi_region_hwimorok	cr_combi_province_miryang_isle	cr_cth_the_chosen	Hwimorok	cai_region_hint_area_khosun	官方	
+688	皋鲜	超凡帝国扩展（IEE）	延皓山	宁世泷	勘日氏族		915.81	529.51	1371	686	cr_combi_region_nyeongse_falls	cr_combi_province_yeonho_mountains	cr_dwf_clan_narazdrek	Nyeongse Falls	cai_region_hint_area_khosun	官方	
+689	皋鲜	超凡帝国扩展（IEE）	延皓山	新塘	勘日氏族		960.57	540.70	1438	701	cr_combi_region_sindaeng	cr_combi_province_yeonho_mountains	cr_dwf_clan_narazdrek	Sindaeng	cai_region_hint_area_khosun	官方	
+690	皋鲜	超凡帝国扩展（IEE）	延皓山	白山	勘日氏族	是	948.54	523.73	1420	679	cr_combi_region_mount_baeksan	cr_combi_province_yeonho_mountains	cr_dwf_clan_narazdrek	Mount Baeksan	cai_region_hint_area_khosun	官方	黑暗要塞基址
+691	皋鲜	超凡帝国扩展（IEE）	白发断	北岘	恐之主子嗣	是	934.51	477.84	1399	619	cr_combi_region_bukhyeon	cr_combi_province_ruins_of_baegbal	wh3_main_kho_karneths_sons	Bukhyeon	cai_region_hint_area_khosun	官方	
+692	皋鲜	超凡帝国扩展（IEE）	白发断	虎境	恐之主子嗣		937.85	505.99	1404	656	cr_combi_region_beomgyeong	cr_combi_province_ruins_of_baegbal	wh3_main_kho_karneths_sons	Beomgyeong	cai_region_hint_area_khosun	官方	
+693	皋鲜	超凡帝国扩展（IEE）	西苑关	西苑塞	恐之主子嗣	是	923.83	518.72	1383	672	cr_combi_region_fort_seowon	cr_combi_province_seowon_pass	wh3_main_kho_karneths_sons	Fort Seowon	cai_region_hint_area_khosun	官方	
+694	皋鲜	超凡帝国扩展（IEE）	西进关	西进塞	黑狼氏族	是	930.51	533.37	1393	691	cr_combi_region_fort_seojin	cr_combi_province_seojin_pass	cr_grn_blackwolf_clan	Fort Seojin	cai_region_hint_area_khosun	官方	
+695	皋鲜	超凡帝国扩展（IEE）	迷域伦布里亚	海伦德尔	碎壳者		1033.38	403.79	1547	523	cr_combi_region_lumbria_1_2	cr_combi_province_lumbria_1	cr_ogr_shellcrackers	Haelen'dur		就近推定	
+696	皋鲜	超凡帝国扩展（IEE）	迷域伦布里亚	砂莱	碎壳者	是	1015.34	396.46	1520	514	cr_combi_region_lumbria_1_1	cr_combi_province_lumbria_1	cr_ogr_shellcrackers	Qal-Sherai		就近推定	
+697	皋鲜	超凡帝国扩展（IEE）	迷域伦布里亚	维科鲁	碎壳者		1033.38	388.36	1547	503	cr_combi_region_lumbria_1_3	cr_combi_province_lumbria_1	cr_ogr_shellcrackers	Vey-Koru		就近推定	
+698	皋鲜	超凡帝国扩展（IEE）	黄陆	立天险峰	画皮教派	是	976.60	483.62	1462	627	cr_combi_region_mount_haneulja	cr_combi_province_noleu_highlands	cr_chs_po_hai	Mount Haneulbong	cai_region_hint_area_khosun	官方	黑暗要塞基址
+699	皋鲜	超凡帝国扩展（IEE）	黄陆	高台	画皮教派		979.94	453.92	1467	588	cr_combi_region_godae	cr_combi_province_noleu_highlands	cr_chs_po_hai	Godae	cai_region_hint_area_khosun	官方	
+700	皋鲜	超凡帝国扩展（IEE）	黑洲	临江	画皮教派	是	989.96	508.30	1482	659	cr_combi_region_garami	cr_combi_province_heuk_delta	cr_chs_po_hai	Garami	cai_region_hint_area_khosun	官方	
+701	皋鲜	超凡帝国扩展（IEE）	黑洲	月阳	画皮教派		991.29	534.53	1484	693	cr_combi_region_wolhae	cr_combi_province_heuk_delta	cr_chs_po_hai	Wolhae	cai_region_hint_area_khosun	官方	
+702	皋鲜	超凡帝国扩展（IEE）	黑洲	杀魁	画皮教派		967.91	517.17	1449	670	cr_combi_region_salgoe	cr_combi_province_heuk_delta	cr_chs_po_hai	Salgoe	cai_region_hint_area_khosun	官方	
+703	库里什	超凡帝国扩展（IEE）	乐土之巅	普林	月后使臣		878.40	239.50	1315	310	cr_combi_region_preenn	cr_combi_province_paradise_spires	cr_cth_agents_of_the_moon	Preenn	cai_region_hint_area_khuresh	官方	
+704	库里什	超凡帝国扩展（IEE）	乐土之巅	阿瓦卡	蛇吻部落	是	860.37	234.48	1288	304	cr_combi_region_avauka	cr_combi_province_paradise_spires	cr_ogr_snakebiter_tribe	Avauka	cai_region_hint_area_khuresh	官方	
+705	库里什	超凡帝国扩展（IEE）	史兰之获	坦邦	低语群木		867.05	192.06	1298	249	cr_combi_region_tambang	cr_combi_province_slann_reap	cr_grn_speaking_trees	Tambang	cai_region_hint_area_khuresh	官方	
+706	库里什	超凡帝国扩展（IEE）	史兰之获	埃克西塔	阿斯霍兰卡后裔	是	870.39	173.16	1303	224	cr_combi_region_ekthita	cr_combi_province_slann_reap	cr_lzd_scions_of_xholankhas	Ekthita	cai_region_hint_area_khuresh	官方	
+707	库里什	超凡帝国扩展（IEE）	史兰之获	瑞坎	低语群木		877.07	206.33	1313	267	cr_combi_region_rekan	cr_combi_province_slann_reap	cr_grn_speaking_trees	Rekan	cai_region_hint_area_khuresh	官方	
+708	库里什	超凡帝国扩展（IEE）	噬人荒野	东陲荒洞	风暴之鸦		827.64	130.74	1239	169	cr_combi_region_caves_of_eystri_obygdir	cr_combi_province_biting_wilderness	cr_nor_stormravens	Caves of Eystri Obygdir	cai_region_hint_area_khuresh	官方	
+709	库里什	超凡帝国扩展（IEE）	噬人荒野	桑吉伦	罗什纵欲者		851.02	101.04	1274	131	cr_combi_region_sangirun	cr_combi_province_biting_wilderness	cr_sla_loeshs_indulgence	Sangirun	cai_region_hint_area_khuresh	官方	
+710	库里什	超凡帝国扩展（IEE）	噬人荒野	索乞纳	血色娜迦侍仆		854.36	139.22	1279	180	cr_combi_region_soglap	cr_combi_province_biting_wilderness	cr_kho_servants_of_the_blood_nagas	Soglap	cai_region_hint_area_khuresh	官方	
+711	库里什	超凡帝国扩展（IEE）	噬人荒野	虚妄圣所	罗什纵欲者	是	828.97	106.06	1241	137	cr_combi_region_sanctuary_of_lies	cr_combi_province_biting_wilderness	cr_sla_loeshs_indulgence	Sanctuary of Lies	cai_region_hint_area_khuresh	官方	
+712	库里什	超凡帝国扩展（IEE）	失落古圣之城	娜迦拉·伊什瓦	阿斯霍兰卡后裔	是	869.72	159.66	1302	207	cr_combi_region_nagara_ishsva	cr_combi_province_lost_city_of_the_old_ones	cr_lzd_scions_of_xholankhas	Nagara Ishsva	cai_region_hint_area_khuresh	官方	黑暗要塞基址
+713	库里什	超凡帝国扩展（IEE）	无际环沼	壑恩	腐朽之结		914.47	173.16	1369	224	cr_combi_region_hewn	cr_combi_province_great_enveloping_swamp	cr_cst_rotten_knot	Hewn	cai_region_hint_area_khuresh	官方	
+714	库里什	超凡帝国扩展（IEE）	无际环沼	桑马林	腐朽之结	是	916.48	191.29	1372	248	cr_combi_region_sanmal	cr_combi_province_great_enveloping_swamp	cr_cst_rotten_knot	Sanmal	cai_region_hint_area_khuresh	官方	
+715	库里什	超凡帝国扩展（IEE）	无际环沼	湄拓沼	腐朽之结		929.84	204.40	1392	265	cr_combi_region_mata_mire	cr_combi_province_great_enveloping_swamp	cr_cst_rotten_knot	Mata Mire	cai_region_hint_area_khuresh	官方	
+716	库里什	超凡帝国扩展（IEE）	灾变海岸	泥壤	风暴之鸦		810.27	156.19	1213	202	cr_combi_region_tanah_lic	cr_combi_province_coast_of_calamity	cr_nor_stormravens	Tanah Lic	cai_region_hint_area_khuresh	官方	
+717	库里什	超凡帝国扩展（IEE）	灾变海岸	玛来	风暴之鸦	是	792.90	130.74	1187	169	cr_combi_region_melay	cr_combi_province_coast_of_calamity	cr_nor_stormravens	Melay	cai_region_hint_area_khuresh	官方	黑暗要塞基址
+718	库里什	超凡帝国扩展（IEE）	灾变海岸	苏帕努西冯	风暴之鸦		841.66	150.41	1260	195	cr_combi_region_souphanousiphon	cr_combi_province_coast_of_calamity	cr_nor_stormravens	Souphanousiphon	cai_region_hint_area_khuresh	官方	
+719	库里什	超凡帝国扩展（IEE）	玛朗荒沙	佧萨	锐柯克氏族		875.73	92.94	1311	120	cr_combi_region_kasar	cr_combi_province_dunes_of_malang	cr_skv_clan_rikek	Kasar	cai_region_hint_area_khuresh	官方	
+720	库里什	超凡帝国扩展（IEE）	玛朗荒沙	贡普	利奥弗里克亲卫队		919.15	118.01	1376	153	cr_combi_region_kompot	cr_combi_province_dunes_of_malang	cr_brt_leofrics_fellowship	Kompot	cai_region_hint_area_khuresh	官方	
+721	库里什	超凡帝国扩展（IEE）	玛朗荒沙	锡澜	利奥弗里克亲卫队	是	890.43	108.37	1333	140	cr_combi_region_junkselon	cr_combi_province_dunes_of_malang	cr_brt_leofrics_fellowship	Junkselon	cai_region_hint_area_khuresh	官方	黑暗要塞基址
+722	库里什	超凡帝国扩展（IEE）	环域之境	三潘谷	蛇吻部落		812.27	186.66	1216	242	cr_combi_region_kuthen	cr_combi_province_the_girdled_grounds	cr_ogr_snakebiter_tribe	Sampanago	cai_region_hint_area_khuresh	官方	
+723	库里什	超凡帝国扩展（IEE）	环域之境	克里塞堡	罗阇宴宾		818.95	214.43	1226	278	cr_combi_region_fort_khryse	cr_combi_province_the_girdled_grounds	cr_emp_guests_of_the_raja	Fort Khryse	cai_region_hint_area_khuresh	官方	
+724	库里什	超凡帝国扩展（IEE）	环域之境	卡尔克萨	蛇吻部落		834.98	185.12	1250	240	cr_combi_region_carcosah	cr_combi_province_the_girdled_grounds	cr_ogr_snakebiter_tribe	Carcosah	cai_region_hint_area_khuresh	官方	
+725	库里什	超凡帝国扩展（IEE）	环域之境	挞贡	蛇吻部落	是	836.99	201.70	1253	261	cr_combi_region_dhaygon	cr_combi_province_the_girdled_grounds	cr_ogr_snakebiter_tribe	Dhaygon	cai_region_hint_area_khuresh	官方	黑暗要塞基址
+726	库里什	超凡帝国扩展（IEE）	缝缀平原	笼虎岛	锐柯克氏族		905.79	76.36	1356	99	cr_combi_region_tigercage_isle	cr_combi_province_sutured_plains	cr_skv_clan_rikek	Tigercage Isle	cai_region_hint_area_khuresh	官方	
+727	库里什	超凡帝国扩展（IEE）	缝缀平原	罗诺普拉	锐柯克氏族	是	862.37	72.89	1291	94	cr_combi_region_ronopura	cr_combi_province_sutured_plains	cr_skv_clan_rikek	Ronopura	cai_region_hint_area_khuresh	官方	黑暗要塞基址
+728	库里什	超凡帝国扩展（IEE）	缝缀平原	邦塔洛	锐柯克氏族		883.08	78.68	1322	102	cr_combi_region_bontallo	cr_combi_province_sutured_plains	cr_skv_clan_rikek	Bontallo	cai_region_hint_area_khuresh	官方	
+729	库里什	超凡帝国扩展（IEE）	缠梦林	萨图恩	魅魇狼马战兽群	是	844.34	122.64	1264	159	cr_combi_region_sartorn	cr_combi_province_dreaming_snarl	cr_bst_orobagor_warherd	Sartorn	cai_region_hint_area_khuresh	官方	黑暗要塞基址
+730	库里什	超凡帝国扩展（IEE）	缠陷边界	斯科恩盆地	低语群木	是	870.39	223.30	1303	289	cr_combi_region_skon_basin	cr_combi_province_boundary_tangle_of_snares	cr_grn_speaking_trees	Skon Basin	cai_region_hint_area_khuresh	官方	
+731	库里什	超凡帝国扩展（IEE）	落酸雨林	漆黑星阵	血色娜迦侍仆		891.09	128.81	1334	167	cr_combi_region_black_telemetron_array	cr_combi_province_raktadesa	cr_kho_servants_of_the_blood_nagas	Black Telemetron Array	cai_region_hint_area_khuresh	官方	
+732	库里什	超凡帝国扩展（IEE）	落酸雨林	纳空邦	血色娜迦侍仆	是	869.72	121.87	1302	158	cr_combi_region_naknakorn	cr_combi_province_raktadesa	cr_kho_servants_of_the_blood_nagas	Naknakorn	cai_region_hint_area_khuresh	官方	
+733	库里什	超凡帝国扩展（IEE）	蛮荒迷域	岱罗	月后使臣	是	893.77	236.03	1338	306	cr_combi_region_dai_loa	cr_combi_province_primal_labyrinth	cr_cth_agents_of_the_moon	Dai Loa	cai_region_hint_area_khuresh	官方	黑暗要塞基址
+734	库里什	超凡帝国扩展（IEE）	蛮荒迷域	莱洛	月后使臣		911.13	222.14	1364	288	cr_combi_region_leilou	cr_combi_province_primal_labyrinth	cr_cth_agents_of_the_moon	Leilou	cai_region_hint_area_khuresh	官方	
+735	库里什	超凡帝国扩展（IEE）	蛮荒迷域	隆尾	月后使臣		939.19	216.74	1406	281	cr_combi_region_long_vi	cr_combi_province_primal_labyrinth	cr_cth_agents_of_the_moon	Long Vi	cai_region_hint_area_khuresh	官方	
+736	库里什	超凡帝国扩展（IEE）	讥笑迷宫	席刹	阿斯霍兰卡后裔		892.43	169.69	1336	220	cr_combi_region_sipsaat	cr_combi_province_cackling_maze	cr_lzd_scions_of_xholankhas	Sipsaat	cai_region_hint_area_khuresh	官方	
+737	库里什	超凡帝国扩展（IEE）	讥笑迷宫	普雷维尔	低语群木	是	890.43	214.04	1333	277	cr_combi_region_preyveer	cr_combi_province_cackling_maze	cr_grn_speaking_trees	Preyveer	cai_region_hint_area_khuresh	官方	
+738	库里什	超凡帝国扩展（IEE）	讥笑迷宫	辛赛	低语群木		881.07	188.59	1319	244	cr_combi_region_sinsay	cr_combi_province_cackling_maze	cr_grn_speaking_trees	Sinsay	cai_region_hint_area_khuresh	官方	
+739	库里什	超凡帝国扩展（IEE）	贪噬沼泽	塔尔·赫伦纳尔	苦痛先遣军		935.18	136.52	1400	177	cr_combi_region_tor_hellenar	cr_combi_province_devouring_swamp	cr_def_harbingers_of_pain	Tor Hellenar	cai_region_hint_area_khuresh	官方	
+740	库里什	超凡帝国扩展（IEE）	贪噬沼泽	斐诺姆	阿斯霍兰卡后裔		899.78	146.17	1347	189	cr_combi_region_phenom	cr_combi_province_devouring_swamp	cr_lzd_scions_of_xholankhas	Phenom	cai_region_hint_area_khuresh	官方	
+741	库里什	超凡帝国扩展（IEE）	贪噬沼泽	莫拉克	苦痛先遣军	是	919.15	153.49	1376	199	cr_combi_region_morakot	cr_combi_province_devouring_swamp	cr_def_harbingers_of_pain	Morakot	cai_region_hint_area_khuresh	官方	黑暗要塞基址
+742	库里什	超凡帝国扩展（IEE）	辉光之链	三壑	罗什纵欲者	是	833.65	83.30	1248	108	cr_combi_region_santiaogou	cr_combi_province_glowing_chain	cr_sla_loeshs_indulgence	Santiaogou	cai_region_hint_area_khuresh	官方	
+743	库里什	超凡帝国扩展（IEE）	辉光之链	兰芳	罗什纵欲者		841.66	67.88	1260	88	cr_combi_region_lan_fang	cr_combi_province_glowing_chain	cr_sla_loeshs_indulgence	Lan Fang	cai_region_hint_area_khuresh	官方	
+744	尼朋	超凡帝国扩展（IEE）	净土	月落之塔	佩特拉之子		1047.40	172.01	1568	223	cr_combi_region_nippon_1_2	cr_combi_province_nippon_1	cr_tmb_sons_of_ptra	Tower of the Setting Moon	cai_region_hint_area_nippon	官方	
+745	尼朋	超凡帝国扩展（IEE）	净土	浮世	佩特拉之子	是	1032.71	147.32	1546	191	cr_combi_region_nippon_1_1	cr_combi_province_nippon_1	cr_tmb_sons_of_ptra	Ukiyo	cai_region_hint_area_nippon	官方	
+746	尼朋	超凡帝国扩展（IEE）	厚木州	故隠里	骷髅氏族	是	997.97	231.40	1494	300	cr_combi_region_nippon_2_1	cr_combi_province_nippon_2	cr_skv_clan_skully	Kokakurezato	cai_region_hint_area_nippon	官方	
+747	尼朋	超凡帝国扩展（IEE）	厚木州	谷矢城	骷髅氏族		991.96	258.78	1485	335	cr_combi_region_nippon_2_4	cr_combi_province_nippon_2	cr_skv_clan_skully	Taniyajo	cai_region_hint_area_nippon	官方	
+748	尼朋	超凡帝国扩展（IEE）	厚木州	鉄守	骷髅氏族		966.58	251.84	1447	326	cr_combi_region_nippon_2_2	cr_combi_province_nippon_2	cr_skv_clan_skully	Tetsu Fortress	cai_region_hint_area_nippon	官方	
+749	尼朋	超凡帝国扩展（IEE）	厚木州	静川	骷髅氏族		973.26	227.93	1457	295	cr_combi_region_nippon_2_3	cr_combi_province_nippon_2	cr_skv_clan_skully	Shizukawa	cai_region_hint_area_nippon	官方	
+750	尼朋	超凡帝国扩展（IEE）	古弥島	修気寺	清宝天尊信徒		981.27	284.23	1469	368	cr_combi_region_nippon_5_3	cr_combi_province_nippon_5	cr_tze_cult_of_tsien_tsin	Shuge Monastery	cai_region_hint_area_nippon	官方	
+751	尼朋	超凡帝国扩展（IEE）	古弥島	既知倶島	清宝天尊信徒		995.97	338.23	1491	438	cr_combi_region_nippon_5_2	cr_combi_province_nippon_5	cr_tze_cult_of_tsien_tsin	Kichikujima	cai_region_hint_area_nippon	官方	
+752	尼朋	超凡帝国扩展（IEE）	古弥島	邪見	清宝天尊信徒	是	982.61	304.29	1471	394	cr_combi_region_nippon_5_1	cr_combi_province_nippon_5	cr_tze_cult_of_tsien_tsin	Jakken	cai_region_hint_area_nippon	官方	黑暗要塞基址
+753	尼朋	超凡帝国扩展（IEE）	大現州	梅原	山陽氏		964.57	176.63	1444	229	cr_combi_region_nippon_3_3	cr_combi_province_nippon_3	cr_cth_sanyo_clan	Umehara	cai_region_hint_area_nippon	官方	
+754	尼朋	超凡帝国扩展（IEE）	大現州	海門	山陽氏		959.90	201.70	1437	261	cr_combi_region_nippon_3_2	cr_combi_province_nippon_3	cr_cth_sanyo_clan	Kaimon	cai_region_hint_area_nippon	官方	
+755	尼朋	超凡帝国扩展（IEE）	大現州	高須	山陽氏	是	1001.31	194.76	1499	252	cr_combi_region_nippon_3_1	cr_combi_province_nippon_3	cr_cth_sanyo_clan	Takasu	cai_region_hint_area_nippon	官方	
+756	尼朋	超凡帝国扩展（IEE）	嵐浜	大社	阳谋孙崽	是	1018.68	296.57	1525	384	cr_combi_region_nippon_9_1	cr_combi_province_nippon_9	cr_grn_rising_sunz	The Great Shrine	cai_region_hint_area_nippon	官方	
+757	尼朋	超凡帝国扩展（IEE）	嵐浜	風崖	阳谋孙崽		1018.01	273.82	1524	355	cr_combi_region_nippon_9_2	cr_combi_province_nippon_9	cr_grn_rising_sunz	Kazegake	cai_region_hint_area_nippon	官方	
+758	尼朋	超凡帝国扩展（IEE）	幽林	丸上	佩特拉之子		1020.02	166.22	1527	215	cr_combi_region_nippon_4_2	cr_combi_province_nippon_4	cr_tmb_sons_of_ptra	Marukami	cai_region_hint_area_nippon	官方	
+759	尼朋	超凡帝国扩展（IEE）	幽林	深森	斯特林亲族战兽群	是	986.62	168.53	1477	218	cr_combi_region_nippon_4_1	cr_combi_province_nippon_4	wh2_main_bst_skrinderkin	Fukamori	cai_region_hint_area_nippon	官方	
+760	尼朋	超凡帝国扩展（IEE）	御神森	御神木	奥本氏	是	1036.72	229.08	1552	297	cr_combi_region_nippon_7_1	cr_combi_province_nippon_7	cr_cth_okumoto_clan	The Sacred Tree	cai_region_hint_area_nippon	官方	
+761	尼朋	超凡帝国扩展（IEE）	故廷州	天阳神宫	奥本氏	是	1044.73	205.94	1564	267	cr_combi_region_nippon_6_1	cr_combi_province_nippon_6	cr_cth_okumoto_clan	Palace of the Divine Sun	cai_region_hint_area_nippon	官方	黑暗要塞基址
+762	尼朋	超凡帝国扩展（IEE）	故廷州	立波	奥本氏		1045.40	188.59	1565	244	cr_combi_region_nippon_6_2	cr_combi_province_nippon_6	cr_cth_okumoto_clan	Tatsuminato	cai_region_hint_area_nippon	官方	
+763	尼朋	超凡帝国扩展（IEE）	暑沢沼	溺里	奥本氏		1017.34	227.93	1523	295	cr_combi_region_nippon_8_2	cr_combi_province_nippon_8	cr_cth_okumoto_clan	Dekisato	cai_region_hint_area_nippon	官方	
+764	尼朋	超凡帝国扩展（IEE）	暑沢沼	足川	阳谋孙崽	是	1014.67	252.61	1519	327	cr_combi_region_nippon_8_1	cr_combi_province_nippon_8	cr_grn_rising_sunz	Asigawa	cai_region_hint_area_nippon	官方	
+765	尼朋	超凡帝国扩展（IEE）	鳴海	小間	莉安拉斯家族	是	960.57	374.86	1438	486	cr_combi_region_nippon_10_1	cr_combi_province_nippon_10	cr_hef_clan_lianllach	Koma	cai_region_hint_area_nippon	官方	
 1	序章战役（基斯里夫边境）	序章	冰酋隘口	钳河	盲眼者	是	297.93	236.03	446	306	wh3_prologue_region_icecaid_pass_claw_reach	wh3_prologue_province_icecaid_pass	wh3_prologue_the_sightless	Claw Reach		战役	
 2	序章战役（基斯里夫边境）	序章	冰霜峡	警信堡	德文加德守军	是	281.23	151.57	421	196	wh3_prologue_region_ice_canyon_beacon_fort	wh3_prologue_province_ice_canyon	wh3_prologue_dervingard_garrison	Beacon		战役	
 3	序章战役（基斯里夫边境）	序章	山区隘口	基斯里夫避难所		是	269.21	110.69	403	143	wh3_prologue_region_mountain_pass_kislev_refuge	wh3_prologue_province_mountain_pass		Kislev Refuge		战役	
