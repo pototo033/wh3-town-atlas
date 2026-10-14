@@ -80,21 +80,21 @@ border-radius:4px;padding:2px 4px;opacity:.92}
 .gc-gl{transform:translate(0,-50%) scale(var(--pz,1))}
 .gc-gr{transform:translate(-100%,-50%) scale(var(--pz,1))}
 .grid-read{color:#bcd8ff}
-.pin{position:absolute;width:48px;height:39px;
+.pin{position:absolute;width:56px;height:45px;
 transition:opacity .22s ease-out;   /* 只过渡透明度；transform 由逐帧动画驱动，避免滞后 */
-margin:-19.5px 0 0 -24px;
+margin:-22.5px 0 0 -28px;
 transform:scale(var(--pz,1));transform-origin:center center;cursor:pointer}
 .pin::before{content:'';position:absolute;inset:0;
-background:url(assets/city_schem_frame_minor.png) center/48px 39px no-repeat;pointer-events:none}
+background:url(assets/city_schem_frame_minor.png) center/56px 45px no-repeat;pointer-events:none}
 .pin.cmark::before{background-image:url(assets/city_schem_frame_major.png)}
-.pin .pinflag{position:absolute;left:12px;top:5px;width:24px;height:24px;
+.pin .pinflag{position:absolute;left:16px;top:7px;width:24px;height:24px;
 background-image:url(assets/faction_flags.png);background-repeat:no-repeat;
 background-size:calc(16 * 24 * 1px) calc(22 * 24 * 1px);
 background-position:var(--sx,0) var(--sy,0);
 transform:rotate(-8deg);transform-origin:center center;pointer-events:none}
 .pin:hover{transform:scale(calc(var(--pz,1) * 1.35));z-index:30}
 .pin.hide{opacity:0}
-.pin .lb{display:none;position:absolute;left:52px;top:10px;white-space:nowrap;font-size:12px;
+.pin .lb{display:none;position:absolute;left:60px;top:13px;white-space:nowrap;font-size:12px;
 color:#fff;text-shadow:0 0 3px #000,0 0 3px #000,0 0 3px #000;pointer-events:none}
 .world.lb-on .pin .lb{display:block}
 .pin.hl{box-shadow:0 0 0 2px #ffd24a;border-radius:50%;z-index:25}
@@ -108,7 +108,7 @@ background-size:calc(8 * 13 * 1px) calc(3 * 13 * 1px);
 background-position:var(--rx,0) var(--ry,0);
 box-shadow:0 0 0 1.5px #14100c,0 1px 3px rgba(0,0,0,.7);pointer-events:none}
 /* 原版城镇信息条的地图专用黑暗要塞图标，与资源图标分开。 */
-.pin .dficon{position:absolute;top:-28px;left:11px;width:26px;height:26px;
+.pin .dficon{position:absolute;top:-28px;left:15px;width:26px;height:26px;
 background:url(assets/icon_dark_fortress.png) center/contain no-repeat;pointer-events:none}
 /* 「选项」里的两个开关：资源角标 / 黑暗要塞图标 */
 body.no-res .pin .rsrc{display:none}
@@ -455,7 +455,7 @@ function syncPins(camp){
     for(let i=0;i<pins.length;i++) want.add(i);
   } else if(z>=CAP_Z){
     const all = z>=PIN_Z;
-    const R=Math.max(48, PIN*(z<PIN_Z*1.7 ? 2.2 : 2));
+    const R=Math.max(56, PIN*(z<PIN_Z*1.7 ? 2.6 : 2.35));
     const grid=new Map(), cand=[];
     for(let i=0;i<pins.length;i++){
       const p=pins[i];
